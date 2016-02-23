@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+        <!ELEMENT values (string*, string-array*)>
+        <!ELEMENT string (#PCDATA)>
+        <!ELEMENT string-array (item*)>
+        <!ELEMENT item (#PCDATA)>
+        <!ATTLIST string name CDATA #REQUIRED>
+        <!ATTLIST string-array name CDATA #REQUIRED>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE values SYSTEM "values.dtd">
+<values>
+    <string name="vocab_dir">vocab</string>
+    <string name="parser_model_path">E:\\Coding\\Java Related\\stanford-parser\\stanford-parser-full-2015-04-20\\edu\\stanford\\nlp\\models\\parser\\nndep\\english_UD.gz
+    </string>
+    <string name="tagger_model_path">E:\\Coding\\Java Related\\stanford-parser\\stanford-parser-full-2015-04-20\\edu\\stanford\\nlp\\models\\pos-tagger\\english-left3words\\english-left3words-distsim.tagger
+    </string>
+    <string name="pcfg_parser_model_path">
+        E:\Coding\Java Related\stanford-parser\stanford-parser-full-2015-04-20\edu\stanford\nlp\models\lexparser\englishPCFG.ser.gz
+    </string>
+    <string name="test_data_dir">data</string>
+    <string name="hello_world">Hello World</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupitor</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Naptune</item>
+        <item>Pluto*</item>
+        <item>Planet X</item>
+    </string-array>
+</values>
