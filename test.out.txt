@@ -10,7 +10,9 @@ The pre-pupa is brown .	pre-pupa	is	brown
 Four pointed processes are present on the hind margin of the ninth abdominal tergite .	processes	are	present
 The adult has a slender body .	adult	has	body
 It is dark brown and 1-2 mm long .	It	is	dark
+It exists in two forms , winged or wingless .	It	exists	in forms
 The winged form has two pairs of elongated narrow wings that are fringed with long hairs .	form	has	pairs
+The winged form has two pairs of elongated narrow wings that are fringed with long hairs .	that	fringed	with hairs
 Individual egg is circular , flattened , and measures 0.5 mm in diameter .	egg	is	circular
 It is light yellow and has a smooth surface .	It	is	light
 It is light yellow and has a smooth surface .	It	has	surface
@@ -22,3 +24,6 @@ Mature pupa is silvery white .	pupa	is	white
 Adult : Moth is small , delicate white with pale brown wavy markings .	Moth	is	small
 The adult moth is about 5 mm long .	moth	is	long
 It is bright white with light brown and black spots .	It	is	white
+Caterpillar bore into central shoot of paddy seedling and tiller , causes drying of the central shoot known as `` dead heart '' .	Caterpillar	bore	into shoot
+Plants could be easily pulled by hand .	Plants	pulled	by hand
+White silken cocoon are found inside the stem .	cocoon	found	inside stem

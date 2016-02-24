@@ -48,9 +48,9 @@ public class Main {
             algo.getTriples().forEach(triple -> {
                 String tripleDump = String.format("%s\t%s\t%s\t%s",
                         Sentence.listToString(sentence),
-                        triple.first.word(),
-                        triple.second.word(),
-                        triple.third.word()
+                        triple.first,
+                        triple.second,
+                        triple.third
                 );
                 pw.println(tripleDump);
                 pw.flush();
