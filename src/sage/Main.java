@@ -28,7 +28,7 @@ public class Main {
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
-        parseFile(tagger, dependencyParser, Values.getTestDirPath().resolve(Paths.get("test2.txt")));
+        parseFile(tagger, dependencyParser, Values.getTestDirPath().resolve(Paths.get("test4.txt")));
 
     }
 
@@ -37,8 +37,9 @@ public class Main {
 
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("test.out.txt");
+        PrintWriter pw = new PrintWriter("test.out.tsv");
         pw.println("Sentence\tSubject\tPredicate\tObject");
+        pw.flush();
 
         for (List<HasWord> sentence : tokenizer) {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
