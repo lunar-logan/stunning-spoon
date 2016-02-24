@@ -67,12 +67,12 @@ public class Algorithm {
                                         td.gov().word()
                                 )
                         );*/
-                        handleConjunct(dependency.dep(), dependency.gov());
                         break;
                     }
                 }
             }
         }
+        handleConjunct(dependency.dep(), dependency.gov());
     }
 
     private ArrayList<IndexedWord> findObject(IndexedWord predicate) {
@@ -166,7 +166,8 @@ public class Algorithm {
                 if (relationName.equalsIgnoreCase("amod")
                         || relationName.equalsIgnoreCase("neg")
                         || relationName.equalsIgnoreCase("compound")
-                        || relationName.equalsIgnoreCase("nummod")) {
+                        || relationName.equalsIgnoreCase("nummod")
+                        || relationName.equalsIgnoreCase("dep")) {
                     attrs.add(td.dep());
                     ArrayList<IndexedWord> attributes = findAttributes(td.dep());
                     if (!attributes.isEmpty()) {
