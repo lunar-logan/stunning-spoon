@@ -139,10 +139,7 @@ public class Algorithm {
             subjectPhrase.addAll(findAttributes(sub));
         });
 
-        predicate.forEach(pred -> {
-            predicatePhrase.add(pred);
-            predicatePhrase.addAll(findAttributes(pred));
-        });
+        predicate.forEach(predicatePhrase::add);
 
         object.forEach(obj -> {
             objectPhrase.add(obj);
@@ -163,23 +160,38 @@ public class Algorithm {
 
     private ArrayList<IndexedWord> findAttributes(IndexedWord word) {
         ArrayList<IndexedWord> attrs = new ArrayList<>();
-        if (word.tag().startsWith("NN")) { //
-            getNounAttributes(word, attrs);
-        }
-        return attrs;
-    }
-
-    private void getNounAttributes(IndexedWord nounWord, List<IndexedWord> attributes) {
         for (TypedDependency td : dependencies) {
             String relationName = td.reln().getShortName();
-            if (td.gov().equals(nounWord)) {
+            if (td.gov().equals(word)) {
                 if (relationName.equalsIgnoreCase("amod")
-                        || relationName.equalsIgnoreCase("det")
-                        || relationName.equalsIgnoreCase("neg")) {
-                    attributes.add(td.dep());
+                        || relationName.equalsIgnoreCase("neg")
+                        || relationName.equalsIgnoreCase("compound")
+                        || relationName.equalsIgnoreCase("nummod")) {
+                    attrs.add(td.dep());
+                    ArrayList<IndexedWord> attributes = findAttributes(td.dep());
+                    if (!attributes.isEmpty()) {
+                        attrs.addAll(attributes);
+                    }
+                } else if (relationName.equalsIgnoreCase("nmod")) {
+                    // Look for case relation
+                    for (TypedDependency td1 : dependencies) {
+                        String relnName = td1.reln().getShortName();
+                        if (td1.gov().equals(td.dep())) {
+                            if (relnName.equalsIgnoreCase("case")) {
+                                attrs.add(td1.dep());
+                                break;
+                            }
+                        }
+                    }
+                    ArrayList<IndexedWord> nmodAttrs = findAttributes(td.dep());
+                    attrs.add(td.dep());
+                    if (!nmodAttrs.isEmpty()) {
+                        attrs.addAll(nmodAttrs);
+                    }
                 }
             }
         }
+        return attrs;
     }
 
     public ArrayList<Triple<String, String, String>> getTriples() {
