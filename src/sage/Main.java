@@ -15,7 +15,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.StringReader;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.List;
 
@@ -25,10 +24,12 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         Values.loadValues();
-        MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
-        DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
+        Vocabulary vocab = Vocabulary.getInstance(); // load the vocabulary
 
-        parseFile(tagger, dependencyParser, Values.getTestDirPath().resolve(Paths.get("test4.txt")));
+//        MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
+//        DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
+//
+//        parseFile(tagger, dependencyParser, Values.getTestDirPath().resolve(Paths.get("test0.txt")));
 
     }
 

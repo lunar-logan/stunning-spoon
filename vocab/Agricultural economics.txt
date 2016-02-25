@@ -1,0 +1,920 @@
+1. Agricultural economics
+1.1. Micro economics
+1.1.1. Economics divisions
+1.1.1.1. Traditional approach
+1.1.1.1.1. Consumption
+1.1.1.1.1.1. Domestic consumption
+1.1.1.1.1.2. Energy consumption
+1.1.1.1.1.2.1. Power requirement
+1.1.1.1.1.3. Feed consumption
+1.1.1.1.1.4. Food consumption
+1.1.1.1.1.4.1. Per capita food consumption
+1.1.1.1.1.5. Household consumption
+1.1.1.1.1.6. On-farm consumption
+1.1.1.1.2. Production
+1.1.1.1.3. Exchange
+1.1.1.1.4. Distribution
+1.1.1.2. Modern approach
+1.1.2. Economic investigation method
+1.1.2.1. Deductive method
+1.1.2.2. Inductive method
+1.1.3. Economic laws
+1.1.4. Basic Concepts
+1.1.4.1. Goods concept
+1.1.4.2. Service concept
+1.1.4.3. Goods Classification
+1.1.4.3.1. Supply basis
+1.1.4.3.1.1. Economic goods
+1.1.4.3.1.2. Free goods
+1.1.4.3.2. Transferability basis
+1.1.4.3.2.1. External transferability
+1.1.4.3.2.2. Internal transferability
+1.1.4.3.3. Consumption basis
+1.1.4.3.3.1. Consumer goods
+1.1.4.3.3.2. Producer goods
+1.1.4.3.4. Durability basis
+1.1.4.3.4.1. Monoperiod
+1.1.4.3.4.2. Polyperiod
+1.1.4.4. Utility concept
+1.1.4.4.1. Utility types
+1.1.4.4.1.1. Form utility
+1.1.4.4.1.2. Place utility
+1.1.4.4.1.3. Time utility
+1.1.4.4.1.4. Possession utility
+1.1.4.4.2. Utility Characteristics
+1.1.4.5. Value concept
+1.1.4.5.1. Value attributes
+1.1.4.6. Price concept
+1.1.4.7. Wealth concept
+1.1.4.7.1. Wealth Characteristics
+1.1.4.7.2. Wealth types
+1.1.4.7.2.1. Individual wealth
+1.1.4.7.2.2. Social wealth
+1.1.4.7.2.3. National wealth
+1.1.4.7.2.4. Cosmopolitan wealth
+1.1.4.7.2.5. Negative wealth
+1.1.4.8. Cost concept
+1.1.4.8.1. Cost types
+1.1.4.8.1.1. Nominal cost
+1.1.4.8.1.2. Money cost
+1.1.4.8.1.3. Real cost
+1.1.4.8.1.4. Oppurtunity cost
+1.1.4.8.1.5. Economic cost
+1.1.4.8.1.6. Deflated cost
+1.1.4.8.1.7. Social cost
+1.1.4.8.1.8. Separable cost
+1.1.4.8.1.9. Historical cost
+1.1.4.8.1.10. Replacement cost
+1.1.4.8.1.11. Establishment cost
+1.1.4.8.1.12. Fixed cost
+1.1.4.8.1.13. Variable cost
+1.1.4.8.1.14. Total cost
+1.1.4.8.1.15. Average variable cost
+1.1.4.8.1.16. Average fixed cost
+1.1.4.8.1.17. Average total cost
+1.1.4.8.1.18. Average cost
+1.1.4.8.1.19. Marginal cost
+1.1.4.8.1.20. Maintenance cost
+1.1.4.9. Production concept
+1.1.5. Consumer behaviour and demand
+1.1.5.1. Human wants
+1.1.5.1.1. Human wants Characteristics
+1.1.5.1.2. Origin of wants
+1.1.5.1.3. Wants Classification
+1.1.5.1.3.1. Necessary wants
+1.1.5.1.3.1.1. Existence wants
+1.1.5.1.3.1.2. Efficiency wants
+1.1.5.1.3.1.3. Conventional wants
+1.1.5.1.3.2. Comfort wants
+1.1.5.1.3.3. Luxuries wants
+1.1.5.2. Utility measurement
+1.1.5.2.1. Cardinal measurement
+1.1.5.2.1.1. Utils
+1.1.5.2.1.1.1. Law of diminishing marginal Utility
+1.1.5.2.1.1.2. Law of Equi-marginal utility
+1.1.5.2.2. Ordinal measurement
+1.1.5.2.2.1. Rank
+1.1.5.2.2.1.1. Indifference curve technique
+1.1.5.2.3. Utility analysis
+1.1.5.3. Consumers surplus
+1.1.6. Consumer demand
+1.1.6.1. Individual demand schedule
+1.1.6.2. Market demand
+1.1.6.3. Autonomous demand
+1.1.6.4. Derived demand
+1.1.6.5. Demand types
+1.1.6.5.1. Price demand
+1.1.6.5.2. Income demand
+1.1.6.5.3. Cross demand
+1.1.6.5.4. Composite demand
+1.1.6.6. Law of demand
+1.1.6.7. Demand elasticity
+1.1.6.7.1. Price elasticity demand
+1.1.6.7.1.1. Total outlay
+1.1.6.7.1.2. Expenditure method
+1.1.6.7.1.3. Point elasticity demand
+1.1.6.7.1.4. Arc elasticity demand
+1.1.6.7.2. Income elasticity demand
+1.1.6.7.3. Cross elasticity demand
+1.1.6.7.4. Perfectly elastic demand
+1.1.6.7.5. Perfectly inelastic demand
+1.1.6.7.6. Relatively elastic demand
+1.1.6.7.7. Relatively inelastic demand
+1.1.6.7.8. Unitary elastic demand
+1.1.6.7.9. Factors affecting demand
+1.1.6.7.10. Demand extension
+1.1.6.7.11. Demand contraction
+1.1.6.7.12. Demand Increase
+1.1.6.7.13. Demand decrease
+1.1.7. Goods Supply
+1.1.7.1. Goods stock
+1.1.7.2. Individual supply schedule
+1.1.7.3. Market supply
+1.1.7.4. Low of supply
+1.1.7.5. Supply elasticity
+1.1.7.5.1. Perfectly elastic supply
+1.1.7.5.2. Perfectly inelastic supply
+1.1.7.5.3. Relatively elastic supply
+1.1.7.5.4. Relatively inelastic supply
+1.1.7.5.5. Unitary elastic supply
+1.1.7.6. Factors affecting supply
+1.1.7.6.1. Price factor of supply
+1.1.7.6.1.1. Supply extension
+1.1.7.6.1.2. Supply Contraction
+1.1.7.6.2. Non price factor of supply
+1.1.7.6.2.1. Supply Increase
+1.1.7.6.2.2. Supply decrease
+1.1.7.7. Price determination
+1.1.7.8. Market disequilibrium
+1.1.8. Production
+1.1.8.1. Modern production
+1.1.8.2. Production characteristics
+1.1.8.3. Production factors
+1.1.8.3.1. Land
+1.1.8.3.1.1. Land use classification
+1.1.8.3.1.2. Land characteristics
+1.1.8.3.2. Labour
+1.1.8.3.2.1. Employment
+1.1.8.3.2.2. Employment opportunities
+1.1.8.3.2.3. Agricultural Labour
+1.1.8.3.2.3.1. Farm labour
+1.1.8.3.2.3.2. labour productivity
+1.1.8.3.2.3.3. Skilled labour
+1.1.8.3.2.3.4. Un-skilled labour
+1.1.8.3.2.4. Labour market
+1.1.8.3.2.5. Livelihood
+1.1.8.3.3. Population
+1.1.8.3.3.1. Under Population
+1.1.8.3.3.2. Over Population
+1.1.8.3.4. Capital
+1.1.8.3.4.1. Capital types
+1.1.8.3.4.1.1. Private capital
+1.1.8.3.4.1.2. National capital
+1.1.8.3.4.1.3. Fixed capital
+1.1.8.3.4.1.4. Working capital
+1.1.8.3.4.1.5. Specific capital
+1.1.8.3.4.1.6. Floating capital
+1.1.8.3.4.1.7. Remunerative capital
+1.1.8.3.4.1.8. Auxiliary capital
+1.1.8.3.4.1.9. Production capital
+1.1.8.3.4.1.10. Consumption capital
+1.1.8.3.4.1.11. Internal capital
+1.1.8.3.5. Organization
+1.1.8.3.5.1. Sole properietorship
+1.1.8.3.5.2. Partnership
+1.2. Macro economics
+1.2.1. National income
+1.2.1.1. Gross national product
+1.2.1.2. Gross domestic product
+1.2.1.3. Gross state demestic product
+1.2.1.4. Gross agricultural product
+1.2.2. Money
+1.2.2.1. Dear money
+1.2.2.2. Cheap money
+1.2.2.3. Money monetary policy
+1.2.2.3.1. Neutral money policy
+1.2.3. Public finance
+1.2.3.1. National budget
+1.2.3.1.1. Agricultural budget
+1.2.3.2. National expenditure
+1.2.3.3. National income
+1.2.3.3.1. Gross national product
+1.2.3.3.1.1. Gross agricultural product
+1.2.4. Public revenue
+1.2.4.1. Taxes
+1.2.4.1.1. Direct taxation
+1.2.4.1.1.1. Capital taxation
+1.2.4.1.1.2. Income tax
+1.2.4.1.1.3. Inheritance tax
+1.2.4.1.1.4. Land tax
+1.2.4.1.2. Indirect taxation
+1.2.4.1.2.1. Custom duty
+1.2.4.1.3. Value added tax
+1.2.5. Unemployment
+1.2.5.1. Agricultural unemployment
+1.2.5.2. Disguised unemployment
+1.2.5.3. Rural unemployment
+1.2.5.4. Structural unemployment
+1.2.5.5. Seasonal unemployment
+1.2.5.6. Frictional unemployment
+1.2.5.7. Cyclical unemployment
+1.2.6. Trade cycle
+1.2.6.1. Trade cycle theories
+1.2.6.1.1. Climatic theory
+1.2.6.1.2. Psycological theory
+1.2.6.1.3. Under-consumption theory
+1.2.6.1.4. Monetary theory
+1.2.6.1.5. Over-investment theory
+1.2.6.1.6. Keynes' theory
+1.2.6.1.7. Modern theory
+1.2.6.2. Economic recovery
+1.2.6.3. Economic stabilization
+1.2.6.3.1. Market stabilization
+1.2.6.3.2. Price stabilization
+1.3. Production economics
+1.3.1. Law of Returns
+1.3.1.1. Decreasing returns
+1.3.1.2. Constant returns
+1.3.1.3. Increasing returns
+1.3.2. Production function
+1.3.2.1. Product-product relationships
+1.3.2.1.1. Joint products
+1.3.2.1.2. Complementary products
+1.3.2.1.3. Supplementary products
+1.3.2.1.4. Competitive products
+1.3.2.1.5. Independent products
+1.3.2.1.6. Marginal Rate of Products substitution
+1.3.2.1.7. ISO revenue line
+1.3.2.1.8. Production possibility curve
+1.3.2.1.9. Iso resource curve
+1.3.2.2. Factor-product relationship
+1.3.2.3. Factor-factor relationship
+1.3.2.3.1. Iso-product curve
+1.3.2.3.2. Isoquants
+1.3.2.3.2.1. Convex isoquants
+1.3.2.3.2.2. Straight line isoquants
+1.3.2.3.2.3. Right angle isoquants
+1.3.2.3.2.4. Isocost
+1.3.2.3.2.5. Equal cost line
+1.4. Farm Management
+1.4.1. Farms
+1.4.1.1. Commercial farms
+1.4.1.2. Demonstration farms
+1.4.2. Farm input
+1.4.3. Cost of cultivation
+1.4.3.1. Crop acreage
+1.4.3.1.1. Cropland planted
+1.4.3.1.1.1. Cropland harvested
+1.4.4. Production cost
+1.4.4.1. Input costs
+1.4.4.1.1. Capital replacement
+1.4.4.1.2. Cash costs
+1.4.4.1.3. Economic costs
+1.4.4.1.3.1. Marketing costs
+1.4.4.1.3.2. Operating costs
+1.4.4.1.3.2.1. Freightage
+1.4.4.1.3.3. Opportunity costs
+1.4.4.1.4. Total cost
+1.4.4.1.5. Operating capital
+1.4.4.1.6. Variable costs
+1.4.5. Farm capital
+1.4.5.1. Balance sheet
+1.4.5.2. Debt to asset ratio
+1.4.5.3. Debt to equity ratio
+1.4.5.4. Farm business debt
+1.4.5.5. Farm credit
+1.4.5.6. Nonreal estate debt
+1.4.5.7. Real estate debt
+1.4.5.8. Farm debt
+1.4.6. Farm planning
+1.4.6.1. Good farm plan
+1.4.6.2. Farm budgeting
+1.4.6.2.1. Farm budgets
+1.4.6.2.2. Farm enterprise budget
+1.4.6.2.3. Partial budgeting
+1.4.6.2.4. Complete budgeting
+1.4.7. Farm management techniques
+1.4.7.1. Linear programming
+1.4.7.2. Goal programming
+1.4.7.3. Game theory model
+1.4.7.4. Discrete stochastic programming
+1.4.7.5. Quadratic risk programming
+1.4.7.6. Data envelopment analysis
+1.4.8. Farm records
+1.4.8.1. Physical farm records
+1.4.8.2. Financial farm records
+1.4.8.3. Supplementary farm records
+1.4.9. Farm accountancy
+1.4.9.1. Journal
+1.4.9.2. Ladger
+1.4.9.3. Trial balance
+1.4.9.4. Final accounts
+1.4.9.5. Subsidiary books
+1.4.9.6. Subsidiary journals
+1.4.9.7. Cashbooks
+1.4.10. Farm inventory
+1.4.10.1. Valuation methods
+1.4.11. Depreciation
+1.4.11.1. Computation method
+1.4.12. Farm efficiency measures
+1.4.12.1. Physical efficiency measures
+1.4.12.2. Financial efficiency measures
+1.4.12.3. Costs concepts measures
+1.4.12.4. Income measures
+1.4.13. Farm resource management
+1.4.13.1. Land management
+1.4.13.2. Land use planning
+1.4.13.3. land owning
+1.4.13.4. leasing
+1.4.13.5. land buying
+1.4.13.6. land appraisal
+1.4.13.7. Farm layout
+1.4.13.8. Farm labour management
+1.4.13.9. Farm labour efficiency
+1.4.13.10. Capital management
+1.4.14. Farm risks
+1.4.14.1. Risk source
+1.4.14.2. Farm risk management
+1.5. Agricultural finance
+1.5.1. Agricultural credit
+1.5.2. Agricultural debt
+1.5.3. Business credit
+1.5.4. Consumer credit
+1.5.5. Consumer economics
+1.5.6. Consumer expenditure
+1.5.7. Business debt
+1.5.8. Consumer debt
+1.5.9. Farm credit system
+1.5.10. Fund raising
+1.5.11. Funding
+1.5.11.1. Grants
+1.5.11.2. Research support
+1.5.12. Insurance
+1.5.12.1. Crop insurance
+1.5.12.1.1. Premium
+1.5.12.1.2. Indemnity
+1.5.12.1.3. Claim
+1.5.12.2. Disability insurance
+1.5.12.3. Health insurance
+1.5.12.4. Life insurance
+1.5.12.5. Property insurance
+1.5.13. Interest
+1.5.14. Loans
+1.5.14.1. Foreclosure
+1.5.14.2. Mortgages
+1.5.14.3. Hypothecation
+1.5.15. Taxes
+1.5.15.1. Direct tax
+1.5.15.2. Indirect tax
+1.5.15.3. Estate tax
+1.5.15.4. Excise tax
+1.5.15.5. Income tax
+1.5.15.6. Property tax
+1.5.15.7. Sales tax
+1.5.16. Investment
+1.6. Agriculture Marketing
+1.6.1. Agriculture advertising
+1.6.2. Food marketing
+1.6.3. Product Marketing
+1.6.4. Input Marketing
+1.6.5. Market analysis
+1.6.6. Market development
+1.6.6.1. Auctions
+1.6.6.2. Direct marketing
+1.6.6.3. Fresh market
+1.6.6.4. Processing market
+1.6.6.5. Retail marketing
+1.6.6.6. Wholesale marketing
+1.6.7. Marketing channels
+1.6.7.1. Marketing cost
+1.6.7.2. Marketing margins
+1.6.7.3. Price spread
+1.6.8. Marketing strategies
+1.6.9. Markets
+1.6.9.1. Village market
+1.6.9.1.1. Farmer's markets
+1.6.9.2. Primary market
+1.6.9.3. Secondary wholesale market
+1.6.9.4. Terminal market
+1.6.9.5. Sea board market
+1.6.9.6. Supermarkets
+1.6.9.7. World markets
+1.6.9.7.1. Foreign markets
+1.6.9.8. Regulated market
+1.6.9.9. Commodity market
+1.6.9.10. Capital market
+1.6.9.11. Producing market
+1.6.9.12. Consuming market
+1.6.9.13. Unregulated market
+1.6.9.14. Urban market
+1.6.9.15. Rural market
+1.6.9.16. Cash
+1.6.9.17. Spot market
+1.6.9.18. Forward market
+1.6.9.19. General market
+1.6.9.20. Specialized market
+1.6.9.21. Short period market
+1.6.9.22. Long period market
+1.6.9.23. Secular market
+1.6.9.24. Market structure
+1.6.9.24.1. Market competition
+1.6.9.24.1.1. Imperfect competition
+1.6.9.24.1.1.1. Dumping
+1.6.9.24.1.1.2. Market segmentation
+1.6.9.24.1.1.3. Monopolies
+1.6.9.24.1.1.3.1. Cartels
+1.6.9.24.1.1.4. Oligopoly
+1.6.9.24.1.1.5. Monopolistic
+1.6.9.24.1.1.6. Price determination
+1.6.9.24.1.2. Market power
+1.6.9.24.1.3. Perfect competition
+1.6.9.25. Market Conduct and performance
+1.6.9.25.1. Market segmentation
+1.6.9.25.2. Market share
+1.6.9.26. Market growth
+1.6.9.26.1. Functional growth
+1.6.9.26.2. Spatial growth
+1.6.9.27. Agricultural marketing process
+1.6.9.27.1. Marketing functions
+1.6.9.27.2. Marketing efficiency
+1.6.9.27.3. Market risks
+1.6.10. Agricultural prices
+1.6.10.1. Commodity prices
+1.6.10.2. Wholesale price
+1.6.10.3. Retail price
+1.6.10.4. Minimum support price (MSP)
+1.6.10.5. Procurment price
+1.6.10.6. Issue price
+1.6.10.7. Farm harvest price
+1.6.10.8. Statutory minimum price (SMP)
+1.6.10.9. Farm gate price
+1.6.10.10. Administered price
+1.6.10.11. Farm value
+1.6.10.12. Food prices
+1.6.10.13. Input prices
+1.6.10.14. Livestock prices
+1.6.10.15. Market prices
+1.6.10.16. Shadow prices
+1.6.10.17. Price discovery
+1.6.11. Profits and margins
+1.6.11.1. Profit maximization
+1.6.11.2. Access profit
+1.6.11.2.1. Normal profit
+1.6.11.2.2. Super normal profit
+1.6.12. Marketing institutions
+1.6.12.1. Public sector institutions
+1.6.12.1.1. Food corporation of India
+1.6.12.1.2. Cotton corporation of India
+1.6.12.1.3. Jute corporation of India
+1.6.12.1.4. National dairy development board
+1.6.12.1.5. National oilseed and vegetable oil development board
+1.6.12.1.6. Tobacco board
+1.6.12.1.7. Agricultural processed products and export development authourity (APEDA)
+1.6.12.1.8. Marine products export development agency
+1.6.12.1.9. Commodity boards for various plantation crops
+1.6.12.1.10. Special marketing corporation
+1.6.12.1.11. Commission on agricultural costs and prices (CACP)
+1.6.12.2. Co-operative institutions
+1.6.12.2.1. National agricultural cooperative marketing federation (NAFED)
+1.6.12.2.2. State level agricultural cooperative marketing federation
+1.6.12.2.3. State level agricultural marketing board
+1.6.12.2.4. Tribal cooperative marketing federation
+1.6.12.2.5. Horticultural produce processing and marketing co-op marketing societies
+1.6.12.3. Financial institutions
+1.6.12.3.1. Stock exchange
+1.6.12.3.2. Agricultural credit agencies
+1.6.12.3.2.1. Agricultural banks
+1.6.12.3.2.2. Commercial banks
+1.6.12.3.2.3. Cooperative banks
+1.6.12.3.2.4. Development banks
+1.6.12.3.2.5. Investment banks
+1.6.12.3.2.6. Savings banks
+1.7. Econometrics
+1.7.1. Demand functions
+1.7.2. Econometric models
+1.7.2.1. Bioeconomic models
+1.7.2.2. Linear models
+1.7.2.3. Non-linear models
+1.7.3. Ordinary least squares (OLS)
+1.7.4. Multicollineraity
+1.7.5. Autocorrelation
+1.7.6. Elasticity of substitution
+1.7.7. Utility functions
+1.8. Economic analysis
+1.8.1. Business cycles
+1.8.2. Cash flow analysis
+1.8.3. Consumption
+1.8.3.1. Food consumption
+1.8.3.2. Per capita food consumption`
+1.8.4. Cost analysis
+1.8.4.1. Costs and returns
+1.8.4.2. Average total cost
+1.8.4.3. Average variable cost
+1.8.5. Cost benefit analysis
+1.8.6. Cost effectiveness
+1.8.7. Economic viability
+1.8.8. Economic indicators
+1.8.8.1. Whole sale price index
+1.8.8.2. Consumer price index
+1.8.9. Economic structure
+1.8.10. Economic threshold
+1.8.11. Economic valuation
+1.8.11.1. Contingent valuation method
+1.8.11.1.1. Travel cost method
+1.8.11.1.2. Hedonic price method
+1.8.11.2. Market value
+1.8.11.2.1. Fair market value
+1.8.12. Profitability
+1.8.12.1. Farm profitability
+1.8.13. Economic crisis
+1.8.13.1. Agricultural crisis
+1.8.13.2. Economic depression
+1.8.13.2.1. Farmers distress
+1.8.13.2.2. Recession
+1.8.13.2.3. Economic slow down
+1.9. Economic behavior
+1.9.1. Consumer behavior
+1.9.1.1. Consumer acceptance
+1.9.1.2. Consumer attitudes
+1.9.1.3. Consumer preferences
+1.9.1.4. Consumer satisfaction
+1.10. Economic development
+1.10.1. Indicators of economic development
+1.10.2. Business development
+1.10.2.1. Enterpreneur
+1.10.2.1.1. Entrepreneurship
+1.10.2.2. Capitalism
+1.10.2.3. Enterprise
+1.10.2.4. Firm formation
+1.10.2.5. Intrapreneuring
+1.10.2.6. Schumpeterian approach
+1.10.2.7. Self-employed
+1.10.2.8. Sole trader
+1.10.2.9. Succession planning
+1.10.3. Development policy
+1.10.4. Development projects
+1.10.5. Development programmes
+1.10.6. Development schemes
+1.10.7. Economic impact
+1.10.8. Industrialization
+1.10.9. Modernization
+1.10.10. Rural planning
+1.10.11. Rural development
+1.10.12. Sectoral development
+1.10.13. Socioeconomic development
+1.10.14. Urban development
+1.10.14.1. Urbanization
+1.10.15. Urban planning
+1.11. Agricultural statistics
+1.11.1. Agricultural resource statistics
+1.11.2. Agriculture census
+1.11.3. Experimental designs
+1.11.3.1. Completely randomized design
+1.11.3.2. Randomized block design
+1.11.3.3. Latin square design
+1.11.3.4. Factorial experiments
+1.11.3.4.1. Symmetric factorial experiments
+1.11.3.4.2. Asymmetric factorial experiments
+1.11.3.5. Symmetric experiments
+1.11.3.6. Confounding design
+1.11.3.6.1. Complete confounding
+1.11.3.6.2. Partial confounding
+1.11.3.7. Split plot design
+1.11.3.8. Split Split design
+1.11.3.9. Strip plot design
+1.11.3.10. Incomplete Block design
+1.11.3.10.1. Lattice design
+1.11.3.10.2. Partially balanced incomplete block design
+1.11.4. Economic forecasting
+1.11.4.1. Agricultural forecasts
+1.11.5. Economic recession
+1.11.6. Economic trends
+1.11.7. Inflation
+1.11.8. Deflation
+1.12. Economic resources
+1.12.1. Income
+1.12.1.1. Government payments
+1.12.1.2. Income distribution
+1.12.2. Agricultural income
+1.12.2.1. Farm income
+1.12.2.1.1. Farm-related income
+1.12.2.1.2. Net farm income
+1.13. Economic systems
+1.13.1. Centrally planned economy
+1.13.2. Market economy
+1.13.3. Mixed economy
+1.13.4. Transitional economic systems
+1.13.5. Capitalist
+1.13.6. Communist
+1.14. Bioeconomics
+1.15. Economic theory
+1.15.1. Development theory
+1.15.2. Economies of scale
+1.15.3. Equilibrium theory
+1.15.4. Game theory
+1.15.5. Location theory
+1.15.6. Growth theory
+1.15.7. Keynesian economics
+1.15.8. Location theories
+1.15.9. Marxist economics
+1.15.10. Neoclassical economics
+1.15.11. Rent theory
+1.15.12. Classical economics
+1.15.13. Value theory
+1.16. International economics
+1.16.1. Common markets
+1.16.1.1. European union
+1.16.1.1.1. Common agricultural policy
+1.16.2. Exports
+1.16.3. Imports
+1.16.4. Competitive imports
+1.16.5. Noncompetitive imports
+1.16.6. International finance
+1.16.6.1. Exchange rate
+1.16.6.2. Foreign direct investment
+1.17. Natural resource economics
+1.17.1. Land resource economics
+1.17.2. Forest resourcs economics
+1.17.3. Water resource economics
+1.17.4. Biodiversity resource economics
+1.18. Trade
+1.18.1. Agriculture trade
+1.18.2. Barter systems
+1.18.3. Bulk commodities
+1.18.4. Domestic trade
+1.18.5. E-commerce
+1.18.6. Supply balance
+1.18.6.1. Demand
+1.18.6.2. Supply
+1.18.7. Tariffs
+1.18.7.1. Bound tariffs
+1.18.7.2. Tariffication
+1.18.8. Trade balance
+1.18.8.1. Trade deficit
+1.18.8.2. Trade surplus
+1.18.9. International trade
+1.18.9.1. Foreign trade
+1.18.9.1.1. Export trade
+1.18.9.1.2. Import trade
+1.18.9.2. Transit trade
+1.18.9.3. International trade promotion
+1.18.10. Private trade
+1.19. Risk analysis
+1.19.1. Risk assessment
+1.19.1.1. Consequence assessment
+1.19.1.2. Cumulative risk assessment
+1.19.1.3. Deterministic risk assessment
+1.19.1.4. Exposure assessment
+1.19.1.4.1. Exposure models
+1.19.1.4.2. Exposure profile
+1.19.1.4.3. Exposure scenario
+1.19.1.5. Hazard characterization
+1.19.1.6. Hazard identification
+1.19.1.7. Microbiological risk assessment
+1.19.1.8. Risk assessment process
+1.19.1.9. Qualitative risk assessment
+1.19.1.10. Quantitative risk assessment
+1.19.1.11. Risk characterization
+1.19.1.11.1. Risk description
+1.19.1.11.2. Risk estimate
+1.19.1.11.3. Risk ranking
+1.19.1.11.4. Risk screening
+1.19.1.12. Risk factors
+1.19.2. Risk communication
+1.19.2.1. Crisis communication
+1.19.2.2. Risk communication process
+1.19.3. Risk management
+1.19.3.1. Loss prevention
+1.19.3.2. Margin of safety
+1.19.3.3. Precautionary principle
+1.19.3.4. Risk management process
+1.19.3.5. Risk profile
+1.19.3.6. Risk reduction
+1.20. Safety assessment
+1.20.1. Safety factor
+1.21. Agribusiness
+1.21.1. Business enterprises
+1.21.1.1. Cooperatives
+1.21.1.1.1. Processing cooperatives
+1.21.1.1.2. Dairy cooperatives
+1.21.1.1.3. Marketing cooperatives
+1.21.1.2. Private enterprises
+1.21.1.3. Public enterprises
+1.21.2. Business organization
+1.21.2.1. Business partnerships
+1.21.2.2. Corporations
+1.21.2.2.1. Farm corporations
+1.21.3. Commercialization
+1.21.4. Farm inventories
+1.22. Statistical analysis
+1.22.1. Descriptive Statistics
+1.22.1.1. Median
+1.22.1.2. Variance
+1.22.1.3. Geometric Mean
+1.22.1.4. Weighted Mean
+1.22.1.5. Harmonic Mean
+1.22.1.6. Standard Deviation
+1.22.1.7. Standard Error
+1.22.1.8. Skewness
+1.22.1.9. Kurtosis
+1.22.1.10. Quartile
+1.22.2. Correlation
+1.22.2.1. Karl Pearson's correaltion coefficient
+1.22.2.2. Spearman's Rank correlation coefficient
+1.22.2.3. Kendall's Rank correlation coefficient
+1.22.2.4. Multiple correlation coefficient
+1.22.2.5. Partial correlation coefficient
+1.22.3. Regression analysis
+1.22.3.1. Simple linear regression
+1.22.3.2. Multiple linear regression
+1.22.3.3. Multicolinearity
+1.22.3.4. Logistic regression
+1.22.3.5. Stepwise regression
+1.22.3.6. Logit analysis
+1.22.3.7. Probit analysis
+1.22.4. Non linear regression
+1.22.5. Analysis of variance
+1.22.6. Multivariate analysis
+1.22.6.1. Discriminant analysis
+1.22.6.2. Cluster analysis
+1.22.6.3. Factor analysis
+1.22.6.4. Cannonical correlation
+1.22.6.5. Path analysis
+1.22.6.6. Principal component analysis
+1.22.7. Probability analysis
+1.22.7.1. Cumulative distribution
+1.22.7.2. Probability distribution
+1.23. Research management
+1.23.1. Research coordination
+1.23.2. Research planning
+1.23.3. Surveys
+1.23.3.1. Consumer surveys
+1.23.3.2. Dietary surveys
+1.23.3.3. Farm surveys
+1.23.3.4. Household surveys
+1.23.3.4.1. Current population survey
+1.23.3.5. National surveys
+1.24. Public economics
+1.24.1. Other  utilities
+1.24.1.1. Electric utilities
+1.24.1.2. Gas utilities
+1.24.1.3. Public utilities
+1.24.1.4. Water utilities
+1.24.2. Investment policy
+1.24.3. Monetary policy
+1.24.3.1. Inflation
+1.24.3.1.1. Economic crisis
+1.24.3.1.2. Economic situation
+1.24.3.1.3. Exchange rate
+1.24.3.1.4. Economic depression
+1.24.4. Monetary systems
+1.25. Laws and policy
+1.25.1. Agricultural policy
+1.25.1.1. Commodity programs
+1.25.1.2. Farm bill
+1.25.1.2.1. Permanent legislation
+1.25.1.3. Food policy
+1.25.1.4. Educational policy
+1.25.1.5. Environmental policy
+1.25.1.6. Health policy
+1.25.1.7. Exim  policy
+1.25.1.8. National planning
+1.25.1.8.1. Annual planning
+1.25.1.8.2. Five year plan
+1.25.1.9. Natural resource policy
+1.25.1.9.1. Forest policy
+1.25.1.9.2. Land policy
+1.25.1.9.2.1. Land consolidation
+1.25.1.9.2.2. land distribution
+1.25.1.9.2.3. land reform
+1.25.1.9.3. Water policy
+1.25.1.10. Sustainable development
+1.25.1.10.1. Sustainable agriculture
+1.25.1.10.1.1. Community supported agriculture
+1.25.1.10.1.2. Good agricultural practices
+1.25.1.10.2. Sustainable communities
+1.25.1.10.3. Sustainable forestry
+1.25.2. Economic policies
+1.25.2.1. Financial policies
+1.25.2.1.1. Credit policies
+1.25.2.1.1.1. Credit control
+1.25.2.1.2. Monetary policies
+1.25.2.1.2.1. Compensatory amounts
+1.25.2.1.2.2. Deflation
+1.25.2.1.2.3. Devaluation
+1.25.2.1.2.4. Inflation
+1.25.2.1.2.5. Revaluation
+1.25.2.2. Investment policies
+1.25.2.2.1. Investment guarantees
+1.25.2.2.2. Investment promotion
+1.25.2.3. Marketing policies
+1.25.2.3.1. Price policies
+1.25.2.3.1.1. Agricultural price policy
+1.25.2.3.1.2. Price discrimination
+1.25.2.3.1.3. Price support
+1.25.2.4. Production policies
+1.25.2.4.1. Adjustment of production
+1.25.2.4.1.1. Land diversion
+1.25.2.4.1.1.1. Set aside programme of land
+1.25.2.4.1.1.2. Set aside scheme of land
+1.25.2.4.1.2. Production controls
+1.25.2.4.1.3. Production quota
+1.25.2.5. Agriculture support policies
+1.25.2.5.1. Severance allowances
+1.25.2.5.2. Subsidies
+1.25.2.5.2.1. Export subsidies
+1.25.2.5.2.2. Research subsidies
+1.25.2.6. Trade policy
+1.25.2.6.1. Export policies
+1.25.2.6.1.1. Export control
+1.25.2.6.1.2. Export insurance
+1.25.2.6.1.3. Export promotion
+1.25.2.6.1.3.1. Export refunds
+1.25.2.6.1.3.2. Export subsidies
+1.25.2.6.2. International trade policies
+1.25.2.6.3. Import policies
+1.25.2.6.4. Trade agreements
+1.25.2.6.5. Agricultural agreement
+1.25.2.6.6. Trade barriers
+1.25.2.6.6.1. Nontariff trade barriers
+1.25.2.6.6.1.1. Import quotas
+1.25.2.6.6.2. Embargos
+1.25.2.6.6.3. Import control
+1.25.2.6.6.4. Import levies
+1.25.2.6.6.5. Custom duties
+1.25.2.6.7. Trade liberalization
+1.25.2.6.8. Trade preferences
+1.25.2.6.9. Market access
+1.25.2.7. Energy policies
+1.25.2.8. Environmental policies
+1.25.2.9. Fiscal policies
+1.25.2.9.1. Levies
+1.25.2.10. Food policies
+1.25.2.10.1. Food rationing
+1.25.2.11. Regional policies
+1.25.2.12. Research policies
+1.25.2.13. Social policies
+1.25.2.13.1. Health policies
+1.25.2.13.1.1. Nutrition policies
+1.25.2.13.1.1.1. Nutrition surveillance
+1.25.2.14. Population control policies
+1.25.3. Laws and regulations
+1.25.3.1. Deregulation
+1.25.3.2. Regulation act
+1.25.3.2.1. Agricultural produce marketing regulation act
+1.25.3.2.2. Central government and agricultural produce market regulation act
+1.25.3.2.3. Essential commodity act
+1.25.3.2.4. Prevetion of food adultration act
+1.25.3.2.5. Standard of weights and measures act
+1.25.3.2.6. Consumer protection act
+1.25.3.2.7. Agricultural produce grading and marketing act
+1.25.3.2.8. Pesticide regulation and management act
+1.25.3.3. Control order
+1.25.3.3.1. Fruits products order
+1.25.3.3.2. Vegetable  oil products control order
+1.25.3.3.3. Edible oil control order
+1.25.3.3.4. Solvent extraction oil order
+1.25.3.3.5. Meat and food  product order
+1.25.3.3.6. Milk and milk product order
+1.25.3.3.7. Food products order
+1.25.3.3.8. Fertilizer control order
+1.25.3.4. Labeling
+1.25.3.4.1. Origin labeling
+1.25.3.4.2. Eco labeling
+1.25.3.4.3. Food labeling
+1.25.3.4.3.1. Nutrition labeling
+1.25.3.4.4. Percentage ingredient labeling
+1.25.3.4.5. Seal of quality
+1.25.3.4.6. Trademarks
+1.25.3.4.6.1. ISI mark
+1.25.3.4.6.2. Agmark
+1.25.3.4.6.3. FPO mark
+1.25.3.4.7. Universal product codes
+1.25.3.5. Legal rights
+1.25.3.5.1. Human rights
+1.25.3.5.2. Intellectual property rights
+1.25.3.5.3. Land rights
+1.25.3.5.4. Property rights
+1.25.3.5.5. Right of access
+1.25.3.5.6. Rights of way
+1.25.3.5.7. Treaty rights
+1.25.3.5.8. Water rights
+1.25.3.6. Patents
+1.25.3.7. Plant variety protection
+1.25.3.8. Rural legislation
+1.25.3.9. Standards and grades
+1.25.3.9.1. Product quality standards
+1.25.3.9.2. Safety standards
+1.25.3.9.3. Standards of identity
+1.25.3.9.4. Water quality criteria
+1.25.3.9.5. Water quality standards
+1.25.3.10. Certification
+1.25.3.10.1. Forest certification
+1.25.3.10.2. Product certification
+1.25.3.10.2.1. Organic certification
+1.25.3.10.2.2. Seed certification
+1.25.4. Human resources management
+1.25.4.1. Employee grievance
+1.25.4.2. Job performance
+1.25.4.3. Performance appraisals
+1.25.4.4. Resource allocation

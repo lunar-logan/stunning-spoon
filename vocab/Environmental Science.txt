@@ -1,0 +1,418 @@
+1 Environmental Science
+1.1 Environment
+1.1.1 Atmosphere
+1.1.1.1 Gases
+1.1.1.1.1 Major gases
+1.1.1.1.2 Trace gases
+1.1.1.2 Atmospheric layers
+1.1.1.2.1 Troposphere
+1.1.1.2.2 Stratosphere
+1.1.1.2.3 Ozone layer
+1.1.1.2.4 Mesosphere
+1.1.1.2.5 Thermosphere
+1.1.1.2.6 Exosphere
+1.1.1.3 Atmospheric deposition
+1.1.1.3.1 Acid deposition
+1.1.1.3.1.1 Dry deposition
+1.1.1.3.1.2 Wet deposition
+1.1.2 Lithosphere
+1.1.2.1 Crust
+1.1.2.2 Core
+1.1.2.3 Mantle
+1.1.3 Hydrosphere
+1.1.4 Biosphere
+1.1.5 Global climate change
+1.1.5.1 Climate change
+1.1.5.1.1 Global warming
+1.1.5.1.1.1 Natural warming
+1.1.5.1.1.2 Anthropogenic warming
+1.1.5.2 Elevated atmospheric gases
+1.1.5.3 Greenhouse effect
+1.1.5.4 Greenhouse gases
+1.1.5.4.1 Carbon dioxide
+1.1.5.4.2 Methane
+1.1.5.4.3 Nitrous oxide
+1.1.5.4.4 Ozone
+1.1.5.5 Ozone depletion
+1.1.5.5.1 Ozone hole
+1.1.5.5.2 Chloroflurocarbons
+1.1.5.5.3 Freons
+1.1.5.6 Climate prediction model
+1.1.5.7 Global climate change policy
+1.1.5.7.1 United Nations Framework Convention on Climate change (UNFCC)
+1.1.5.7.2 Intergovernmenmtal Panel on Climate Change(IPCC)
+1.1.5.7.3 Kyoto protocol
+1.1.6 Aquatic environment
+1.1.7 Natural environment
+1.1.8 Riparian zone
+1.1.9 Economic environment
+1.1.10 Sociocultural environment
+1.1.11 Environmental factor
+1.1.11.1 Aerobic condition
+1.1.11.2 Anaerobic condition
+1.1.11.3 Aseptic condition
+1.1.11.4 Ambient temperature
+1.1.11.5 Dry environmental condition
+1.1.11.6 Edaphic factor
+1.1.11.7 Mesic condition
+1.1.11.8 Photoperiod
+1.1.11.9 Wet environmental condition
+1.1.12 Environmental programmes
+1.1.12.1 Conservation programmes
+1.1.12.1.1 World conservation strategy (WCS)
+1.1.12.1.2 National conservation strategy (NCS)
+1.1.12.1.3 National Wasteland development board (NWDB)
+1.1.12.1.4 Indian board of wildlife
+1.1.12.1.5 Man and Biosphere Programme
+1.1.12.1.6 Earth summit/Rio Conference/ Rio  +20
+1.1.12.1.7 Sustainable development
+1.1.12.1.8 SACEP trust fund
+1.1.13 Environmental degradation
+1.1.13.1 Eutrophication / Algal blooms
+1.1.13.2 Deforestation
+1.1.13.3 Desertification
+1.1.13.4 Habitat destruction
+1.1.13.5 Habitat fragmentation
+1.1.13.6 Habitat degradation
+1.1.13.7 Pollution
+1.1.13.7.1 Air pollution
+1.1.13.7.2 Noise pollution
+1.1.13.7.3 Radioactive pollution
+1.1.13.7.4 Soil pollution
+1.1.13.7.5 Water pollution
+1.1.13.7.5.1 Surface water contamination
+1.1.13.7.5.2 Groundwater contamination
+1.1.13.7.6 Marine pollution
+1.1.13.7.7 Nonpoint source pollution
+1.1.13.7.8 Point source pollution
+1.1.13.7.9 Pollutants
+1.1.13.7.9.1 Effluents
+1.1.13.7.9.1.1 Industrial effluents
+1.1.13.7.9.1.2 Sewage effluent
+1.1.13.7.9.1.3 Silage effluent
+1.1.13.7.9.1.4 Agricultural runoff
+1.1.13.7.9.1.4.1 Pesticide contaminants
+1.1.13.7.9.2 Emissions
+1.1.13.7.9.2.1 Dust/Particulate emissions
+1.1.13.7.9.2.2 Gas emissions
+1.1.13.7.9.2.3 Heat emissions
+1.1.13.7.9.2.4 Odor emissions
+1.1.13.7.9.3 Nonaqueous phase liquids
+1.1.13.7.9.3.1 Dense nonaqueous phase liquids
+1.1.13.7.10 Pollution load
+1.1.13.7.10.1 Biochemical oxygen demand (BOD)
+1.1.13.7.10.2 Chemical oxygen demand
+1.1.13.7.10.3 Total maximum daily load
+1.1.13.7.11 Sediment contamination
+1.1.14 Environmental hazards
+1.1.14.1 Biodiversity loss
+1.1.14.2 Impact of GMOs
+1.1.14.3 Invasive alien species/exotic species
+1.1.15 Environmental impact
+1.1.15.1 Environmenatal Impact Assesment
+1.1.16 Environmental management
+1.1.16.1 Environmental assessment
+1.1.16.1.1 Biological assessment
+1.1.16.2 Environmental audits
+1.1.16.3 Environmental impact statements
+1.1.16.4 Environmental indicators
+1.1.16.5 Environmental monitoring
+1.1.16.6 Environmental protection
+1.1.16.6.1 Pollution control
+1.1.16.6.1.1 Dust control
+1.1.16.6.1.2 Odor control
+1.1.16.6.1.3 Control of gases
+1.1.16.6.1.4 Remediation
+1.1.16.6.1.5 Sewage and water treatment
+1.1.17 Environment protection acts
+1.1.17.1 Environmental Protection Act, 1986
+1.1.17.2 Central Pollution Control Board
+1.1.17.3 Wildlife Protection Act, 1972
+1.1.17.4 Forest Conservation Act, 1980
+1.1.17.5 Joint forest management
+1.1.17.6 National Biodiversity Act, 2002
+1.1.17.7 Forest Rights Act, 2005
+1.1.18 Environmental quality
+1.1.18.1 Air quality
+1.1.18.1.1 Air quality standards
+1.1.18.1.1.1 Emission standards
+1.1.18.1.1.2 Ambient air quality standards
+1.1.18.1.1.2.1 National Ambient Air Quality Monitoring Network
+1.1.18.1.1.2.2 National Water Quality Assessment Programme
+1.1.19 Natural resource management
+1.1.19.1 Nonrenewable resources
+1.1.19.1.1 Land resources
+1.1.19.1.1.1 Athletic fields
+1.1.19.1.1.2 Conservation areas
+1.1.19.1.1.2.1 National parks
+1.1.19.1.1.2.2 Wildlife sancturies
+1.1.19.1.1.2.3 Reserve forests
+1.1.19.1.1.3 Watersheds
+1.1.19.1.1.3.1 Agricultural watersheds
+1.1.19.1.1.3.2 Forested watersheds
+1.1.19.1.1.3.3 Subwatersheds
+1.1.19.1.1.4 Wetlands
+1.1.19.1.1.4.1 Constructed wetlands
+1.1.19.1.1.4.2 Seasonal wetlands
+1.1.19.1.2 Energy resources
+1.1.19.1.2.1 Electric power
+1.1.19.1.2.1.1 Hydroelectric power
+1.1.19.1.2.2 Fuels
+1.1.19.1.2.2.1 Alternative fuels
+1.1.19.1.2.2.2 Biofuels
+1.1.19.1.2.2.2.1 Biodiesel
+1.1.19.1.2.2.2.1.1 Jatropha species
+1.1.19.1.2.2.2.1.2 Jojoba
+1.1.19.1.2.2.2.1.3 Kenaf
+1.1.19.1.2.2.2.1.4 Moringa oleifera
+1.1.19.1.2.2.2.1.5 Citrullus colocynthis
+1.1.19.1.2.2.2.1.6 Simarouba glauca
+1.1.19.1.2.2.3 Fossil fuels
+1.1.19.1.2.2.3.1 Coal
+1.1.19.1.2.2.3.2 Natural gas
+1.1.19.1.2.2.3.3 Petroleum
+1.1.19.1.2.2.4 Fuel oils
+1.1.19.1.2.2.5 Wood
+1.1.19.1.2.2.6 Kerosene
+1.1.19.1.2.2.7 Liquid petroleum gas
+1.1.19.1.2.3 Nuclear power
+1.1.19.1.2.4 Renewable energy sources
+1.1.19.1.2.4.1 Bioenergy
+1.1.19.1.2.4.2 Geothermal energy
+1.1.19.1.2.4.3 Solar energy
+1.1.19.1.2.4.4 Wind power
+1.1.19.1.2.4.5 Hydrogen energy
+1.1.19.1.2.4.6 Tidal and wave energy
+1.1.19.1.2.4.7 Ocean Thermal Energy Conversion
+1.1.19.2 Renewable resources
+1.1.19.2.1 Biomass
+1.1.19.2.1.1 Aboveground biomass
+1.1.19.2.1.2 Belowground biomass
+1.1.19.2.1.3 Biomass production
+1.1.19.2.2 Water resources
+1.1.19.2.2.1 Aquifers
+1.1.19.2.2.2 Drinking water
+1.1.19.2.2.3 Inland waters
+1.1.19.2.2.4 Oceans
+1.1.19.2.2.5 Reservoirs
+1.1.19.2.2.6 Water supply
+1.1.19.3 In-situ resource conservation
+1.1.19.3.1 Biosphere reserves
+1.1.19.3.2 Botanical gardens
+1.1.19.4 Ex-situ resource conservation
+1.1.19.5 Conservation records
+1.1.19.6 Major environmental movements in India
+1.1.19.6.1 Chipko movement
+1.1.19.6.2 Appiko Movement
+1.1.19.6.3 Silent Vallley agitation
+1.1.19.6.4 Narmada Bachao Andolan
+1.1.20 Ecosystems
+1.1.20.1 Ocean ecosystem
+1.1.20.2 Grassland ecosystem
+1.1.20.3 Desert ecosystem
+1.1.20.4 Forest ecosystem
+1.1.20.5 Cropland ecosystem
+1.1.20.6 Food chains
+1.1.20.6.1 Trophic levels
+1.1.20.6.1.1 Producers
+1.1.20.6.1.2 Consumers
+1.1.20.6.1.2.1 Herbivores
+1.1.20.6.1.2.2 Carnivores
+1.1.20.6.1.2.3 Omnivores
+1.1.20.6.1.3 Decomposers
+1.1.20.7 Food web
+1.1.20.8 Primary production
+1.1.20.8.1 Gross primary production
+1.1.20.8.2 Net primary production
+1.1.20.9 Ecological pyramids
+1.1.20.9.1 Pyramid of number
+1.1.20.9.2 Pyramid of biomass
+1.1.20.9.3 Pyramid of energy
+1.1.20.10 Biogeochemical cycles
+1.1.20.10.1 Hydrological cycle
+1.1.20.10.2 Gaseous cycle
+1.1.20.10.2.1 Oxygen cycle
+1.1.20.10.2.2 Nitrogen cycle
+1.1.20.10.2.3 Carbon cycle
+1.1.20.10.3 Sedimentary cycle
+1.1.20.10.3.1 Phosphorus cycle
+1.1.20.10.3.2 Sulphur cycle
+1.1.20.11 Agroecosystems
+1.1.20.12 Biocoenosis
+1.1.20.12.1 Aquatic communities
+1.1.20.12.1.1 Benthos
+1.1.20.12.1.1.1 Macrobenthos
+1.1.20.12.1.1.2 Meiobenthos
+1.1.20.12.1.1.3 Microbenthos
+1.1.20.12.1.1.4 Phytobenthos
+1.1.20.12.1.1.5 Zoobenthos
+1.1.20.12.1.2 Neuston
+1.1.20.12.1.3 Periphyton
+1.1.20.12.1.4 Plankton
+1.1.20.12.1.4.1 Phytoplankton
+1.1.20.12.1.4.2 Zooplankton
+1.1.20.12.1.5 Pleuston
+1.1.20.12.1.6 Seston
+1.1.20.12.1.7 Nekton
+1.1.20.12.1.7.1 Micronekton
+1.1.20.12.2 Plant communities
+1.1.20.12.2.1 Climax communities
+1.1.20.12.2.2 Autotrophs
+1.1.20.12.2.2.1 Mesophyte
+1.1.20.12.2.2.2 Hydrophyte
+1.1.20.12.2.2.3 Xerophyte
+1.1.20.13 Ecological succession
+1.1.20.13.1 Xerosere
+1.1.20.13.2 Hydrosere
+1.1.20.13.3 Mesosere
+1.1.20.14 Biotopes
+1.1.20.15 Habitats
+1.1.20.15.1 Terrestrial habitat
+1.1.20.15.1.1 Forests
+1.1.20.15.1.2 Deserts
+1.1.20.15.1.3 Mountains
+1.1.20.15.1.4 Grasslands
+1.1.20.15.1.5 Polar regions
+1.1.20.15.2 Aquatic habitat
+1.1.20.15.2.1 Freshwater habitats
+1.1.20.15.2.2 Marine habitats
+1.1.20.15.2.3 Mangroves
+1.1.20.15.2.4 Coral reefs
+1.1.20.15.2.5 Wetlands
+1.1.20.15.2.6 Riparian zones
+1.1.20.15.3 Microhabitat
+1.1.20.15.3.1 Phyllosphere
+1.1.21 Biodiversity
+1.1.21.1 Genetic diversity
+1.1.21.1.1 Vavilovian centres
+1.1.21.2 Species diversity
+1.1.21.2.1 Biodiversity hotspots
+1.1.21.3 Ecosystem diversity
+1.1.21.4 Alpha diversity
+1.1.21.5 Beta diversity
+1.1.21.6 Gamma diversity
+1.1.22 Ecosytem services
+1.1.23 Climatology
+1.1.23.1 Agroclimatology
+1.1.23.2 Bioclimatology
+1.1.23.3 Physiography
+1.1.23.4 Climate
+1.1.23.4.1 Agro climatic zone
+1.1.23.4.1.1 Western Himalayan Region
+1.1.23.4.1.2 Eastern Himalayan Region
+1.1.23.4.1.3 Lower Ganetic Plain
+1.1.23.4.1.4 Middle Gangetic Plain
+1.1.23.4.1.5 Upper Gangetic Plain
+1.1.23.4.1.6 Transgangetic Plain
+1.1.23.4.1.7 Eastern Plateau & Hills
+1.1.23.4.1.8 Central Plateau & Hills
+1.1.23.4.1.9 Western Plateau & Hills
+1.1.23.4.1.10 Southern Plateau & Hills
+1.1.23.4.1.11 East Coast Plains
+1.1.23.4.1.12 West Coast Plains and Ghats
+1.1.23.4.1.13 Gujarat Plains & Hills
+1.1.23.4.1.14 Western Dry Region
+1.1.23.4.1.15 Island Regions
+1.1.23.4.2 Climate type
+1.1.23.4.2.1 Arid
+1.1.23.4.2.2 Semi arid
+1.1.23.4.2.3 Dry sub humid
+1.1.23.4.2.4 Moist sub humid
+1.1.23.4.2.5 Humid
+1.1.23.4.2.6 Per humid
+1.1.23.4.3 Climatic factors
+1.1.23.4.4 Climatic zones
+1.1.23.4.4.1 Arid zones
+1.1.23.4.4.2 Cold zones
+1.1.23.4.4.2.1 Taiga
+1.1.23.4.4.2.2 Tundra
+1.1.23.4.4.3 Humid zones
+1.1.23.4.4.4 Semi arid zones
+1.1.23.4.4.5 Subhumid zones
+1.1.23.4.4.6 Subtropics zones
+1.1.23.4.4.7 Temperate zones
+1.1.23.4.4.8 Tropics zones
+1.1.23.5 Climate models
+1.1.23.6 Microclimate
+1.1.23.7 Seasons
+1.1.23.7.1 Autumn season
+1.1.23.7.2 Cold season
+1.1.23.7.3 Dry season
+1.1.23.7.4 Growing season
+1.1.23.7.5 Monsoon season
+1.1.23.7.6 Spring season
+1.1.23.7.7 Summer season
+1.1.23.7.8 Warm season
+1.1.23.7.9 Wet season
+1.1.23.7.10 Winter season
+1.1.23.7.11 EL Nino
+1.1.23.7.12 LA Nina
+1.1.23.8 Weather
+1.1.23.8.1 atmospheric circulations
+1.1.23.8.2 Atmospheric disturbances
+1.1.23.8.2.1 Atmospheric depressions
+1.1.23.8.2.2 Atmospheric turbulence
+1.1.23.8.2.3 Lightning
+1.1.23.8.2.4 Storms
+1.1.23.8.2.4.1 Cyclones
+1.1.23.8.2.4.2 Dust storms
+1.1.23.8.2.4.3 Thunderstorms
+1.1.23.8.2.4.4 Winter storm
+1.1.23.8.2.5 Whirlwinds
+1.1.23.8.2.5.1 Dust devils
+1.1.23.8.2.5.2 Waterspouts
+1.1.23.8.3 Weather hazards
+1.1.23.8.3.1 Drought
+1.1.23.8.3.2 Fire weather
+1.1.23.8.3.3 Floods
+1.1.23.8.4 Meteorological parameters
+1.1.23.8.4.1 Atmospheric pressure
+1.1.23.8.4.2 Dew
+1.1.23.8.4.3 Dewpoint
+1.1.23.8.4.4 Fog
+1.1.23.8.4.4.1 Upslope fog
+1.1.23.8.4.4.2 Advection fog
+1.1.23.8.4.4.3 Ground fog
+1.1.23.8.4.5 Mist
+1.1.23.8.4.6 Frost
+1.1.23.8.4.7 Heat sums
+1.1.23.8.4.8 Humidity
+1.1.23.8.4.8.1 Relative humidity
+1.1.23.8.4.8.2 Absolute humidity
+1.1.23.8.4.9 Winds
+1.1.23.8.4.9.1 Wind direction
+1.1.23.8.4.9.2 Wind speed
+1.1.23.8.4.10 Atmospheric precipitation
+1.1.23.8.4.10.1 Artificial precipitation
+1.1.23.8.4.10.2 Hydroclimatology
+1.1.23.8.4.10.3 Hail
+1.1.23.8.4.10.4 Rain
+1.1.23.8.4.10.4.1 Sleet
+1.1.23.8.4.10.4.2 Mixed precipitation
+1.1.23.8.4.10.4.3 Simulated rainfall
+1.1.23.8.4.10.4.4 Cloudburst
+1.1.23.8.4.10.5 Snow
+1.1.23.8.4.10.6 Stemflow
+1.1.23.8.4.10.7 Throughfall
+1.1.23.8.4.10.8 Acid rain
+1.1.23.8.4.11 Snowmelt
+1.1.23.8.4.12 Snowpack
+1.1.23.8.4.12.1 Solar radiation
+1.1.23.8.4.12.1.1 Insolation
+1.1.23.8.4.12.1.2 Albedo
+1.1.23.8.4.13 Cloud
+1.1.23.8.4.13.1 Wall cloud
+1.1.23.8.4.13.2 Low clouds
+1.1.23.8.4.13.3 Middle clouds
+1.1.24 Meteorology
+1.1.24.1 Agrometeorology
+1.1.24.1.1 Weather forecasting
+1.1.24.1.1.1 Advisory
+1.1.24.1.1.2 Forecast
+1.1.24.2 Weather stations
+Environmental Science
+
+
+01
+
+

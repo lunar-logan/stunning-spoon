@@ -1,0 +1,935 @@
+1 Crop Production
+1.1 Production practices
+1.1.1 Field preparation
+1.1.1.1 Main field preparation
+1.1.1.2 Nursery bed preparation
+1.1.1.2.1 Raised beds
+1.1.1.2.2 Flat beds
+1.1.1.2.3 Dapog
+1.1.1.2.4 Protrays
+1.1.1.2.5 Matnursery
+1.1.1.3 Land Management
+1.1.1.3.1 Land Clearing
+1.1.1.3.2 Siol Conservation
+1.1.1.3.3 Soil Improvement
+1.1.1.3.4 Land Levelling
+1.1.1.3.5 Dryland management
+1.1.1.3.6 Bunding
+1.1.1.3.6.1 Contour bunds
+1.1.1.3.6.2 Graded bunds
+1.1.1.3.6.3 Live bunds
+1.1.1.4 Tillage practices
+1.1.1.4.1 Primary tillage
+1.1.1.4.1.1 Deep tillage
+1.1.1.4.1.2 Chiseling
+1.1.1.4.1.3 Discing
+1.1.1.4.1.4 Ploughing
+1.1.1.4.1.5 Puddling
+1.1.1.4.1.6 Pit preparation
+1.1.1.4.2 Secondary tillage
+1.1.1.4.2.1 Furrows
+1.1.1.4.2.2 Harrowing
+1.1.1.4.2.3 Hoeing
+1.1.1.4.2.4 Intra-row tillage
+1.1.1.4.2.5 Inter-row tillage
+1.1.1.4.2.6 Rotary tillage
+1.1.1.4.2.7 Ridges
+1.1.1.4.2.8 Pit filling
+1.1.1.4.3 Conservation tillage
+1.1.1.4.3.1 No-tillage
+1.1.1.4.4 Ridge tillage
+1.1.1.4.5 Strip tillage
+1.1.1.4.6 Minimum tillage
+1.1.1.4.7 Subsoiling
+1.1.1.4.8 Trenching
+1.1.1.4.9 Reduced tillage
+1.1.1.4.10 Scooping
+1.1.2 Drainage management
+1.1.2.1 Drainage
+1.1.2.1.1 Surface drainage
+1.1.2.1.2 Sub-surface drainage
+1.1.2.2 Drainage methods
+1.1.2.2.1 Surface drainage method
+1.1.2.2.1.1 Land forming
+1.1.2.2.1.2 Land smoothening
+1.1.2.2.1.3 Land grading
+1.1.2.2.1.4 Bedding system
+1.1.2.2.1.5 Tile drainage
+1.1.2.2.1.6 Furrows
+1.1.2.2.1.7 Gullies
+1.1.2.2.1.8 Open ditches
+1.1.2.2.1.8.1 Parallel field drain system
+1.1.2.2.1.8.2 Random system
+1.1.2.2.1.8.3 Parallel open ditch system
+1.1.2.2.1.8.4 Levees
+1.1.2.2.2 Sub-surface drainage method
+1.1.2.2.2.1 Bio drainage
+1.1.2.2.2.2 Verttical drainage
+1.1.2.2.2.3 Horizontal drainage
+1.1.2.2.2.4 Pipe drainage
+1.1.2.2.2.5 Tile drainage
+1.1.2.3 Drain materials
+1.1.2.3.1 Drainage pipes
+1.1.2.3.2 Drainage Tile
+1.1.3 Irrigation management
+1.1.3.1 Irrigation
+1.1.3.1.1 Continuous Irrigation
+1.1.3.1.2 Irrigation rates
+1.1.3.1.3 Supplemental Irrigation
+1.1.3.1.4 Irrigation requirement
+1.1.3.1.5 Irrigation scheduling
+1.1.3.1.5.1 Critical stages
+1.1.3.1.5.2 Soil moisture deficit
+1.1.3.1.5.3 IW/CPE Ratio
+1.1.3.1.5.4 CPE
+1.1.3.1.5.5 ASMD
+1.1.3.1.5.6 Indicator plants
+1.1.3.1.5.7 Sand cum minimum plot technique
+1.1.3.1.5.8 Climatological Approach
+1.1.3.1.5.9 Combination Approach
+1.1.3.1.6 Crop-water requirement
+1.1.3.1.6.1 Consumptive use
+1.1.3.1.6.2 Gross irrigation requirement
+1.1.3.1.6.3 Net irrigation requirement
+1.1.3.1.7 Irrigation techniques
+1.1.3.1.7.1 Surface irrigation system
+1.1.3.1.7.2 Sprinkler irrigation system
+1.1.3.1.7.3 Drip irrigation system
+1.1.3.1.7.4 Surge irrigation system
+1.1.3.1.7.5 Pitcher pot
+1.1.3.1.8 Irrigation methods
+1.1.3.1.8.1 Surface irrigation
+1.1.3.1.8.1.1 Flood irrigation
+1.1.3.1.8.1.1.1 Border
+1.1.3.1.8.1.1.2 Check basin
+1.1.3.1.8.1.1.3 Ring basin
+1.1.3.1.8.1.1.4 Furrow irrigation
+1.1.3.1.8.1.1.5 Trench method
+1.1.3.1.8.1.2 Sprinkler irrigation
+1.1.3.1.8.1.3 Drip irrigation
+1.1.3.1.8.1.4 Trickle Irrigation
+1.1.3.1.8.1.5 Subsurface irrigation
+1.1.3.1.8.1.5.1 Sprinkler irrigation
+1.1.3.1.8.1.5.2 Drip irrigation
+1.1.3.1.8.1.5.3 Trickle Irrigation
+1.1.3.1.8.2 Irrigation sources
+1.1.3.1.8.2.1 Ponds
+1.1.3.1.8.2.2 Rivers and lakes
+1.1.3.1.8.2.3 Canal irrigation
+1.1.4 Seed and sowing
+1.1.4.1 Time of sowing
+1.1.4.2 Sowing rates
+1.1.4.3 Seed soaking
+1.1.4.4 Sowing date
+1.1.4.5 Sowing treatment
+1.1.4.5.1 Hot water treatment
+1.1.4.5.2 Scarification treatment
+1.1.4.5.3 Acid treatment
+1.1.4.5.4 Stratification treatment
+1.1.4.5.5 Growth regulator  treatment
+1.1.4.5.6 Bio-agent treatment
+1.1.4.5.7 Fungicides treatment
+1.1.4.5.8 Insecticides treatment
+1.1.4.6 Transplanting date
+1.1.4.7 Planting date
+1.1.4.8 Planting depth
+1.1.4.9 Sowing depth
+1.1.4.10 Sowing method
+1.1.4.10.1 Broad casting           
+1.1.4.10.2 Drill sowing
+1.1.4.10.3 Line sowing           
+1.1.4.10.4 Dibbling
+1.1.4.10.5 Transplanting
+1.1.4.10.6 System of Rice Intensification
+1.1.4.10.7 Direct seeded rice
+1.1.4.11 Planting system
+1.1.4.11.1 Square system
+1.1.4.11.2 Rectangular system
+1.1.4.11.3 Traingular system
+1.1.4.11.4 Hexagonal system
+1.1.4.11.5 Quincunx system
+1.1.4.11.6 Contour system
+1.1.4.11.7 Terrace system
+1.1.4.12 Planting distance
+1.1.4.12.1 Thinning
+1.1.4.12.2 Gap filling
+1.1.4.13 Plant spacing
+1.1.4.13.1 Row to row
+1.1.4.13.2 Plant to plant
+1.1.4.14 Seedling production
+1.1.4.14.1 Seedling age/Transplanting age
+1.1.4.15 Plant nurseries
+1.1.4.15.1 Plant population
+1.1.4.16 Ratooning
+1.1.4.16.1 Ratoons
+1.1.4.17 Plant propagation
+1.1.4.17.1 Micropropagation
+1.1.4.17.1.1 Propagation by microcuttings
+1.1.4.17.2 Propagation materials
+1.1.4.17.2.1 Bulbs
+1.1.4.17.2.2 Corms
+1.1.4.17.2.3 Grass sprigs
+1.1.4.17.2.4 Plant cuttings
+1.1.4.17.2.4.1 Stem cutting
+1.1.4.17.2.4.2 Leaf cutting
+1.1.4.17.2.5 Roots
+1.1.4.17.2.5.1 Slips
+1.1.4.17.2.5.2 Cuttings
+1.1.4.17.2.6 Runners
+1.1.4.17.2.7 Suckers
+1.1.4.17.2.8 Tubers
+1.1.4.17.2.9 Stolons
+1.1.4.17.2.10 Rhizomes
+1.1.4.17.2.11 Crown
+1.1.4.17.2.12 Planting seed
+1.1.4.17.2.12.1 Grass seed
+1.1.4.17.2.12.2 Seed mixtures
+1.1.4.17.2.12.3 True seeds
+1.1.4.17.2.13 Seed tubers
+1.1.4.17.2.14 Sod plugs
+1.1.4.17.2.15 Sod culture
+1.1.4.17.2.16 Sod strips
+1.1.4.17.3 Propagation method
+1.1.4.17.3.1 Sexual
+1.1.4.17.3.2 Vegetative/ Asexual
+1.1.4.17.3.2.1 Grafting
+1.1.4.17.3.2.1.1 Approach grafting
+1.1.4.17.3.2.1.2 Soft wood grafting
+1.1.4.17.3.2.1.3 Epicotyl grafting
+1.1.4.17.3.2.1.4 Wedge grafting
+1.1.4.17.3.2.1.5 Veneer grafting
+1.1.4.17.3.2.1.6 Side grafting
+1.1.4.17.3.2.1.7 Shaddle grafting
+1.1.4.17.3.2.1.8 Bridge grafting
+1.1.4.17.3.2.1.9 Cleft grafting
+1.1.4.17.3.2.1.10 Endosperm grafting
+1.1.4.17.3.2.1.11 Topworking grafting
+1.1.4.17.3.2.2 Budding
+1.1.4.17.3.2.2.1 T-budding
+1.1.4.17.3.2.2.2 Inverted T-budding
+1.1.4.17.3.2.2.3 Patch budding
+1.1.4.17.3.2.2.4 I-budding
+1.1.4.17.3.2.2.5 Flute budding
+1.1.4.17.3.2.2.6 Ring budding
+1.1.4.17.3.2.3 Layering
+1.1.4.17.3.2.3.1 Air layering
+1.1.4.17.3.2.3.2 Simple layering
+1.1.4.17.3.2.3.3 Compound/ Serpentine layering
+1.1.4.17.3.2.3.4 Mound/ Stool layering
+1.1.4.17.3.2.3.5 Pot layering
+1.1.4.17.3.2.4 Cuttings
+1.1.4.17.3.2.4.1 Hard wood cutting
+1.1.4.17.3.2.4.2 Semi-hard wood cutting
+1.1.4.17.3.2.4.3 Soft wood cutting
+1.1.4.17.3.2.4.4 Leaf blade cutting
+1.1.4.17.3.2.4.5 Leaf vein cutting
+1.1.4.17.3.2.4.6 Leaf margin cutting
+1.1.4.17.3.2.4.7 Root cutting
+1.1.4.17.4 Factors affecting propagation
+1.1.4.17.4.1 Stionic relationship
+1.1.4.17.4.2 Compatibility
+1.1.4.17.4.3 Callusing
+1.1.4.17.4.4 Differentiation
+1.1.5 Nutrient management
+1.1.5.1 Fertilizer application
+1.1.5.1.1 Broadcasting
+1.1.5.1.1.1 Broadcasting at planting
+1.1.5.1.1.2 Top dressing
+1.1.5.1.2 Placement
+1.1.5.1.2.1 Plough sole placement
+1.1.5.1.2.2 Sub-surface placement
+1.1.5.1.2.2.1 Irrigated tracts
+1.1.5.1.2.2.2 Less water condition
+1.1.5.1.2.2.3 Sub-soil placement
+1.1.5.1.2.3 Band Placement
+1.1.5.1.2.4 Pellete Placement
+1.1.5.1.2.4.1 Hill placement
+1.1.5.1.2.4.2 Row Placement
+1.1.5.1.3 Side Dressing
+1.1.5.1.4 Aerial application
+1.1.5.1.5 Fertigation
+1.1.5.1.6 Dipping
+1.1.5.1.7 Drilling
+1.1.5.1.8 Dusting
+1.1.5.1.9 Foliar application
+1.1.5.1.10 Land application
+1.1.5.1.11 Spraying
+1.1.5.1.11.1 Foliar spraying
+1.1.5.1.11.2 Low volume spraying
+1.1.5.1.12 Topical application
+1.1.5.1.13 Variable rate application
+1.1.5.1.14 Application parameters
+1.1.5.1.14.1 Application coverage
+1.1.5.1.14.2 Application rate
+1.1.5.1.14.3 Application timing
+1.1.5.1.14.4 Application volume
+1.1.5.1.14.5 Droplet size
+1.1.5.1.14.6 Spray deposition
+1.1.5.1.14.7 Spray drift
+1.1.5.1.14.8 Coverage of area
+1.1.5.1.14.9 Dosage
+1.1.5.1.14.9.1 Lethal dose
+1.1.5.1.14.9.1.1 Lethal dose 50
+1.1.5.1.14.9.2 Median effective dose
+1.1.5.1.14.9.3 Median lethal dose
+1.1.5.1.14.9.4 Overdose
+1.1.5.2 Fertilizers
+1.1.5.2.1 Nitrogen fertilizers
+1.1.5.2.2 Phosphorus fertilizers
+1.1.5.2.3 Potassium fertilizers
+1.1.5.2.4 Compound fertilizers
+1.1.5.2.4.1 NPK fertilizers
+1.1.5.2.5 Liquid fertilizers
+1.1.5.2.6 Mineral fertilizers
+1.1.5.2.6.1 Calcium fertilizers
+1.1.5.2.6.2 Iron fertilizers
+1.1.5.2.6.3 Magnesium fertilizers
+1.1.5.2.6.4 Nitrogen fertilizers
+1.1.5.2.6.4.1 Ammonium fertilizers
+1.1.5.2.6.4.2 Urea fertilizers
+1.1.5.2.6.4.2.1 Isobutylidene diurea
+1.1.5.2.6.5 Phosphorus fertilizers
+1.1.5.2.6.6 Potassium fertilizers
+1.1.5.2.6.7 Sulfur fertilizers
+1.1.5.2.6.8 Trace element fertilizers
+1.1.5.2.6.8.1 Boron fertilizers
+1.1.5.2.6.8.2 Copper fertilizers
+1.1.5.2.6.8.3 Molybdenum fertilizers
+1.1.5.2.6.8.4 Selenium fertilizers
+1.1.5.2.6.8.5 Zinc fertilizers
+1.1.5.2.7 Organic fertilizers
+1.1.5.2.7.1 Composts
+1.1.5.2.7.1.1 Biosolids composts
+1.1.5.2.7.1.2 Compost quality
+1.1.5.2.7.1.2.1 Compost maturity
+1.1.5.2.7.1.2.2 Compost stability
+1.1.5.2.7.1.3 Composted manure
+1.1.5.2.7.1.4 Food residuals composts
+1.1.5.2.7.1.5 Vermicomposts
+1.1.5.2.7.1.6 Yard waste composts
+1.1.5.2.8 Slow-release fertilizers
+1.1.5.2.8.1 Isobutylidene diurea
+1.1.5.2.8.2 Sulfur-coated urea
+1.1.5.2.8.3 Neem coated urea
+1.1.5.2.8.4 Tar coated urea
+1.1.5.2.8.5 Urea Super Granules
+1.1.5.2.9 Soil nutrients
+1.1.5.2.9.1 Primary nutrient
+1.1.5.2.9.1.1 Nitrogen
+1.1.5.2.9.1.2 Phosphorus
+1.1.5.2.9.1.3 Potassium
+1.1.5.2.9.2 Secondary nutrient
+1.1.5.2.9.2.1 Calcium
+1.1.5.2.9.2.2 Magnesium
+1.1.5.2.9.2.3 Sulphur
+1.1.5.2.9.3 Micro nutrients
+1.1.5.2.9.3.1 Manganese
+1.1.5.2.9.3.2 Boran
+1.1.5.2.9.3.3 Copper
+1.1.5.2.9.3.4 Molybdenum
+1.1.5.2.9.3.5 Zinc
+1.1.5.2.9.3.6 Iron
+1.1.5.2.9.3.7 Chlorine
+1.1.5.2.9.4 Beneficial nutrients
+1.1.5.2.9.4.1 Silicon
+1.1.5.2.9.4.2 Cobalt
+1.1.5.2.10 Bio-fertilizers
+1.1.5.2.10.1 Azolla
+1.1.5.2.10.2 Azotobacter
+1.1.5.2.10.3 Cellulolytic organisms
+1.1.5.2.10.4 Cyanobacteria
+1.1.5.2.10.5 Lignolytic organisms
+1.1.5.2.10.6 Nitrogen fixing
+1.1.5.2.10.7 Non symbiotic
+1.1.5.2.10.8 Nostoc
+1.1.5.2.10.9 Organic matter decomposer
+1.1.5.2.10.10 Phosphate absorbers
+1.1.5.2.10.11 Phosphate mobilising
+1.1.5.2.10.12 Phosphate solubilizers
+1.1.5.2.10.13 Rhizobium
+1.1.5.2.10.14 Rhizosphere colonization
+1.1.5.2.10.15 Symbiotic
+1.1.5.2.11 Organic manures
+1.1.5.2.11.1 Bulky Organic manures
+1.1.5.2.11.1.1 Farm yard manure
+1.1.5.2.11.1.2 Compost
+1.1.5.2.11.1.3 Vermicompost
+1.1.5.2.11.1.4 Green manure
+1.1.5.2.11.1.5 Night soil
+1.1.5.2.11.1.6 Sewage and sludge
+1.1.5.2.11.1.7 Sheap and goat manure
+1.1.5.2.11.1.8 Poultry manure
+1.1.5.2.11.2 Concentrated Organic manures
+1.1.5.2.11.2.1 Fish manure
+1.1.5.2.11.2.2 Fish guano
+1.1.5.2.11.2.3 Bird guano
+1.1.5.2.11.2.4 Oil cake
+1.1.5.2.11.2.5 Raw bone meal
+1.1.5.2.11.2.6 Steamed bone meal
+1.1.5.2.11.2.7 Blood meal (organic manure)
+1.1.5.2.12 Inorganic fertilizers
+1.1.5.2.12.1 Nitrogenous fertilizers
+1.1.5.2.12.1.1 Nitrate fertilizers
+1.1.5.2.12.1.1.1 Sodium nitrate
+1.1.5.2.12.1.1.2 Calcium nitrate
+1.1.5.2.12.1.1.3 Potassium nitrate
+1.1.5.2.12.1.2 Ammonical Fertilizers
+1.1.5.2.12.1.2.1 Ammonium suplphate
+1.1.5.2.12.1.2.2 Ammonium chloride
+1.1.5.2.12.1.2.3 Monoammonium phosphate
+1.1.5.2.12.1.2.4 Diammonium phosphate
+1.1.5.2.12.1.2.5 Ammonium solution
+1.1.5.2.12.1.3 Ammonical-nitrate fertilizers
+1.1.5.2.12.1.3.1 Ammonium nitrate
+1.1.5.2.12.1.3.2 Calcium ammonium Nitrate
+1.1.5.2.12.1.3.3 Ammonium sulphate Nitrate
+1.1.5.2.12.1.4 Amide fertilizers
+1.1.5.2.12.1.4.1 Urea
+1.1.5.2.12.1.4.2 Calcium cynamide
+1.1.5.2.12.2 Phosphatic Fertilizers
+1.1.5.2.12.2.1 Water soluble phosphatic fertilizers
+1.1.5.2.12.2.1.1 Single super phosphate
+1.1.5.2.12.2.1.2 Double super phosphate
+1.1.5.2.12.2.1.3 Tripple super phosphate
+1.1.5.2.12.2.2 Citric acid soluble phosphatic fertilizers
+1.1.5.2.12.2.2.1 Dicalcium phosphate
+1.1.5.2.12.2.2.2 Rhenania phosphate
+1.1.5.2.12.2.3 Insoluble phosphatic fertilizers
+1.1.5.2.12.2.3.1 Rock phosphate
+1.1.5.2.12.2.3.2 Bonemeal
+1.1.5.2.12.2.3.3 Steamed bonemeal
+1.1.5.2.12.3 Potassic Fertilizers
+1.1.5.2.12.3.1 Potassium sulphate
+1.1.5.2.12.3.2 Muriate of potash
+1.1.5.2.12.4 Sulphur
+1.1.5.2.12.4.1 Ammonium Sulphate
+1.1.5.2.12.4.2 Potassium Suphate
+1.1.5.2.12.4.3 Ammonium Phosphate sulphate
+1.1.5.2.12.4.4 Gypsum
+1.1.5.2.12.4.5 Calcium Sulphate
+1.1.5.2.12.4.6 Iron pyrites
+1.1.5.2.12.4.7 Elemental suphur
+1.1.5.2.12.4.8 Magnesium suphate
+1.1.5.2.12.5 Calcium
+1.1.5.2.12.5.1 Limestone
+1.1.5.2.12.5.2 Basic slag & dolomite
+1.1.5.2.12.6 Magnesium
+1.1.5.2.12.6.1 Magnesite
+1.1.5.2.12.6.2 Magnesiumsuphate
+1.1.5.2.12.6.3 Multiplex
+1.1.5.2.12.6.4 Areis Chelamag
+1.1.5.2.12.6.5 Dolomite
+1.1.5.2.12.6.6 LCFC slag
+1.1.5.2.12.7 Boron
+1.1.5.2.12.7.1 Borax (Fertilizer)
+1.1.5.2.12.7.2 Solubor
+1.1.5.2.12.7.3 Boronated gypsum
+1.1.5.2.12.8 Copper
+1.1.5.2.12.8.1 Copper sulphate
+1.1.5.2.12.8.2 Aries chelacor
+1.1.5.2.12.8.3 Chelakta 25
+1.1.5.2.12.8.4 Devimicroshakti
+1.1.5.2.12.9 Iron
+1.1.5.2.12.9.1 Ferrous suphate
+1.1.5.2.12.9.2 Amity clawfer
+1.1.5.2.12.9.3 Chelekta 10
+1.1.5.2.12.9.4 Chelated iron
+1.1.5.2.12.10 Manganese
+1.1.5.2.12.10.1 Mangalnese suphate
+1.1.5.2.12.10.2 Aries mn-chel
+1.1.5.2.12.10.3 Chelekta –20
+1.1.5.2.12.10.4 Multiplex chelated
+1.1.5.2.12.11 Molybdenum
+1.1.5.2.12.11.1 Ammonium molybdate
+1.1.5.2.12.11.2 Multiplex nitrofix
+1.1.5.2.12.12 Zinc
+1.1.5.2.12.12.1 Zinc suphate
+1.1.5.2.12.12.2 Zinc spray
+1.1.5.2.12.12.3 Amity clawzin
+1.1.5.2.12.12.4 Aries chelamia
+1.1.5.2.12.12.5 Chelekta-5
+1.1.6 Cropping systems
+1.1.6.1 Continuous cropping
+1.1.6.2 Crop rotation
+1.1.6.3 Double cropping
+1.1.6.4 Triple cropping
+1.1.6.5 Fallow system
+1.1.6.6 Intercropping
+1.1.6.6.1 Alley cropping
+1.1.6.6.1.1 Multistoried cropping
+1.1.6.6.1.1.1 Yield Advantage
+1.1.6.6.1.1.1.1 Land Equivalent Ratio (LER)
+1.1.6.6.1.1.1.2 Relative yield Total
+1.1.6.6.1.1.1.3 Relative Crowding Co- efficient
+1.1.6.6.1.1.1.4 Aggressivity
+1.1.6.6.1.1.1.5 Competation Index
+1.1.6.6.1.1.1.6 Competation Ratio
+1.1.6.6.1.1.2 Land use and productivity
+1.1.6.6.1.1.2.1 Cropping intensity
+1.1.6.6.1.1.2.2 Multiple cropping index
+1.1.6.6.1.1.2.3 Diversity Index
+1.1.6.6.1.1.2.4 Harvest Diversity Index
+1.1.6.6.1.1.2.5 Simultaneous cropping index
+1.1.6.6.1.1.2.6 Cultivated Land Utilization Index
+1.1.6.6.1.1.2.7 Cropping intensity index
+1.1.6.6.1.1.2.8 Specific Crop Intensity Index
+1.1.6.6.1.1.2.9 Relative Cropping Intensity Index
+1.1.6.7 Mixed cropping
+1.1.6.8 Multiple cropping
+1.1.6.9 Relay intercropping
+1.1.6.10 Strip intercropping
+1.1.6.11 Catch cropping
+1.1.6.12 Cropping patterns
+1.1.6.13 Monoculture
+1.1.6.14 Sequential cropping
+1.1.6.15 Shifting cultivation
+1.1.6.16 Sole cropping
+1.1.6.17 Terrace cropping
+1.1.6.18 Zed Cropping
+1.1.6.19 Utera Cropping
+1.1.7 Cropping index
+1.1.8 Efficient Cropping Zone
+1.1.8.1 Yield Index of a Crop
+1.1.8.2 Spread Index of Crop
+1.1.9 Farming systems
+1.1.9.1 Agropisciculture
+1.1.9.2 Collective farming
+1.1.9.3 Commercial farming
+1.1.9.4 Contract farming
+1.1.9.5 Cooperative farming
+1.1.9.6 Dry farming
+1.1.9.7 Extensive farming
+1.1.9.8 Intensive farming
+1.1.9.9 Irrigated farming
+1.1.9.10 Ley farming
+1.1.9.11 Mixed farming
+1.1.9.12 Rainfed farming
+1.1.9.13 Subsistence farming
+1.1.9.14 Traditional farming
+1.1.9.15 Large scale farming
+1.1.9.16 Natural farming
+1.1.9.17 Organic farming
+1.1.9.18 Small scale farming
+1.1.9.19 Alternative agriculture
+1.1.9.20 Sustainable farming
+1.1.9.21 Low Input farming
+1.1.9.22 Low input agriculture
+1.1.9.23 Arable farming
+1.1.9.24 Low External Input  Agriculture (LEIA)
+1.1.9.25 High External Input Agriculture (HEIA)
+1.1.9.26 Low External Input  Sustainable  Agriculture (LEISA)
+1.1.9.27 Homo Farming
+1.1.9.28 Precision agriculture
+1.1.9.29 Integarted Farming System
+1.1.10 Crop models
+1.1.11 Crop residue management
+1.1.12 Cropping sequence
+1.1.13 Harvesting
+1.1.13.1 Harvesting time
+1.1.13.1.1 Purpose of harvesting
+1.1.13.1.2 Harvesting Indices
+1.1.13.2 Harvesting period
+1.1.13.3 Harvest date
+1.1.13.4 Harvesting frequency
+1.1.13.5 Picking
+1.1.13.6 Digging
+1.1.13.7 Crop yield
+1.1.13.7.1 Grain yield
+1.1.13.7.2 Lint yield
+1.1.13.7.3 Seed yield
+1.1.13.7.4 Fruit yield
+1.1.13.7.5 Vegetable yield
+1.1.13.7.6 Flower yield
+1.1.13.7.7 Nut yield
+1.1.13.7.8 Straw yield
+1.1.13.7.9 Haulm yield
+1.1.13.7.10 Stalk yield
+1.1.13.7.11 Tuber yield
+1.1.13.7.12 Bulb yield
+1.1.13.7.13 Yield components
+1.1.13.7.13.1 Number of capsules per plant
+1.1.13.7.13.1.1 Harvest index
+1.1.13.7.13.2 No. of Seeds per capsule
+1.1.13.7.13.3 Capsule wt. per plant
+1.1.13.7.13.4 Test weight
+1.1.13.7.13.5 Number of ears  per plant
+1.1.13.7.13.6 Number of grains per year
+1.1.13.7.13.7 Wt. of  ear per plant
+1.1.13.7.13.8 Number of grains per ear
+1.1.13.7.13.9 Number of pods per plant
+1.1.13.7.13.10 Pod length
+1.1.13.7.13.11 Wt. of  pods per plant
+1.1.13.7.13.12 seeds yield per pod
+1.1.13.7.13.13 No. of siliqua per  plant
+1.1.13.7.13.14 Siliqua length
+1.1.13.7.13.15 No. of seeds per siliqua
+1.1.13.7.13.16 Wt. of seeds per siliqua
+1.1.13.7.13.17 No. of heads per plant
+1.1.13.7.13.18 Head wt. per plant
+1.1.13.7.13.19 No. of seeds  per head
+1.1.13.7.13.20 Wt. of seeds per head
+1.1.13.7.13.21 No. of millable canes per ha.
+1.1.13.7.13.22 Girth of cane
+1.1.13.7.13.23 Length of cane
+1.1.13.7.13.24 Leaf : stem ratio
+1.1.13.7.13.25 Green biomass yield
+1.1.13.7.13.26 No. of fruits per plant
+1.1.13.7.13.27 No. of nuts per plant
+1.1.13.7.13.28 No. of flowers per plant
+1.1.13.7.13.29 Av. fruit wt.
+1.1.13.7.13.30 Av. flower wt.
+1.1.13.7.13.31 Av. nut wt.
+1.1.13.7.13.32 Fruit wt. per plant
+1.1.13.7.13.33 Nut wt. per plant
+1.1.13.7.13.34 Flower wt. per plant
+1.1.14 Harvesting methods
+1.1.14.1 Manual harvesting
+1.1.14.2 Mechanical harvesting
+1.1.14.3 Picking
+1.1.14.4 Staking
+1.1.14.5 Digging
+1.1.14.6 Plucking
+1.1.14.7 Cutting
+1.1.15 Threshing
+1.1.15.1 Manual threshing
+1.1.15.2 Mechanical threshing
+1.1.16 Protected cultivation
+1.1.16.1 Greenhouse production
+1.1.16.1.1 Net house
+1.1.16.1.2 Poly house
+1.1.16.1.3 Glass house
+1.1.16.1.4 Lath house
+1.1.16.2 Plasticulture
+1.1.16.3 Moisure Conservation
+1.1.16.4 Mulching
+1.1.16.5 Antitranspirants
+1.1.17 Intercultural operations
+1.1.17.1 Training
+1.1.17.1.1 Central leader system
+1.1.17.1.2 Open leader system
+1.1.17.1.3 Modified leader system
+1.1.17.1.4 Pendal system
+1.1.17.1.5 Y System
+1.1.17.1.6 Modified Y System
+1.1.17.1.7 Kniffin System
+1.1.17.1.8 Thee surgery
+1.1.17.2 Pruning
+1.1.17.2.1 Heading back
+1.1.17.2.2 Thinning out
+1.1.17.2.3 Root pruning
+1.1.17.2.4 Fore pruning
+1.1.17.2.5 Back pruning
+1.1.17.2.6 October pruning
+1.1.17.2.7 April pruning
+1.1.17.3 Girdling
+1.1.17.4 Weeds
+1.1.17.4.1 Annual weeds
+1.1.17.4.2 Aquatic weeds
+1.1.17.4.3 Broad leaf weeds
+1.1.17.4.3.1 Amaranthus dubius
+1.1.17.4.3.1.1 Chinese spinach
+1.1.17.4.3.2 Abutilon theophrasti
+1.1.17.4.3.2.1 Velvet leaf
+1.1.17.4.3.3 Ageratum conyzoides
+1.1.17.4.3.3.1 Goatweed
+1.1.17.4.3.4 Alternanthera pungens
+1.1.17.4.3.4.1 Khaki weed
+1.1.17.4.3.5 Alysicarpus rugosus
+1.1.17.4.3.5.1 One-leaf clover
+1.1.17.4.3.6 Alysicarpus vaginalis
+1.1.17.4.3.6.1 Buffalo clover
+1.1.17.4.3.7 Amaranthus caudatus
+1.1.17.4.3.7.1 Love lies bleeding
+1.1.17.4.3.8 Amaranthus cruentus
+1.1.17.4.3.8.1 Blood amaranth
+1.1.17.4.3.9 Amaranthus spinosus
+1.1.17.4.3.9.1 Spiny amaranth
+1.1.17.4.3.10 Argemone mexicana
+1.1.17.4.3.10.1 Argemone mexicana
+1.1.17.4.3.11 Bidens pilosa
+1.1.17.4.3.11.1 Beggar-ticks
+1.1.17.4.3.12 Blumea balsamifera
+1.1.17.4.3.12.1 Bukadkad
+1.1.17.4.3.13 Calotropis gigantea
+1.1.17.4.3.13.1 Milkweeds
+1.1.17.4.3.14 Calotropis procera
+1.1.17.4.3.14.1 Apple of Sodom
+1.1.17.4.3.15 Cannabis sativa
+1.1.17.4.3.15.1 Marijuana
+1.1.17.4.3.16 Cassia alata
+1.1.17.4.3.16.1 Guajava
+1.1.17.4.3.17 Cassia angustifolia
+1.1.17.4.3.17.1 Senna
+1.1.17.4.3.18 Cassia auriculata
+1.1.17.4.3.18.1 Ranawara
+1.1.17.4.3.19 Cassia obtusifolia
+1.1.17.4.3.19.1 Foetid Sassia
+1.1.17.4.3.20 Cassia occidentalis
+1.1.17.4.3.20.1 Kasunda
+1.1.17.4.3.21 Cassia sturtii
+1.1.17.4.3.21.1 Princess Photinia
+1.1.17.4.3.22 Cassia tora
+1.1.17.4.3.22.1 Wild Senna
+1.1.17.4.3.23 Chenopodium album
+1.1.17.4.3.23.1 Pigweed
+1.1.17.4.3.24 Chenopodium ambrosioides
+1.1.17.4.3.24.1 Wormseed
+1.1.17.4.3.25 Chenopodium pallidicaule
+1.1.17.4.3.26 Chenopodium quinoa
+1.1.17.4.3.26.1 Bathua
+1.1.17.4.3.27 Cichorium endivia
+1.1.17.4.3.27.1 Garden Endivia
+1.1.17.4.3.28 Cichorium intybus
+1.1.17.4.3.28.1 Kasani, Hinduba
+1.1.17.4.3.29 Cirsium arvense
+1.1.17.4.3.29.1 Creeping thistle
+1.1.17.4.3.30 Clitoria ternatea
+1.1.17.4.3.30.1 Butterfly-pea
+1.1.17.4.3.31 Convolvulus arvensis
+1.1.17.4.3.31.1 Field Bindweed
+1.1.17.4.3.32 Croton tiglium
+1.1.17.4.3.32.1 Jamaal Gota
+1.1.17.4.3.33 Datura fastuosa
+1.1.17.4.3.33.1 Thorn Apple
+1.1.17.4.3.34 Datura metel
+1.1.17.4.3.35 Datura stramonium
+1.1.17.4.3.35.1 Jimson weed
+1.1.17.4.3.36 Desmodium canum
+1.1.17.4.3.36.1 Creeping beggarweed
+1.1.17.4.3.37 Desmodium discolor
+1.1.17.4.3.37.1 Tick clover
+1.1.17.4.3.38 Desmodium velutinum
+1.1.17.4.3.39 Eichhornia crassipes
+1.1.17.4.3.39.1 Water Hyacinth
+1.1.17.4.3.40 Ipomoea aquatica
+1.1.17.4.3.40.1 Water spinach
+1.1.17.4.3.41 Ipomoea eriocarpa
+1.1.17.4.3.41.1 Morning glory
+1.1.17.4.3.42 Ipomoea lacunosa
+1.1.17.4.3.42.1 Whitestar
+1.1.17.4.3.43 Lantana camara
+1.1.17.4.3.43.1 Largeleaf lantana
+1.1.17.4.3.44 Lathyrus ochrus
+1.1.17.4.3.44.1 Sweet peas
+1.1.17.4.3.45 Lathyrus sativus
+1.1.17.4.3.45.1 Grass pea
+1.1.17.4.3.46 Lathyrus sylvestris
+1.1.17.4.3.46.1 Flat pea
+1.1.17.4.3.47 Lathyrus tingitanus
+1.1.17.4.3.47.1 Tangier pea
+1.1.17.4.3.48 Melilotus alba
+1.1.17.4.3.48.1 White sweetclover
+1.1.17.4.3.49 Melilotus indica
+1.1.17.4.3.49.1 Sweet clover
+1.1.17.4.3.50 Melilotus officinalis
+1.1.17.4.3.50.1 Yellow sweetclover
+1.1.17.4.3.51 Mimosa pigra
+1.1.17.4.3.51.1 Mimosa
+1.1.17.4.3.52 Mimosa pudica
+1.1.17.4.3.52.1 Humble plant
+1.1.17.4.3.53 Mimosa scabrella
+1.1.17.4.3.54 Nicotiana plumbaginifolia
+1.1.17.4.3.55 Ocimum basilicum
+1.1.17.4.3.55.1 Basil
+1.1.17.4.3.56 Oxalis tuberosa
+1.1.17.4.3.56.1 Wood sorrels
+1.1.17.4.3.57 Parthenium argentatum
+1.1.17.4.3.57.1 Guayule
+1.1.17.4.3.58 Salvinia molesta
+1.1.17.4.3.58.1 Giant salvinia
+1.1.17.4.3.59 Solanum nigrum
+1.1.17.4.3.59.1 Black Nightshade
+1.1.17.4.3.60 Tribulus terrestris
+1.1.17.4.3.60.1 Gokharu
+1.1.17.4.3.61 Tridax procumbens
+1.1.17.4.3.61.1 Coat buttons
+1.1.17.4.3.62 Vicia articulata
+1.1.17.4.3.63 Vicia benghalensis
+1.1.17.4.3.63.1 Purple vetch
+1.1.17.4.3.64 Vicia cracca
+1.1.17.4.3.64.1 Vetch
+1.1.17.4.3.65 Vicia faba
+1.1.17.4.3.65.1 Broad bean
+1.1.17.4.3.66 Vicia hirsuta
+1.1.17.4.3.67 Vicia pannonica
+1.1.17.4.3.67.1 Hungarian vetch.
+1.1.17.4.3.68 Vicia sativa
+1.1.17.4.3.68.1 Common Vetch
+1.1.17.4.3.69 Withania somnifera
+1.1.17.4.3.69.1 Indian Ginseng
+1.1.17.4.4 Grassy leaf weeds
+1.1.17.4.4.1 Setaria sphacelata
+1.1.17.4.4.1.1 African bristlegrass
+1.1.17.4.4.2 Avena fatua
+1.1.17.4.4.2.1 Wild oat
+1.1.17.4.4.3 Avena sterilis
+1.1.17.4.4.3.1 Winter wild oat
+1.1.17.4.4.4 Brachiaria brizantha
+1.1.17.4.4.4.1 Bread grass
+1.1.17.4.4.5 Brachiaria decumbens
+1.1.17.4.4.5.1 Sheep grass
+1.1.17.4.4.6 Brachiaria dictyoneura
+1.1.17.4.4.6.1 Dictyoneura
+1.1.17.4.4.7 Brachiaria humidicola
+1.1.17.4.4.7.1 Signal grass
+1.1.17.4.4.8 Brachiaria mutica
+1.1.17.4.4.8.1 Signalgrass
+1.1.17.4.4.9 Brachiaria plantaginea
+1.1.17.4.4.9.1 Plantaginea
+1.1.17.4.4.10 Brachiaria ruziziensis
+1.1.17.4.4.11 Chloris gayana
+1.1.17.4.4.11.1 Fingergrass
+1.1.17.4.4.12 Cynodon aethiopicus
+1.1.17.4.4.12.1 African stargrass
+1.1.17.4.4.13 Cynodon dactylon
+1.1.17.4.4.13.1 Bermuda grass
+1.1.17.4.4.14 Cynodon gibbus
+1.1.17.4.4.14.1 Gibbus
+1.1.17.4.4.15 Cynodon nlemfuensis
+1.1.17.4.4.15.1 Giant star grass
+1.1.17.4.4.16 Digitaria adscendens
+1.1.17.4.4.16.1 Summer grass
+1.1.17.4.4.17 Digitaria ciliaris
+1.1.17.4.4.17.1 Tropical crabgrass
+1.1.17.4.4.18 Digitaria decumbens
+1.1.17.4.4.18.1 Pangola grass
+1.1.17.4.4.19 Digitaria eriantha
+1.1.17.4.4.19.1 Common finger grass
+1.1.17.4.4.20 Digitaria exilis
+1.1.17.4.4.20.1 hungry millet
+1.1.17.4.4.21 Digitaria sanguinalis
+1.1.17.4.4.21.1 Crabgrass
+1.1.17.4.4.22 Digitaria scalarum
+1.1.17.4.4.22.1 African couch grass
+1.1.17.4.4.23 Echinochloa colona
+1.1.17.4.4.23.1 Sawa
+1.1.17.4.4.24 Echinochloa crusgalli
+1.1.17.4.4.24.1 Cockspur
+1.1.17.4.4.25 Echinochloa frumentacea
+1.1.17.4.4.25.1 Japanese millet
+1.1.17.4.4.26 Echinochloa polystachya
+1.1.17.4.4.26.1 Barnyard grass
+1.1.17.4.4.27 Echinochloa pyramidalis
+1.1.17.4.4.27.1 Billion-dollar grasses
+1.1.17.4.4.28 Echinochloa turnerana
+1.1.17.4.4.29 Eleusine coracana
+1.1.17.4.4.29.1 Finger millet
+1.1.17.4.4.30 Eleusine indica
+1.1.17.4.4.30.1 Goose grass
+1.1.17.4.4.31 Euphorbia antisyphilitica
+1.1.17.4.4.31.1 Wax Plant
+1.1.17.4.4.32 Euphorbia characias
+1.1.17.4.4.33 Euphorbia esula
+1.1.17.4.4.33.1 Leafy spurge
+1.1.17.4.4.34 Euphorbia lathyris
+1.1.17.4.4.34.1 Gopher plant
+1.1.17.4.4.35 Euphorbia pulcherrima
+1.1.17.4.4.36 Heteropogon contortus
+1.1.17.4.4.36.1 Black spear grass
+1.1.17.4.4.37 Ischaemum indicum
+1.1.17.4.4.37.1 Indian Murainagrass
+1.1.17.4.4.38 Phalaris aquatica
+1.1.17.4.4.38.1 Harding grass
+1.1.17.4.4.39 Phalaris arundinacea
+1.1.17.4.4.39.1 Reed canarygrass
+1.1.17.4.4.40 Polygonum cognatum
+1.1.17.4.4.40.1 Knotgrass
+1.1.17.4.4.41 Saccharum spontaneum
+1.1.17.4.4.41.1 Kans grass
+1.1.17.4.4.42 Setaria italica
+1.1.17.4.4.42.1 Foxtail millet
+1.1.17.4.4.43 Sorghum halepense
+1.1.17.4.4.43.1 Johnson Grass
+1.1.17.4.5 Sedge weed
+1.1.17.4.5.1 Cyperus esculentus
+1.1.17.4.5.1.1 Tigernuts
+1.1.17.4.5.2 Cyperus papyrus
+1.1.17.4.5.2.1 Papyrus
+1.1.17.4.5.3 Cyperus rotundus
+1.1.17.4.5.3.1 Nut grass
+1.1.17.4.6 Perennial weeds
+1.1.17.4.7 Parasitic weeds
+1.1.17.4.7.1 Cuscuta salina
+1.1.17.4.7.2 Lathraea squamaria
+1.1.17.4.7.2.1 Loranthus
+1.1.17.4.7.3 Orobanche crenata
+1.1.17.4.7.4 Orobanche ramosa
+1.1.17.4.7.5 Striga asiatica
+1.1.17.4.7.6 Striga gesnerioides
+1.1.17.4.7.7 Striga hermonthica
+1.1.17.5 Weed control
+1.1.17.5.1 Preventive control
+1.1.17.5.2 Direct method of weed control
+1.1.17.5.3 Indirect method of weed control
+1.1.17.5.4 Integrated weed management
+1.1.17.5.5 Manual weed control
+1.1.17.5.6 Mechanical weed control
+1.1.17.5.7 Legal weed control
+1.1.17.5.8 Cultural weed control
+1.1.17.5.8.1 Beushening
+1.1.17.5.8.2 Controlled burning
+1.1.17.5.8.3 Hand weeding
+1.1.17.5.8.4 Slashing
+1.1.17.5.9 Biological weed control
+1.1.17.5.10 Chemical weed control
+1.1.17.5.10.1 Pre-planting weed conntrol
+1.1.17.5.10.2 Post-emergent weed control
+1.1.17.5.10.3 Pre-emergent weed control
+1.1.17.5.10.4 Herbicides
+1.1.17.5.10.4.1 2,4-D
+1.1.17.5.10.4.2 Alachlor
+1.1.17.5.10.4.3 Amitrole
+1.1.17.5.10.4.4 Barban
+1.1.17.5.10.4.5 Benzoic acid
+1.1.17.5.10.4.6 Chloramben 
+1.1.17.5.10.4.7 Dicamba  
+1.1.17.5.10.4.8 Bromoxynil
+1.1.17.5.10.4.9 Chlorpropham
+1.1.17.5.10.4.10 Dichlobenil 
+1.1.17.5.10.4.11 Dichloropropene
+1.1.17.5.10.4.12 Diquat
+1.1.17.5.10.4.13 Fluchloralin 
+1.1.17.5.10.4.14 Fosamine
+1.1.17.5.10.4.15 Glyphosate 
+1.1.17.5.10.4.16 Ioxynil
+1.1.17.5.10.4.17 Lenacil
+1.1.17.5.10.4.18 Linuron
+1.1.17.5.10.4.19 MCPB
+1.1.17.5.10.4.20 Monolinuron
+1.1.17.5.10.4.21 Naled
+1.1.17.5.10.4.22 Napropamide
+1.1.17.5.10.4.23 Neburon
+1.1.17.5.10.4.24 Nitralin
+1.1.17.5.10.4.25 Norflurazon
+1.1.17.5.10.4.26 Oryzalin
+1.1.17.5.10.4.27 Oxadiazon 
+1.1.17.5.10.4.28 Oxyfluorfen
+1.1.17.5.10.4.29 Paraquat 
+1.1.17.5.10.4.30 Pendimethalin
+1.1.17.5.10.4.31 Perfluidone
+1.1.17.5.10.4.32 Phenmedipham
+1.1.17.5.10.4.33 Picloram
+1.1.17.5.10.4.34 Procymidone
+1.1.17.5.10.4.35 Propachlor
+1.1.17.5.10.4.36 Propanil
+1.1.17.5.10.4.37 Sodium chloride
+1.1.17.5.10.4.38 TCA  
+1.1.17.5.10.4.39 Thiocarbamates
+1.1.17.5.10.4.40 Butylate 
+1.1.17.5.10.4.41 Thiobencarb
+1.1.17.5.10.4.42 Triazine
+1.1.17.5.10.4.43 Atrazine
+1.1.17.5.10.4.44 Triazines 
+1.1.17.5.10.4.45 Trifluralin
+1.1.17.5.10.4.46 Uracil
+1.1.17.5.10.4.47 Bromacil
+1.1.17.5.10.4.48 Terbacil 
+1.1.17.5.10.4.49 Isoproturon
+                                                                               
+                                                                               
+Crop Production
+
+
+0 1
+
+

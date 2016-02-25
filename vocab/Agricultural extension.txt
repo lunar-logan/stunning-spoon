@@ -1,0 +1,466 @@
+1 Agricultural extension
+1.1 Rural sociology
+1.1.1 Rural Society
+1.1.1.1 Family
+1.1.1.1.1 Joint family
+1.1.1.1.2 Nuclear family
+1.1.1.2 Group
+1.1.1.2.1 Formal group
+1.1.1.2.2 Informal group
+1.1.1.2.3 Involuntary group
+1.1.1.2.4 Voluntary group
+1.1.1.2.5 Primary group
+1.1.1.2.6 Secondary group
+1.1.1.2.7 Reference group
+1.1.1.2.8 Peer group
+1.1.1.3 Community
+1.1.1.3.1 Community service
+1.1.1.3.2 Community programs
+1.1.1.3.3 Leadership development
+1.1.1.3.4 Volunteerism
+1.1.1.3.4.1 Volunteer management
+1.1.1.3.4.1.1 Volunteer training
+1.1.1.3.5 Social process
+1.1.1.3.6 Social systems
+1.1.1.3.6.1 Social actions
+1.1.1.3.6.2 Social institutions
+1.1.1.3.6.2.1 Educational institutions
+1.1.1.3.6.2.2 Political institutions
+1.1.1.3.6.2.3 Economic institutions
+1.1.1.3.6.2.4 Religious institutions
+1.1.1.3.6.3 Social mobility
+1.1.1.3.6.3.1 Horizontal mobility
+1.1.1.3.6.3.2 Vertical mobility
+1.1.1.3.6.4 Social stratification
+1.1.1.3.6.4.1 Social strata
+1.1.1.3.6.4.2 Caste
+1.1.1.3.6.4.3 Race
+1.1.1.3.6.5 Social status
+1.1.1.3.6.6 Social change
+1.1.1.3.6.6.1 Social change process
+1.1.1.3.6.6.2 Social change factor
+1.1.1.3.6.6.3 Theories of social change
+1.1.1.3.6.7 Social protest
+1.1.1.3.6.7.1 Farmer's protest
+1.1.1.3.6.8 Social movements
+1.1.1.4 Culture
+1.1.1.4.1 Civilization
+1.1.1.4.2 Artifacts
+1.1.1.4.3 Mentifacts
+1.1.1.4.4 Sociofacts
+1.1.1.4.5 Ethics
+1.1.1.4.6 Rituals
+1.1.1.4.7 Customs
+1.1.1.4.8 Mores
+1.1.1.4.9 Taboos
+1.1.1.4.10 Folkways
+1.1.1.4.11 Folklores
+1.1.1.4.12 Material cultures
+1.1.1.4.13 Non-material cultures
+1.1.1.4.14 Implicit cultures
+1.1.1.4.15 Explicit cultures
+1.1.1.4.16 Symbols and language
+1.1.1.4.17 Ethos and Eidos
+1.1.1.4.18 Cultural Universals
+1.1.1.4.19 Cultural  specialities
+1.1.1.4.20 Cultural alternatives
+1.1.1.4.21 Ethnocentrism
+1.1.1.4.22 Cultural shock
+1.1.1.4.23 Cultural change
+1.1.1.4.24 Social structure
+1.1.1.4.25 Socialization
+1.1.1.4.25.1 Agents of socialization
+1.1.1.4.25.2 Resocialization
+1.1.1.4.25.3 Total institution
+1.1.1.4.26 Cultural theories
+1.1.1.4.26.1 Sigmund freud theory
+1.1.1.4.26.2 C H cooley theory
+1.1.1.4.26.3 Erik Erikson theory
+1.1.1.4.26.4 Jean Piget theory
+1.1.1.4.26.5 Erving Goffman theory
+1.1.1.4.27 Sanskritization
+1.1.1.4.28 Westernization
+1.1.1.4.29 Modernization
+1.1.1.5 Social problems
+1.1.1.5.1 Crime
+1.1.1.5.2 Family problems
+1.1.1.5.3 Family violence
+1.1.1.5.4 Rural poverty
+1.1.1.5.5 Social barriers
+1.1.1.5.6 Social adjustment
+1.1.1.5.7 Rural urban migration
+1.1.1.5.8 Social change
+1.1.1.5.9 Problem control
+1.1.1.5.10 Social environment
+1.1.1.5.11 Human population
+1.1.1.5.11.1 Rural population
+1.1.1.5.11.2 Urban population
+1.1.1.6 Social services
+1.1.1.6.1 Health services
+1.1.1.6.1.1 Health care costs
+1.1.1.6.1.2 Rural health care
+1.1.1.6.1.3 Rural health clinics
+1.1.1.6.2 Social welfare
+1.1.1.6.2.1 Child welfare
+1.1.1.6.2.2 Social welfare programs
+1.1.1.6.2.3 Woman welfare programs
+1.1.1.7 Rural communities
+1.1.1.8 Rural infrastructure
+1.1.1.8.1 Rural hospitals
+1.1.1.8.2 Rural housing
+1.1.1.8.3 Rural transportation
+1.1.1.8.4 Rural electrification
+1.1.2 Human behavior
+1.1.2.1 Emotional barriers
+1.1.2.2 Risk behavior
+1.1.2.3 Abnormal behavior
+1.1.2.4 Agonistic behavior
+1.1.2.5 Antisocial behavior
+1.1.2.6 Behavior change
+1.1.2.7 Behavior problems
+1.1.2.8 Economic behavior
+1.1.2.8.1 Consumer acceptance
+1.1.2.8.2 Consumer attitudes
+1.1.2.8.3 Consumer preferences
+1.1.2.8.4 Consumer satisfaction
+1.1.3 Demography
+1.1.3.1 Demographic statistics
+1.1.3.2 Sociodemographic characteristics
+1.1.3.3 Socioeconomic status
+1.1.3.4 Human development
+1.1.3.4.1 Counseling
+1.1.3.4.1.1 Family counseling
+1.1.3.4.1.2 Marriage counseling
+1.1.3.4.2 Personal development
+1.1.3.4.2.1 Career choice
+1.1.3.4.2.2 Career development
+1.1.3.4.2.3 Career planning
+1.1.3.4.2.4 Life skills
+1.1.3.4.2.4.1 Stress management
+1.1.3.4.2.4.2 Time management
+1.2 Communications
+1.2.1 Communication skills
+1.2.1.1 Public speaking
+1.2.1.2 Writing skills
+1.2.2 Communication functions
+1.2.2.1 Information function
+1.2.2.2 Instructive function
+1.2.2.3 Persuasive function
+1.2.2.4 Intergrative function
+1.2.3 Communication elements
+1.2.4 Communication levels
+1.2.5 Communication models
+1.2.5.1 Aristotle model
+1.2.5.2 Shannon and Weaver model
+1.2.5.3 Berlo's model
+1.2.5.4 Schramm model
+1.2.5.5 Rogers and shoemaker model
+1.2.6 Communication theories
+1.2.6.1 Greek theory
+1.2.6.2 Lasswell's theory
+1.2.6.3 S-R theory
+1.2.7 Communication gap
+1.2.8 Communication effectiveness
+1.2.9 Nonverbal communication
+1.2.10 Verbal communication
+1.2.11 Information technology
+1.2.11.1 Information transparency
+1.2.11.2 Misinformation
+1.2.11.3 Information management
+1.2.11.3.1 Information dissemination
+1.2.11.3.2 Information exchange
+1.2.11.3.3 Information retrieval
+1.2.11.4 Information source
+1.2.11.4.1 Information service
+1.2.11.4.2 Library
+1.2.11.4.2.1 Digital library
+1.2.11.4.3 Publication
+1.2.11.4.3.1 Bibliography
+1.2.11.4.3.2 Biography
+1.2.11.4.3.3 Internet resource
+1.2.11.4.3.4 Journal
+1.2.11.4.3.5 Literature review
+1.2.11.4.3.5.1 Systematic review
+1.2.11.4.3.6 Nonprint material
+1.2.11.4.3.6.1 Digital image
+1.2.11.4.3.7 Printed material
+1.2.11.4.3.8 Thesaurus
+1.2.11.5 Information Communication Technologies (ICTs)
+1.2.11.5.1 Telecommunications
+1.2.11.5.1.1 Telemetry
+1.2.11.5.1.2 Mobile devicesvKVK
+1.2.11.5.1.3 Tablet devices
+1.2.11.5.1.4 Phablet devices
+1.2.11.5.1.5 Satellites
+1.2.11.5.1.6 Wireless technology
+1.2.11.5.2 Cyber extension
+1.2.11.5.2.1 agropedia
+1.2.11.5.2.2 e-krishi
+1.2.11.5.2.3 Farmers portal
+1.2.11.5.2.4 Ikisan portal
+1.2.11.5.2.5 Digital mandi
+1.2.11.6 Agriculture knowledge management system
+1.2.11.6.1 Knowledge models
+1.3 Education
+1.3.1 Extension education
+1.3.1.1 Extension programs
+1.3.2 Adult education
+1.3.2.1 Parent education
+1.3.3 Agricultural education
+1.3.4 Career education
+1.3.5 Dyadic education
+1.3.6 Distance education
+1.3.6.1 Online courses
+1.3.7 Early childhood education
+1.3.8 Environmental education
+1.3.9 Formal education
+1.3.9.1 Pre-school education
+1.3.9.2 Primary school education
+1.3.9.3 Secondary education
+1.3.9.4 Higher education
+1.3.10 Informal education
+1.3.11 Nonformal education
+1.3.12 Higher education
+1.3.13 Educational  programs
+1.3.14 Educational institutions
+1.3.14.1 Agricultural colleges
+1.3.14.2 General universities
+1.3.14.3 State agriculture universities
+1.3.14.4 Deemed universities
+1.3.14.5 Diploma colleges
+1.3.14.6 Schools
+1.3.14.7 Night schools
+1.3.14.8 Farmer Field School (FFS)
+1.3.15 Communication aids
+1.3.15.1 Audio aids
+1.3.15.1.1 Audio cassette player
+1.3.15.1.2 Public address system
+1.3.15.1.3 Magnetic tape
+1.3.15.1.4 Radio
+1.3.15.1.5 Mobile conferrencing
+1.3.15.2 Visual aids
+1.3.15.2.1 Poster
+1.3.15.2.2 Chart
+1.3.15.2.3 Flannel graph
+1.3.15.2.4 Graph
+1.3.15.2.5 Flash cards
+1.3.15.2.6 Puppet
+1.3.15.2.7 Slide
+1.3.15.2.8 Film strip
+1.3.15.2.9 Bulletin board
+1.3.15.2.10 Photograph
+1.3.15.2.11 Chalk board
+1.3.15.3 Audiovisual aids
+1.3.15.3.1 Compact disc players
+1.3.15.3.2 Compact discs
+1.3.15.3.3 Televisions
+1.3.15.4 New communication technologies
+1.3.15.4.1 Micro-computers
+1.3.15.4.2 Video text
+1.3.15.4.3 Electronic mail
+1.3.15.4.4 Interactive video
+1.3.15.4.5 Teleconferencing
+1.3.15.4.5.1 Audio teleconferencing
+1.3.15.4.5.2 Video conferencing
+1.3.16 Educational status
+1.3.16.1 Academic degrees
+1.3.16.2 Certification (education)
+1.3.16.3 Computer literacy
+1.3.16.4 Literacy
+1.3.16.4.1 Adult literacy
+1.3.16.5 Proficiency level
+1.3.17 Education process
+1.3.17.1 Teaching
+1.3.17.1.1 Teaching process
+1.3.17.1.1.1 Interactive process
+1.3.17.1.1.2 Social process
+1.3.17.1.1.3 Professional process
+1.3.17.1.1.4 Purposive process
+1.3.17.1.1.5 Progressive process
+1.3.17.1.1.6 Direct contact process
+1.3.17.1.1.7 Remedial process
+1.3.17.1.1.8 Logical process
+1.3.17.1.1.9 Evaluation process
+1.3.17.1.1.10 Reform process
+1.3.17.1.1.11 Development process
+1.3.17.1.1.12 Continuous process
+1.3.17.1.1.13 Tripartite process
+1.3.17.1.1.14 Directional process
+1.3.17.1.2 Teaching criteria
+1.3.17.1.2.1 Effective communication
+1.3.17.1.2.2 Learning situation
+1.3.17.1.2.3 Teaching objectives
+1.3.17.1.3 Teaching environment
+1.3.17.1.4 Teaching elements
+1.3.17.1.4.1 Teacher
+1.3.17.1.4.2 Student
+1.3.17.1.4.3 Subject matter
+1.3.17.1.4.4 Teaching techniques
+1.3.17.1.5 Teaching steps
+1.3.17.1.5.1 Pre-active step
+1.3.17.1.5.1.1 Objectives fromulation
+1.3.17.1.5.1.2 Subject-matter selection
+1.3.17.1.5.1.3 Teaching strategies
+1.3.17.1.5.2 Interactive step
+1.3.17.1.5.2.1 Group size
+1.3.17.1.5.2.2 Learner diagnosis
+1.3.17.1.5.3 Postactive step
+1.3.17.1.5.3.1 Behavioural  change
+1.3.17.1.5.3.2 Technique selection
+1.3.17.2 Learning
+1.3.17.2.1 Learning situation
+1.3.17.2.1.1 Learner
+1.3.17.2.1.1.1 Learner's capability
+1.3.17.2.1.1.2 Learner's interest
+1.3.17.2.1.1.3 Learner's need
+1.3.17.2.1.1.4 Learner's readiness
+1.3.17.2.1.2 Teacher
+1.3.17.2.1.2.1 Subject matter
+1.3.17.2.1.2.2 Teaching material
+1.3.17.2.1.2.3 Physical facility
+1.3.17.2.1.2.4 Teaching skill
+1.3.17.2.2 Learning process
+1.3.17.2.2.1 Motivation
+1.3.17.2.2.2 Stimulus
+1.3.17.2.2.3 Response
+1.3.17.2.2.4 Reinforcement
+1.3.17.2.2.5 Feedback
+1.3.17.2.2.6 Participation
+1.3.17.2.2.7 Knowledge application
+1.3.17.2.2.8 Perception
+1.3.17.2.3 Learning type
+1.3.17.2.3.1 Trial and error method
+1.3.17.2.3.2 Insight method
+1.3.17.2.3.3 Observation method
+1.3.17.2.3.4 Imitation method
+1.3.17.2.4 Learning principles
+1.3.17.2.5 Learning theories
+1.4 Programme planning
+1.4.1 Facts collection
+1.4.2 Analysis of situation
+1.4.3 Problem identification
+1.4.4 Development of plan
+1.4.5 Execution of plan
+1.4.6 Evaluation of plan
+1.5 Extension methods
+1.5.1 Individual approach
+1.5.1.1 Farm visit
+1.5.1.2 Home visit
+1.5.1.3 Result demonstration
+1.5.1.4 Farmer's call
+1.5.1.5 Telephonic approach
+1.5.1.6 Individual letter
+1.5.1.7 Observation plot
+1.5.1.8 Minikit trial
+1.5.2 Group approach
+1.5.2.1 Method demonstration
+1.5.2.2 Study tour
+1.5.2.3 Lecture
+1.5.2.4 Group discussion
+1.5.2.5 Agricultural games
+1.5.2.6 Agricultural clinic
+1.5.2.7 Group meeting
+1.5.3 Mass approach
+1.5.3.1 Farm publication
+1.5.3.1.1 Leaflet
+1.5.3.1.2 Folder
+1.5.3.1.3 Bulletin
+1.5.3.1.4 News letter
+1.5.3.1.5 Magazine
+1.5.3.1.6 Circulars
+1.5.3.2 Campaign
+1.5.3.3 Exhibition
+1.5.3.3.1 Agricultural exhibition
+1.5.3.3.1.1 Horticultural exhibition
+1.5.3.3.1.2 Livestock exhibition
+1.5.3.3.1.3 Livestock judging
+1.5.3.3.2 Trade shows
+1.5.3.4 Motion pictures
+1.5.3.5 Peripatetic team visit
+1.6 Extension programmes
+1.6.1 Pre-Independence era
+1.6.1.1 Rural reconstruction movement
+1.6.1.2 Ideal village project
+1.6.1.3 Shree Niketan Project
+1.6.1.4 Gurgaon Project
+1.6.1.5 Seva Gram Project
+1.6.1.6 Marthendom Project
+1.6.1.7 Baroda Village Reconstruction Project
+1.6.1.8 Grow More food Compaign
+1.6.1.9 India Village Service
+1.6.1.10 Firka Vikas Yojana
+1.6.2 Post-Independence era
+1.6.2.1 Etawah Pilot Project
+1.6.2.2 Community Development project
+1.6.2.3 Nelokheri  Project
+1.6.2.4 National Extension Service
+1.6.2.5 Intensive Agriculture Distt Programme
+1.6.2.6 Command Area Development Programme
+1.6.2.7 Small Farmer Development Agency
+1.6.2.8 Marginal farmer and agriculture labour
+1.6.2.9 Intensive Agriculture area  Programme
+1.6.2.10 High yielding variety programme
+1.6.2.11 Drought Prone Area Programme
+1.6.2.12 Tribal Development and Hill Area development Programme
+1.6.2.13 Khrishi Vigyan kendra
+1.6.2.14 Desert Development programme
+1.6.2.15 National Rural Employment programme
+1.6.2.16 Minimum Need programme
+1.6.2.17 Training and Visit programme
+1.6.2.18 Lab to Land programme
+1.6.2.19 Operational Research project
+1.6.2.20 Training Rural Youth for self Employment
+1.6.2.21 Integrated Rural Development programme
+1.6.2.22 Rural Landless Employment Guarantee programme
+1.6.2.23 Transfer of Technology programme
+1.6.2.24 National Agriculture Research Programme
+1.6.2.25 Million Well project
+1.6.2.26 Jawahar Rozgar Yojana
+1.6.2.27 Local Area Development project of member Parliament
+1.6.2.28 National  Watershed Development project
+1.6.2.29 Distance Learning programme
+1.6.2.30 Watershed development programme
+1.6.2.31 National agril Technological project
+1.6.2.32 Jawahar Gram Swarojgar Yojana
+1.6.2.33 Agri-clinic Yojana
+1.6.2.34 Sampoorana Gramin Rozgar Yojana
+1.6.3 Community Development & National Extension era
+1.6.3.1 Panchayati Raj System
+1.6.4 Intensive Agricultural Development era
+1.6.4.1 District programmes
+1.6.5 National agricultural technology project
+1.6.6 National Agricultural Innovation Project
+1.6.7 National agricultural education project
+1.7 Agricultural organizations
+1.7.1 International organizations
+1.7.1.1 Nature conservancy
+1.7.1.2 United nations
+1.7.1.2.1 Food and agriculture organization
+1.7.1.2.2 World health organization
+1.7.2 Multinational corporations
+1.7.3 Nongovernmental organizations
+1.7.4 Research institutions
+1.7.5 Extension organizations
+1.7.5.1 ATMA
+1.7.5.2 ATIC
+1.7.5.3 KVK
+1.7.5.4 Village knowledge center
+1.7.5.5 NGO
+1.7.6 Trade associations
+1.8 Training
+1.8.1 Training need assessment
+1.8.2 Training objectives
+1.8.3 Training process
+1.8.4 Training types
+1.8.4.1 Pre-service training
+1.8.4.2 In-service training
+1.8.4.3 Refresher training
+1.8.4.4 Foundation training
+1.8.5 Training evaluation
+1.8.5.1 Fish bowl method
+3. Agricultural extension
+
+
+01
+
+
