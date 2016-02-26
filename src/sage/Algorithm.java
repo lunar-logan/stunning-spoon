@@ -1,9 +1,10 @@
 package sage;
 
+import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
-import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.trees.TypedDependency;
-import sage.util.Triple;
+import sage.spi.Triplet;
+import sage.util.SPOTriplet;
 
 import java.util.*;
 
@@ -12,11 +13,13 @@ import java.util.*;
  */
 public class Algorithm {
     private final Collection<TypedDependency> dependencies;
-    private ArrayList<Triple<String, String, String>> triples = new ArrayList<>();
+    private final List<HasWord> origSent;
+    private ArrayList<Triplet> triples = new ArrayList<>();
 
-    public Algorithm(Collection<TypedDependency> dependencies) {
+    public Algorithm(Collection<TypedDependency> dependencies, List<HasWord> origSent) {
         Objects.requireNonNull(dependencies);
         this.dependencies = dependencies;
+        this.origSent = origSent;
         System.out.println(dependencies);
         process();
     }
@@ -150,12 +153,11 @@ public class Algorithm {
         Collections.sort(predicatePhrase);
         Collections.sort(objectPhrase);
 
-        String sub = Sentence.listToString(subjectPhrase);
-        String pre = Sentence.listToString(predicatePhrase);
-        String obj = Sentence.listToString(objectPhrase);
+        triples.add(new SPOTriplet(origSent, subjectPhrase, predicatePhrase, objectPhrase));
 
-        triples.add(new Triple<>(sub, pre, obj));
-
+//        String sub = Sentence.listToString(subjectPhrase);
+//        String pre = Sentence.listToString(predicatePhrase);
+//        String obj = Sentence.listToString(objectPhrase);
     }
 
     private ArrayList<IndexedWord> findAttributes(IndexedWord word) {
@@ -195,7 +197,7 @@ public class Algorithm {
         return attrs;
     }
 
-    public ArrayList<Triple<String, String, String>> getTriples() {
+    public ArrayList<Triplet> getTriples() {
         return triples;
     }
 }

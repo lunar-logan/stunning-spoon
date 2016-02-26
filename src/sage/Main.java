@@ -1,20 +1,22 @@
 package sage;
 
 import edu.stanford.nlp.ling.HasWord;
-import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.process.DocumentPreprocessor;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
+import sage.util.TripletDumper;
 import sage.util.Util;
 import sage.util.Values;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.StringReader;
-import java.nio.file.Path;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.List;
 
@@ -22,42 +24,57 @@ import java.util.List;
  * Created by Anurag Gautam on 20-02-2016.
  */
 public class Main {
+    private static Vocabulary vocab;
+
     public static void main(String[] args) throws FileNotFoundException {
         Values.loadValues();
-        Vocabulary vocab = Vocabulary.getInstance(); // load the vocabulary
+        vocab = Vocabulary.getInstance(); // load the vocabulary
 
-//        MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
-//        DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
-//
-//        parseFile(tagger, dependencyParser, Values.getTestDirPath().resolve(Paths.get("test0.txt")));
+        MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
+        DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
+
+        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
 
     }
 
-    private static void parseFile(MaxentTagger tagger, DependencyParser dependencyParser, Path testFilePath) throws FileNotFoundException {
-        String text = Util.read(testFilePath);
+    private static String getText(String path) {
+        String text = null;
+        if (path.startsWith("http") || path.startsWith("ftp")) {
+            try {
+                URI uri = new URI(path);
+                text = Util.read(uri);
+            } catch (URISyntaxException e) {
+                e.printStackTrace();
+            }
+        } else {
+            text = Util.read(Values.getTestDirPath().resolve(Paths.get(path)));
+        }
+        return text;
+    }
 
+    private static void parseFile(MaxentTagger tagger, DependencyParser dependencyParser, String testFilePath) throws FileNotFoundException {
+        String text = getText(testFilePath);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("test.out.tsv");
-        pw.println("Sentence\tSubject\tPredicate\tObject");
-        pw.flush();
+        PrintWriter pw = new PrintWriter("test4out.html");
+//        pw.println("Sentence,Subject,Predicate,Object");
+//        pw.flush();
+
+        TripletDumper tripletDumper = new TripletDumper();
 
         for (List<HasWord> sentence : tokenizer) {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
             GrammaticalStructure gs = dependencyParser.predict(taggedSentence);
             Collection<TypedDependency> dependencies = gs.typedDependencies();
-            Algorithm algo = new Algorithm(dependencies);
-            algo.getTriples().forEach(triple -> {
-                String tripleDump = String.format("%s\t%s\t%s\t%s",
-                        Sentence.listToString(sentence),
-                        triple.first,
-                        triple.second,
-                        triple.third
-                );
-                pw.println(tripleDump);
-                pw.flush();
-            });
+            Algorithm algo = new Algorithm(dependencies, sentence);
+
+            tripletDumper.add(
+                    algo.getTriples()
+                            .stream()
+                            .filter(VocabFilter.getInstance(vocab))
+            );
         }
+        pw.println(tripletDumper.getHTML());
         pw.close();
     }
 }

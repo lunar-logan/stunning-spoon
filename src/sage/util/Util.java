@@ -2,13 +2,18 @@ package sage.util;
 
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.io.*;
+import java.net.URI;
 import java.nio.file.Path;
 import java.util.Objects;
 import java.util.StringJoiner;
 import java.util.function.Function;
+import java.util.logging.LogRecord;
 import java.util.logging.Logger;
+import java.util.logging.StreamHandler;
 import java.util.stream.Stream;
 
 /**
@@ -16,6 +21,23 @@ import java.util.stream.Stream;
  */
 public class Util {
     private static final Logger logger = Logger.getLogger(Util.class.getName());
+
+    static {
+        logger.setUseParentHandlers(false);
+        logger.addHandler(new StreamHandler() {
+
+            @Override
+            public void publish(LogRecord logRecord) {
+                System.out.printf("%s/%s#%s: %s\n",
+                        logRecord.getLevel(),
+                        logRecord.getSourceClassName(),
+                        logRecord.getSourceMethodName(),
+                        logRecord.getMessage()
+                );
+            }
+        });
+    }
+
     private static final int BUFFER_SIZE = 2048; // In bytes
 
     public static IndexedWord newIndexWord(String word, int wordIndex) {
@@ -110,5 +132,17 @@ public class Util {
         }
 
         return text.toString();
+    }
+
+    public static String read(URI uri) {
+        String text = null;
+        try {
+            logger.info("Reading " + uri);
+            Document doc = Jsoup.connect(uri.toString()).get();
+            text = doc.text();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return text;
     }
 }

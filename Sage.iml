@@ -10,5 +10,6 @@
     <orderEntry type="library" name="stanford-parser-3.5.2-javadoc" level="project" />
     <orderEntry type="library" name="stanford-postagger-3.5.1-javadoc" level="project" />
     <orderEntry type="library" name="org.jsoup:jsoup:1.8.3" level="project" />
+    <orderEntry type="library" name="com.j2html:j2html:0.7" level="project" />
   </component>
 </module>

@@ -1,0 +1,26 @@
+.triple {
+    border: solid 1px #949494;
+    /*padding: 8px;*/
+    margin-bottom: 32px;
+    overflow: auto;
+}
+
+.sentence {
+    background: #e3e3e3;
+    padding: 8px;
+}
+
+.subject {
+    /*background: #d4ffb0;*/
+    padding: 8px;
+}
+
+.predicate {
+    /*background: #ffe3ba;*/
+    padding: 8px;
+}
+
+.object {
+    /*background: #c2f5ff;*/
+    padding: 8px;
+}
