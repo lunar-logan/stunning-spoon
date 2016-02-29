@@ -50,12 +50,12 @@
       <file leaf-file-name="Algorithm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sage/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40983605">
-              <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.37704918">
+              <caret line="180" column="66" selection-start-line="180" selection-start-column="66" selection-end-line="180" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8487#8488#0" expanded="true" />
-                <element signature="e#8517#8518#0" expanded="true" />
+                <element signature="e#8554#8555#0" expanded="true" />
+                <element signature="e#8584#8585#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -704,12 +704,12 @@
       <workItem from="1456224236524" duration="7189000" />
       <workItem from="1456248412863" duration="23344000" />
       <workItem from="1456402559312" duration="11440000" />
-      <workItem from="1456664986764" duration="9019000" />
+      <workItem from="1456664986764" duration="10309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92774000" />
+    <option name="totallyTimeSpent" value="94064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1230,12 +1230,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sage/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40983605">
-          <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.37704918">
+          <caret line="180" column="66" selection-start-line="180" selection-start-column="66" selection-end-line="180" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8487#8488#0" expanded="true" />
-            <element signature="e#8517#8518#0" expanded="true" />
+            <element signature="e#8554#8555#0" expanded="true" />
+            <element signature="e#8584#8585#0" expanded="true" />
           </folding>
         </state>
       </provider>
