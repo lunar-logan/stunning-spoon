@@ -21,7 +21,8 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * TODO: Attributes: +mark|+acl, Predicate: +advcl
+ * TODO: Add named entity recognition (NER)
+ * TODO: Anaphora resolution
  * Created by Anurag Gautam on 20-02-2016.
  */
 public class Main {

@@ -178,6 +178,7 @@ public class Algorithm {
                         || relationName.equalsIgnoreCase("nummod")
                         || relationName.equalsIgnoreCase("dep")
                         || relationName.equalsIgnoreCase("mark")
+                        || relationName.equalsIgnoreCase("det")
                         || relationName.startsWith("acl")) {
                     attrs.add(td.dep());
                     ArrayList<IndexedWord> attributes = findAttributes(td.dep());
