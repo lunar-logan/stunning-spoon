@@ -25,7 +25,9 @@ public class Algorithm {
     }
 
     public void process() {
-        // Look for nsubj with gov as verbs
+
+        // Look for nsubj or nsubjpass with governor as verb
+        // TODO: why not combine the two if else into one if?
         for (TypedDependency td : dependencies) {
             String reln = td.reln().getShortName();
             if (reln.equalsIgnoreCase("nsubj")) {
@@ -36,8 +38,13 @@ public class Algorithm {
         }
     }
 
+    /**
+     * Handles nsubj and nsubjpass dependencies
+     *
+     * @param dependency
+     */
     private void handleNominalSubject(TypedDependency dependency) {
-        if (dependency.gov().tag().startsWith("VB")) {
+        if (dependency.gov().tag().startsWith("VB")) {                      // If gov is a verb, which is our predicate
             ArrayList<IndexedWord> obj = findObject(dependency.gov());
             if (obj != null && !obj.isEmpty()) {
                 addTriple(
@@ -45,31 +52,16 @@ public class Algorithm {
                         Arrays.asList(dependency.gov()),
                         obj
                 );
-                /*
-                triples.add(new Triple<>(
-                                dependency.dep().word(),
-                                dependency.gov().word(),
-                                Sentence.listToString(obj)
-                        )
-                );*/
             }
-        } else { // look for copular relation
+        } else {                                                            // If gov not a VB then look for copular relation
             for (TypedDependency td : dependencies) {
-                String shortName = td.reln().getShortName();
                 if (td.gov().equals(dependency.gov())) {
-                    if (shortName.equalsIgnoreCase("cop")) {
+                    if (td.reln().getShortName().equalsIgnoreCase("cop")) {
                         addTriple(
                                 Arrays.asList(dependency.dep()),
                                 Arrays.asList(td.dep()),
                                 Arrays.asList(td.gov())
                         );
-                        /*triples.add(
-                                new Triple<>(
-                                        dependency.dep().word(),
-                                        td.dep().word(),
-                                        td.gov().word()
-                                )
-                        );*/
                         break;
                     }
                 }
@@ -78,15 +70,36 @@ public class Algorithm {
         handleConjunct(dependency.dep(), dependency.gov());
     }
 
+    /**
+     * Find and returns the auxiliary of a verb. See <b>aux</b> universal dependency
+     * for more information.
+     *
+     * @param verb
+     * @return
+     */
+    private IndexedWord getPredicateAttributes(IndexedWord verb) {
+        IndexedWord aux = null;
+        for (TypedDependency dependency : dependencies) {
+            if (dependency.gov().equals(verb)) {
+                if (dependency.reln().getShortName().startsWith("aux")
+                        || dependency.reln().getShortName().startsWith("advcl")) {
+                    aux = dependency.dep();
+                }
+            }
+        }
+        return aux;
+    }
+
     private ArrayList<IndexedWord> findObject(IndexedWord predicate) {
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
 
         for (TypedDependency td : dependencies) {
-            String reln = td.reln().getShortName();
             if (td.gov().equals(predicate)) {
-                if (reln.equalsIgnoreCase("dobj") || reln.equalsIgnoreCase("iobj") || reln.equalsIgnoreCase("ccomp")) {
+                String reln = td.reln().getShortName();
+                if (reln.equalsIgnoreCase("dobj") || reln.equalsIgnoreCase("iobj")/* || reln.equalsIgnoreCase("ccomp")*/) {
                     objectPhrase.add(td.dep());
-                } else if (reln.equalsIgnoreCase("nmod")) {
+                    break;
+                }/* else if (reln.equalsIgnoreCase("nmod")) {
                     objectPhrase.add(td.dep());
 
                     // Look for the case relations
@@ -98,10 +111,10 @@ public class Algorithm {
                             }
                         }
                     }
-                }
+                }*/
             }
         }
-        Collections.sort(objectPhrase);
+//        Collections.sort(objectPhrase);
         return objectPhrase;
     }
 
@@ -118,14 +131,6 @@ public class Algorithm {
                                 Arrays.asList(pred),
                                 obj
                         );
-                        /*
-                        triples.add(
-                                new Triple<>(
-                                        subj.word(),
-                                        pred.word(),
-                                        Sentence.listToString(obj)
-                                )
-                        );*/
                     }
                 }
             }
@@ -142,7 +147,13 @@ public class Algorithm {
             subjectPhrase.addAll(findAttributes(sub));
         });
 
-        predicate.forEach(predicatePhrase::add);
+        predicate.forEach(pre -> {
+            predicatePhrase.add(pre);
+            IndexedWord auxiliary = getPredicateAttributes(pre);
+            if (auxiliary != null) {
+                predicatePhrase.add(auxiliary);
+            }
+        });
 
         object.forEach(obj -> {
             objectPhrase.add(obj);
@@ -154,10 +165,6 @@ public class Algorithm {
         Collections.sort(objectPhrase);
 
         triples.add(new SPOTriplet(origSent, subjectPhrase, predicatePhrase, objectPhrase));
-
-//        String sub = Sentence.listToString(subjectPhrase);
-//        String pre = Sentence.listToString(predicatePhrase);
-//        String obj = Sentence.listToString(objectPhrase);
     }
 
     private ArrayList<IndexedWord> findAttributes(IndexedWord word) {
@@ -169,7 +176,9 @@ public class Algorithm {
                         || relationName.equalsIgnoreCase("neg")
                         || relationName.equalsIgnoreCase("compound")
                         || relationName.equalsIgnoreCase("nummod")
-                        || relationName.equalsIgnoreCase("dep")) {
+                        || relationName.equalsIgnoreCase("dep")
+                        || relationName.equalsIgnoreCase("mark")
+                        || relationName.startsWith("acl")) {
                     attrs.add(td.dep());
                     ArrayList<IndexedWord> attributes = findAttributes(td.dep());
                     if (!attributes.isEmpty()) {

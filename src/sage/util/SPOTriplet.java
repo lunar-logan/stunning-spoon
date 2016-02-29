@@ -62,4 +62,19 @@ public class SPOTriplet implements Triplet {
     public List<HasWord> getOriginalSentence() {
         return sen;
     }
+
+    @Override
+    public boolean hasSubject() {
+        return sub != null && !sub.isEmpty();
+    }
+
+    @Override
+    public boolean hasObject() {
+        return obj != null && !obj.isEmpty();
+    }
+
+    @Override
+    public boolean hasPredicate() {
+        return pre != null && !pre.isEmpty();
+    }
 }

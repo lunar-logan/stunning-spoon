@@ -21,6 +21,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
+ * TODO: Attributes: +mark|+acl, Predicate: +advcl
  * Created by Anurag Gautam on 20-02-2016.
  */
 public class Main {
@@ -56,7 +57,7 @@ public class Main {
         String text = getText(testFilePath);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("test4out.html");
+        PrintWriter pw = new PrintWriter("test3out.html");
 //        pw.println("Sentence,Subject,Predicate,Object");
 //        pw.flush();
 
@@ -71,6 +72,7 @@ public class Main {
             tripletDumper.add(
                     algo.getTriples()
                             .stream()
+                            .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
                             .filter(VocabFilter.getInstance(vocab))
             );
         }

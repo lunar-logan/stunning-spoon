@@ -17,5 +17,11 @@ public interface Triplet {
 
     List<? extends HasWord> getOriginalSentence();
 
+    boolean hasSubject();
+
+    boolean hasObject();
+
+    boolean hasPredicate();
+
     String getAsCSV();
 }
