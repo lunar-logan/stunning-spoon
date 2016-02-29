@@ -184,6 +184,14 @@ public class Algorithm {
                     if (!attributes.isEmpty()) {
                         attrs.addAll(attributes);
                     }
+                } else if (relationName.equalsIgnoreCase("conj")) {
+                    if (td.dep().tag().startsWith("NN")) {
+                        attrs.add(td.dep());
+                        ArrayList<IndexedWord> attributes = findAttributes(td.dep());
+                        if (!attributes.isEmpty()) {
+                            attrs.addAll(attributes);
+                        }
+                    }
                 } else if (relationName.equalsIgnoreCase("nmod")) {
                     // Look for case relation
                     for (TypedDependency td1 : dependencies) {
