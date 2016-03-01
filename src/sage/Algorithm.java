@@ -82,7 +82,7 @@ public class Algorithm {
         for (TypedDependency dependency : dependencies) {
             if (dependency.gov().equals(verb)) {
                 if (dependency.reln().getShortName().startsWith("aux")
-                        || dependency.reln().getShortName().startsWith("advcl")) {
+                        /*|| dependency.reln().getShortName().startsWith("advcl")*/) {
                     aux = dependency.dep();
                 }
             }

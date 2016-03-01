@@ -23,11 +23,17 @@ public class VocabFilter implements Filter {
     }
 
     private boolean apply(Triplet t) {
-        boolean found = false;
+        boolean subFound = false;
+        boolean objFound = false;
+
         for (IndexedWord subWord : t.getSubject()) {
-            found = (found || vocabulary.contains(subWord.word()));
+            subFound = (subFound || vocabulary.contains(subWord.word()));
         }
-        return found;
+
+        for (IndexedWord objWord : t.getObject()) {
+            objFound = (objFound || vocabulary.contains(objWord.word()));
+        }
+        return subFound && objFound;
     }
 
     @Override
