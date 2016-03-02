@@ -173,12 +173,12 @@ public class SentenceTransform {
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
 
         subject.forEach(sub -> {
-            subjectPhrase.add(sub);
+            subjectPhrase.add(sub.makeCopy());
             subjectPhrase.addAll(findAttributes(sub));
         });
 
         predicate.forEach(pre -> {
-            predicatePhrase.add(pre);
+            predicatePhrase.add(pre.makeCopy());
             IndexedWord auxiliary = getPredicateAttributes(pre);
             if (auxiliary != null) {
                 predicatePhrase.add(auxiliary);
@@ -186,7 +186,7 @@ public class SentenceTransform {
         });
 
         object.forEach(obj -> {
-            objectPhrase.add(obj);
+            objectPhrase.add(obj.makeCopy());
             objectPhrase.addAll(findAttributes(obj));
         });
 
@@ -195,6 +195,10 @@ public class SentenceTransform {
         Collections.sort(objectPhrase);
 
         triples.add(new SPOTriplet(originalSentence, subjectPhrase, predicatePhrase, objectPhrase));
+
+        subject.clear();
+        predicate.clear();
+        object.clear();
     }
 
     /**
