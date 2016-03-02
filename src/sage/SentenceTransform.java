@@ -125,13 +125,22 @@ public class SentenceTransform {
 
     private void findObject(IndexedWord predicate) {
         PriorityQueue<TypedDependency> candidates = get(predicate, "dobj", "iobj", "nmod");
-        candidates.forEach(td -> {
-            if (td.reln().getShortName().equalsIgnoreCase("nmod")) {
-                handleNominalModifier(td);
-            } else {
-                object.add(td.dep());
+        TypedDependency head = candidates.peek();
+        if (head != null) {
+            String relation = head.reln().getShortName();
+            if (relation.equalsIgnoreCase("dobj") || relation.equalsIgnoreCase("iobj")) {
+                object.add(head.dep());
+            } else if (relation.equalsIgnoreCase("nmod")) {
+                handleNominalModifier(head);
             }
-        });
+        }
+//        candidates.forEach(td -> {
+//            if (td.reln().getShortName().equalsIgnoreCase("nmod")) {
+//                handleNominalModifier(td);
+//            } else {
+//                object.add(td.dep());
+//            }
+//        });
     }
 
 

@@ -35,7 +35,7 @@ public class Main {
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
-        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rodent");
+        parseFile(tagger, dependencyParser, "test0.txt");
 
     }
 
@@ -58,7 +58,7 @@ public class Main {
         String text = getText(testFilePath);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("rodentsOut.html");
+        PrintWriter pw = new PrintWriter("test0Out.html");
 //        pw.println("Sentence,Subject,Predicate,Object");
 //        pw.flush();
 
