@@ -27,9 +27,10 @@ public class SentenceTransform {
         this.subject = new ArrayList<>();
         this.predicate = new ArrayList<>();
         this.object = new ArrayList<>();
+        transform();
     }
 
-    public void transform() {
+    private void transform() {
 
         // Look for nsubj or nsubjpass with governor as verb
         // TODO: why not combine the two if else into one if?
@@ -54,11 +55,6 @@ public class SentenceTransform {
             subject.add(dependency.dep());
             predicate.add(dependency.gov());
             addTriple();
-//            addTriple(
-//                    Arrays.asList(dependency.dep()),
-//                    Arrays.asList(dependency.gov()),
-//                    obj
-//            );
         } else {                                                            // If gov not a VB then look for copular relation
             for (TypedDependency td : dependencies) {
                 if (td.gov().equals(dependency.gov())) {
@@ -67,11 +63,6 @@ public class SentenceTransform {
                         predicate.add(td.dep());
                         object.add(td.gov());
                         addTriple();
-//                        addTriple(
-//                                Arrays.asList(dependency.dep()),
-//                                Arrays.asList(td.dep()),
-//                                Arrays.asList(td.gov())
-//                        );
                         break;
                     }
                 }
@@ -90,11 +81,6 @@ public class SentenceTransform {
                     subject.add(subj);
                     predicate.add(pred);
                     addTriple();
-//                    addTriple(
-//                            Arrays.asList(subj),
-//                            Arrays.asList(pred),
-//                            obj
-//                    );
                 }
             }
         }
@@ -149,12 +135,17 @@ public class SentenceTransform {
     }
 
 
+    /**
+     * Handles nmod dependency for predicate/object computation
+     *
+     * @param dependency
+     */
     private void handleNominalModifier(TypedDependency dependency) {
         if (dependency.gov().tag().startsWith("VB")) { // If governor is a verb
             TypedDependency td = getRelationHavingGovernor(dependency.dep(), "case");
+            object.add(dependency.dep());
             if (td != null) {
-                object.add(dependency.dep());
-                object.add(td.dep());
+                predicate.add(td.dep());
             }
         }
     }

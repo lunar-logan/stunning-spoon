@@ -68,10 +68,10 @@ public class Main {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
             GrammaticalStructure gs = dependencyParser.predict(taggedSentence);
             Collection<TypedDependency> dependencies = gs.typedDependencies();
-            Algorithm algo = new Algorithm(dependencies, sentence);
+            SentenceTransform transform = new SentenceTransform(dependencies, sentence);
 
             tripletDumper.add(
-                    algo.getTriples()
+                    transform.getTriples()
                             .stream()
                             .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
 //                            .filter(VocabFilter.getInstance(vocab))
