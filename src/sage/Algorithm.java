@@ -114,13 +114,19 @@ public class Algorithm {
             priorityMap.put(relations[i], i);
         }
         PriorityQueue<TypedDependency> pq = new PriorityQueue<>((p, q) -> {
-            int pp = priorityMap.get(p.reln().getShortName());
-            int qp = priorityMap.get(q.reln().getShortName());
+            Integer pp = priorityMap.get(p.reln().getShortName());
+            Integer qp = priorityMap.get(q.reln().getShortName());
+//            if (pp == null) {
+//                pp = Integer.MAX_VALUE;
+//            }
+//            if (qp == null) {
+//                qp = Integer.MAX_VALUE;
+//            }
             return Integer.compare(pp, qp);
         });
 
         for (TypedDependency dependency : dependencies) {
-            if (dependency.gov().equals(gov)) {
+            if (dependency.gov().equals(gov) && priorityMap.containsKey(dependency.reln().getShortName())) {
                 pq.add(dependency);
             }
         }
@@ -130,14 +136,22 @@ public class Algorithm {
     private ArrayList<IndexedWord> findObject(IndexedWord predicate) {
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
 
+        PriorityQueue<TypedDependency> candidates = get(predicate, "dobj", "iobj", "nmod");
+        candidates.forEach(td -> {
+            if (td.reln().getShortName().equalsIgnoreCase("nmod")) {
+                handleNominalModifier(td, objectPhrase);
+            } else {
+                objectPhrase.add(td.dep());
+            }
+        });
 
-        for (TypedDependency td : dependencies) {
+       /* for (TypedDependency td : this.dependencies) {
             if (td.gov().equals(predicate)) {
                 String reln = td.reln().getShortName();
-                if (reln.equalsIgnoreCase("dobj") || reln.equalsIgnoreCase("iobj")/* || reln.equalsIgnoreCase("ccomp")*/) {
+                if (reln.equalsIgnoreCase("dobj") || reln.equalsIgnoreCase("iobj") || reln.equalsIgnoreCase("ccomp")) {
                     objectPhrase.add(td.dep());
                     break;
-                }/* else if (reln.equalsIgnoreCase("nmod")) {
+                }else if (reln.equalsIgnoreCase("nmod")) {
                     objectPhrase.add(td.dep());
 
                     // Look for the case relations
@@ -149,11 +163,32 @@ public class Algorithm {
                             }
                         }
                     }
-                }*/
+                }
+            }
+        }*/
+        return objectPhrase;
+    }
+
+
+    private void handleNominalModifier(TypedDependency dependency, List<IndexedWord> objectPhrase) {
+        if (dependency.gov().tag().startsWith("VB")) { // If governor is a verb
+            TypedDependency td = getRelation(dependency.dep(), "case");
+            if (td != null) {
+                objectPhrase.add(dependency.dep());
+                objectPhrase.add(td.dep());
             }
         }
-//        Collections.sort(objectPhrase);
-        return objectPhrase;
+    }
+
+    private TypedDependency getRelation(IndexedWord gov, String relationName) {
+        for (TypedDependency td : dependencies) {
+            if (td.gov().equals(gov)) {
+                if (td.reln().getShortName().equalsIgnoreCase(relationName)) {
+                    return td;
+                }
+            }
+        }
+        return null;
     }
 
     private void handleConjunct(IndexedWord subj, IndexedWord conjunct) {
@@ -176,6 +211,10 @@ public class Algorithm {
     }
 
     private void addTriple(List<IndexedWord> subject, List<IndexedWord> predicate, List<IndexedWord> object) {
+        System.out.println("Before pre-processing");
+        System.out.println(subject);
+        System.out.println(predicate);
+        System.out.println(object);
         ArrayList<IndexedWord> subjectPhrase = new ArrayList<>();
         ArrayList<IndexedWord> predicatePhrase = new ArrayList<>();
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
