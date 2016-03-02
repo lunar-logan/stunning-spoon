@@ -90,8 +90,46 @@ public class Algorithm {
         return aux;
     }
 
+    /**
+     * Takes a governor and a set of relations as a variable argument based on their priority order.
+     * It returns the set of matched dependencies in the order of the given priority of relations.
+     * <h3>Example:</h3>
+     * Consider a set of typed dependencies:
+     * <code>
+     * nsubj(grows, Mango), nmod(grows, bla), dobj(grows, foo)
+     * </code>
+     * Suppose as per requirement the {@code dobj} relations has higher priority for the governor <i>grows</i>. You
+     * can call {@code get(<grows as indexed word>, "dobj", "nmod")}. In the output you will get both relations with
+     * {@code dobj} dominating the priority order.
+     *
+     * @param gov       the governor of the relations to be considered
+     * @param relations the set of relations you want to extract in priority order
+     * @return a priority queue of typed dependencies
+     * <p>
+     * TODO: After reading this... Wait what? This documentation is a stub
+     */
+    private PriorityQueue<TypedDependency> get(IndexedWord gov, String... relations) {
+        HashMap<String, Integer> priorityMap = new HashMap<>();
+        for (int i = 0; i < relations.length; i++) {
+            priorityMap.put(relations[i], i);
+        }
+        PriorityQueue<TypedDependency> pq = new PriorityQueue<>((p, q) -> {
+            int pp = priorityMap.get(p.reln().getShortName());
+            int qp = priorityMap.get(q.reln().getShortName());
+            return Integer.compare(pp, qp);
+        });
+
+        for (TypedDependency dependency : dependencies) {
+            if (dependency.gov().equals(gov)) {
+                pq.add(dependency);
+            }
+        }
+        return pq;
+    }
+
     private ArrayList<IndexedWord> findObject(IndexedWord predicate) {
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
+
 
         for (TypedDependency td : dependencies) {
             if (td.gov().equals(predicate)) {
