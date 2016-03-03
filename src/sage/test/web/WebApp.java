@@ -1,7 +1,16 @@
 package sage.test.web;
 
+import com.mongodb.client.MongoCollection;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.process.DocumentPreprocessor;
+import org.bson.Document;
+import sage.util.CryptoUtil;
+import sage.util.MongoUtil;
 import sage.util.URIUtil;
 
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import java.util.logging.StreamHandler;
@@ -30,32 +39,62 @@ public class WebApp implements Runnable {
         });
     }
 
-    private void load(String uriParam) {
+    private boolean load(String uriParam) {
         if (uriParam == null) {
             L.severe("uri is null");
-            return;
+            return false;
         }
         String text = URIUtil.readFromURI(uriParam);
         if (text == null) {
             L.warning("Could not read from the uri " + uriParam);
+            return false;
         } else {
-            storeInDB(text);
+            storeInDB(uriParam, text);
         }
+        return true;
     }
 
-    private void storeInDB(String text) {
-        
+    private void storeInDB(String uri, String text) {
+        MongoCollection<Document> collection = MongoUtil.getDocumentCollection();
+        String uriHash = CryptoUtil.md5(uri);
 
+        ArrayList<List<HasWord>> document = new ArrayList<>();
+        DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
+        tokenizer.forEach(document::add);
+
+        Document doc = new Document();
+        doc.append("hash", uriHash).append("doc", document);
+        collection.insertOne(doc);
+        L.info("Document has been inserted into the collection. URI-hash: " + uriHash);
+    }
+
+    private String makeResponse(CharSequence message, int code, Object payload) {
+        Document res = new Document();
+        res.append("code", code).append("message", message);
+        if (payload != null) {
+            res.append("result", payload);
+        }
+        return res.toJson();
+    }
+
+    private String success() {
+        return makeResponse("Success", 200, null);
+    }
+
+    private String failure() {
+        return makeResponse("Failure", 500, null);
     }
 
     private void setupRoutes() {
         get("/", (req, res) -> "This is the index route!");
 
         post("/load", (request, response) -> {
+            response.type("application/json");
             String uriString = request.params("uri");
-            if (uriString != null) {
-
+            if (load(uriString)) {
+                return success();
             }
+            return failure();
         });
     }
 

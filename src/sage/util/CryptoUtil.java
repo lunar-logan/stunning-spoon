@@ -15,15 +15,30 @@ public class CryptoUtil {
         return new String(digest.digest(text.getBytes()));
     }
 
-    public static String sha1(String text) throws NoSuchAlgorithmException {
-        return hash("SHA-1", text);
+    public static String sha1(String text) {
+        try {
+            return hash("SHA-1", text);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
-    public static String sha256(String text) throws NoSuchAlgorithmException {
-        return hash("SHA-256", text);
+    public static String sha256(String text) {
+        try {
+            return hash("SHA-256", text);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
-    public static String md5(String text) throws NoSuchAlgorithmException {
-        return hash("MD5", text);
+    public static String md5(String text) {
+        try {
+            return hash("MD5", text);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

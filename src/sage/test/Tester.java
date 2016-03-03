@@ -9,8 +9,6 @@ import org.bson.Document;
 import sage.spi.Triplet;
 import sage.util.CryptoUtil;
 
-import java.security.NoSuchAlgorithmException;
-
 /**
  * Created by Anurag Gautam on 03-03-2016.
  */
@@ -38,46 +36,37 @@ public class Tester {
     }
 
     public boolean insert(String origSentence, Triplet t) {
-        try {
-            String hash = CryptoUtil.md5(normalize(origSentence));
-            MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
-            MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
-            Document doc = new Document(hash,
-                    new Document()
-                            .append("sub", Sentence.listToString(t.getSubject()))
-                            .append("pre", Sentence.listToString(t.getPredicate()))
-                            .append("obj", Sentence.listToString(t.getObject())));
-            collection.insertOne(doc);
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-            return false;
-        }
+        String hash = CryptoUtil.md5(normalize(origSentence));
+        MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
+        MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
+        Document doc = new Document(hash,
+                new Document()
+                        .append("sub", Sentence.listToString(t.getSubject()))
+                        .append("pre", Sentence.listToString(t.getPredicate()))
+                        .append("obj", Sentence.listToString(t.getObject())));
+        collection.insertOne(doc);
         return true;
     }
 
     public void test(String origSentence, Triplet t) {
-        try {
-            String hash = CryptoUtil.md5(normalize(origSentence));
-            MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
-            MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
-            Document doc = collection.find(Filters.eq("hash", hash)).first();
-            if (doc != null) {
-                String sub = Sentence.listToString(t.getSubject());
-                String pre = Sentence.listToString(t.getPredicate());
-                String obj = Sentence.listToString(t.getObject());
+        String hash = CryptoUtil.md5(normalize(origSentence));
+        MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
+        MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
+        Document doc = collection.find(Filters.eq("hash", hash)).first();
+        if (doc != null) {
+            String sub = Sentence.listToString(t.getSubject());
+            String pre = Sentence.listToString(t.getPredicate());
+            String obj = Sentence.listToString(t.getObject());
 
-                String subFound = (String) doc.get("sub");
-                String preFound = (String) doc.get("pre");
-                String objFound = (String) doc.get("obj");
+            String subFound = (String) doc.get("sub");
+            String preFound = (String) doc.get("pre");
+            String objFound = (String) doc.get("obj");
 
-                if ((sub.equalsIgnoreCase(subFound) || sub.contains(subFound))
-                        && (pre.equalsIgnoreCase(preFound) || pre.contains(preFound))
-                        && (obj.equalsIgnoreCase(objFound) || obj.contains(objFound))) {
-                    correct++;
-                }
+            if ((sub.equalsIgnoreCase(subFound) || sub.contains(subFound))
+                    && (pre.equalsIgnoreCase(preFound) || pre.contains(preFound))
+                    && (obj.equalsIgnoreCase(objFound) || obj.contains(objFound))) {
+                correct++;
             }
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
         }
         totalTested++;
     }
