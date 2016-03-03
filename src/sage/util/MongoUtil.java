@@ -10,11 +10,11 @@ import org.bson.Document;
  */
 public class MongoUtil {
 
-    public static final String DATABASE_NAME = "triple_db";
+    public static final String DATABASE_NAME = "triple_store";
     public static final String TRIPLETS_COLLECTION_NAME = "triplets";
     public static final String DOCUMENT_COLLECTION_NAME = "documents";
 
-    private static final MongoClient client = new MongoClient("localhost");
+    private static final MongoClient client = new MongoClient();
 
     private MongoUtil() {
     }
@@ -24,7 +24,7 @@ public class MongoUtil {
     }
 
     public static MongoDatabase getDefaultDatabase() {
-        return client.getDatabase(DATABASE_NAME);
+        return getClient().getDatabase(DATABASE_NAME);
     }
 
     public static MongoCollection<Document> getTripletsCollection() {

@@ -36,6 +36,7 @@ public class URIUtil {
 
     public static String readFromURI(String uri) {
         Objects.requireNonNull(uri);
+        System.err.println("Reading URI: " + uri);
         try {
             Document document = Jsoup.connect(uri).get();
             return sanitizeDocument(document);

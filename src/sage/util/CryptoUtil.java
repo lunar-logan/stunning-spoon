@@ -1,5 +1,7 @@
 package sage.util;
 
+import javax.xml.bind.DatatypeConverter;
+import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -10,15 +12,15 @@ public class CryptoUtil {
     private CryptoUtil() {
     }
 
-    public static String hash(String algorithm, String text) throws NoSuchAlgorithmException {
+    public static String hash(String algorithm, String text) throws NoSuchAlgorithmException, UnsupportedEncodingException {
         MessageDigest digest = MessageDigest.getInstance(algorithm);
-        return new String(digest.digest(text.getBytes()));
+        return DatatypeConverter.printHexBinary(digest.digest(text.getBytes("UTF-8")));
     }
 
     public static String sha1(String text) {
         try {
             return hash("SHA-1", text);
-        } catch (NoSuchAlgorithmException e) {
+        } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
@@ -27,7 +29,7 @@ public class CryptoUtil {
     public static String sha256(String text) {
         try {
             return hash("SHA-256", text);
-        } catch (NoSuchAlgorithmException e) {
+        } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
@@ -36,7 +38,7 @@ public class CryptoUtil {
     public static String md5(String text) {
         try {
             return hash("MD5", text);
-        } catch (NoSuchAlgorithmException e) {
+        } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
