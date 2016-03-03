@@ -7,16 +7,17 @@ import edu.stanford.nlp.process.DocumentPreprocessor;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
-import sage.util.TripletDumper;
+import sage.spi.Triplet;
+import sage.util.RDFUtil;
 import sage.util.Util;
 import sage.util.Values;
 
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -28,14 +29,14 @@ import java.util.List;
 public class Main {
     private static Vocabulary vocab;
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         Values.loadValues();
         vocab = Vocabulary.getInstance(); // load the vocabulary
 
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
-        parseFile(tagger, dependencyParser, "test0.txt");
+        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Wheat");
 
     }
 
@@ -54,15 +55,16 @@ public class Main {
         return text;
     }
 
-    private static void parseFile(MaxentTagger tagger, DependencyParser dependencyParser, String testFilePath) throws FileNotFoundException {
+    private static void parseFile(MaxentTagger tagger, DependencyParser dependencyParser, String testFilePath) throws IOException {
         String text = getText(testFilePath);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("test0Out.html");
+//        PrintWriter pw = new PrintWriter("wheatOut.html");
 //        pw.println("Sentence,Subject,Predicate,Object");
 //        pw.flush();
 
-        TripletDumper tripletDumper = new TripletDumper();
+//        TripletDumper tripletDumper = new TripletDumper();
+        ArrayList<Triplet> triplets = new ArrayList<>();
 
         for (List<HasWord> sentence : tokenizer) {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
@@ -70,14 +72,14 @@ public class Main {
             Collection<TypedDependency> dependencies = gs.typedDependencies();
             SentenceTransform transform = new SentenceTransform(dependencies, sentence);
 
-            tripletDumper.add(
-                    transform.getTriples()
-                            .stream()
-                            .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
-                            .filter(VocabFilter.getInstance(vocab))
-            );
+            transform.getTriples()
+                    .stream()
+                    .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
+                    .filter(VocabFilter.getInstance(vocab))
+                    .forEach(triplets::add);
         }
-        pw.println(tripletDumper.getHTML());
-        pw.close();
+//        pw.println(tripletDumper.getHTML());
+//        pw.close();
+        RDFUtil.dumpAsRDF(triplets);
     }
 }

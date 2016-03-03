@@ -211,10 +211,10 @@ public class Algorithm {
     }
 
     private void addTriple(List<IndexedWord> subject, List<IndexedWord> predicate, List<IndexedWord> object) {
-        System.out.println("Before pre-processing");
-        System.out.println(subject);
-        System.out.println(predicate);
-        System.out.println(object);
+//        System.out.println("Before pre-processing");
+//        System.out.println(subject);
+//        System.out.println(predicate);
+//        System.out.println(object);
         ArrayList<IndexedWord> subjectPhrase = new ArrayList<>();
         ArrayList<IndexedWord> predicatePhrase = new ArrayList<>();
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
