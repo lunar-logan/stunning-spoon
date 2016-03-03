@@ -77,12 +77,12 @@ public class WebApp implements Runnable {
         return res.toJson();
     }
 
-    private String success() {
-        return makeResponse("Success", 200, null);
+    private String success(String message) {
+        return makeResponse(message, 200, null);
     }
 
-    private String failure() {
-        return makeResponse("Failure", 500, null);
+    private String failure(String message) {
+        return makeResponse(message, 500, null);
     }
 
     private void setupRoutes() {
@@ -92,9 +92,9 @@ public class WebApp implements Runnable {
             response.type("application/json");
             String uriString = request.params("uri");
             if (load(uriString)) {
-                return success();
+                return success("Successfully loaded");
             }
-            return failure();
+            return failure("Could not read the URI");
         });
     }
 
