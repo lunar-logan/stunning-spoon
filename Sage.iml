@@ -14,5 +14,6 @@
     <orderEntry type="library" name="jena-core-3.0.1" level="project" />
     <orderEntry type="library" name="org.mongodb:mongodb-driver-core:3.0.4" level="project" />
     <orderEntry type="library" name="org.mongodb:mongodb-driver:3.0.4" level="project" />
+    <orderEntry type="library" name="com.sparkjava:spark-core:2.3" level="project" />
   </component>
 </module>
