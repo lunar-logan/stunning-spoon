@@ -1,24 +1,19 @@
 package sage.test;
 
-import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import edu.stanford.nlp.ling.Sentence;
 import org.bson.Document;
 import sage.spi.Triplet;
 import sage.util.CryptoUtil;
+import sage.util.MongoUtil;
 
 /**
  * Created by Anurag Gautam on 03-03-2016.
  */
 public class Tester {
 
-    private final MongoClient client;
     private static final Tester instance = new Tester();
-
-    private static final String DATABASE_NAME = "triple_db";
-    private static final String COLLECTION_NAME = "triplets";
 
     private int totalTested = 0;
     private int correct = 0;
@@ -28,7 +23,6 @@ public class Tester {
     }
 
     private Tester() {
-        client = new MongoClient();
     }
 
     private String normalize(String text) {
@@ -37,21 +31,19 @@ public class Tester {
 
     public boolean insert(String origSentence, String sub, String pre, String obj) {
         String hash = CryptoUtil.md5(normalize(origSentence));
-        MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
-        MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
+        MongoCollection<Document> collection = MongoUtil.getTripletsCollection();
         Document doc = new Document(hash,
                 new Document()
                         .append("sub", sub)
                         .append("pre", pre)
-                        .append("obj", obj);
+                        .append("obj", obj));
         collection.insertOne(doc);
         return true;
     }
 
     public void test(String origSentence, Triplet t) {
         String hash = CryptoUtil.md5(normalize(origSentence));
-        MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
-        MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
+        MongoCollection<Document> collection = MongoUtil.getTripletsCollection();
         Document doc = collection.find(Filters.eq("hash", hash)).first();
         if (doc != null) {
             String sub = Sentence.listToString(t.getSubject());

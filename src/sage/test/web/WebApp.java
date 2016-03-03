@@ -13,13 +13,13 @@ import sage.util.URIUtil;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import java.util.logging.StreamHandler;
 
-import static spark.Spark.get;
-import static spark.Spark.post;
+import static spark.Spark.*;
 
 /**
  * Created by Anurag Gautam on 03-03-2016.
@@ -92,8 +92,16 @@ public class WebApp implements Runnable {
         return makeResponse(message, 500, null);
     }
 
+    private String render(String file) {
+        return "";
+    }
+
     private void setupRoutes() {
-        get("/", (req, res) -> "This is the index route!");
+        externalStaticFileLocation(Paths.get(System.getProperty("user.dir"), "www").toString());
+
+        get("/", (req, res) -> {
+            return "Test";
+        });
 
         post("/load", (request, response) -> {
             response.type("application/json");
@@ -210,6 +218,7 @@ public class WebApp implements Runnable {
     }
 
     public static void main(String[] args) {
+//        System.out.println(System.getProperty("user.dir"));
         new WebApp().run();
     }
 }
