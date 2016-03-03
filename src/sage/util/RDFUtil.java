@@ -1,12 +1,8 @@
 package sage.util;
 
-import com.github.jsonldjava.core.RDFDataset;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.*;
 import sage.spi.Triplet;
 
 import java.io.FileOutputStream;
@@ -24,7 +20,7 @@ import java.util.StringJoiner;
  * Created by Anurag Gautam on 25-10-2015.
  */
 public class RDFUtil {
-    private static final String NAMESPACE = ":";
+    private static final String NAMESPACE = "s:";
 
     public static String listToURIString(List<? extends HasWord> list) {
         StringJoiner joiner = new StringJoiner("_");
@@ -37,24 +33,42 @@ public class RDFUtil {
         return uri.toString();
     }
 
-    public static void dumpAsRDF(List<Triplet> triplets) throws IOException {
+    public static String normalizePredicate(List<? extends HasWord> list) {
+        StringBuilder out = new StringBuilder();
+        if (list.size() > 0) {
+            HasWord first = list.get(0);
+            out.append(first.word().toLowerCase());
+            for (int i = 1; i < list.size(); i++) {
+                char[] word = list.get(i).word().toLowerCase().toCharArray();
+                if (word.length > 0) {
+                    word[0] = Character.toUpperCase(word[0]);
+                    out.append(new String(word));
+                }
+
+            }
+        }
+        return out.toString();
+    }
+
+
+    public static void dumpAsRDF(List<Triplet> triplets, String dumpFileName) throws IOException {
         final Model agroModel = ModelFactory.createDefaultModel();
         triplets.forEach(triple -> {
             try {
                 String subject = asURI(triple.getSubject());
-                String predicate = asURI(triple.getPredicate());
-                String object = asURI(triple.getObject());
-
-
+                String predicate = normalizePredicate(triple.getPredicate());
+                String object = listToURIString(triple.getObject());
 
                 Resource newResource = agroModel.createResource(subject);
-                Property property = agroModel.createProperty(predicate);
-                newResource.addProperty(property, object);
+                Property property = agroModel.createProperty("p:", predicate);
+                Literal objectLiteral = agroModel.createLiteral(object);
+                newResource.addProperty(property, objectLiteral);
+
             } catch (IOException | URISyntaxException e) {
                 e.printStackTrace();
             }
         });
-        FileOutputStream fout = new FileOutputStream(Values.getTestDirPath().resolve(Paths.get("rdfDump.xml")).toFile());
+        FileOutputStream fout = new FileOutputStream(Values.getTestDirPath().resolve(Paths.get(dumpFileName)).toFile());
         agroModel.write(fout);
         fout.close();
     }

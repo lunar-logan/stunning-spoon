@@ -1,3 +1,172 @@
 <rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://en.wikipedia.com/">
+  <rdf:Description rdf:about="http://en.wikipedia.com/52_Other_diseases_triggered_by_gluten_consumption">
+    <j.0:are>non-celiac_gluten_sensitivity_estimated_in_one_study_54_gluten_ataxia_dermatitis_herpetiformis</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/the_per_capita_production_level_of_the_year_1990">
+    <j.0:be>not_feasible_simultaneously_with_the_growth_of_world_population_in_spite_of_the_increased_average_yields</j.0:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/This_grain">
+    <j.0:is>twice_the_size_of_modern-day_wheat</j.0:is>
+    <j.0:isGrownOn>more_land_area</j.0:isGrownOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/spot_blotch_also_known_as_Helminthosporium_leaf_blight">
+    <j.0:is>In_tropical_areas_also_important</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/17_Einkorn_wheat">
+    <j.0:is>diploid_AA_complements_of_seven_chromosomes</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Heterosis_hybrid_vigor_the_familiar_F1_hybrids_of_maize">
+    <j.0:occursIn>common_hexaploid_wheat</j.0:occursIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Modern_wheat_breeding">
+    <j.0:wasLinkedTo>the_development_of_Mendelian_genetics</j.0:wasLinkedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/world_production_of_wheat">
+    <j.0:was>In_2013_713_million_tons_making_after_maize_rice_745_million_tons</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/the_better_economic_profitability_of_other_crops_such_soybeans_maize_linked_with_investment_in_modern_genetic_technologies">
+    <j.0:hasPromoted>shifts_to_other_crops</j.0:hasPromoted>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/2013_%5E_Drysdale_wheat">
+    <j.0:bredFor>dry_conditions_Huge_potential_for_water-efficient_wheat_Condon_AG_Farquhar_GD_Richards</j.0:bredFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/19_F1_hybrid_wheat_cultivars">
+    <j.0:beConfusedWith>the_standard_method_of_breeding_inbred_wheat_cultivars</j.0:beConfusedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Wheat">
+    <j.0:isCultivatedAs>a_cash_crop</j.0:isCultivatedAs>
+    <j.0:is>a_major_ingredient_in_such_foods_as_bread_porridge_crackers_biscuits_Muesli_pancakes_pies_pastries_cakes_cookies_muffins_rolls_doughnuts_gravy_boza_breakfast_cereals</j.0:is>
+    <j.0:been>also_the_subject_of_mutation_breeding_with_the_use_of_gamma_x-rays_ultraviolet_light_sometimes_harsh_chemicals</j.0:been>
+    <j.0:was>3_the_second_most-produced_cereal_in_2009</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/landraces_of_wheat">
+    <j.0:areGrownIn>Europe_North_America</j.0:areGrownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Genes_for_the_dwarfing_trait_first_used_by_Japanese_wheat_breeders">
+    <j.0:haveHad>a_huge_effect_on_wheat_yields_world-wide</j.0:haveHad>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/53_Comparison_of_wheat_with_other_major_staple_foods">
+    <j.0:shows>the_nutrient_content_of_wheat_other_major_staple_foods</j.0:shows>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/33_F1_hybrid_wheat_cultivars">
+    <j.0:beConfusedWith>wheat_cultivars_deriving_from_standard_plant_breeding</j.0:beConfusedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/The_yellowish_color_of_durum_wheat_semolina_flour_made_from_it">
+    <j.0:is>due_to_a_carotenoid_pigment_called_oxidized_to_a_colorless_form_by_enzymes_present_in_the_grain</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/technological_innovation_scientific_crop_management_with_synthetic_nitrogen_fertilizer_irrigation_wheat_breeding">
+    <j.0:were>Thus_the_main_drivers_of_wheat_output_growth_in_the_second_half_of_the_century</j.0:were>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/field_mice_numbers">
+    <j.0:inCanBuild>major_grain_growing_regions</j.0:inCanBuild>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/some_significant_decreases_in_wheat_crop_area">
+    <j.0:wereFor>instance_in_North_America</j.0:wereFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/78_Rodents">
+    <j.0:inCanBuild>major_grain_growing_regions</j.0:inCanBuild>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/77_Crown_root_rot_diseases_Two_of_the_more_important_of_these">
+    <j.0:are>take-all_Cephalosporium_stripe</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Basic_physiological_investigation_of_these_gas_exchange_processes">
+    <j.0:hasYielded>valuable_carbon_isotope_based_methods_used_for_breeding_wheat_varieties_with_improved_water-use_efficiency</j.0:hasYielded>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/wheat">
+    <j.0:offers>ease_of_grain_storage_ease_of_converting_into_flour</j.0:offers>
+    <j.0:is>With_rice_most_favored_staple_food</j.0:is>
+    <j.0:is>the_leading_source_of_vegetable_protein_in_human_food</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/citation_needed_World_trade_in_wheat">
+    <j.0:is>greater_than_for_all_other_crops_combined</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/hard_red_winter_Nutritional_value_100_g_Energy_1%2C368_kJ">
+    <j.0:carbohydrates>71.18_g_Sugars_0.41_Dietary_fiber_12.2_g_Fat_1.54_g_Protein_12.61_g_Vitamins_Thiamine_0.383</j.0:carbohydrates>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/typical_total_wheat_production_value">
+    <j.0:was>$_31,900_per_farm_with_total_farm_production_value_including_other_crops_of_$_173,681_per_farm</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/population_growth_rates">
+    <j.0:hasPromoted>shifts_to_other_crops</j.0:hasPromoted>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/20_22_Stomata_leaf_pores">
+    <j.0:areInvolvedIn>uptake_of_carbon_dioxide_gas_from_the_atmosphere_water_vapor_losses_from_the_leaf_due_to_water_transpiration</j.0:areInvolvedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Other_commercially_minor_species_of_naturally_evolved_wheat_species">
+    <j.0:include>black_wheat</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/The_wheat_farm_productivity_in_India_Russia">
+    <j.0:were>about_35_%_of_the_wheat_farm_productivity_in_France</j.0:were>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/this_leaf">
+    <j.0:represents>about_75_%_of_photosynthesis_reactions</j.0:represents>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/The_name_of_a_wheat_species_from_one_information_source">
+    <j.0:be>not_the_name_of_a_wheat_species_in_another</j.0:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/about_10_%25_of_total_wheat_production">
+    <j.0:isLostBecause>poor_storage_road_networks</j.0:isLostBecause>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/implications_in_cereal_genetics">
+    <j.0:includes>the_examination_of_genome_variation_performing_studying_analyzing</j.0:includes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/irrigation">
+    <j.0:been>In_the_Punjab_region_of_India_Pakistan_as_North_China_a_major_contributor_to_increased_grain_output</j.0:been>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/The_most_common_forms_of_wheat">
+    <j.0:are>46_white_red_wheat</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/World_trade_in_wheat">
+    <j.0:is>greater_than_for_all_other_crops_combined</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Sheaved_stooked_wheat_Wheat_In_traditional_agricultural_systems_wheat_populations">
+    <j.0:consistOf>landraces</j.0:consistOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Bread_wheat_protein_content">
+    <j.0:rangesFrom>10_%_in_some_soft_wheats_with_high_starch_contents</j.0:rangesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/world_production_in_that_year">
+    <j.0:was>682_million_tons_after_maize_rice_as_a_close_third</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Average_2.5_tons_wheat">
+    <j.0:wasProducedOn>one_hectare_crop_land_in_the_world_in_the_first_half_of_1990s</j.0:wasProducedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Dwarfing_genes">
+    <j.0:enable>the_carbon_fixed_in_the_plant_during_photosynthesis</j.0:enable>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/citation_needed_Wheat_protein">
+    <j.0:isDigestedBy>nearly_99_%_of_the_human_population</j.0:isDigestedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Some_wheat_species">
+    <j.0:are>diploid_with_two_sets_of_chromosomes_stable_polyploids_with_four_sets_of_chromosomes_six_hexaploid</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/USDA_Nutrient_Database_Raw_wheat">
+    <j.0:using>hard_durum_wheat</j.0:using>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/wheat_production">
+    <j.0:is>Unlike_rice_more_widespread_globally</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/A_strong_gluten_present_in_bread_wheats">
+    <j.0:enables>dough_to_trap_during_leavening</j.0:enables>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/a_food_edit_Wheat">
+    <j.0:isUsedIn>a_wide_variety_of_foods</j.0:isUsedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Fungicides_used">
+    <j.0:be>a_significant_variable_cost_in_wheat_production</j.0:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/AS_1999_Heterosis_Hybrid_Seed_Production">
+    <j.0:inDevelop>Agronomic_Crops_Haworth_Press_pp</j.0:inDevelop>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/The_popularity_of_foods_made_from_wheat_flour">
+    <j.0:creates>a_large_demand_for_the_grain</j.0:creates>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Wheat_futures">
+    <j.0:areTradedOn>the_Chicago_Board_of_Trade_Kansas_City_Board_of_Trade_Minneapolis_Grain_Exchange</j.0:areTradedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.com/Origin_Spikelets_of_a_hulled_wheat_einkorn_Cultivation_repeated_harvesting_sowing_of_the_grains_of_wild_grasses">
+    <j.0:ledTo>the_creation_of_domestic_strains</j.0:ledTo>
+  </rdf:Description>
 </rdf:RDF>

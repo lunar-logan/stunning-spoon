@@ -1,0 +1,266 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:">
+  <rdf:Description rdf:about="s:harvesting">
+    <j.0:isFollowedBy>threshing</j.0:isFollowedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_predominant_strain_of_rice_in_the_carolinas">
+    <j.0:wasKnownAs>carolina_gold</j.0:wasKnownAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_root_nematode">
+    <j.0:is>a_migratory_endoparasite_on_higher_inoculum_levels_lead</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:12.3_golden_rice_12.4_expression_of_human_proteins_12.5_flood-tolerant_rice_12.6_drought-tolerant_rice_12.7_salt-tolerant_rice_12.8_environment-friendly_rice_13_meiosis_dna_repair_14_cultural_roles_of_rice_15">
+    <j.0:see>also_16_references_17_bibliography_18_external_links_etymology_first_used_in_english_in_the_middle_of_the_13th_century</j.0:see>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:no_shortage_of_rice">
+    <j.0:wasOn>world_markets</j.0:wasOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_wikipedia">
+    <j.0:see>rice</j.0:see>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_bulk_of_drying_of_marketed_paddy">
+    <j.0:takes>place_in_mills</j.0:takes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:flood_prone_lowland">
+    <j.0:isKnownAs>ghaiya_rice</j.0:isKnownAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:white_jasmine_rice">
+    <j.0:wasDevelopedIn>chonburi_province</j.0:wasDevelopedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:morphological_studies_of_rice_phytoliths_from_the_diaotonghuan_archaeological_site">
+    <j.0:show>the_transition_from_the_collection_of_wild_rice_to_the_cultivation_of_domesticated_rice</j.0:show>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_pests">
+    <j.0:include>weeds_pathogens_insects_nematode_rodents_birds</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_invention_of_the_rice_mill">
+    <j.0:increased>profitability_of_the_crop</j.0:increased>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:other_major_rice_diseases">
+    <j.0:include>sheath_blight_rice_ragged_stunt_tungro_vector_nephotettix_spp</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:meiosis">
+    <j.0:produce>haploid_cells_develop_further_into_gametophytes_gametes</j.0:produce>
+    <j.0:is>a_key_stage_of_the_sexual_cycle_in_which_diploid_cells_in_the_ovule_female_structure</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:arsenic_toxicity_rice_rice_products">
+    <j.0:contain>arsenic_a_known_poison_group_1_carcinogen</j.0:contain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_flour">
+    <j.0:doesContain>gluten</j.0:doesContain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:soaking">
+    <j.0:improves>the_texture_of_the_cooked_rice</j.0:improves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:expression_of_human_proteins">
+    <j.0:hasModified>rice</j.0:hasModified>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:proteome_analysis_of_rice_mutants">
+    <j.0:reveals>differentially_induced_proteins_during_brown_planthopper_infestation</j.0:reveals>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:some_rice_strains">
+    <j.0:produce>beta-carotene_in_the_hull</j.0:produce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:world_production_of_rice">
+    <j.0:hasRisenFrom>about_200_million_tonnes_of_paddy_rice</j.0:hasRisenFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_cultivars">
+    <j.0:areClassifiedBy>grain_shapes_texture</j.0:areClassifiedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:long-term_flooding_of_rice_fields">
+    <j.0:causes>anaerobic_fermentation_of_organic_matter_in_the_soil</j.0:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_pest_management">
+    <j.0:includes>cultural_techniques_pest-resistant_rice_varieties_pesticides_include</j.0:includes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:anthocyanins_%CE%B3-tocols_in_purple_rice">
+    <j.0:are>largely_located_in_the_inner_portion_of_purple_rice_bran</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:yuan_longping_of_china_national_hybrid_rice_research_development_center">
+    <j.0:set>a_world_record_for_rice_yield</j.0:set>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:caribbean_latin_america_rice">
+    <j.0:wasIntroducedTo>latin_america_the_caribbean</j.0:wasIntroducedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:high-yield_cultivars_of_rice_suitable_for_cultivation_in_africa_other_dry_ecosystems">
+    <j.0:called>the_new_rice</j.0:called>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:boiled_rice">
+    <j.0:beFriedIn>cooking_oil_butter_known_as_fried_rice</j.0:beFriedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_global_rice_trade">
+    <j.0:was>in_economic_terms_a_small_fraction_of_1_%_of_world_mercantile_trade</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_most_noted_cultivars">
+    <j.0:are>thai_fragrant_rice_basmati_patna_rice_vietnamese_fragrant_rice_a_hybrid_cultivar_from_america_sold_under_the_trade_name_texmati</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:australia_rice">
+    <j.0:was>one_of_the_earliest_crops_planted_in_australia_by_british_settlers_had_in_the_americas_india</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:electric_rice_cookers_popular_in_asia_latin_america">
+    <j.0:simplify>the_process_of_cooking_rice</j.0:simplify>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:other_chemicals_such_the_insecticide_imidacloprid">
+    <j.0:canInduce>changes_in_the_gene_expression_of_the_rice_cause</j.0:canInduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:conventional_commercial_rice_varieties">
+    <j.0:underBeAffected>drought_conditions</j.0:underBeAffected>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:oryza_sativa_with_small_wind-pollinated_flowers_since_a_large_portion_of_maize_crops">
+    <j.0:areGrownFor>purposes_other_than_human_consumption</j.0:areGrownFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_rice_plant">
+    <j.0:canGrowTo>1</j.0:canGrowTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_stickiness">
+    <j.0:allows>rice</j.0:allows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:india_trade_world_trade_figures">
+    <j.0:are>very_different_from_those_for_production_as_less_8_%_of_rice_produced_traded_internationally</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:short-grain_rice">
+    <j.0:isUsedFor>rice_pudding</j.0:isUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:indian_rice_cultivars">
+    <j.0:include>long-grained_basmati_grown_in_the_north_long_patna_rice_south_india_andhra_pradesh_karnataka_short-grained_sona_masuri_also_called_as_bangaru_theegalu</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_rice">
+    <j.0:has>a_characteristic_fragrance_of_mango_blossom</j.0:has>
+    <j.0:canResist>drought_acidic_soil_alkaline_soil</j.0:canResist>
+    <j.0:has>a_brown_color</j.0:has>
+    <j.0:isProtectedFrom>leaf_disease</j.0:isProtectedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:thrips_outbreaks">
+    <j.0:areAssociatedWith>drought</j.0:areAssociatedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:price_in_late_2007_to_2008_rose_greatly_due_to_droughts_in_major_producing_countries">
+    <j.0:increased>use_of_grains_for_animal_feed_us_subsidies_for_bio-fuel_production</j.0:increased>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:salt-tolerant_rice_soil_salinity">
+    <j.0:poses>a_major_threat_to_rice_crop_productivity</j.0:poses>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nematodes_several_nematode_species">
+    <j.0:infect>rice_crops</j.0:infect>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%5E_newly-discovered_rice_gene">
+    <j.0:goesTo>the_root_of_drought_resistance_palmer</j.0:goesTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:kaveri">
+    <j.0:isReferredTo>ponni_in_the_south</j.0:isReferredTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_containing">
+    <j.0:beUsedAs>a_component_in_oral_rehydration_solutions_used</j.0:beUsedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:maratelli_rice_post-harvest_losses_protein_per_unit_area">
+    <j.0:puffed>rice_rice_belt_rice_bran_oil_rice_bread_rice_wine_risotto_straw_system_of_rice_intensification_wild_rice_upland_rice_portals_access_related_topics_food_portal_agriculture_agronomy_portal_biology_portal_lists_portal_references_^_faostat</j.0:puffed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_most_famous_thai_rice">
+    <j.0:beGrown>although_plains_dry_areas_white_jasmine_rice_105</j.0:beGrown>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:some_long-grain_rice">
+    <j.0:contains>less_amylopectin_than_short-grain_cultivars</j.0:contains>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_production">
+    <j.0:is>acutely_dependent_on_rainfall_government_supply_necessity_of_water_through_irrigation_channels_throughout_the_cultivation_seasons</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:insects_chinese_rice_grasshopper_borneo">
+    <j.0:include>the_brown_planthopper</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:hydrophilic_antioxidants">
+    <j.0:have>higher_free_radical_scavenging_activity_than_lipophilic_antioxidants</j.0:have>
+    <j.0:are>in_purple_rice_bran_greater_quantity</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:highly_colored_rice_strains_such_black_purple_rice">
+    <j.0:derive>color_from_anthocyanins_tocols</j.0:derive>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_map_of_rice_genome_variation">
+    <j.0:reveals>the_origin_of_cultivated_rice</j.0:reveals>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_amount_of_arsenic_in_rice">
+    <j.0:variesWith>the_greatest_concentration_in_brown_rice_rice_grown_on_land_formerly_used</j.0:variesWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:many_rice_grain_producing">
+    <j.0:have>significant_losses_post-harvest_at_the_farm_poor_roads_inadequate_storage_technologies_inefficient_supply_chains_inability</j.0:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:production">
+    <j.0:isDominatedBy>short_medium-grain_japonica_varieties_including_cultivars_developed_for_the_local_climate_such_calrose_makes</j.0:isDominatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice">
+    <j.0:was>the_first_crop_with_a_complete_genome_sequence</j.0:was>
+    <j.0:is>vital_for_the_nutrition_of_much_of_the_population_in_asia_latin_america_the_caribbean_africa</j.0:is>
+    <j.0:is>also_a_wage_commodity_for_workers_in_the_cash_crop_non-agricultural_sectors</j.0:is>
+    <j.0:is>a_major_food_staple_a_mainstay_for_the_rural_population_food_security</j.0:is>
+    <j.0:provides>20_%_of_dietary_energy_supply</j.0:provides>
+    <j.0:is>list_of_rice_dishes_in_arab_cuisine_an_ingredient_of_many_soups_dishes_with_fish_poultry_other_types_of_meat</j.0:is>
+    <j.0:is>the_most_important_grain_with_regard_to_human_nutrition_caloric_intake</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:medium-grain_rice">
+    <j.0:isUsedFor>sweet_dishes_for_risotto_in_italy_many_rice_dishes_such_arròs_negre_in_spain</j.0:isUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:instant_rice">
+    <j.0:differsFrom>parboiled_rice</j.0:differsFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_hybrid_variety">
+    <j.0:canUtilise>specialised_leaf_glands_allow_for_the_removal_of_salt_into_the_atmosphere</j.0:canUtilise>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:traditional_rice_varieties">
+    <j.0:areMaking>a_comeback_with_the_recent_interest_in_green_foods</j.0:areMaking>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_beta-carotene">
+    <j.0:turns>the_processed_white_rice_a_gold_color</j.0:turns>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:these_smaller_mills">
+    <j.0:sell>rice</j.0:sell>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:milled_parboiled_rice">
+    <j.0:is>nutritionally_superior_to_standard_milled_rice</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:white_rice">
+    <j.0:beEnriched>especially_those_lost_during_the_milling_process</j.0:beEnriched>
+    <j.0:byBeBuffed>hand_a_rice_polisher</j.0:byBeBuffed>
+    <j.0:grownIn>arkansas_louisiana_missouri_texas</j.0:grownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:drought-tolerant_rice_drought">
+    <j.0:represents>a_significant_environmental_stress_for_rice_production</j.0:represents>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:consumption_of_one_serving_of_some_varieties_of_rice">
+    <j.0:gives>more_exposure</j.0:gives>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_mosquito_fern_covers">
+    <j.0:fixing>nitrogen</j.0:fixing>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:environment-friendly_rice">
+    <j.0:producing>rice</j.0:producing>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:harvesting_milling_rice">
+    <j.0:combine>harvester_katori-city_japan_after_the_harvest_gathered_in_the_traditional_way_from_small_paddy_fields_in_mae_wang_district_paddy_field_unmilled_rice_known_as_paddy_indonesia_malaysia_usually_harvested</j.0:combine>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:methane_production_from_rice_cultivation">
+    <j.0:contributes>~_1.5_%_of_anthropogenic_greenhouse_gases</j.0:contributes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:more_100_varieties_of_rice">
+    <j.0:areProducedIn>primarily_six_states_arkansas_texas_louisiana_mississippi_missouri_california_in_the_u.s._according_estimates_for_the_2006_crop_year_valued_at_$_1.88_billion_expected</j.0:areProducedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:usda_nutrient_database_rice">
+    <j.0:is>the_staple_food_of_half_population</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:irrigation_water">
+    <j.0:despiteWas>the_extremely_low_runoff_of_temperate_australia</j.0:despiteWas>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_rice">
+    <j.0:beMilledAs>usual_as_brown_rice</j.0:beMilledAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:jasmine_rice_from_thailand_basmati_rice_from_pakistan_india">
+    <j.0:contain>the_least_arsenic_among_rice_varieties</j.0:contain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_japanese_table_rice">
+    <j.0:is>a_sticky_short-grain_rice</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bacillus_cereus">
+    <j.0:cooked>rice</j.0:cooked>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_largest_collection_of_rice_cultivars">
+    <j.0:is>the_international_rice_research_institute_in_the_philippines_with_over_100,000_rice_accessions_held_in_the_international_rice_genebank</j.0:is>
+  </rdf:Description>
+</rdf:RDF>

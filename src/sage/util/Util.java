@@ -4,6 +4,7 @@ import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Node;
 
 import java.io.*;
 import java.net.URI;
@@ -139,6 +140,7 @@ public class Util {
         try {
             logger.info("Reading " + uri);
             Document doc = Jsoup.connect(uri.toString()).get();
+            doc.getElementsByTag("sup").forEach(Node::remove);
             text = doc.text();
         } catch (IOException e) {
             e.printStackTrace();

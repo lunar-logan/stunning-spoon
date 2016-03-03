@@ -12,5 +12,6 @@
     <orderEntry type="library" name="org.jsoup:jsoup:1.8.3" level="project" />
     <orderEntry type="library" name="com.j2html:j2html:0.7" level="project" />
     <orderEntry type="library" name="jena-core-3.0.1" level="project" />
+    <orderEntry type="library" name="org.mongodb:mongodb-driver-core:3.0.4" level="project" />
   </component>
 </module>
