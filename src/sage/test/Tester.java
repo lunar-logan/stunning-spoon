@@ -35,15 +35,15 @@ public class Tester {
         return text.toLowerCase().replaceAll("\\w+", "").trim();
     }
 
-    public boolean insert(String origSentence, Triplet t) {
+    public boolean insert(String origSentence, String sub, String pre, String obj) {
         String hash = CryptoUtil.md5(normalize(origSentence));
         MongoDatabase tripletDB = client.getDatabase(DATABASE_NAME);
         MongoCollection<Document> collection = tripletDB.getCollection(COLLECTION_NAME);
         Document doc = new Document(hash,
                 new Document()
-                        .append("sub", Sentence.listToString(t.getSubject()))
-                        .append("pre", Sentence.listToString(t.getPredicate()))
-                        .append("obj", Sentence.listToString(t.getObject())));
+                        .append("sub", sub)
+                        .append("pre", pre)
+                        .append("obj", obj);
         collection.insertOne(doc);
         return true;
     }

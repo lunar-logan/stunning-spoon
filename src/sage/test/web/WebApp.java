@@ -5,6 +5,7 @@ import com.mongodb.client.model.Filters;
 import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.process.DocumentPreprocessor;
 import org.bson.Document;
+import sage.test.Tester;
 import sage.util.CryptoUtil;
 import sage.util.MongoUtil;
 import sage.util.URIUtil;
@@ -126,6 +127,25 @@ public class WebApp implements Runnable {
             return failure("Could not fetch the sentence");
         });
 
+        post("/add", (request, response) -> {
+            response.type("application/json");
+            String spoJson = request.queryParams("spo");
+            if (store(spoJson)) {
+                return success("Stored in the triplet store");
+            }
+            return failure("Could not store into the database");
+        });
+
+    }
+
+    private boolean store(String spoJson) {
+        if (spoJson == null) return false;
+        Document spo = Document.parse(spoJson);
+        return spo != null && Tester.getInstance()
+                .insert((String) spo.get("sen"),
+                        (String) spo.get("sub"),
+                        (String) spo.get("pre"),
+                        (String) spo.get("obj"));
     }
 
     private Document getSentences(String uri, String start, String limit) {
