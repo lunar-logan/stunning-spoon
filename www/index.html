@@ -139,6 +139,9 @@
     }
 
     function updateActivity(sent) {
+        $('#sub').val('');
+        $('#pre').val('');
+        $('#obj').val('');
         if (sent !== null) {
             unlockActivity();
             $('#sentence').html(sent);
