@@ -32,12 +32,16 @@ public class Tester {
     public boolean insert(String origSentence, String sub, String pre, String obj) {
         String hash = CryptoUtil.md5(normalize(origSentence));
         MongoCollection<Document> collection = MongoUtil.getTripletsCollection();
-        Document doc = new Document(hash,
-                new Document()
-                        .append("sub", sub)
-                        .append("pre", pre)
-                        .append("obj", obj));
-        collection.insertOne(doc);
+        Document doc = collection.find(Filters.eq("hash", hash)).first();
+        if (doc == null) {
+            doc = new Document("hash", hash);
+            collection.insertOne(doc);
+        }
+        doc.append("sub", sub.replaceAll("[ \n\t]+", " ").trim().toLowerCase())
+                .append("pre", pre.replaceAll("[ \n\t]+", " ").trim().toLowerCase())
+                .append("obj", obj.replaceAll("[ \n\t]+", " ").trim().toLowerCase());
+
+        collection.replaceOne(Filters.eq("hash", hash), doc);
         return true;
     }
 

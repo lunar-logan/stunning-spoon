@@ -1,0 +1,24 @@
+.activity {
+    /*visibility: hidden;*/
+}
+
+.error {
+    /*visibility: hidden;*/
+    border: solid 1px #943c38;
+    background-color: #ffdfc9;
+    padding: 8px;
+}
+
+.success {
+    border: solid 1px #219410;
+    background-color: #9dff9e;
+    padding: 8px;
+
+}
+
+.info {
+    border: solid 1px #948b30;
+    background-color: #fdff68;
+    padding: 8px;
+
+}

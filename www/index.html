@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-2.2.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>Identify subject, predicate and the object of a sentence:</h2>
+
+<div id="msg" class="error">Check HAHA</div>
+<div id="activity" class="activity">
+    <div id="sentence"></div>
+    <div id="activity-form">
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td><input type="text" name="sub" placeholder="Subject" id="sub"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="pre" placeholder="Predicate" id="pre"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="obj" placeholder="Object" id="obj"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Submit" id="submit-btn" onclick="onSubmit()">
+                        <input type="button" value="<" onclick="onPrev()" id="prev-btn">
+                    </td>
+                    <td><input type="button" value="Pass" id="pass-btn" onclick="onPass()"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script>
+
+    var GLOBAL_APP_STATE = null;
+
+    function AppState(state) {
+        this.sentences = state["sentences"];
+        this.curIndex = state["index"];
+        this.curURI = state["curUri"];
+        this.nextURI = state["nextUri"];
+    }
+
+    AppState.prototype.save = function () {
+        var s = {
+            sentences: this.sentences,
+            index: this.curIndex,
+            curUri: this.curUri,
+            nextUri: this.nextURI
+        };
+        localStorage.setItem("state", JSON.stringify(s));
+        console.log("State saved!");
+    };
+
+    AppState.prototype.getCurrentSentence = function () {
+        var sentence = null;
+        if (this.curIndex >= 0 && this.curIndex < this.sentences.length) {
+            sentence = this.sentences[this.curIndex];
+        }
+        return sentence;
+    };
+
+    AppState.prototype.prevSentence = function (onPrevSent) {
+        if (this.curIndex - 2 >= 0) {
+            var s = this.sentences[this.curIndex - 2];
+            this.curIndex -= 1;
+            this.save();
+            onPrevSent(s);
+        }
+    };
+
+    AppState.prototype.nextSentence = function (onNextSentence) {
+        if (this.curIndex >= 0 && this.curIndex < this.sentences.length) {
+            var sentence = this.sentences[this.curIndex];
+            this.curIndex += 1;
+            this.save();
+            onNextSentence(sentence);
+        } else {
+            console.log("Loading more sentences");
+            this.loadMoreSentences(onNextSentence);
+        }
+    };
+
+    AppState.prototype.loadMoreSentences = function (onNextSentence) {
+        if (this.nextURI !== null || this.nextURI !== undefined) {
+            GLOBAL_APP_STATE = null;
+            AppState.getInstance(this.nextURI, function (appState) {
+                GLOBAL_APP_STATE = appState;
+                if (onNextSentence !== undefined && onNextSentence !== null) {
+                    GLOBAL_APP_STATE.nextSentence(onNextSentence);
+                }
+            });
+        } else {
+            console.error("next URI is null or undefined");
+        }
+    };
+
+    AppState.getInstance = function (uri, callback) {
+        $.get('/sentences?uri=' + encodeURIComponent(uri) + '&start=0&limit=10', function (data, status) {
+            if (parseInt(data['code'] / 100) === 2) {
+                var payload = data["payload"];
+                var state = {
+                    sentences: payload["sentences"],
+                    nextUri: payload["next"],
+                    curUri: uri,
+                    index: 0
+                };
+                callback(new AppState(state));
+            } else {
+                $('#error')
+                        .css("visibility", "visible")
+                        .html("Could not load the sentences, please refresh the page.");
+
+            }
+        });
+    };
+
+    function getAppState(stateKey, onState) {
+        if (Storage !== undefined) {
+            var stateStr = localStorage.getItem(stateKey);
+            if (stateStr !== null) {
+                GLOBAL_APP_STATE = new AppState(JSON.parse(stateStr));
+                onState();
+            } else {
+                console.info("State not found in the localStorage, creating new state");
+                AppState.getInstance("https://en.wikipedia.org/wiki/Wheat", function (app) {
+                    GLOBAL_APP_STATE = app;
+                    onState();
+                });
+            }
+        } else {
+            console.error("This browser does not supports HTML5 Storage");
+        }
+    }
+
+    function updateActivity(sent) {
+        if (sent !== null) {
+            unlockActivity();
+            $('#sentence').html(sent);
+        } else {
+            lockActivity();
+        }
+    }
+
+    function lockActivity() {
+        $('#sub').prop('disabled', true);
+        $('#pre').prop('disabled', true);
+        $('#obj').prop('disabled', true);
+        $('#submit-btn').prop('disabled', true);
+        $('#pass-btn').prop('disabled', true);
+        $('#prev-btn').prop('disabled', true);
+    }
+
+    function unlockActivity() {
+        $('#sub').prop('disabled', false);
+        $('#pre').prop('disabled', false);
+        $('#obj').prop('disabled', false);
+        $('#submit-btn').prop('disabled', false);
+        $('#pass-btn').prop('disabled', false);
+        $('#prev-btn').prop('disabled', false);
+
+    }
+
+    function postMessage(msg, type) {
+        $('#msg').html(msg);
+
+        if (type === 'e') {
+            $('#msg').attr("class", "error");
+        }
+        else if (type === 's') {
+            $('#msg').attr("class", "success");
+        } else if (type == 'i') {
+            $('#msg').attr("class", "info");
+        }
+    }
+
+    function validate(s, p, o) {
+        return s !== null && s !== '' && p !== null && p !== '' && o !== null && o !== '';
+    }
+
+    function onPass() {
+        GLOBAL_APP_STATE.nextSentence(function (sent) {
+            updateActivity(sent);
+        });
+    }
+
+    function onSubmit() {
+        var s = $('#sub').val();
+        var p = $('#pre').val();
+        var o = $('#obj').val();
+
+        if (validate(s, p, o)) {
+            lockActivity();
+            var sentence = GLOBAL_APP_STATE.getCurrentSentence();
+            if (sentence !== null) {
+                $.post("/add", {spo: JSON.stringify({sen: sentence, sub: s, pre: p, obj: o})}, function (data) {
+                    var code = parseInt(data["code"] / 100);
+                    if (code === 2) {
+                        console.log("Successfully uploaded");
+                        postMessage('Uploaded triplet successfully', 's');
+                        GLOBAL_APP_STATE.nextSentence(function (sent) {
+                            updateActivity(sent);
+                        });
+                    } else {
+                        postMessage("Something went wrong, please retry", 'e');
+                        unlockActivity();
+                        console.log("server-says: " + data["message"]);
+                    }
+                }).error(function () {
+                    postMessage("Something went wrong, please retry", 'e');
+                    unlockActivity();
+                });
+            }
+        } else {
+            postMessage('Please specify the subject, predicate and object. You can pass the sentence if you want to', 'i');
+            console.warn("Not a valid triplet");
+        }
+    }
+
+    function onPrev() {
+        GLOBAL_APP_STATE.prevSentence(function (s) {
+            updateActivity(s);
+        });
+    }
+
+    $(document).ready(function () {
+        getAppState("state", function () {
+            GLOBAL_APP_STATE.nextSentence(function (sent) {
+                updateActivity(sent);
+            });
+        });
+    });
+</script>
+</body>
+</html>

@@ -147,8 +147,12 @@ public class WebApp implements Runnable {
     }
 
     private boolean store(String spoJson) {
-        if (spoJson == null) return false;
+        if (spoJson == null) {
+            L.warning("spoJson string is null");
+            return false;
+        }
         Document spo = Document.parse(spoJson);
+        L.info("spo object is " + ((spo == null) ? "null" : "not null"));
         return spo != null && Tester.getInstance()
                 .insert((String) spo.get("sen"),
                         (String) spo.get("sub"),
