@@ -22,3 +22,9 @@
     padding: 8px;
 
 }
+
+#sentence {
+    font-family: Serif, serif;
+    font-style: italic;
+    font-size: 22px;
+}

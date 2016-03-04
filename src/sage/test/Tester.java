@@ -8,6 +8,8 @@ import sage.spi.Triplet;
 import sage.util.CryptoUtil;
 import sage.util.MongoUtil;
 
+import java.util.Objects;
+
 /**
  * Created by Anurag Gautam on 03-03-2016.
  */
@@ -30,6 +32,11 @@ public class Tester {
     }
 
     public boolean insert(String origSentence, String sub, String pre, String obj) {
+        Objects.requireNonNull(origSentence);
+        Objects.requireNonNull(sub);
+        Objects.requireNonNull(pre);
+        Objects.requireNonNull(obj);
+
         String hash = CryptoUtil.md5(normalize(origSentence));
         MongoCollection<Document> collection = MongoUtil.getTripletsCollection();
         Document doc = collection.find(Filters.eq("hash", hash)).first();

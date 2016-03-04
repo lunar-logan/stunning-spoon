@@ -59,8 +59,8 @@
 
     AppState.prototype.getCurrentSentence = function () {
         var sentence = null;
-        if (this.curIndex >= 0 && this.curIndex < this.sentences.length) {
-            sentence = this.sentences[this.curIndex];
+        if (this.curIndex >= 0 && this.curIndex <= this.sentences.length) {
+            sentence = this.sentences[this.curIndex - 1];
         }
         return sentence;
     };
@@ -101,7 +101,7 @@
     };
 
     AppState.getInstance = function (uri, callback) {
-        $.get('/sentences?uri=' + encodeURIComponent(uri) + '&start=0&limit=10', function (data, status) {
+        $.get(uri, function (data, status) {
             if (parseInt(data['code'] / 100) === 2) {
                 var payload = data["payload"];
                 var state = {
@@ -128,7 +128,7 @@
                 onState();
             } else {
                 console.info("State not found in the localStorage, creating new state");
-                AppState.getInstance("https://en.wikipedia.org/wiki/Wheat", function (app) {
+                AppState.getInstance('/sentences?uri=' + encodeURIComponent("https://en.wikipedia.org/wiki/Wheat") + '&start=0', function (app) {
                     GLOBAL_APP_STATE = app;
                     onState();
                 });
@@ -201,6 +201,7 @@
             lockActivity();
             var sentence = GLOBAL_APP_STATE.getCurrentSentence();
             if (sentence !== null) {
+                postMessage("Beginning to upload ", 'i');
                 $.post("/add", {spo: JSON.stringify({sen: sentence, sub: s, pre: p, obj: o})}, function (data) {
                     var code = parseInt(data["code"] / 100);
                     if (code === 2) {
@@ -214,8 +215,9 @@
                         unlockActivity();
                         console.log("server-says: " + data["message"]);
                     }
-                }).error(function () {
+                }).error(function (e) {
                     postMessage("Something went wrong, please retry", 'e');
+                    console.error(e);
                     unlockActivity();
                 });
             }
