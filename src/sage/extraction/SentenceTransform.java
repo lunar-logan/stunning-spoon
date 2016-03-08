@@ -1,4 +1,4 @@
-package sage;
+package sage.extraction;
 
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;

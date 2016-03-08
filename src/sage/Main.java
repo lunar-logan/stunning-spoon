@@ -7,6 +7,7 @@ import edu.stanford.nlp.process.DocumentPreprocessor;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
+import sage.extraction.SentenceTransform;
 import sage.spi.Triplet;
 import sage.util.*;
 
@@ -33,6 +34,7 @@ public class Main {
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
+//        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
         parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
 
     }
@@ -54,7 +56,6 @@ public class Main {
         PrintWriter pw = new PrintWriter("riceOut.html");
 
         TripletDumper tripletDumper = new TripletDumper();
-//        ArrayList<Triplet> triplets = new ArrayList<>();
 
         for (List<HasWord> sentence : tokenizer) {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
@@ -72,7 +73,6 @@ public class Main {
         }
         pw.println(tripletDumper.getHTML());
         pw.close();
-//        RDFUtil.dumpAsRDF(triplets, "riceOut.xml");
     }
 
     private static void parseFileAndRDFDump(MaxentTagger tagger, DependencyParser dependencyParser, String testFilePath) throws IOException {
