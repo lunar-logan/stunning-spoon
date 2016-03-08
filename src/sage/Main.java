@@ -8,16 +8,11 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.spi.Triplet;
-import sage.util.RDFUtil;
-import sage.util.TripletDumper;
-import sage.util.Util;
-import sage.util.Values;
+import sage.util.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringReader;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -45,12 +40,7 @@ public class Main {
     private static String getText(String path) {
         String text = null;
         if (path.startsWith("http") || path.startsWith("ftp")) {
-            try {
-                URI uri = new URI(path);
-                text = Util.read(uri);
-            } catch (URISyntaxException e) {
-                e.printStackTrace();
-            }
+            text = URIUtil.readFromURI(path);
         } else {
             text = Util.read(Values.getTestDirPath().resolve(Paths.get(path)));
         }
