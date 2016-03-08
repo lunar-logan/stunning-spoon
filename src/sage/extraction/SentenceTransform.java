@@ -169,7 +169,7 @@ public class SentenceTransform {
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
 
         subject.forEach(sub -> {
-            subjectPhrase.add(sub.makeCopy());
+//            subjectPhrase.add(sub.makeCopy());
             subjectPhrase.addAll(findSubjectAttributes(sub));
         });
 
@@ -199,7 +199,7 @@ public class SentenceTransform {
 
     private Collection<? extends IndexedWord> findSubjectAttributes(IndexedWord sub) {
         ArrayList<IndexedWord> attributes = new ArrayList<>();
-        attributes.add(sub);
+        attributes.add(sub.makeCopy());
 
         PriorityQueue<TypedDependency> relations = get(sub, "amod", "compound");
         relations.forEach(reln -> {

@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1836066">
-              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentenceTransform.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SentenceTransform.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sage/extraction/SentenceTransform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.32131147">
+              <caret line="199" column="67" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
       <recent name="E:\Coding\Java Related\Projects\Sage\vocab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -679,8 +679,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
         <item index="2" class="java.lang.String" itemvalue="Application.WebApp" />
         <item index="3" class="java.lang.String" itemvalue="Application.TesterWebClient" />
         <item index="4" class="java.lang.String" itemvalue="Application.TripletDumper" />
@@ -711,12 +711,12 @@
       <workItem from="1457187919128" duration="1334000" />
       <workItem from="1457293251223" duration="173000" />
       <workItem from="1457418868550" duration="3178000" />
-      <workItem from="1457448722940" duration="3598000" />
+      <workItem from="1457448722940" duration="4452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165848000" />
+    <option name="totallyTimeSpent" value="166702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1155,21 +1155,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sage/extraction/SentenceTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sage/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1836066">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sage/extraction/SentenceTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32131147">
+          <caret line="199" column="67" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
