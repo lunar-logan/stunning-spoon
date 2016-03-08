@@ -31,7 +31,6 @@ public class SentenceTransform {
     }
 
     private void transform() {
-
         // Look for nsubj or nsubjpass with governor as verb
         // TODO: why not combine the two if else into one if?
         for (TypedDependency td : dependencies) {
@@ -134,13 +133,6 @@ public class SentenceTransform {
                 handleNominalModifier(head);
             }
         }
-//        candidates.forEach(td -> {
-//            if (td.reln().getShortName().equalsIgnoreCase("nmod")) {
-//                handleNominalModifier(td);
-//            } else {
-//                object.add(td.dep());
-//            }
-//        });
     }
 
 
@@ -172,18 +164,13 @@ public class SentenceTransform {
     }
 
     private void addTriple() {
-//        System.out.println("Before pre-processing");
-//        System.out.println(subject);
-//        System.out.println(predicate);
-//        System.out.println(object);
-
         ArrayList<IndexedWord> subjectPhrase = new ArrayList<>();
         ArrayList<IndexedWord> predicatePhrase = new ArrayList<>();
         ArrayList<IndexedWord> objectPhrase = new ArrayList<>();
 
         subject.forEach(sub -> {
             subjectPhrase.add(sub.makeCopy());
-            subjectPhrase.addAll(findAttributes(sub));
+            subjectPhrase.addAll(findSubjectAttributes(sub));
         });
 
         predicate.forEach(pre -> {
@@ -208,6 +195,20 @@ public class SentenceTransform {
         subject.clear();
         predicate.clear();
         object.clear();
+    }
+
+    private Collection<? extends IndexedWord> findSubjectAttributes(IndexedWord sub) {
+        ArrayList<IndexedWord> attributes = new ArrayList<>();
+        attributes.add(sub);
+
+        PriorityQueue<TypedDependency> relations = get(sub, "amod", "compound");
+        relations.forEach(reln -> {
+            IndexedWord dep = reln.dep();
+            Collection<? extends IndexedWord> attrs = findSubjectAttributes(dep);
+            attributes.addAll(attrs);
+        });
+
+        return attributes;
     }
 
     /**
