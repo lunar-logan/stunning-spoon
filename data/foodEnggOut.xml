@@ -1,0 +1,122 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:">
+  <rdf:Description rdf:about="s:spot_blotch">
+    <j.0:is>in_tropical_areas_also_important</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bread_wheat_protein_content">
+    <j.0:rangesFrom>10_%_in_some_soft_wheats_with_high_starch_contents</j.0:rangesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:population_growth_rates">
+    <j.0:hasPromoted>shifts_to_other_crops</j.0:hasPromoted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:dwarfing_genes">
+    <j.0:enable>the_carbon_fixed_in_the_plant_during_photosynthesis</j.0:enable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:irrigation">
+    <j.0:been>a_major_contributor_to_increased_grain_output</j.0:been>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:hard_red_winter_nutritional_value_g_energy_kj">
+    <j.0:carbohydrates>71.18_g_sugars_0.41_dietary_fiber</j.0:carbohydrates>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:stomata">
+    <j.0:areInvolvedIn>uptake_of_carbon_dioxide_gas_from_the_atmosphere_water_vapor_losses_from_the_leaf_due_to_water_transpiration</j.0:areInvolvedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:strong_gluten_present">
+    <j.0:enables>dough_to_trap_during_leavening</j.0:enables>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:grain">
+    <j.0:is>twice_the_size_of_modern-day_wheat</j.0:is>
+    <j.0:isGrownOn>more_land_area</j.0:isGrownOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:modern_wheat_breeding">
+    <j.0:wasLinkedTo>the_development_of_mendelian_genetics</j.0:wasLinkedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fungicides">
+    <j.0:be>a_significant_variable_cost_in_wheat_production</j.0:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat_farm_productivity">
+    <j.0:were>about_35_%_of_the_wheat_farm_productivity_in_france</j.0:were>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:harvested_wheat_grain">
+    <j.0:isClassifiedAccording>grain_properties_for_the_purposes_of_the_commodity_markets</j.0:isClassifiedAccording>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:landraces">
+    <j.0:areGrownIn>europe_north_america</j.0:areGrownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rodents">
+    <j.0:inCanBuild>major_grain_growing_regions</j.0:inCanBuild>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:per_capita_production_level">
+    <j.0:be>not_feasible_simultaneously_with_the_growth_of_world_population_in_spite_of_the_increased_average_yields</j.0:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat_species">
+    <j.0:are>diploid_with_two_sets_of_chromosomes_stable_polyploids_with_four_sets_of_chromosomes_six_hexaploid</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat_protein">
+    <j.0:isDigestedBy>nearly_99_%_of_the_human_population_all</j.0:isDigestedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:leaf">
+    <j.0:represents>about_75_%_of_photosynthesis_reactions</j.0:represents>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:better_economic_profitability">
+    <j.0:hasPromoted>shifts_to_other_crops</j.0:hasPromoted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat_production">
+    <j.0:is>unlike_rice_more_widespread_globally</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:usda_nutrient_database_raw_wheat">
+    <j.0:using>hard_durum_wheat</j.0:using>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sheaved_wheat_wheat">
+    <j.0:consistOf>landraces</j.0:consistOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:global_wheat_consumption">
+    <j.0:was>in_1997_101_kg_per_capita_with_the_highest_consumption_623_kg_per_capita_in_denmark_animal_feed</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:average_2.5_tons_wheat">
+    <j.0:wasProducedOn>one_hectare_crop_land_in_the_world_in_the_first_half_of_1990s</j.0:wasProducedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat">
+    <j.0:isCultivatedAs>a_cash_crop</j.0:isCultivatedAs>
+    <j.0:offers>ease_of_grain_storage_ease_of_converting_into_flour</j.0:offers>
+    <j.0:is>with_rice_most_favored_staple_food</j.0:is>
+    <j.0:is>a_major_ingredient_in_such_foods_as_bread_porridge_crackers_biscuits_muesli_pancakes_pies_pastries_cakes_cookies_muffins_rolls_doughnuts_gravy_boza_breakfast_cereals</j.0:is>
+    <j.0:isUsedIn>a_wide_variety_of_foods</j.0:isUsedIn>
+    <j.0:been>also_the_subject_of_mutation_breeding_with_the_use_of_gamma_x-rays_ultraviolet_light_sometimes_harsh_chemicals</j.0:been>
+    <j.0:is>globally_the_leading_source_of_vegetable_protein_in_human_food</j.0:is>
+    <j.0:was>the_second_most-produced_cereal_in_2009</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:drysdale_wheat">
+    <j.0:mayBredFor>dry_conditions_huge_potential_for_water-efficient_wheat_condon_ag_farquhar_gd_richards</j.0:mayBredFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat_futures">
+    <j.0:areTradedOn>the_chicago_board_of_trade</j.0:areTradedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:mice">
+    <j.0:plagues>^_ars_industry_cooperation_yields_device_to_detect_in_stored_wheat</j.0:plagues>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:f1_hybrid_wheat_cultivars">
+    <j.0:beConfusedWith>wheat_cultivars_deriving_from_standard_plant_breeding</j.0:beConfusedWith>
+    <j.0:beConfusedWith>the_standard_method_of_breeding_inbred_wheat_cultivars</j.0:beConfusedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:typical_total_wheat_production_value">
+    <j.0:was>$_31,900_per_farm_with_total_farm_production_value_including_other_crops_of_$_173,681_per_farm</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:field_mice_numbers">
+    <j.0:inCanBuild>major_grain_growing_regions</j.0:inCanBuild>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:world_trade">
+    <j.0:is>greater_than_for_all_other_crops_combined</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:world_production">
+    <j.0:was>682_million_tons_after_maize_rice_as_a_close_third</j.0:was>
+    <j.0:was>in_2013_713_million_tons_making_after_maize_rice_745_million_tons</j.0:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:heterosis">
+    <j.0:occursIn>common_hexaploid_wheat</j.0:occursIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:genes">
+    <j.0:haveHad>a_huge_effect_on_wheat_yields</j.0:haveHad>
+  </rdf:Description>
+</rdf:RDF>

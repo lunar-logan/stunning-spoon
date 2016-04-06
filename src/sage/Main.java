@@ -35,7 +35,7 @@ public class Main {
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
 //        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
-        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
+        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
 
     }
 
@@ -53,7 +53,7 @@ public class Main {
         String text = getText(testFilePath);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
 
-        PrintWriter pw = new PrintWriter("riceOut.html");
+        PrintWriter pw = new PrintWriter("wheatOut.html");
 
         TripletDumper tripletDumper = new TripletDumper();
 
@@ -93,7 +93,7 @@ public class Main {
                     .filter(VocabFilter.getInstance(vocab))
                     .forEach(triplets::add);
         }
-        RDFUtil.dumpAsRDF(triplets, "riceOut.xml");
+        RDFUtil.dumpAsRDF(triplets, "tomatoOut.xml");
     }
 
 
