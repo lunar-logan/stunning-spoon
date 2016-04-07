@@ -1,6 +1,7 @@
 package sage;
 
 import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.process.DocumentPreprocessor;
@@ -11,12 +12,14 @@ import sage.extraction.SentenceTransform;
 import sage.spi.Triplet;
 import sage.util.*;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringReader;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -35,7 +38,8 @@ public class Main {
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
 //        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
-        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+//        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+        parseFileAndTSVDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
 
     }
 
@@ -94,6 +98,40 @@ public class Main {
                     .forEach(triplets::add);
         }
         RDFUtil.dumpAsRDF(triplets, "tomatoOut.xml");
+    }
+
+    private static String dumpAsTSV(List<Triplet> triplets) {
+        StringBuilder sbr = new StringBuilder();
+        triplets.forEach(triple -> {
+            sbr.append(triple.getAsTSV()).append("\n");
+        });
+        return sbr.toString();
+    }
+
+
+    private static void parseFileAndTSVDump(MaxentTagger tagger, DependencyParser dependencyParser, String testFilePath) throws IOException {
+        String docText = getText(testFilePath);
+        DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(docText));
+        ArrayList<Triplet> triplets = new ArrayList<>();
+
+        for (List<HasWord> sentence : tokenizer) {
+            List<TaggedWord> taggedWordList = tagger.tagSentence(sentence);
+            GrammaticalStructure gs = dependencyParser.predict(taggedWordList);
+            Collection<TypedDependency> dependencies = gs.typedDependencies();
+            SentenceTransform transform = new SentenceTransform(dependencies, sentence);
+            transform.getTriples()
+                    .stream()
+                    .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
+                    .filter(VocabFilter.getInstance(vocab))
+                    .forEach(triplets::add);
+        }
+        Collections.sort(triplets, (o1, o2) ->
+                Sentence.listToString(o1.getSubject()).compareToIgnoreCase(Sentence.listToString(o2.getSubject())));
+        FileOutputStream fout = new FileOutputStream(
+                Paths.get(Values.getTestDirPath().toString(),
+                        FilesUtil.getFilenameWithoutExtension(testFilePath) + ".tsv").toFile());
+        fout.write(dumpAsTSV(triplets).getBytes());
+        fout.close();
     }
 
 

@@ -39,6 +39,16 @@ public class SPOTriplet implements Triplet {
     }
 
     @Override
+    public String getAsTSV() {
+        return String.format(
+                "%s\t%s\t%s",
+                Sentence.listToString(sub),
+                Sentence.listToString(pre),
+                Sentence.listToString(obj)
+        );
+    }
+
+    @Override
     public String toString() {
         return getAsCSV();
     }

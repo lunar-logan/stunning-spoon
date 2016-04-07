@@ -24,4 +24,6 @@ public interface Triplet {
     boolean hasPredicate();
 
     String getAsCSV();
+
+    String getAsTSV();
 }
