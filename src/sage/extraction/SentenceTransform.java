@@ -3,6 +3,7 @@ package sage.extraction;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.trees.TypedDependency;
+import sage.Vocabulary;
 import sage.spi.Triplet;
 import sage.util.SPOTriplet;
 
@@ -19,6 +20,7 @@ import java.util.*;
  *          TODO: Add the description of the algorithm used for extraction
  */
 public class SentenceTransform {
+    private final Vocabulary V;
     private final List<HasWord> originalSentence;
     private final Collection<TypedDependency> dependencies;
 
@@ -28,12 +30,13 @@ public class SentenceTransform {
 
     private ArrayList<Triplet> triples = new ArrayList<>();
 
-    public SentenceTransform(Collection<TypedDependency> dependencies, List<HasWord> origSent) {
+    public SentenceTransform(Collection<TypedDependency> dependencies, List<HasWord> origSent, Vocabulary vocabulary) {
         this.dependencies = dependencies;
         this.originalSentence = origSent;
         this.subject = new ArrayList<>();
         this.predicate = new ArrayList<>();
         this.object = new ArrayList<>();
+        this.V = vocabulary;
         transform();
     }
 
@@ -257,7 +260,13 @@ public class SentenceTransform {
                         || relationName.equalsIgnoreCase("advmod")
                         || relationName.equalsIgnoreCase("det")
                         || relationName.startsWith("acl")) {
-                    attrs.add(td.dep());
+                    if (!relationName.equalsIgnoreCase("compound")) {
+                        if (V.contains(td.dep().word())) {
+                            attrs.add(td.dep());
+                        }
+                    } else {
+                        attrs.add(td.dep());
+                    }
                     ArrayList<IndexedWord> attributes = findAttributes(td.dep());
                     if (!attributes.isEmpty()) {
                         attrs.addAll(attributes);

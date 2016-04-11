@@ -42,9 +42,9 @@ public class SPOTriplet implements Triplet {
     public String getAsTSV() {
         return String.format(
                 "%s\t%s\t%s",
-                Sentence.listToString(sub),
-                Sentence.listToString(pre),
-                Sentence.listToString(obj)
+                Util.join(sub.stream(), "_"),
+                Util.join(pre.stream(), "", (w) -> Character.toUpperCase(w.charAt(0)) + w.substring(1)),
+                Util.join(obj.stream(), "_")
         );
     }
 

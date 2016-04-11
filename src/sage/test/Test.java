@@ -1,5 +1,6 @@
 package sage.test;
 
+import sage.Vocabulary;
 import sage.util.Values;
 
 import java.util.logging.Logger;
@@ -13,6 +14,10 @@ public class Test {
 
     public static void main(String[] args) {
         Values.loadValues();
+        Vocabulary V = Vocabulary.getInstance();
+        System.out.println(V.contains("solanum"));
+        System.out.println(V.contains("lycopersicum"));
+        System.out.println(V.contains("berry"));
 
     }
 }

@@ -66,14 +66,18 @@ public class Util {
         Objects.requireNonNull(separator, "ComparableWord separator cannot be null");
         Objects.requireNonNull(stream, "ComparableWord stream cannot be null");
 
-        StringBuilder value = new StringBuilder();
+//        StringBuilder value = new StringBuilder();
+        StringJoiner joiner = new StringJoiner(separator);
         if (decorator != null) {
-            stream.forEach(e -> value.append(decorator.apply(e.word())).append(separator));
+//            stream.forEach(e -> value.append(decorator.apply(e.word())).append(separator));
+            stream.forEach(w -> joiner.add(decorator.apply(w.word())));
         } else {
-            stream.forEach(e -> value.append(e.word()).append(separator));
+//            stream.forEach(e -> value.append(e.word()).append(separator));
+            stream.forEach(w -> joiner.add(w.word()));
         }
 
-        return value.toString().trim();
+//        return value.toString().trim();
+        return joiner.toString();
     }
 
     public static String weld(Stream<String> stream, String sep) {
@@ -86,10 +90,11 @@ public class Util {
         Objects.requireNonNull(separator, "ComparableWord separator cannot be null");
         Objects.requireNonNull(stream, "ComparableWord stream cannot be null");
 
-        StringBuilder value = new StringBuilder();
-        stream.forEach(e -> value.append(e.word()).append(separator));
-
-        return value.toString().trim();
+//        StringBuilder value = new StringBuilder();
+//        stream.forEach(e -> value.append(e.word()).append(separator));
+//
+//        return value.toString().trim();
+        return join(stream, separator, null);
     }
 
     public static boolean inOpenRange(int a, int x, int b) {

@@ -65,7 +65,7 @@ public class Main {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
             GrammaticalStructure gs = dependencyParser.predict(taggedSentence);
             Collection<TypedDependency> dependencies = gs.typedDependencies();
-            SentenceTransform transform = new SentenceTransform(dependencies, sentence);
+            SentenceTransform transform = new SentenceTransform(dependencies, sentence, vocab);
 
             tripletDumper.add(
                     transform.getTriples()
@@ -89,7 +89,7 @@ public class Main {
             List<TaggedWord> taggedSentence = tagger.tagSentence(sentence);
             GrammaticalStructure gs = dependencyParser.predict(taggedSentence);
             Collection<TypedDependency> dependencies = gs.typedDependencies();
-            SentenceTransform transform = new SentenceTransform(dependencies, sentence);
+            SentenceTransform transform = new SentenceTransform(dependencies, sentence, vocab);
 
             transform.getTriples()
                     .stream()
@@ -97,7 +97,7 @@ public class Main {
                     .filter(VocabFilter.getInstance(vocab))
                     .forEach(triplets::add);
         }
-        RDFUtil.dumpAsRDF(triplets, "tomatoOut.xml");
+        RDFUtil.dumpAsRDF(triplets, FilesUtil.getFilenameWithoutExtension(testFilePath) + ".xml");
     }
 
     private static String dumpAsTSV(List<Triplet> triplets) {
@@ -118,7 +118,7 @@ public class Main {
             List<TaggedWord> taggedWordList = tagger.tagSentence(sentence);
             GrammaticalStructure gs = dependencyParser.predict(taggedWordList);
             Collection<TypedDependency> dependencies = gs.typedDependencies();
-            SentenceTransform transform = new SentenceTransform(dependencies, sentence);
+            SentenceTransform transform = new SentenceTransform(dependencies, sentence, vocab);
             transform.getTriples()
                     .stream()
                     .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
