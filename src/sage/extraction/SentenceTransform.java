@@ -9,7 +9,14 @@ import sage.util.SPOTriplet;
 import java.util.*;
 
 /**
- * Created by Anurag Gautam on 02-03-2016.
+ * <h1>Algorithm Description</h1>
+ * <ol>
+ * <li>Look for {@code nsubj} and {@code nsubjpass} relations</li>
+ * </ol>
+ *
+ * @author Anurag Gautam
+ * @version 0.0.2, revision-history: 020316, 110416
+ *          TODO: Add the description of the algorithm used for extraction
  */
 public class SentenceTransform {
     private final List<HasWord> originalSentence;
@@ -30,6 +37,10 @@ public class SentenceTransform {
         transform();
     }
 
+    /**
+     * Genesis of triplet extraction process. This method tries to find the {@code nsubj} and {@code nsubjpass} relations
+     * and then transfers the control to the respective callbacks.
+     */
     private void transform() {
         // Look for nsubj or nsubjpass with governor as verb
         // TODO: why not combine the two if else into one if?
@@ -44,12 +55,13 @@ public class SentenceTransform {
     }
 
     /**
-     * Handles nsubj and nsubjpass dependencies
+     * Handles {@code nsubj} and {@code nsubjpass} dependencies. The dependent of these relations act as the subject
+     * of the phrase. The governor may or may not be the predicate.
      *
      * @param dependency
      */
     private void handleNominalSubject(TypedDependency dependency) {
-        if (dependency.gov().tag().startsWith("VB")) {                      // If gov is a verb, which is our predicate
+        if (dependency.gov().tag().startsWith("VB")) {                      // If gov is a verb, then it is our predicate
             findObject(dependency.gov());
             subject.add(dependency.dep());
             predicate.add(dependency.gov());
