@@ -237,7 +237,7 @@ public class SentenceTransform {
         IndexedWord aux = null;
         for (TypedDependency dependency : dependencies) {
             if (dependency.gov().equals(verb)) {
-                if (dependency.reln().getShortName().startsWith("aux")
+                if (dependency.reln().getShortName().startsWith("aux") || dependency.reln().getShortName().startsWith("xcom")
                         /*|| dependency.reln().getShortName().startsWith("advcl")*/) {
                     aux = dependency.dep();
                 }
@@ -257,16 +257,18 @@ public class SentenceTransform {
                         || relationName.equalsIgnoreCase("nummod")
                         || relationName.equalsIgnoreCase("dep")
                         || relationName.equalsIgnoreCase("mark")
-                        || relationName.equalsIgnoreCase("advmod")
-                        || relationName.equalsIgnoreCase("det")
+//                        || relationName.equalsIgnoreCase("advmod")
+//                        || relationName.equalsIgnoreCase("det")
                         || relationName.startsWith("acl")) {
+                    attrs.add(td.dep());
+/*
                     if (!relationName.equalsIgnoreCase("compound")) {
                         if (V.contains(td.dep().word())) {
                             attrs.add(td.dep());
                         }
                     } else {
                         attrs.add(td.dep());
-                    }
+                    }*/
                     ArrayList<IndexedWord> attributes = findAttributes(td.dep());
                     if (!attributes.isEmpty()) {
                         attrs.addAll(attributes);

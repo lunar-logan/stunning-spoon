@@ -38,8 +38,8 @@ public class Main {
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
 //        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
-//        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
-        parseFileAndTSVDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+//        parseFileAndTSVDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
 
     }
 
