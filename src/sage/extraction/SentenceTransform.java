@@ -138,7 +138,7 @@ public class SentenceTransform {
     }
 
     private void findObject(IndexedWord predicate) {
-        PriorityQueue<TypedDependency> candidates = get(predicate, "dobj", "iobj", "nmod");
+        PriorityQueue<TypedDependency> candidates = get(predicate, "dobj", "iobj", "parataxis", "nmod");
         TypedDependency head = candidates.peek();
         if (head != null) {
             String relation = head.reln().getShortName();
@@ -237,7 +237,7 @@ public class SentenceTransform {
         IndexedWord aux = null;
         for (TypedDependency dependency : dependencies) {
             if (dependency.gov().equals(verb)) {
-                if (dependency.reln().getShortName().startsWith("aux") || dependency.reln().getShortName().startsWith("xcom")
+                if (dependency.reln().getShortName().startsWith("aux")
                         /*|| dependency.reln().getShortName().startsWith("advcl")*/) {
                     aux = dependency.dep();
                 }

@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/sage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/data/Tomato.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/sage/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -70,11 +70,11 @@
       <file leaf-file-name="SentenceTransform.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sage/extraction/SentenceTransform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9639344">
-              <caret line="239" column="125" selection-start-line="239" selection-start-column="125" selection-end-line="239" selection-end-column="125" />
+            <state vertical-scroll-proportion="0.6213115">
+              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
               <folding>
-                <element signature="e#11989#11990#0" expanded="true" />
-                <element signature="e#12019#12020#0" expanded="true" />
+                <element signature="e#11947#11948#0" expanded="true" />
+                <element signature="e#11977#11978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -761,12 +761,12 @@
       <workItem from="1459925055831" duration="2076000" />
       <workItem from="1460008562882" duration="1368000" />
       <workItem from="1460012068105" duration="4401000" />
-      <workItem from="1460371741569" duration="10019000" />
+      <workItem from="1460371741569" duration="11038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190329000" />
+    <option name="totallyTimeSpent" value="191348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,14 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sage/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sage/util/URIUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3704918">
@@ -1203,16 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/Tomato.tsv">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1224,21 +1206,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sage/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/Tomato.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sage/extraction/SentenceTransform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9639344">
-          <caret line="239" column="125" selection-start-line="239" selection-start-column="125" selection-end-line="239" selection-end-column="125" />
+        <state vertical-scroll-proportion="0.6213115">
+          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
           <folding>
-            <element signature="e#11989#11990#0" expanded="true" />
-            <element signature="e#12019#12020#0" expanded="true" />
+            <element signature="e#11947#11948#0" expanded="true" />
+            <element signature="e#11977#11978#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,6 +3,7 @@
     xmlns:j.0="p:">
   <rdf:Description rdf:about="s:tomato">
     <j.0:is>subset_of_fruit_vegetable_for_culinary_purposes_because_savory_flavor_see</j.0:is>
+    <j.0:wasConsideredFor>many_years_in_britain_north_american_colonies</j.0:wasConsideredFor>
     <j.0:is>native_to_western_south_america_central_america</j.0:is>
     <j.0:isConsumedIn>diverse_ways_including_raw_as_ingredient_in_many_dishes_sauces_salads_drinks</j.0:isConsumedIn>
     <j.0:is>fruit_ovary_with_seeds_of_flowering_plant</j.0:is>
@@ -10,7 +11,6 @@
     <j.0:wasIntroducedTo>cultivation_in_middle_east</j.0:wasIntroducedTo>
     <j.0:belongsTo>nightshade_family</j.0:belongsTo>
     <j.0:isGrownFor>edible_fruits</j.0:isGrownFor>
-    <j.0:consideredUnfitFor>many_years_in_britain_north_american_colonies</j.0:consideredUnfitFor>
     <j.0:is>edible_red_berry-type_fruit_of_nightshade_solanum_lycopersicum_known_as_tomato_plant</j.0:is>
     <j.0:has>lower_sugar_content_than_other_edible_fruits</j.0:has>
   </rdf:Description>
@@ -100,7 +100,7 @@
     <j.0:bear>full_crop</j.0:bear>
   </rdf:Description>
   <rdf:Description rdf:about="s:pear_tomatoes">
-    <j.0:basedUponPaste>san_marzano_types</j.0:basedUponPaste>
+    <j.0:areBasedUpon>san_marzano_types</j.0:areBasedUpon>
   </rdf:Description>
   <rdf:Description rdf:about="s:erect_bush_varieties">
     <j.0:beenBred>100_cm_tall</j.0:beenBred>
@@ -178,7 +178,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="s:seeds">
     <j.0:beDriedBefore>germination</j.0:beDriedBefore>
-    <j.0:forNeedCome>propagation</j.0:forNeedCome>
+    <j.0:forNeed>propagation</j.0:forNeed>
   </rdf:Description>
   <rdf:Description rdf:about="s:unique_varieties">
     <j.0:wereDevelopedOver>next_several_hundred_years_for_uses_such_dried_tomatoes_sauce_tomatoes_pizza_tomatoes_tomatoes_for_long_term_storage</j.0:wereDevelopedOver>
