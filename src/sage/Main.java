@@ -38,7 +38,8 @@ public class Main {
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
 //        parseFile(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Rice");
-        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+//        parseFileAndRDFDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
+        parseFileAndRDFDump(tagger, dependencyParser, "test3.txt");
 //        parseFileAndTSVDump(tagger, dependencyParser, "https://en.wikipedia.org/wiki/Tomato");
 
     }
@@ -94,7 +95,7 @@ public class Main {
             transform.getTriples()
                     .stream()
                     .filter(t -> t.hasSubject() && t.hasPredicate() && t.hasObject())
-                    .filter(VocabFilter.getInstance(vocab))
+//                    .filter(VocabFilter.getInstance(vocab))
                     .forEach(triplets::add);
         }
         RDFUtil.dumpAsRDF(triplets, FilesUtil.getFilenameWithoutExtension(testFilePath) + ".xml");

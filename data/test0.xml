@@ -1,0 +1,152 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:with@"
+    xmlns:j.1="p:">
+  <rdf:Description rdf:about="s:infection">
+    <j.1:occursDuring>reproductive_stages</j.1:occursDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plants">
+    <j.1:show>conspicuous_venial_chlorosis_any_leaf_lamina</j.1:show>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:male_insect">
+    <j.1:has>black_spot_in_middle_of_forewings_absent_in_females</j.1:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:light">
+    <j.1:apply>carbendazim_@_1.0_gm/lit</j.1:apply>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:neem_seed_kernel_extract">
+    <j.1:controls>stem_borer</j.1:controls>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:severe_infection">
+    <j.1:causes>entire_parts_of_young_panicles_to_remain_within_sheath</j.1:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:preventive_method">
+    <j.1:enhanced>crop_growth</j.1:enhanced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:chemical_methods">
+    <j.1:doApply>lower/higher_doses_of_fungicides</j.1:doApply>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:lesions">
+    <j.1:increaseIn>area_central_portions</j.1:increaseIn>
+    <j.1:are>small_that_spread_over_surface_of_leaf</j.1:are>
+    <j.1:developOn>uppermost_leaf_sheaths_enclose</j.1:developOn>
+    <j.1:mayCover>entire_leaf_sheath</j.1:mayCover>
+    <j.1:are>brown_to_dark_brown</j.1:are>
+    <j.1:causes>girdling_of_neck_panicle_to_fall</j.1:causes>
+    <j.1:are>grayish_brown</j.1:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:infected_grain">
+    <j.1:has>greenish_smut_balls</j.1:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:unemerged_panicles_rot">
+    <j.1:turn>red-brown_to_dark_brown</j.1:turn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:damaged_seeds">
+    <j.1:are>unfit_for_consumption_germination</j.1:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:neonate_larvae">
+    <j.1:are>transparent_second_molting</j.1:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:maximum_damage">
+    <j.1:isObserved>5-6_weeks_after_sowing</j.1:isObserved>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:spores">
+    <j.1:canSpreadBy>wind_to_other_rice_plants</j.1:canSpreadBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:diseased_plants">
+    <j.1:atBeRemoved>time_of_harvesting</j.1:atBeRemoved>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:optimum_plant_spacing">
+    <j.1:canReduce>disease</j.1:canReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:seed_treatment">
+    <j.0:Followed>pseudomonas_fluorescens</j.0:Followed>
+    <j.1:mayReduce>termite_damage</j.1:mayReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice_grassy_stunt_virus">
+    <j.1:is>member_of_tenuiviruses</j.1:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:systemic_fungicides">
+    <j.1:are>possible_chemicals_for_controlling</j.1:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:virus">
+    <j.1:existsIn>vector_rice_crop</j.1:existsIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:insecticides">
+    <j.1:maintain>2.5_cm_of_water_in_nursery_broadcast_anyone_of_following_in_20_cents</j.1:maintain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bright_yellowish_brown_fore_wings">
+    <j.1:possess>tuft_of_yellow_hairs</j.1:possess>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fungi">
+    <j.1:being>several_soil_inhabiting_predominant_pythium_aphanidermatum_pythium_debaryanum</j.1:being>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:management">
+    <j.1:raise>one_row_of_sunflower</j.1:raise>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:digging">
+    <j.1:is>important_in_termite_management</j.1:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:alternaria_arachidis_tenuissima_symptom_lesions">
+    <j.1:are>brown_in_colour</j.1:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:tobacco">
+    <j.1:beAvoidedIn>infected_fields</j.1:beAvoidedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:planted_crop">
+    <j.1:has>less_smut_balls_than_late_planted_crop</j.1:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:infected_plants">
+    <j.1:surviveUntil>maturity</j.1:surviveUntil>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sheath_rot_fungus">
+    <j.1:survivesAs>mycelium_in_infected_residue_seeds</j.1:survivesAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:subsequent_application">
+    <j.1:beGivenAt>4_days_if_bright_sunny_2_days</j.1:beGivenAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:phaeoisariopsis_personatum_symptom_infection">
+    <j.1:startsAround>55-57_days_after_sowing_in_kharif_42-46_days_after_sowing_in_rabi</j.1:startsAround>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:size">
+    <j.1:varyOn>different_rice_varieties</j.1:varyOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fungus_reproductive_structures">
+    <j.1:canSpreadFrom>two_sources_to_rice_plants</j.1:canSpreadFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:disease">
+    <j.1:isNoticedIn>two_phases</j.1:isNoticedIn>
+    <j.1:isObserved>5-6_weeks_after_sowing</j.1:isObserved>
+    <j.1:developsIn>fields_through_seed_rubbing_of_diseased_leaves_with_healthy_ones</j.1:developsIn>
+    <j.1:isSeverIn>cool_seasons</j.1:isSeverIn>
+    <j.1:mayCause>yield_loss</j.1:mayCause>
+    <j.1:is>important_during_heading_towards_maturity_stages_of_rice_crop</j.1:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:brown">
+    <j.1:occursIn>soil_leaf_pod_crop_debris</j.1:occursIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:management_removal">
+    <j.1:canCheck>primary_infection</j.1:canCheck>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:application">
+    <j.1:beRepeatedAfter>rain</j.1:beRepeatedAfter>
+    <j.1:inHas>case_of_heavy_rain</j.1:inHas>
+    <j.1:protected>plants</j.1:protected>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:spots">
+    <j.1:produces>brown_ring</j.1:produces>
+    <j.1:increaseIn>size</j.1:increaseIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:preventive_methods">
+    <j.1:avoid>dry_nurseries</j.1:avoid>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:individual_rice_grain">
+    <j.1:transformedInto>mass_of_yellow_fruiting_bodies</j.1:transformedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:adult_hopper">
+    <j.1:has>yellowish_brown_to_dark_brown_body</j.1:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:carbofuran">
+    <j.1:beLocatedNear>street_lamps_rice_case_worm_nymphula_depunctalis_symptom_of_damage_caterpillars_feed_on_green_tissues_of_leaves</j.1:beLocatedNear>
+  </rdf:Description>
+</rdf:RDF>

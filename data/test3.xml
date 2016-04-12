@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:">
+  <rdf:Description rdf:about="s:oryza">
+    <j.0:includes>24_species</j.0:includes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:which">
+    <j.0:taste>sweet</j.0:taste>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:wheat">
+    <j.0:has>higher_protein_content</j.0:has>
+    <j.0:is>grass_belonging_to_genus_triticum</j.0:is>
+    <j.0:is>important_staple_food_after_rice</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:food">
+    <j.0:contains>wheat</j.0:contains>
+    <j.0:contains>rice</j.0:contains>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rice">
+    <j.0:isCultivatedIn>flooded_fields</j.0:isCultivatedIn>
+    <j.0:canProduce>ratoon_crop_for_upto_30_years</j.0:canProduce>
+    <j.0:canSurviveAs>perennial</j.0:canSurviveAs>
+    <j.0:growsAs>annual_plant</j.0:growsAs>
+    <j.0:is>seed_of_oryza_sativa_oryza_glaberrima</j.0:is>
+    <j.0:is>important_staple_food</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:floor">
+    <j.0:isUsedIn>bakery_products_taste</j.0:isUsedIn>
+    <j.0:isMadeFrom>wheat</j.0:isMadeFrom>
+  </rdf:Description>
+</rdf:RDF>
