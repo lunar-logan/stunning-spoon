@@ -2,22 +2,15 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="p:">
   <rdf:Description rdf:about="s:tomato">
-    <j.0:is>subset_of_fruit_vegetable_for_culinary_purposes_because_savory_flavor_see</j.0:is>
-    <j.0:is>native_to_western_south_america_central_america</j.0:is>
-    <j.0:isConsumedIn>diverse_ways_including_raw_as_ingredient_in_many_dishes_sauces_salads_drinks</j.0:isConsumedIn>
-    <j.0:is>fruit_ovary_with_seeds_of_flowering_plant</j.0:is>
-    <j.0:was>daily_use_in_soups_broths_garnish</j.0:was>
-    <j.0:wasIntroducedTo>cultivation_in_middle_east</j.0:wasIntroducedTo>
-    <j.0:belongsTo>nightshade_family</j.0:belongsTo>
+    <j.0:has>lower_sugar_content</j.0:has>
+    <j.0:is>fruit_ovary</j.0:is>
     <j.0:isGrownFor>edible_fruits</j.0:isGrownFor>
-    <j.0:is>edible_red_berry-type_fruit_of_nightshade_solanum_lycopersicum_known_as_tomato_plant</j.0:is>
-    <j.0:has>lower_sugar_content_than_other_edible_fruits</j.0:has>
+    <j.0:wasIntroducedTo>cultivation</j.0:wasIntroducedTo>
+    <j.0:belongsTo>nightshade_family</j.0:belongsTo>
+    <j.0:is>edible_red_berry-type_fruit_known</j.0:is>
   </rdf:Description>
   <rdf:Description rdf:about="s:ground_cover_plants">
-    <j.0:stabilize>moisture_loss_around_tomato_plants_other_solaneae</j.0:stabilize>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:pollination">
-    <j.0:beAided>by_artificial_wind_wand_called</j.0:beAided>
+    <j.0:stabilize>moisture_loss</j.0:stabilize>
   </rdf:Description>
   <rdf:Description rdf:about="s:solanum_section_lycopersicoides">
     <j.0:areRepresentedBy>two_species_each_considered</j.0:areRepresentedBy>
@@ -26,47 +19,28 @@
     <j.0:beenIdentifiedIn>other_species</j.0:beenIdentifiedIn>
   </rdf:Description>
   <rdf:Description rdf:about="s:tomato_fruitworm_feeding">
-    <j.0:is>curly_top_carried_by_beet_leafhopper_interrupts_ruining_as_crop</j.0:is>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:fruit">
-    <j.0:contains>hollow_spaces_full_of_seeds_moisture</j.0:contains>
+    <j.0:is>curly_top_carried_ruining</j.0:is>
   </rdf:Description>
   <rdf:Description rdf:about="s:few_seed_merchants">
-    <j.0:provide>large_selection_of_heirloom_seeds</j.0:provide>
+    <j.0:provide>large_selection</j.0:provide>
   </rdf:Description>
   <rdf:Description rdf:about="s:more_species">
     <j.0:beCrossedWith>domestic_tomato</j.0:beCrossedWith>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:fertilization">
-    <j.0:leadsTo>formation_of_diploid_zygote_develop_into_embryo_within_emerging_seed</j.0:leadsTo>
   </rdf:Description>
   <rdf:Description rdf:about="s:common_tomato_disease">
     <j.0:is>tobacco_mosaic_virus</j.0:is>
   </rdf:Description>
   <rdf:Description rdf:about="s:alexander">
-    <j.0:introduced>paragon_tomato_culture</j.0:introduced>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:tomato_varieties">
-    <j.0:are>available_with_double_normal_vitamin_c_two_to_four_times_normal_amount_of_lycopene_numerous_available_cultivars_with_high_crimson_gene</j.0:are>
-    <j.0:areDividedInto>several_categories_based_on_shape_size</j.0:areDividedInto>
+    <j.0:introduced>paragon_culture</j.0:introduced>
   </rdf:Description>
   <rdf:Description rdf:about="s:cultivars">
     <j.0:produce>red_fruit</j.0:produce>
   </rdf:Description>
-  <rdf:Description rdf:about="s:seed_stocks">
-    <j.0:are>available_for_legitimate_breeding_research_efforts</j.0:are>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:meiosis">
-    <j.0:give>rise_to_haploid_nuclei</j.0:give>
-  </rdf:Description>
   <rdf:Description rdf:about="s:similar_proteins">
     <j.0:beenIdentifiedIn>other_species</j.0:beenIdentifiedIn>
   </rdf:Description>
-  <rdf:Description rdf:about="s:diploid_microspore_mother_cells">
-    <j.0:give>rise_to_haploid_pollen_grains</j.0:give>
-  </rdf:Description>
   <rdf:Description rdf:about="s:natural_genetic_variation">
-    <j.0:hasGiven>genetic_plethora_of_genes_produce</j.0:hasGiven>
+    <j.0:hasGiven>genetic_plethora</j.0:hasGiven>
   </rdf:Description>
   <rdf:Description rdf:about="s:tomato_plants">
     <j.0:produce>plant_peptide_hormone_systemin</j.0:produce>
@@ -75,25 +49,16 @@
     <j.0:isSequencedFor>first_time</j.0:isSequencedFor>
   </rdf:Description>
   <rdf:Description rdf:about="s:common_tomato_pests">
-    <j.0:are>stink_bugs_cutworms_tomato_hornworms_tobacco_hornworms_aphids_cabbage_loopers_whiteflies_tomato_fruitworms_flea_beetles_red_spider_mite_slugs_colorado_potato_beetles</j.0:are>
+    <j.0:are>stink_bugs_red_spider_mite</j.0:are>
   </rdf:Description>
   <rdf:Description rdf:about="s:technique">
-    <j.0:isUsedIn>hostile_growing_environments_high-density_plantings</j.0:isUsedIn>
+    <j.0:isUsedIn>hostile_growing_environments</j.0:isUsedIn>
   </rdf:Description>
   <rdf:Description rdf:about="s:hybrid_plants">
-    <j.0:combine>unusual_characteristics_of_heirloom_tomatoes</j.0:combine>
+    <j.0:combine>unusual_characteristics</j.0:combine>
   </rdf:Description>
   <rdf:Description rdf:about="s:recombinational_repair">
-    <j.0:occursDuring>meiosis_in_tomato</j.0:occursDuring>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:exact_date">
-    <j.0:is>unknown_by_500_bc_cultivated_in_southern_mexico_other_areas</j.0:is>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:tomato_genome_sequence">
-    <j.0:provides>insights_into_fleshy_fruit_evolution</j.0:provides>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:alexander_w._livingston">
-    <j.0:hadBegun>attempts_to_develop_as_commercial_crop</j.0:hadBegun>
+    <j.0:occursDuring>meiosis</j.0:occursDuring>
   </rdf:Description>
   <rdf:Description rdf:about="s:types">
     <j.0:bear>full_crop</j.0:bear>
@@ -105,103 +70,79 @@
     <j.0:beenBred>100_cm_tall</j.0:beenBred>
   </rdf:Description>
   <rdf:Description rdf:about="s:strange_tomato">
-    <j.0:meet>tomtato_grown_as_one_cbs_news_solanum_lycopersicum_l._on_solanaceae_source_used</j.0:meet>
+    <j.0:meet>tomtato_grown_cbs_news_solanum_lycopersicum_l.</j.0:meet>
   </rdf:Description>
   <rdf:Description rdf:about="s:corporations">
     <j.0:have>breeding_programs_attempt</j.0:have>
   </rdf:Description>
   <rdf:Description rdf:about="s:species">
     <j.0:beCrossedWith>domestic_tomato</j.0:beCrossedWith>
-    <j.0:originatedIn>central_america_use_as_originated_in_mexico_spread_throughout_world_following_spanish_colonization_of_americas</j.0:originatedIn>
+    <j.0:originatedIn>central_america</j.0:originatedIn>
   </rdf:Description>
   <rdf:Description rdf:about="s:most_tomato_plants">
     <j.0:areCalled>regular_leaf_plants</j.0:areCalled>
   </rdf:Description>
   <rdf:Description rdf:about="s:u_genetic_mutation">
-    <j.0:encodes>factor_produces_with_lower_density_in_developing_fruit</j.0:encodes>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:record-setting_tomato_tree">
-    <j.0:beSeenBy>guests_along_living_with_land_boat_ride_at_epcot</j.0:beSeenBy>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:all">
-    <j.0:are>unlike_commercial_hybrids_self-pollinators_bred</j.0:are>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:first_available_modified_food">
-    <j.0:was>variety_of_tomato_named</j.0:was>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:determinate_types">
-    <j.0:arePreferredBy>commercial_growers_wish_home_growers_interested_in_canning</j.0:arePreferredBy>
+    <j.0:encodes>factor_produces</j.0:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="s:type">
     <j.0:isGrownNear>plants_process</j.0:isGrownNear>
   </rdf:Description>
-  <rdf:Description rdf:about="s:active_breeding_programs">
-    <j.0:are>ongoing_by_individuals_universities_corporations_organizations</j.0:are>
-  </rdf:Description>
   <rdf:Description rdf:about="s:devastating_tomato_hornworm">
-    <j.0:drinks>nectar_from_tiny-flowered_plants_like_umbellifers</j.0:drinks>
-    <j.0:has>major_predator_in_various_parasitic_wasps_devour</j.0:has>
+    <j.0:has>major_predator</j.0:has>
   </rdf:Description>
   <rdf:Description rdf:about="s:name_lycopersicon_lycopersicum">
     <j.0:isUsedExcept>seed_catalogs_used</j.0:isUsedExcept>
   </rdf:Description>
   <rdf:Description rdf:about="s:many_other_fruits">
-    <j.0:share>same_characteristics_genes</j.0:share>
+    <j.0:share>same_characteristics</j.0:share>
   </rdf:Description>
   <rdf:Description rdf:about="s:several_species">
-    <j.0:areGrownWith>tomato_plants_including_parsley_lace_dill</j.0:areGrownWith>
+    <j.0:areGrownWith>tomato_plants</j.0:areGrownWith>
   </rdf:Description>
   <rdf:Description rdf:about="s:plants">
-    <j.0:mayImpact>flavor_of_tomato_fruit</j.0:mayImpact>
-    <j.0:growTo>1_3_meters_3_10_ft_in_height</j.0:growTo>
+    <j.0:growTo>3_3_10_ft</j.0:growTo>
+    <j.0:growTo>1_3_meters_3_10_ft</j.0:growTo>
   </rdf:Description>
   <rdf:Description rdf:about="s:grape_tomatoes">
     <j.0:usedIn>salads</j.0:usedIn>
-    <j.0:are>smaller_oblong_variation_on_plum_tomatoes</j.0:are>
   </rdf:Description>
   <rdf:Description rdf:about="s:pollination_formation">
     <j.0:dependOn>meiosis</j.0:dependOn>
   </rdf:Description>
-  <rdf:Description rdf:about="s:varieties">
-    <j.0:areKnownFor>place_of_origin</j.0:areKnownFor>
-  </rdf:Description>
   <rdf:Description rdf:about="s:s._lycopersicoides">
-    <j.0:beCrossedWith>domestic_tomato_introgression_lines</j.0:beCrossedWith>
+    <j.0:beCrossedWith>domestic_tomato</j.0:beCrossedWith>
   </rdf:Description>
   <rdf:Description rdf:about="s:food_administration_image">
-    <j.0:isCreating>database_of_genomic_sequences_information_on_tomato_related_plants</j.0:isCreating>
     <j.0:began>sequencing_tomato_genome</j.0:began>
   </rdf:Description>
   <rdf:Description rdf:about="s:smaller_sized_fruit">
-    <j.0:are>fruit_of_choice_for_large_commercial_greenhouse_operators</j.0:are>
+    <j.0:are>fruit</j.0:are>
   </rdf:Description>
   <rdf:Description rdf:about="s:seeds">
     <j.0:beDriedBefore>germination</j.0:beDriedBefore>
     <j.0:forNeed>propagation</j.0:forNeed>
   </rdf:Description>
-  <rdf:Description rdf:about="s:unique_varieties">
-    <j.0:wereDevelopedOver>next_several_hundred_years_for_uses_such_dried_tomatoes_sauce_tomatoes_pizza_tomatoes_tomatoes_for_long_term_storage</j.0:wereDevelopedOver>
-  </rdf:Description>
   <rdf:Description rdf:about="s:c.m._rick_tomato_genetics_resource_center">
-    <j.0:is>gene_bank_of_wild_relatives_monogenic_mutants_miscellaneous_genetic_stocks_of_tomato</j.0:is>
+    <j.0:is>gene_bank</j.0:is>
   </rdf:Description>
   <rdf:Description rdf:about="s:lycopene">
-    <j.0:has>no_effect_on_risk_of_developing_diabetes</j.0:has>
+    <j.0:has>no_effect</j.0:has>
   </rdf:Description>
   <rdf:Description rdf:about="s:indeterminate_varieties">
     <j.0:developInto>vines_never_top</j.0:developInto>
   </rdf:Description>
   <rdf:Description rdf:about="s:word_tomato">
-    <j.0:comesFrom>spanish_tomate_in_turn_comes_from_nahuatl_word_tomatl</j.0:comesFrom>
+    <j.0:comesFrom>spanish_tomate_comes</j.0:comesFrom>
   </rdf:Description>
   <rdf:Description rdf:about="s:less_common_variations">
-    <j.0:include>fruit_with_stripes_fuzzy_skin_on_fruit_fuzzy_peach_multiple_colors_etc._is</j.0:include>
+    <j.0:include>fruit</j.0:include>
   </rdf:Description>
   <rdf:Description rdf:about="s:fruits">
     <j.0:have>long_shelf_life</j.0:have>
   </rdf:Description>
   <rdf:Description rdf:about="s:florida">
-    <j.0:been>massive_tomato_tree_growing_inside_experimental_greenhouses_in_lake_buena_vista_largest_single_tomato_plant_in_world</j.0:been>
+    <j.0:been>largest_single_tomato_plant</j.0:been>
   </rdf:Description>
   <rdf:Description rdf:about="s:larvae">
     <j.0:devour>hornworm</j.0:devour>
@@ -213,50 +154,39 @@
     <j.0:ofAre>rl_plants</j.0:ofAre>
   </rdf:Description>
   <rdf:Description rdf:about="s:plum_tomatoes">
-    <j.0:areBredWith>higher_solids_content_for_use_in_tomato_sauce</j.0:areBredWith>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:flower">
-    <j.0:are>visible_in_photo_of_tomato_plant</j.0:are>
+    <j.0:areBredWith>higher_solids_content</j.0:areBredWith>
   </rdf:Description>
   <rdf:Description rdf:about="s:toxic_varieties">
     <j.0:discouraged>many_people</j.0:discouraged>
   </rdf:Description>
   <rdf:Description rdf:about="s:numerous_languages">
-    <j.0:use>forms_of_word_tomato</j.0:use>
-  </rdf:Description>
-  <rdf:Description rdf:about="s:megaspore_mother_cells">
-    <j.0:give>rise_to_haploid_nuclei</j.0:give>
+    <j.0:use>forms</j.0:use>
   </rdf:Description>
   <rdf:Description rdf:about="s:many_varieties">
-    <j.0:areGrownIn>greenhouses_in_cooler_climates</j.0:areGrownIn>
+    <j.0:areGrownIn>greenhouses</j.0:areGrownIn>
   </rdf:Description>
   <rdf:Description rdf:about="s:america">
-    <j.0:meet>tomtato_grown_as_one_cbs_news_solanum_lycopersicum_l._on_solanaceae_source_used</j.0:meet>
+    <j.0:meet>tomtato_grown_cbs_news_solanum_lycopersicum_l.</j.0:meet>
   </rdf:Description>
   <rdf:Description rdf:about="s:various_forms">
-    <j.0:are>common_tomato_afflictions_marked_with_combination_of_letters_refer_to_specific_disease_resistance</j.0:are>
+    <j.0:are>common_tomato_afflictions_marked</j.0:are>
   </rdf:Description>
   <rdf:Description rdf:about="s:tomato_cultivars">
-    <j.0:areMarkedWith>combination_of_letters_refer_to_specific_disease_resistance</j.0:areMarkedWith>
-    <j.0:varyIn>resistance_to_disease</j.0:varyIn>
+    <j.0:varyIn>resistance</j.0:varyIn>
   </rdf:Description>
   <rdf:Description rdf:about="s:beefsteak_varieties">
-    <j.0:are>while_choice_of_owner-operator_growers</j.0:are>
+    <j.0:are>while_choice</j.0:are>
   </rdf:Description>
   <rdf:Description rdf:about="s:epithet_lycopersicum">
     <j.0:means>wolf_peach</j.0:means>
   </rdf:Description>
-  <rdf:Description rdf:about="s:tomato_leaves">
-    <j.0:are>different_from_other_solanum</j.0:are>
-  </rdf:Description>
   <rdf:Description rdf:about="s:commercial_cultivars">
-    <j.0:areBredFor>factors_like_consistent_size_shape_disease_pest_resistance</j.0:areBredFor>
+    <j.0:areBredFor>factors</j.0:areBredFor>
   </rdf:Description>
   <rdf:Description rdf:about="s:dreaded_disease">
-    <j.0:is>curly_top_carried_by_beet_leafhopper_interrupts_ruining_as_crop</j.0:is>
+    <j.0:is>curly_top_carried_ruining</j.0:is>
   </rdf:Description>
   <rdf:Description rdf:about="s:such_fruits">
     <j.0:beBoughtAs>seed</j.0:beBoughtAs>
-    <j.0:are>not_available_in_grocery_stores_seedlings_available_in_typical_nurseries</j.0:are>
   </rdf:Description>
 </rdf:RDF>

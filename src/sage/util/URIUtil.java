@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 
-import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.Objects;
 
 /**
@@ -34,15 +34,14 @@ public class URIUtil {
         return htmlDoc.text();
     }
 
+    private static String readFile(String file) {
+        return Util.read(Values.getTestDirPath().resolve(Paths.get(file)));
+    }
+
     public static String readFromURI(String uri) {
         Objects.requireNonNull(uri);
         System.err.println("Reading URI: " + uri);
-        try {
-            Document document = Jsoup.connect(uri).get();
-            return sanitizeDocument(document);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
+        Document document = Jsoup.parse(readFile("potato.html")); //Jsoup.connect(uri).get();
+        return sanitizeDocument(document);
     }
 }

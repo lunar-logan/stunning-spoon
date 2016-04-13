@@ -28,6 +28,9 @@ public class SentenceTransform {
     private final ArrayList<IndexedWord> predicate;
     private final ArrayList<IndexedWord> object;
 
+    private final ArrayList<IndexedWord> candidatesForCoref = new ArrayList<>();
+    private boolean useCoref = false;
+
     private ArrayList<Triplet> triples = new ArrayList<>();
 
     public SentenceTransform(Collection<TypedDependency> dependencies, List<HasWord> origSent, Vocabulary vocabulary) {
@@ -57,6 +60,16 @@ public class SentenceTransform {
         }
     }
 
+    private IndexedWord handleCoref(IndexedWord word) {
+        if (!useCoref) return word;
+        if (word.tag().startsWith("PRP") && candidatesForCoref.size() > 0) {
+            return candidatesForCoref.get(candidatesForCoref.size() - 1);
+        } else {
+            candidatesForCoref.add(word);
+        }
+        return word;
+    }
+
     /**
      * Handles {@code nsubj} and {@code nsubjpass} dependencies. The dependent of these relations act as the subject
      * of the phrase. The governor may or may not be the predicate.
@@ -66,14 +79,14 @@ public class SentenceTransform {
     private void handleNominalSubject(TypedDependency dependency) {
         if (dependency.gov().tag().startsWith("VB")) {                      // If gov is a verb, then it is our predicate
             findObject(dependency.gov());
-            subject.add(dependency.dep());
+            subject.add(handleCoref(dependency.dep()));
             predicate.add(dependency.gov());
             addTriple();
         } else {                                                            // If gov not a VB then look for copular relation
             for (TypedDependency td : dependencies) {
                 if (td.gov().equals(dependency.gov())) {
                     if (td.reln().getShortName().equalsIgnoreCase("cop")) {
-                        subject.add(dependency.dep());
+                        subject.add(handleCoref(dependency.dep()));
                         predicate.add(td.dep());
                         object.add(td.gov());
                         addTriple();
@@ -207,9 +220,34 @@ public class SentenceTransform {
 
         triples.add(new SPOTriplet(originalSentence, subjectPhrase, predicatePhrase, objectPhrase));
 
+        objectPhrase.forEach(objectTerm -> {
+            ArrayList<ArrayList<IndexedWord>> refs = handleObjectConjunct(objectTerm);
+            refs.forEach(ref -> {
+                Collections.sort(ref);
+                triples.add(new SPOTriplet(
+                        originalSentence,
+                        subjectPhrase,
+                        predicatePhrase,
+                        ref
+                ));
+            });
+        });
+
         subject.clear();
         predicate.clear();
         object.clear();
+    }
+
+    private ArrayList<ArrayList<IndexedWord>> handleObjectConjunct(IndexedWord rootObject) {
+        ArrayList<ArrayList<IndexedWord>> references = new ArrayList<>();
+
+        PriorityQueue<TypedDependency> relations = get(rootObject, "conj");
+        relations.forEach(reln -> {
+            ArrayList<IndexedWord> attributes = findAttributes(reln.gov());
+            references.add(attributes);
+        });
+
+        return references;
     }
 
     private Collection<? extends IndexedWord> findSubjectAttributes(IndexedWord sub) {
@@ -274,16 +312,16 @@ public class SentenceTransform {
                         attrs.addAll(attributes);
                     }
                 } else if (relationName.equalsIgnoreCase("conj")) {
-                    if (td.dep().tag().startsWith("NN")) {
+                 /*   if (td.dep().tag().startsWith("NN")) {
                         attrs.add(td.dep());
                         ArrayList<IndexedWord> attributes = findAttributes(td.dep());
                         if (!attributes.isEmpty()) {
                             attrs.addAll(attributes);
                         }
-                    }
+                    }*/
                 } else if (relationName.equalsIgnoreCase("nmod")) {
                     // Look for case relation
-                    for (TypedDependency td1 : dependencies) {
+                    /*for (TypedDependency td1 : dependencies) {
                         String relnName = td1.reln().getShortName();
                         if (td1.gov().equals(td.dep())) {
                             if (relnName.equalsIgnoreCase("case")) {
@@ -296,7 +334,7 @@ public class SentenceTransform {
                     attrs.add(td.dep());
                     if (!nmodAttrs.isEmpty()) {
                         attrs.addAll(nmodAttrs);
-                    }
+                    }*/
                 }
             }
         }
