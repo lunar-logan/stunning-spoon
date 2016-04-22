@@ -11,6 +11,7 @@ import org.bson.Document;
 public class MongoUtil {
 
     public static final String DATABASE_NAME = "triple_store";
+    public static final String CACHE_COLLECTION_NAME = "url_cache";
     public static final String TRIPLETS_COLLECTION_NAME = "triplets";
     public static final String DOCUMENT_COLLECTION_NAME = "documents";
 
@@ -33,5 +34,9 @@ public class MongoUtil {
 
     public static MongoCollection<Document> getDocumentCollection() {
         return getDefaultDatabase().getCollection(DOCUMENT_COLLECTION_NAME);
+    }
+
+    public static MongoCollection<Document> getUrlCacheCollection() {
+        return getDefaultDatabase().getCollection(CACHE_COLLECTION_NAME);
     }
 }

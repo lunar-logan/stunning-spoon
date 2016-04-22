@@ -12,6 +12,7 @@ public class FilesUtil {
     private FilesUtil() {
     }
 
+
     public static String getFilenameWithoutExtension(String path) {
         try {
             Path fileName = Paths.get(new URI(path).getPath()).getFileName();

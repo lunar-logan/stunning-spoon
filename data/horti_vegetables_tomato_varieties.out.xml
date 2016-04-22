@@ -1,0 +1,49 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:">
+  <rdf:Description rdf:about="s:COTH.1+%281998%29">
+    <j.0:is>hybrid</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:induced_mutant">
+    <j.0:are>flat_round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fruits">
+    <j.0:are>round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Paiyur-1">
+    <j.0:yieldsAbout>30tonnes/ha</j.0:yieldsAbout>
+    <j.0:is>variety_evolved</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:TNAU+Tomato+Hybrid+CO+3">
+    <j.0:is>hybrid</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:PKM+1">
+    <j.0:is>induced_mutant</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:COTH2+%282006%29">
+    <j.0:recorded>yield</j.0:recorded>
+    <j.0:has>resistance_recorded</j.0:has>
+    <j.0:is>hybrid</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fruits">
+    <j.0:borneIn>clusters</j.0:borneIn>
+    <j.0:medium></j.0:medium>
+    <j.0:are>smooth_round</j.0:are>
+    <j.0:are>acidic_0.61_%</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cluster">
+    <j.0:is></j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:eruits">
+    <j.0:are>flat</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Plants">
+    <j.0:suitable></j.0:suitable>
+    <j.0:are>semi_determinate_90-95_cm</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Yield">
+    <j.0:is>30-35_tonnes/ha</j.0:is>
+    <j.0:is>25_tonnes/ha</j.0:is>
+    <j.0:is>28-30_tonnes/ha</j.0:is>
+  </rdf:Description>
+</rdf:RDF>

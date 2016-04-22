@@ -29,9 +29,22 @@ public class SentenceTransform {
     private final ArrayList<IndexedWord> object;
 
     private final ArrayList<IndexedWord> candidatesForCoref = new ArrayList<>();
+    private final String concept;
     private boolean useCoref = false;
 
     private ArrayList<Triplet> triples = new ArrayList<>();
+
+    public SentenceTransform(Collection<TypedDependency> dependencies, List<HasWord> origSent, Vocabulary vocabulary, String concept) {
+        this.dependencies = dependencies;
+        this.originalSentence = origSent;
+        this.subject = new ArrayList<>();
+        this.predicate = new ArrayList<>();
+        this.object = new ArrayList<>();
+        this.V = vocabulary;
+        this.concept = concept;
+        transform();
+    }
+
 
     public SentenceTransform(Collection<TypedDependency> dependencies, List<HasWord> origSent, Vocabulary vocabulary) {
         this.dependencies = dependencies;
@@ -40,6 +53,7 @@ public class SentenceTransform {
         this.predicate = new ArrayList<>();
         this.object = new ArrayList<>();
         this.V = vocabulary;
+        concept = null;
         transform();
     }
 
@@ -79,14 +93,24 @@ public class SentenceTransform {
     private void handleNominalSubject(TypedDependency dependency) {
         if (dependency.gov().tag().startsWith("VB")) {                      // If gov is a verb, then it is our predicate
             findObject(dependency.gov());
-            subject.add(handleCoref(dependency.dep()));
+            IndexedWord curSubject = dependency.dep();
+            if (curSubject.word().equalsIgnoreCase("it") && concept != null) {
+                curSubject.setWord(concept);
+            }
+            subject.add(curSubject);
             predicate.add(dependency.gov());
             addTriple();
         } else {                                                            // If gov not a VB then look for copular relation
             for (TypedDependency td : dependencies) {
                 if (td.gov().equals(dependency.gov())) {
                     if (td.reln().getShortName().equalsIgnoreCase("cop")) {
-                        subject.add(handleCoref(dependency.dep()));
+
+                        IndexedWord curSubject = dependency.dep();
+                        if (curSubject.word().equalsIgnoreCase("it") && concept != null) {
+                            curSubject.setWord(concept);
+                        }
+                        subject.add(curSubject);
+//                        subject.add(handleCoref(dependency.dep()));
                         predicate.add(td.dep());
                         object.add(td.gov());
                         addTriple();

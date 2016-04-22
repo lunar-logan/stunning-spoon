@@ -9,6 +9,7 @@ import org.jsoup.nodes.Node;
 import java.io.*;
 import java.net.URI;
 import java.nio.file.Path;
+import java.util.Collection;
 import java.util.Objects;
 import java.util.StringJoiner;
 import java.util.function.Function;
@@ -22,6 +23,7 @@ import java.util.stream.Stream;
  */
 public class Util {
     private static final Logger logger = Logger.getLogger(Util.class.getName());
+
 
     static {
         logger.setUseParentHandlers(false);
@@ -40,6 +42,26 @@ public class Util {
     }
 
     private static final int BUFFER_SIZE = 2048; // In bytes
+    private static final int CHANNEL_BUFFER_SIZE = 20 * 1024 * 1024; // That's 20 MiBs
+
+    public static String readFromStream(InputStream in) {
+        byte[] buffer = new byte[CHANNEL_BUFFER_SIZE];
+        try {
+            int len = in.read(buffer);
+            if (len > -1) {
+                return new String(buffer, 0, len);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static <T> void addIfNotNull(Collection<T> collection, T v) {
+        if (v != null) {
+            collection.add(v);
+        }
+    }
 
     public static IndexedWord newIndexWord(String word, int wordIndex) {
         IndexedWord indexedWord = new IndexedWord(word, -1, wordIndex);

@@ -44,7 +44,7 @@ public class Main {
 
     }
 
-    private static String getText(String path) {
+    private static String getText(String path) throws IOException {
         String text = null;
         if (path.startsWith("http") || path.startsWith("ftp")) {
             text = URIUtil.readFromURI(path);

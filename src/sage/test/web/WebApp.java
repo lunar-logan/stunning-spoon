@@ -10,6 +10,7 @@ import sage.util.CryptoUtil;
 import sage.util.MongoUtil;
 import sage.util.URIUtil;
 
+import java.io.IOException;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -42,7 +43,7 @@ public class WebApp implements Runnable {
         });
     }
 
-    private boolean load(String uriParam) {
+    private boolean load(String uriParam) throws IOException {
         if (uriParam == null) {
             L.severe("uri is null");
             return false;

@@ -39,6 +39,14 @@ public final class Values {
         return VALUES.getOrDefault(key, defaultValue);
     }
 
+    public static Path getTestDir() {
+        return Paths.get(System.getProperty("user.dir"), VALUES.get("test_dir"));
+    }
+
+    public static Path getTestOutDir() {
+        return Paths.get(System.getProperty("user.dir"), VALUES.get("test_out_dir"));
+    }
+
     public static Path getVocabPath() {
         return Paths.get(System.getProperty("user.dir"), VALUES.get("vocab_dir"));
     }
@@ -59,5 +67,6 @@ public final class Values {
         loadValues();
         System.out.println(VALUES);
         System.out.println(ARRAY_VALUES);
+        System.out.println(getTestOutDir());
     }
 }
