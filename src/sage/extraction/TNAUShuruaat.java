@@ -63,7 +63,7 @@ public class TNAUShuruaat {
 //            knowledge.forEach((topic, desc) -> genTriples(topic, desc));
             genTriples(concept, text);
             System.out.println(triplets.size() + " triplets generate hue hai");
-            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in0.out.xml").toString());
+            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in1.out.xml").toString());
         } catch (IOException e) {
             e.printStackTrace();
         }

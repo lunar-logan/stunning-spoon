@@ -7,13 +7,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="stanford-parser-3.5.2-javadoc" level="project" />
-    <orderEntry type="library" name="stanford-postagger-3.5.1-javadoc" level="project" />
     <orderEntry type="library" name="org.jsoup:jsoup:1.8.3" level="project" />
     <orderEntry type="library" name="com.j2html:j2html:0.7" level="project" />
-    <orderEntry type="library" name="jena-core-3.0.1" level="project" />
     <orderEntry type="library" name="org.mongodb:mongodb-driver-core:3.0.4" level="project" />
     <orderEntry type="library" name="org.mongodb:mongodb-driver:3.0.4" level="project" />
     <orderEntry type="library" name="com.sparkjava:spark-core:2.3" level="project" />
+    <orderEntry type="library" name="stanford-parser" level="project" />
+    <orderEntry type="library" name="stanford-postagger-3.6.0-sources" level="project" />
+    <orderEntry type="library" name="org.apache.jena:jena-core:3.1.0" level="project" />
   </component>
 </module>
