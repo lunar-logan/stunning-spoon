@@ -5,6 +5,8 @@ import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.ling.Sentence;
 import sage.spi.Triplet;
 
+import javax.json.Json;
+import javax.json.JsonObject;
 import java.util.List;
 
 /**
@@ -46,6 +48,14 @@ public class SPOTriplet implements Triplet {
                 Util.join(pre.stream(), "", (w) -> Character.toUpperCase(w.charAt(0)) + w.substring(1)),
                 Util.join(obj.stream(), "_")
         );
+    }
+
+    @Override
+    public JsonObject getAsJsonObject() {
+        return Json.createObjectBuilder()
+                .add("sub", Sentence.listToString(sub))
+                .add("pre", Sentence.listToString(pre))
+                .add("obj", Sentence.listToString(obj)).build();
     }
 
     @Override

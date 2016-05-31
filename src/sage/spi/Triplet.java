@@ -3,6 +3,7 @@ package sage.spi;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.IndexedWord;
 
+import javax.json.JsonObject;
 import java.util.List;
 
 /**
@@ -26,4 +27,6 @@ public interface Triplet {
     String getAsCSV();
 
     String getAsTSV();
+
+    JsonObject getAsJsonObject();
 }

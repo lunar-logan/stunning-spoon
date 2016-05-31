@@ -9,10 +9,13 @@ import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
 import sage.spi.Triplet;
+import sage.util.GithubUtil;
 import sage.util.RDFUtil;
 import sage.util.Util;
 import sage.util.Values;
 
+import javax.json.Json;
+import javax.json.JsonArrayBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
@@ -63,6 +66,11 @@ public class TNAUShuruaat {
 //            knowledge.forEach((topic, desc) -> genTriples(topic, desc));
             genTriples(concept, text);
             System.out.println(triplets.size() + " triplets generate hue hai");
+
+            JsonArrayBuilder tripleArrayBuilder = Json.createArrayBuilder();
+            triplets.forEach(t -> tripleArrayBuilder.add(t.getAsJsonObject()));
+            GithubUtil.commitNew(tripleArrayBuilder.build(), "More triples");
+
             RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in1.out.xml").toString());
         } catch (IOException e) {
             e.printStackTrace();
