@@ -57,7 +57,7 @@ public class TNAUShuruaat {
     }
 
     public void start() {
-        System.out.println("TNAU se data extraction ki shuruaat ho chuki hai");
+        System.out.println("Data extraction from TNAU started");
         try {
             // Read the data from the input stream
             String text = Util.readFromStream(in).toLowerCase();
@@ -71,7 +71,7 @@ public class TNAUShuruaat {
             triplets.forEach(t -> tripleArrayBuilder.add(t.getAsJsonObject()));
             GithubUtil.commitNew(tripleArrayBuilder.build(), "More triples");
 
-            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in1.out.xml").toString());
+            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in2.out.xml").toString());
         } catch (IOException e) {
             e.printStackTrace();
         }

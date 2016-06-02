@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p:" > 
+  <rdf:Description rdf:about="s:co-1">
+    <j.0:is>semi_determinate_variety</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-2">
+    <j.0:is>indeterminate_variety</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pkm-1_yield">
+    <j.0:is>30-35_tonnes/ha</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:paiyur-1">
+    <j.0:is>suitable_for_rainfed_cultivation</j.0:is>
+    <j.0:is>variety_evolved</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pkm-1_fruits">
+    <j.0:are>flat_round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-3_plants">
+    <j.0:are>suitable_for_high_density_planting</j.0:are>
+    <j.0:are>semi_determinate</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-3">
+    <j.0:is>suitable_for_close_planting</j.0:is>
+    <j.0:is>determinate_variety</j.0:is>
+    <j.0:is>induced_mutant</j.0:is>
+    <j.0:is>high</j.0:is>
+    <j.0:is>hybrid_between_hn-2_cln-2123a</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-2_fruits">
+    <j.0:are>flat_with_furrows</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coth-1">
+    <j.0:is>hybrid_between_iihr-709_le-812</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-2_yield">
+    <j.0:is>28-30_tonnes/ha</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coth-2">
+    <j.0:recorded>yield_of_t/ha</j.0:recorded>
+    <j.0:recorded>pesticide_spray</j.0:recorded>
+    <j.0:recorded>resistance_to_leaf_curl_virus_disease</j.0:recorded>
+    <j.0:has>pesticide_spray</j.0:has>
+    <j.0:has>resistance_to_leaf_curl_virus_disease</j.0:has>
+    <j.0:is>hybrid_between_lcr-2_cln-2123a</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pkm-1">
+    <j.0:is>induced_mutant</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-3_fruits">
+    <j.0:are>borne_in_clusters</j.0:are>
+    <j.0:are>medium_sized</j.0:are>
+    <j.0:are>smooth_round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coth-2_fruits">
+    <j.0:are>smooth_round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-1_yield">
+    <j.0:is>25_tonnes/ha</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:co-1_fruits">
+    <j.0:are>round_without_grooves</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coth-1_fruits">
+    <j.0:are>acidic</j.0:are>
+  </rdf:Description>
+</rdf:RDF>
