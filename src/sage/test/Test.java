@@ -8,8 +8,9 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
-import sage.extraction.Xtract;
+import sage.extraction.ExtractionFramework;
 import sage.spi.Triplet;
+import sage.util.RDFUtil;
 import sage.util.Util;
 import sage.util.Values;
 
@@ -39,7 +40,7 @@ public class Test {
             typedDependencies.forEach(System.out::println);
             System.out.println();
 
-            Xtract transform = new Xtract(typedDependencies, vocabulary);
+            ExtractionFramework transform = new ExtractionFramework(typedDependencies, vocabulary);
             transform.getTriples().forEach(triplets::add);
         }
     }
@@ -57,9 +58,8 @@ public class Test {
         genTriples(tagger, dependencyParser, "topic", data, instance);
 
 
-        triplets.forEach(t -> {
-            System.out.println(t.getAsJsonObject());
-        });
+        triplets.forEach(t -> System.out.println(t.getAsJsonObject()));
+        RDFUtil.dumpAsRDF(triplets, "ef-res.xml");
 
 //        TNAUShuruaat shuruaat = new TNAUShuruaat(tagger, dependencyParser, instance, new FileInputStream(Values.getTestDir().resolve("in0.txt").toFile()), "tomato");
 //        shuruaat.start();

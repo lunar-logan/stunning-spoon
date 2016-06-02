@@ -5,10 +5,13 @@ import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
 import sage.util.LogUtil;
+import sage.util.MemCache;
 import sage.util.SPOTriplet;
-import sage.util.Util;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -33,6 +36,12 @@ public class ExtractionFramework {
     public ExtractionFramework(Collection<TypedDependency> dependencies, Vocabulary vocabulary) {
         this.dependencies = dependencies;
         this.vocab = vocabulary;
+
+        // Lets get the last subject
+        IndexedWord ls = (IndexedWord) MemCache.get("lastSubject");
+        if (ls != null) {
+            lastSubject = ls;
+        }
     }
 
 
@@ -43,12 +52,12 @@ public class ExtractionFramework {
             handleNominalSubject(td);
 
             ArrayList<IndexedWord> subjectPhrase = new ArrayList<>();
+            subjectPhrase.add(handleCoref(subject));
             subjectPhrase.addAll(getSubjectAttributes(subject));
-//            subjectPhrase.add(handleCoref(subject));
 
             ArrayList<IndexedWord> predicatePhrase = new ArrayList<>();
             predicatePhrase.addAll(predicates);
-            predicates.forEach(p -> Util.addIfNotNull(predicatePhrase, getPredicateAttributes(p)));
+            predicates.forEach(p -> predicatePhrase.addAll(getPredicateAttributes(p)));
 
             Collections.sort(subjectPhrase);
             Collections.sort(predicatePhrase);
@@ -70,14 +79,17 @@ public class ExtractionFramework {
     }
 
     private IndexedWord handleCoref(IndexedWord prp) {
+        IndexedWord sub = null;
         if (prp.tag().toLowerCase().startsWith("prp") && prp.word().toLowerCase().startsWith("it")) {
             if (lastSubject != null) {
-                return lastSubject.makeCopy();
+                sub = lastSubject.makeCopy();
             }
         } else {
-            lastSubject = prp;
+            sub = prp;
         }
-        return prp;
+        lastSubject = sub;
+        MemCache.put("lastSubject", lastSubject);
+        return lastSubject;
     }
 
     /**
@@ -124,11 +136,18 @@ public class ExtractionFramework {
         if (dep.tag().startsWith("VB")) {                    // Dependent of cop is a verb, probably the predicate
             predicates.add(dep);
             predicates.add(cop.gov());
+
+            TypedDependency acl = getRelation("acl", cop.gov());
+            if (acl != null) {
+                L.i("Found acl relation for " + cop.gov());
+                predicates.add(acl.dep());
+                return acl.dep();
+            }
+
             return cop.gov();
         }
         return null;
     }
-
 
     /**
      * Extracts the object phrase form the sentence (typed dependencies of it)
@@ -148,7 +167,9 @@ public class ExtractionFramework {
                     object = nmod.dep();
                     addCase(object);
                 } else {
-                    L.w("nmod relation could not be located. Bad day huh!");
+                    L.w("nmod relation could not be located. Bad day huh!, taking gov of cop to be object");
+                    object = base;
+                    predicates.remove(base);
                 }
             }
         }
@@ -193,16 +214,17 @@ public class ExtractionFramework {
      * @param verb
      * @return
      */
-    private IndexedWord getPredicateAttributes(IndexedWord verb) {
-        IndexedWord aux = null;
+    private ArrayList<IndexedWord> getPredicateAttributes(IndexedWord verb) {
+        ArrayList<IndexedWord> attrs = new ArrayList<>();
         for (TypedDependency dependency : dependencies) {
             if (dependency.gov().equals(verb)) {
                 if (dependency.reln().getShortName().startsWith("aux")) {
-                    aux = dependency.dep();
+                    attrs.add(dependency.dep());
                 }
             }
         }
-        return aux;
+        attrs.addAll(getCompoundAndAMod(verb));
+        return attrs;
     }
 
 
@@ -291,6 +313,4 @@ public class ExtractionFramework {
             return false;
         }).forEach(callback);                                   // All the filtered relations consumed by the callback
     }
-
-
 }
