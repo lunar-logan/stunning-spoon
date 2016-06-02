@@ -99,10 +99,10 @@ public class ExtractionFramework {
      * @return
      */
     private ArrayList<IndexedWord> getSubjectAttributes(IndexedWord subj) {
-        ArrayList<IndexedWord> attrs = new ArrayList<>();/*
+        ArrayList<IndexedWord> attrs = new ArrayList<>();
         dependencies.stream()
                 .filter(td -> td.gov().equals(subj))
-                .forEach(td -> attrs.add(td.dep()));*/
+                .forEach(td -> attrs.add(td.dep()));
         return attrs;
     }
 

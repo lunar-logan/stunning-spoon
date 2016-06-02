@@ -54,19 +54,20 @@ public class RDFUtil {
     public static void dumpAsRDF(List<Triplet> triplets, String dumpFileName) throws IOException {
         final Model agroModel = ModelFactory.createDefaultModel();
         triplets.forEach(triple -> {
-            try {
-                String subject = asURI(triple.getSubject());
-                String predicate = normalizePredicate(triple.getPredicate());
-                String object = listToURIString(triple.getObject());
+            if (triple.hasSubject() && triple.hasPredicate() && triple.hasObject())
+                try {
+                    String subject = asURI(triple.getSubject());
+                    String predicate = normalizePredicate(triple.getPredicate());
+                    String object = listToURIString(triple.getObject());
 
-                Resource newResource = agroModel.createResource(subject);
-                Property property = agroModel.createProperty("p:", predicate);
-                Literal objectLiteral = agroModel.createLiteral(object);
-                newResource.addProperty(property, objectLiteral);
+                    Resource newResource = agroModel.createResource(subject);
+                    Property property = agroModel.createProperty("p:", predicate);
+                    Literal objectLiteral = agroModel.createLiteral(object);
+                    newResource.addProperty(property, objectLiteral);
 
-            } catch (IOException | URISyntaxException e) {
-                e.printStackTrace();
-            }
+                } catch (IOException | URISyntaxException e) {
+                    e.printStackTrace();
+                }
         });
         FileOutputStream fout = new FileOutputStream(Values.getTestDirPath().resolve(Paths.get(dumpFileName)).toFile());
         agroModel.write(fout);

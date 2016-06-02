@@ -9,7 +9,6 @@ import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
 import sage.spi.Triplet;
-import sage.util.GithubUtil;
 import sage.util.RDFUtil;
 import sage.util.Util;
 import sage.util.Values;
@@ -51,7 +50,7 @@ public class TNAUShuruaat {
             List<TaggedWord> taggedWords = tagger.tagSentence(sentence);
             GrammaticalStructure grammaticalStructure = dependencyParser.predict(taggedWords);
             Collection<TypedDependency> typedDependencies = grammaticalStructure.typedDependencies();
-            Xtract transform = new Xtract(typedDependencies, vocabulary);
+            ExtractionFramework transform = new ExtractionFramework(typedDependencies, vocabulary);
             transform.getTriples().forEach(triplets::add);
         }
     }
@@ -65,13 +64,13 @@ public class TNAUShuruaat {
 //            HashMap<String, String> knowledge = tnauMarkupParser.parse();
 //            knowledge.forEach((topic, desc) -> genTriples(topic, desc));
             genTriples(concept, text);
-            System.out.println(triplets.size() + " triplets generate hue hai");
+            System.out.println(triplets.size() + " triplets generated");
 
             JsonArrayBuilder tripleArrayBuilder = Json.createArrayBuilder();
             triplets.forEach(t -> tripleArrayBuilder.add(t.getAsJsonObject()));
-            GithubUtil.commitNew(tripleArrayBuilder.build(), "More triples");
+//            GithubUtil.commitNew(tripleArrayBuilder.build(), "More triples");
 
-            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in2.out.xml").toString());
+            RDFUtil.dumpAsRDF(triplets, Values.getTestOutDir().resolve("in3.out.xml").toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
