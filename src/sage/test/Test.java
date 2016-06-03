@@ -9,11 +9,11 @@ import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
 import sage.extraction.ExtractionFramework;
-import sage.extraction.TNAUShuruaat;
 import sage.spi.Triplet;
+import sage.util.RDFUtil;
+import sage.util.Util;
 import sage.util.Values;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.StringReader;
 import java.net.URISyntaxException;
@@ -50,19 +50,19 @@ public class Test {
         Values.loadValues();
         Vocabulary instance = Vocabulary.getInstance();
 
-        System.out.println(instance.contains("yield"));
+//        System.out.println(instance.contains("yield"));
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
-       /* String data = Util.read(Values.getTestDir().resolve("in1.txt"));
+       String data = Util.read(Values.getTestDir().resolve("in1.txt"));
         genTriples(tagger, dependencyParser, "topic", data, instance);
 
 
         triplets.forEach(t -> System.out.println(t.getAsJsonObject()));
-        RDFUtil.dumpAsRDF(triplets, "ef-res.xml");
-*/
-        TNAUShuruaat shuruaat = new TNAUShuruaat(tagger, dependencyParser, instance, new FileInputStream(Values.getTestDir().resolve("in0.txt").toFile()), "tomato");
-        shuruaat.start();
+        RDFUtil.dumpAsRDF(triplets, "ef-res1.xml");
+
+//        TNAUShuruaat shuruaat = new TNAUShuruaat(tagger, dependencyParser, instance, new FileInputStream(Values.getTestDir().resolve("in0.txt").toFile()), "tomato");
+//        shuruaat.start();
 //        String markup = URIUtil.readURI(new URI("http://agritech.tnau.ac.in/horticulture/horti_vegetables_bhendi_Varieties.html"));
 //        org.jsoup.nodes.Document doc = Jsoup.parse(markup);
 //        new TNAUMarkupParser(doc).parse();

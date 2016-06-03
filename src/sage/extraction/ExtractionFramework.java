@@ -8,10 +8,7 @@ import sage.util.LogUtil;
 import sage.util.MemCache;
 import sage.util.SPOTriplet;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -29,7 +26,7 @@ public class ExtractionFramework {
     private IndexedWord predicate = null;
 
     private ArrayList<IndexedWord> objects = new ArrayList<>();
-    private ArrayList<IndexedWord> predicates = new ArrayList<>();
+    private Set<IndexedWord> predicates = new TreeSet<>();
 
     private IndexedWord lastSubject = null;
 
@@ -80,7 +77,8 @@ public class ExtractionFramework {
 
     private IndexedWord handleCoref(IndexedWord prp) {
         IndexedWord sub = null;
-        if (prp.tag().toLowerCase().startsWith("prp") && prp.word().toLowerCase().startsWith("it")) {
+        if ((prp.tag().toLowerCase().startsWith("prp") /*&& prp.word().toLowerCase().startsWith("it")*/) ||
+                prp.tag().toLowerCase().startsWith("w")) {
             if (lastSubject != null) {
                 sub = lastSubject.makeCopy();
             }
@@ -107,10 +105,13 @@ public class ExtractionFramework {
     }
 
     private void handleNominalSubject(TypedDependency td) {
+        predicates.clear();
+        objects.clear();
+
         IndexedWord gov = td.gov();                             // Get the governor
         IndexedWord dep = td.dep();                             // Get the dependent
         IndexedWord base = null;
-
+        boolean iscop = false;
 
         subject = dep;                                          // Subject in all cases  is the dependent
         if (gov.tag().startsWith("VB")) {                       // If the governor is a verb then we've found our predicate
@@ -120,9 +121,10 @@ public class ExtractionFramework {
             TypedDependency cop = getRelation("cop", gov);
             if (cop != null) {
                 base = handleCopRelation(cop);
+                iscop = true;
             }
         }
-        findObject(base);
+        findObject(base, iscop);
     }
 
     /**
@@ -135,7 +137,7 @@ public class ExtractionFramework {
         IndexedWord dep = cop.dep();
         if (dep.tag().startsWith("VB")) {                    // Dependent of cop is a verb, probably the predicate
             predicates.add(dep);
-            predicates.add(cop.gov());
+//            predicates.add(cop.gov());
 
             TypedDependency acl = getRelation("acl", cop.gov());
             if (acl != null) {
@@ -152,11 +154,14 @@ public class ExtractionFramework {
     /**
      * Extracts the object phrase form the sentence (typed dependencies of it)
      */
-    private void findObject(IndexedWord base) {
+    private void findObject(IndexedWord base, boolean isCop) {
         IndexedWord object = null;
         if (base == null) {
             L.w("base word is null, cannot find object");
         } else {
+//            if(isCop){
+//                object = base;
+//            } else {
             TypedDependency dobj = getRelation("dobj", base);
             if (dobj != null) {
                 object = dobj.dep();
@@ -164,6 +169,7 @@ public class ExtractionFramework {
                 L.w("Could not find `dobj` relation, looking for nmod");  //
                 TypedDependency nmod = getRelation("nmod", base);
                 if (nmod != null) {
+                    predicates.add(base);
                     object = nmod.dep();
                     addCase(object);
                 } else {
@@ -171,6 +177,7 @@ public class ExtractionFramework {
                     object = base;
                     predicates.remove(base);
                 }
+//                }
             }
         }
 

@@ -1,5 +1,6 @@
 package sage.util;
 
+import java.util.Date;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
@@ -18,7 +19,7 @@ public class LogUtil {
             public void publish(LogRecord record) {
                 System.out.println(
                         record.getLevel().getName().charAt(0) + " " +
-                                "[" + record.getSourceClassName() + '#' + record.getSourceMethodName() + "]" +
+                                "[" + new Date() + "]" +
                                 ": " + record.getMessage()
                 );
             }
