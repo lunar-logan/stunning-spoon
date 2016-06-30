@@ -4,6 +4,7 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import sage.extraction.Framework;
+import sage.util.FilesUtil;
 import sage.util.Util;
 import sage.util.Values;
 
@@ -46,17 +47,17 @@ public class ExtractionWebService {
             List<String> docsPath = new ArrayList<>();
 
             for (FileItem item : fileItemList) {
-                String storagePath = uploadDir.toPath().resolve(item.getName()).toString();
+                String storagePath = uploadDir.toPath().resolve(FilesUtil.makeUploadedFilename(uploadPath, item.getName())).toString();
                 System.out.println("Storage Path: " + storagePath);
                 if (item.getFieldName().equals("vocab_file")) {
                     vocabPath = storagePath;
                 } else {
                     docsPath.add(storagePath);
-                    try {
-                        item.write(new File(storagePath));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
+                }
+                try {
+                    item.write(new File(storagePath));
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
 
