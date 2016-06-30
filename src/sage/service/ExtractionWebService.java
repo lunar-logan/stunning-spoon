@@ -3,10 +3,13 @@ package sage.service;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import sage.extraction.Framework;
 import sage.util.Util;
+import sage.util.Values;
 
 import java.io.File;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import static spark.Spark.*;
@@ -39,17 +42,37 @@ public class ExtractionWebService {
             ServletFileUpload fileUpload = new ServletFileUpload(factory);
             List<FileItem> fileItemList = fileUpload.parseRequest(request.raw());
 
-            fileItemList.stream()
-                    .filter(item -> item.getFieldName().equals("doc_file") || item.getFieldName().equals("vocab_file"))
-                    .forEach(item -> {
-                        String fileName = item.getName();
-                        try {
-                            item.write(new File(uploadDir, fileName));
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    });
-            return "Check the upload directory";
+            String vocabPath = null;
+            List<String> docsPath = new ArrayList<>();
+
+            for (FileItem item : fileItemList) {
+                String storagePath = uploadDir.toPath().resolve(item.getName()).toString();
+                System.out.println("Storage Path: " + storagePath);
+                if (item.getFieldName().equals("vocab_file")) {
+                    vocabPath = storagePath;
+                } else {
+                    docsPath.add(storagePath);
+                    try {
+                        item.write(new File(storagePath));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+            StringBuilder res = new StringBuilder();
+
+            if (vocabPath == null) {
+                vocabPath = Values.getVocabPath().toString();
+            }
+            Framework exF = new Framework(vocabPath, docsPath);
+            exF.setOnPostComplete((ts) -> {
+                res.append(ts.toString());
+                return null;
+            });
+            exF.run();
+
+            return res.toString();
         });
 
     }

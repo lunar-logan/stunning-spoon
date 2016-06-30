@@ -31,6 +31,11 @@ public class FilesUtil {
         return path;
     }
 
+    public static String makeUploadedFilename(String uploadDirPath, String actualName) {
+        String hash = CryptoUtil.md5(actualName + "");
+        return "";
+    }
+
     public static void main(String[] args) {
         System.out.println(getFilenameWithoutExtension("/hell/fo/bar/test.html"));
         System.out.println(getFilenameWithoutExtension("/hell/fo/bar/.gitignore"));
