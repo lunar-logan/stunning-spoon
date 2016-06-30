@@ -33,6 +33,11 @@ public class RDFUtil {
         return uri.toString();
     }
 
+    private static String asURI(String val) throws URISyntaxException, UnsupportedEncodingException {
+        URI uri = new URI("p://u/" + URLEncoder.encode(val, "UTF-8"));
+        return uri.toString();
+    }
+
     public static String normalizePredicate(List<? extends HasWord> list) {
         StringBuilder out = new StringBuilder();
         if (list.size() > 0) {
@@ -57,11 +62,11 @@ public class RDFUtil {
             if (triple.hasSubject() && triple.hasPredicate() && triple.hasObject())
                 try {
                     String subject = asURI(triple.getSubject());
-                    String predicate = normalizePredicate(triple.getPredicate());
+                    String predicate = asURI(normalizePredicate(triple.getPredicate()));
                     String object = listToURIString(triple.getObject());
 
                     Resource newResource = agroModel.createResource(subject);
-                    Property property = agroModel.createProperty("p:", predicate);
+                    Property property = agroModel.createProperty(predicate);
                     Literal objectLiteral = agroModel.createLiteral(object);
                     newResource.addProperty(property, objectLiteral);
 

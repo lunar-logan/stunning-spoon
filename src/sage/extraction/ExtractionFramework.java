@@ -173,7 +173,7 @@ public class ExtractionFramework {
                     object = nmod.dep();
                     addCase(object);
                 } else {
-                    L.w("nmod relation could not be located. Bad day huh!, taking gov of cop to be object");
+                    L.w("nmod relation could not be located. Taking gov of cop to be object");
                     object = base;
                     predicates.remove(base);
                 }

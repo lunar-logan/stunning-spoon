@@ -17,5 +17,6 @@
     <orderEntry type="library" name="org.apache.jena:jena-core:3.1.0" level="project" />
     <orderEntry type="library" name="com.jcabi:jcabi-github:0.23" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp-ws:3.3.1" level="project" />
+    <orderEntry type="library" name="org.apache.pdfbox:pdfbox:2.0.1" level="project" />
   </component>
 </module>

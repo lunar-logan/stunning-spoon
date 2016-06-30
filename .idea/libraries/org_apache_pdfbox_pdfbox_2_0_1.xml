@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="org.apache.pdfbox:pdfbox:2.0.1" type="repository">
+    <properties maven-id="org.apache.pdfbox:pdfbox:2.0.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pdfbox-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fontbox-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/pdfbox-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/pdfbox-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,2964 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p://u/d%27"
+    xmlns:j.1="p://u/canBePrepared%2F"
+    xmlns:j.2="p://u/%E2%80%A2"
+    xmlns:j.3="p://u/"
+    xmlns:j.4="p://u/http%3A%2F%2F"
+    xmlns:j.5="p://u/are%27"
+    xmlns:j.6="p://u/%3C"
+    xmlns:j.7="p://u/have%E2%80%A2"
+    xmlns:j.8="p://u/mustBeClosed%2F"
+    xmlns:j.9="p://u/is%C2%B0"
+    xmlns:j.10="p://u/%C2%B4"
+    xmlns:j.11="p://u/%27"
+    xmlns:j.12="p://u/canBe%27"
+    xmlns:j.13="p://u/is%25"
+    xmlns:j.14="p://u/paw%2F"
+    xmlns:j.15="p://u/accordingIsLeadingOrganicFreshFoodImporter%2F"
+    xmlns:j.16="p://u/are%3C"
+    xmlns:j.17="p://u/is%27"
+    xmlns:j.18="p://u/http%3A%2F%2Fwww.blw.admin.ch%2F" > 
+  <rdf:Description rdf:about="s:%27_details">
+    <j.3:mustInclude>year</j.3:mustInclude>
+    <j.3:mustInclude>month</j.3:mustInclude>
+    <j.3:mustInclude>day</j.3:mustInclude>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:first_indications">
+    <j.3:are>present</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_important_pests">
+    <j.3:are>cabbage_white_butterfly</j.3:are>
+    <j.3:occurOn>monoculture_plantations</j.3:occurOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Every_single_market">
+    <j.3:has>own_characteristics</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:demanding_varieties">
+    <j.3:inCanBePlanted>course_of_time</j.3:inCanBePlanted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_label_organizations">
+    <j.3:haveEstablished>associated_independent_certification_agencies</j.3:haveEstablished>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_application_phosphate_compost_applied">
+    <j.3:ofMightBeAppropriate>boron</j.3:ofMightBeAppropriate>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cabbage_Head_Caterpillar_Destruction_point_Strategies">
+    <j.3:mustBeInclude>diamondback_moth</j.3:mustBeInclude>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:eighteen_months_management">
+    <j.3:forIsRequired>perennial_plants</j.3:forIsRequired>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Most_dry_land_crops">
+    <j.3:areAffectedBy>water_logging</j.3:areAffectedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_crude_method_cleft">
+    <j.3:inHasBeenEmployed>China</j.3:inHasBeenEmployed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_skin_fruits">
+    <j.3:is>easy</j.3:is>
+    <j.3:is>yellow</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:maintenance_costs">
+    <j.3:are>such_low</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pests">
+    <j.3:is>diffi</j.3:is>
+    <j.3:cause>large-scale_damage</j.3:cause>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_cold_tolerance_lychee">
+    <j.3:is>intermediate</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_vacuum_cooling">
+    <j.3:is>mandatory</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:these_new_breeds">
+    <j.3:mightBeRightChoiceFor>small_farmers</j.3:mightBeRightChoiceFor>
+    <j.3:dependOn>optimal_living_conditions</j.3:dependOn>
+    <j.3:dependOn>rich_diet</j.3:dependOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mature_fruits">
+    <j.3:ripen>six_ten_days</j.3:ripen>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Matter">
+    <j.3:inIsSpirit>words_of_Steiner</j.3:inIsSpirit>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_spread_form_propagation">
+    <j.3:isUseOf>cuttings</j.3:isUseOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:part">
+    <j.3:withinMayCollapse>few_days</j.3:withinMayCollapse>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:regulations">
+    <j.3:conformTo>provisions_of_EU_Regulation</j.3:conformTo>
+    <j.3:protect>producers</j.3:protect>
+    <j.3:regulate>market_access</j.3:regulate>
+    <j.3:are>present</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_berries">
+    <j.3:areSeparatedFrom>foreign_particles</j.3:areSeparatedFrom>
+    <j.3:areSeparatedFrom>ears</j.3:areSeparatedFrom>
+    <j.3:isSeparatedFrom>syncarpy_washed</j.3:isSeparatedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_organic_matter">
+    <j.3:actsAs>storage_of_water</j.3:actsAs>
+    <j.3:canBeDecomposedBy>soil_organisms</j.3:canBeDecomposedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_development_period_fruit">
+    <j.3:canLastTo>ca._3-4_months</j.3:canLastTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:adjustments">
+    <j.3:areRequiredOn>farms</j.3:areRequiredOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mineral_particles">
+    <j.3:contain>nutrients</j.3:contain>
+    <j.3:originateFrom>rock</j.3:originateFrom>
+    <j.3:originateFrom>subsoil</j.3:originateFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Antracnose_Fruit">
+    <j.3:has>small_sunken_circular_spots</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These_animals">
+    <j.3:mustBeKeptOff>plantations</j.3:mustBeKeptOff>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:moisture_condensation_dates">
+    <j.3:willSupport>growth_of_unwanted_micro-organisms</j.3:willSupport>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:no_import_authorizations">
+    <j.3:inAreRequired>case</j.3:inAreRequired>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:mulch">
+    <j.3:forProduce>example</j.3:forProduce>
+    <j.3:isPlacedAround>newly-transplanted_tree</j.3:isPlacedAround>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:large_losses">
+    <j.3:withCanOccur>stable_prices</j.3:withCanOccur>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:analysis">
+    <j.3:involves>maintain</j.3:involves>
+    <j.3:involves>basic_measures_improve</j.3:involves>
+    <j.3:are>costly</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_wide_variety_possibilities">
+    <j.3:isAvailableFor>organic_cultivation</j.3:isAvailableFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cabbage">
+    <j.3:shouldBeStoredWith>fruits_emitting</j.3:shouldBeStoredWith>
+    <j.3:shouldBeHandledFrom>field_to_storage</j.3:shouldBeHandledFrom>
+    <j.3:isHeldIn>common_storage</j.3:isHeldIn>
+    <j.3:takes>90</j.3:takes>
+    <j.3:isLeavesIn>first_year</j.3:isLeavesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:3.10.1_Ecological_Requirements_cycle_%2C_radishes">
+    <j.3:mayBeGrownIn>wide_range</j.3:mayBeGrownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Bacillus_Thuringiensis">
+    <j.3:isUsedFor>biological_control</j.3:isUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:world-wide_consumers">
+    <j.3:prefer>vegetables</j.3:prefer>
+    <j.3:prefer>produced_organic_fruits</j.3:prefer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Codex-Alimentarius-Guidelines_can_be_downloaded_website">
+    <j.3:contains>texts_pertaining</j.3:contains>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Agro-chemicals">
+    <j.3:haveBeenUsedOn>large_scale</j.3:haveBeenUsedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_number_predators">
+    <j.3:onCanHelp>spring_•</j.3:onCanHelp>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fiber_content_least">
+    <j.3:canBeReducedUnder>CA</j.3:canBeReducedUnder>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Harvesting_and_Asparagus">
+    <j.3:isHarvested>first_year</j.3:isHarvested>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_type_inspection">
+    <j.3:isReferredTo>group_certification</j.3:isReferredTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Packing_Spinach">
+    <j.3:isPackagedIn>20</j.3:isPackagedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_color_berries">
+    <j.3:is>brown_red</j.3:is>
+    <j.3:is>yellow</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_new_Japanese_Agriculture_Standard_JAS_food">
+    <j.3:defines>procedures_for_impor</j.3:defines>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_special_service_offered">
+    <j.3:allows>you</j.3:allows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_organic_citrus_producers">
+    <j.3:use>dried_poultry_manure</j.3:use>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_production">
+    <j.3:certifiedAs>organic</j.3:certifiedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:temperatures_should_be_10_%C2%B0_C._Watermelons">
+    <j.3:areStoredAt>lower_humidity</j.3:areStoredAt>
+    <j.3:areStoredAt>higher_temperatures</j.3:areStoredAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pulp_filled">
+    <j.3:canBeStored>for</j.3:canBeStored>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bananas_measuring">
+    <j.3:mayBeMarketedWithin>union</j.3:mayBeMarketedWithin>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_producer_prices_vegetables">
+    <j.3:areHigher>10_100_%</j.3:areHigher>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_compost_ratio">
+    <j.3:inShouldBeUsed>case</j.3:inShouldBeUsed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:soil_improvement_measures">
+    <j.3:mustBeIntegratedInto>planning_of_crop_rotation_system</j.3:mustBeIntegratedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_trees">
+    <j.3:are>resistant</j.3:are>
+    <j.3:haveAttained>desired_form</j.3:haveAttained>
+    <j.3:are>young</j.3:are>
+    <j.3:inArePlanted>Cook_Islands</j.3:inArePlanted>
+    <j.3:are>way</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fertigation_and_injection_lines">
+    <j.3:are>feasible</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_n_d_i_Retailer">
+    <j.0:achats>200_rue_de_la_Recherche_59656_Villeneuve-d'Ascq_Cedex_Tel</j.0:achats>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_publication">
+    <j.3:canBeDownloadedFrom>internet_at_http://www.soel.de/inhalte/publikationen/s_74_04.pdf_Agricultura_orgánica</j.3:canBeDownloadedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_use_coir">
+    <j.3:is>possible</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:them_Organically_Disease_Symptoms_Preventive_Direct">
+    <j.3:measures>measures_Puccinia_asparagi_Resistant_varieties_Copper_applications_Table_58</j.3:measures>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_mechanism">
+    <j.3:hasCaused>farmers</j.3:hasCaused>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_requirements_period">
+    <j.3:differsBetween>organic_standards</j.3:differsBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Nearly_all_supermarket_chains">
+    <j.3:likeAreEngaged>Carrefour</j.3:likeAreEngaged>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_forest_floor">
+    <j.3:isCoveredBy>pioneer_plants</j.3:isCoveredBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_excrement">
+    <j.3:has>growth_promoting</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_yearly_-_ibrated_nutrient_balance_phosphorus">
+    <j.3:inIsRequired>different_regulations</j.3:inIsRequired>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Ripe_fruits">
+    <j.3:canBeStoredAt>%_relative_humidity</j.3:canBeStoredAt>
+    <j.3:canBeStoredAt>6-7_°_C</j.3:canBeStoredAt>
+    <j.3:are>contain</j.3:are>
+    <j.3:are>orange-yellow_in_color</j.3:are>
+    <j.3:are>yellow</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_plant_roots_and_organisms">
+    <j.3:consume>air</j.3:consume>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:work">
+    <j.3:is>carried_with_co-operation</j.3:is>
+    <j.3:is>worth</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:production_costs">
+    <j.3:goTo>pre-conversion_level</j.3:goTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Support">
+    <j.3:wouldWorkIn>prevailing_conditions</j.3:wouldWorkIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_average">
+    <j.3:cultivated>lad_for_small_scale_farmers</j.3:cultivated>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Main_Non-EU_suppliers_fruits">
+    <j.3:areLocatedIn>Israel</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Egypt</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Dominican_Republic</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Colombia</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Cameroon</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Argentina</j.3:areLocatedIn>
+    <j.3:areLocatedIn>Angola</j.3:areLocatedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:etc.">
+    <j.3:likeAreIncreasing>pre-packed_salads</j.3:likeAreIncreasing>
+    <j.3:isImportantEnemyOf>coconut_bug</j.3:isImportantEnemyOf>
+    <j.3:encourages>colonization_of_coconut_groves</j.3:encourages>
+    <j.3:is>high</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:since_farmers_%C2%B4_list_estimations">
+    <j.3:isBasisFor>organic_purchase</j.3:isBasisFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sufficient_protection_Packing_material_used">
+    <j.3:be>shaped</j.3:be>
+    <j.3:be>clean</j.3:be>
+    <j.3:be>new</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:an_internal_control_system">
+    <j.3:accordingConsists>IMO/Naturland_Manual</j.3:accordingConsists>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_infestation">
+    <j.3:is>severe</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_application_waste_farms">
+    <j.3:hasShown>good_results</j.3:hasShown>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_management_pests">
+    <j.3:requires>integration_of_possible_cultural_practices</j.3:requires>
+    <j.3:requires>ing</j.3:requires>
+    <j.3:requires>monitor</j.3:requires>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_single_farmer">
+    <j.3:be>able</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Phosphorus-deficient_plants">
+    <j.3:are>dark</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Minimum_requirements_participation_outlined">
+    <j.3:applyWith>well-working_internal_control_system</j.3:applyWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_conversion_plan">
+    <j.3:shouldPrevent>transition_period</j.3:shouldPrevent>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Calcium">
+    <j.3:isStabilize>soil_aggregates</j.3:isStabilize>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:agricultural_inputs_used_%2C">
+    <j.3:harvested>quantities</j.3:harvested>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_ca._400-500_g_weight">
+    <j.3:ensure>uniform_crop</j.3:ensure>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_high_density">
+    <j.3:diminishes>oppor</j.3:diminishes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some">
+    <j.3:areAllowedBecause>environmental_damage</j.3:areAllowedBecause>
+    <j.3:areAllowedBecause>high_health_risk</j.3:areAllowedBecause>
+    <j.3:areDriedBy>means_of_brick_stoves_during_humid_weather</j.3:areDriedBy>
+    <j.3:areVisibleTo>naked_eye</j.3:areVisibleTo>
+    <j.3:are>plant_origin</j.3:are>
+    <j.3:is>doubtful</j.3:is>
+    <j.3:fulfill>minimum_criteria</j.3:fulfill>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:One_promising_option">
+    <j.3:is>drip_irrigation_systems</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Such_aggregates">
+    <j.3:improve>soil_structure</j.3:improve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coconut_shells">
+    <j.3:areUsedAs>fillers</j.3:areUsedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_seed_bed">
+    <j.3:be>demonstrate</j.3:be>
+    <j.3:be>middle_fine</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Conversion_products">
+    <j.3:mayBeUsedIn>multi-ingredient_products</j.3:mayBeUsedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Planting_trees">
+    <j.3:canBeTransplanted>time_of_year</j.3:canBeTransplanted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mature_carrots">
+    <j.3:areAdaptedFor>storage</j.3:areAdaptedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Juice">
+    <j.3:squeezedOf>middle_of_fruit</j.3:squeezedOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:worm">
+    <j.3:are>available</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:an_attractive_offer_fruits">
+    <j.3:plays>essential_role</j.3:plays>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:some_farmers">
+    <j.3:haveDeveloped>low_cost_drip_irrigation_systems</j.3:haveDeveloped>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_harvest_product">
+    <j.3:inOccurs>maize-beans-zucchini_intercropping</j.3:inOccurs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:88_Soil_drainage_%2C_management_%2C_size">
+    <j.3:determine>irrigation_frequencies</j.3:determine>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_bottom_crops">
+    <j.3:shouldContain>high_percentage</j.3:shouldContain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Morocco_%2C_Egypt_and_countries_Latin-American">
+    <j.3:haveReached>growing_importance</j.3:haveReached>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_EU">
+    <j.3:isImportantImportMarketFor>organic_food_products</j.3:isImportantImportMarketFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:coconut">
+    <j.3:canProduce>inflorescence_on_leaf_axil</j.3:canProduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Rot_flowers">
+    <j.3:canLeadTo>total_destruction</j.3:canLeadTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_self-sufficiency_rate_vegetables">
+    <j.3:is>84_%</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cabbage">
+    <j.3:has>high_lime_requirement</j.3:has>
+    <j.3:isSensitiveTo>soil_acidity_soil_pH</j.3:isSensitiveTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_green_mulch">
+    <j.3:inIsRecommended>inter-rows_periphery</j.3:inIsRecommended>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_share_area_management">
+    <j.3:isHighestIn>European_countries</j.3:isHighestIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_System_Approach_Conventional_farming">
+    <j.3:puts>focus</j.3:puts>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_effec_-_tive_method_protection">
+    <j.3:is>careful_site_selection</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:some_examples">
+    <j.3:areExplainedIn>following_chapters</j.3:areExplainedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Animals">
+    <j.3:canBeCrossbredWith>suitable_new_breeds</j.3:canBeCrossbredWith>
+    <j.3:canBeImprovedBy>selection_suitable</j.3:canBeImprovedBy>
+    <j.3:canProduceOver>long_period</j.3:canProduceOver>
+    <j.3:areIntegratedPartOf>farm_system</j.3:areIntegratedPartOf>
+    <j.3:arePartOf>system</j.3:arePartOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_quality_and_quantity_fodder">
+    <j.3:isCrucialImportanceFor>health_of_animal</j.3:isCrucialImportanceFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Even_a_moderate_amount_wind_15mph">
+    <j.3:willDamage>new_branches</j.3:willDamage>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Annual_plants_maize">
+    <j.3:canBePlantedDuring>early_growth_period</j.3:canBePlantedDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:N-fertilization">
+    <j.3:strengthen>own_protection_mechanisms</j.3:strengthen>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_strongest_seedlings">
+    <j.3:afterShouldBeSelected>5th_month</j.3:afterShouldBeSelected>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:these_organisms">
+    <j.3:require>aeration</j.3:require>
+    <j.3:require>sufficient_humidity</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Flowering">
+    <j.3:occursFrom>late_autumn</j.3:occursFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:long_days_and_temperature">
+    <j.3:predispose>spinach</j.3:predispose>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Overripe_fruits">
+    <j.3:have>lower_sugars</j.3:have>
+    <j.3:have>watery_mushy_texture</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_Chinese_method_air-layering">
+    <j.3:has>many_variations</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:accredited_certifying_agent_%2C_product">
+    <j.3:mayBeSoldIn>United_States</j.3:mayBeSoldIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sensitivity_eggplants_chilling">
+    <j.3:differsWith>season_of_harvest</j.3:differsWith>
+    <j.3:differsWith>size_of_fruit</j.3:differsWith>
+    <j.3:differsWith>maturity</j.3:differsWith>
+    <j.3:differsWith>cultivar</j.3:differsWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pests_and_diseases">
+    <j.3:areDescribedIn>detail</j.3:areDescribedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:acidic_%2C_pH_adjustment_5.5">
+    <j.3:isAchievedBy>liming</j.3:isAchievedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Perennial_onions">
+    <j.3:include>shallots</j.3:include>
+    <j.3:include>Egyptian_onions</j.3:include>
+    <j.3:include>bunching_onions</j.3:include>
+    <j.3:include>potato_onions</j.3:include>
+    <j.3:produce>clusters_of_small_onions</j.3:produce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:such_systems">
+    <j.3:haveBeenUsedSince>Roman_times</j.3:haveBeenUsedSince>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:crop_residues">
+    <j.3:areUsedFor>mulching</j.3:areUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_variety">
+    <j.3:originatesFrom>northern_perimeter</j.3:originatesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Climate_Citrus">
+    <j.3:isEvergreenPlantOf>tropical</j.3:isEvergreenPlantOf>
+    <j.3:isEvergreenPlantOf>subtropical</j.3:isEvergreenPlantOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_seedling">
+    <j.3:isPlantedWith>rest_of_soil</j.3:isPlantedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:producers_as_decisions">
+    <j.3:mayVaryTo>another</j.3:mayVaryTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sustainable_Agriculture_LEIA_or_eco-farming">
+    <j.3:renounce>use_of_agrochemicals</j.3:renounce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_scion">
+    <j.3:isTrimmedTo>10_cm</j.3:isTrimmedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bagging">
+    <j.3:promotes>conditions_for_fungal_diseases</j.3:promotes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Regulation">
+    <j.3:constitutes>authentic_certified_organic_product</j.3:constitutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:imports_products">
+    <j.3:areShippedAt>lower_costs</j.3:areShippedAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:high_Cu_accumulations">
+    <j.3:areToxicFor>soil_microbial_life</j.3:areToxicFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plan">
+    <j.3:shouldPrevent>major_problems</j.3:shouldPrevent>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:modern_intensive_agriculture_%2C_input_%2C">
+    <j.3:overHasBeenDetrimental>last_century</j.3:overHasBeenDetrimental>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:suff_icient_proof_ication">
+    <j.3:is>available</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_tall_varieties_Red">
+    <j.3:belongTo>those</j.3:belongTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Radishes">
+    <j.3:shouldBeKeptAt>times</j.3:shouldBeKeptAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Prevention_measures">
+    <j.3:are>important</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_types_trees_chosen">
+    <j.3:dependsOn>site</j.3:dependsOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_farmers">
+    <j.3:shouldSelect>system</j.3:shouldSelect>
+    <j.3:haveMade>use_of_tra</j.3:haveMade>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_carrot">
+    <j.3:isGrowsIn>mediterranian_climates</j.3:isGrowsIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:direct_control_measures">
+    <j.3:inMayBeApplied>addition</j.3:inMayBeApplied>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pineapples_as_papaya">
+    <j.3:areSuitedAs>so-called_nursery_crops_raise</j.3:areSuitedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_organic_management_plants">
+    <j.3:consistsIn>necessary</j.3:consistsIn>
+    <j.3:consistsIn>regular_mowing</j.3:consistsIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pests_occur_%2C_application_%2C">
+    <j.3:offer>alternative_methods_controlling</j.3:offer>
+    <j.3:offer>effective_preventative</j.3:offer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:animals">
+    <j.3:is>able</j.3:is>
+    <j.3:have>immune_system</j.3:have>
+    <j.3:inMayBeWorth>cases</j.3:inMayBeWorth>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:GMO-free_seeds">
+    <j.3:areCompulsoryFor>organic_production</j.3:areCompulsoryFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_winter_months">
+    <j.3:are>dry</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_High_content_matter">
+    <j.3:reduces>risk_of_soil_compaction</j.3:reduces>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organically_produced_bananas">
+    <j.3:haveBecomeIn>past_few_years</j.3:haveBecomeIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Country_Brief_description_procedures">
+    <j.3:forCanVary>Import_Authorizations</j.3:forCanVary>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Crops_rooting">
+    <j.3:areGrownWith>species_with_shallow_root_growth</j.3:areGrownWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Certification">
+    <j.3:is>verifying</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:scales">
+    <j.3:existInside>plantation</j.3:existInside>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_Act_Department">
+    <j.3:isIncludes>imported_organic_products</j.3:isIncludes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bin">
+    <j.3:registersFrom>next_unit</j.3:registersFrom>
+    <j.3:registersFrom>field_to_farm</j.3:registersFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_layer_moss">
+    <j.3:isBoundAround>7th_knot</j.3:isBoundAround>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fresh_fruits_%2C_picked_%2C_and_packed">
+    <j.3:haveBeenShippedBy>air_from_Florida</j.3:haveBeenShippedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_air-layers">
+    <j.3:arePlantedIn>large_clay_pots</j.3:arePlantedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mechanical_weeding">
+    <j.3:is>possible</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:mineralization">
+    <j.3:isAppliedAs>source_of_phosphor</j.3:isAppliedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Oligonychus_afrasiaticus_and_Paratetranychus_simplex">
+    <j.3:areWideSpreadIn>North_Africa</j.3:areWideSpreadIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:many_traditional_farming_systems">
+    <j.3:been>unable</j.3:been>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:large_plants">
+    <j.3:shouldBeUsedFrom>nursery_beds</j.3:shouldBeUsedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_development_berries">
+    <j.3:doesTake>five_months</j.3:doesTake>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_farm_animal">
+    <j.3:receives>kind_of_fodder</j.3:receives>
+    <j.3:receives>appropriate_amount</j.3:receives>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_4-5_year_period_free">
+    <j.3:beforeAreNecessary>next_onion_crop</j.3:beforeAreNecessary>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Splitting">
+    <j.3:occursDuring>spells_occuring</j.3:occursDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_desired_effect">
+    <j.3:inIsReached>most_cases</j.3:inIsReached>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nutrient">
+    <j.3:isAvailableTo>plant_roots</j.3:isAvailableTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:residue">
+    <j.3:contains>25_kg</j.3:contains>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Storage_periods">
+    <j.3:canLeadTo>chilling_injury</j.3:canLeadTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_plants">
+    <j.3:areProtectedFrom>wind</j.3:areProtectedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:No_soil">
+    <j.3:shouldRemainOn>shoots_prevent</j.3:shouldRemainOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:no_other_alternatives">
+    <j.3:are>available</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:SAINSBURY_%2C_TESCO_and_WAITROSE">
+    <j.3:areSeenAs>pro-active_multipliers_regarding</j.3:areSeenAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Radishes">
+    <j.3:need>light_soils</j.3:need>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Causes">
+    <j.3:formed>twigs</j.3:formed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:6_-RRB-_Compost">
+    <j.3:canReduce>disease_problems</j.3:canReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cucumber_wilt">
+    <j.3:isSpreadBy>cucumber_beetles</j.3:isSpreadBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:imported_goods">
+    <j.3:mustBeAccompaniedBy>certificate_of_origin</j.3:mustBeAccompaniedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fixed_costs_depend">
+    <j.3:are>costs</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_majority_products">
+    <j.3:areProducedIn>countries_of_third_world</j.3:areProducedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Weed_Management_Weed_control">
+    <j.3:isImportantDuring>first_growth_stages</j.3:isImportantDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bio-dynamic_farming">
+    <j.3:includes>spiritual_dimension</j.3:includes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_cultivation">
+    <j.3:doesAllowFor>monoculture_systems</j.3:doesAllowFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Colletotrichum_gloeosporioides">
+    <j.3:causes>anthracnose_on_fruits</j.3:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:almost_all_orange_orchards">
+    <j.3:areHarvestedBy>hand</j.3:areHarvestedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:head_building">
+    <j.3:inCanBeDisturbed>hot_climate</j.3:inCanBeDisturbed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Optimum_range_pH">
+    <j.3:is5To>7</j.3:is5To>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sizes_g">
+    <j.3:forArePreferable>export_to_Europe</j.3:forArePreferable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Tall_varieties">
+    <j.3:shouldBeChosenFor>agroforestry_systems</j.3:shouldBeChosenFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_leaves_and_twigs">
+    <j.3:areRichIn>other_plant_nutrients</j.3:areRichIn>
+    <j.3:areRichIn>nitrogen</j.3:areRichIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:2.2.4_Tree_Nutrition_and_Fertilization_%2C_fertilizer">
+    <j.3:isGivenAfter>harvest</j.3:isGivenAfter>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_total_amount_material">
+    <j.3:broughtOnto>farm_unit</j.3:broughtOnto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:leaf_spot_caused">
+    <j.3:inMayBePrevalent>India</j.3:inMayBePrevalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:High_clusters">
+    <j.3:areHarvestedBy>bamboo_pruning_poles</j.3:areHarvestedBy>
+    <j.3:areHarvestedBy>metal</j.3:areHarvestedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:male_flowers">
+    <j.3:are>consist</j.3:are>
+    <j.3:are>sweet</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_dense_root_system_plants">
+    <j.3:collects>released_nutrients</j.3:collects>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:People">
+    <j.3:eat>fresh_dates</j.3:eat>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These">
+    <j.3:wereNewApproachesAt>time</j.3:wereNewApproachesAt>
+    <j.3:include>post-season_destruction</j.3:include>
+    <j.3:areResistantAgainst>demanding</j.3:areResistantAgainst>
+    <j.3:areResistantAgainst>diseases</j.3:areResistantAgainst>
+    <j.3:applyTo>organic_products</j.3:applyTo>
+    <j.3:canBeUnsupportedOn>bare_ground</j.3:canBeUnsupportedOn>
+    <j.3:supply>recommended_guide</j.3:supply>
+    <j.3:willTakeInto>account_local_conditions</j.3:willTakeInto>
+    <j.3:take>6-8_months</j.3:take>
+    <j.3:include>productive_varieties</j.3:include>
+    <j.3:protects>soil</j.3:protects>
+    <j.3:areLiveOn>leaves</j.3:areLiveOn>
+    <j.3:canBeUtilizedIn>various_ways_accommodate</j.3:canBeUtilizedIn>
+    <j.3:liveOn>leaves</j.3:liveOn>
+    <j.3:arePresentIn>multi-level_cultivation_systems</j.3:arePresentIn>
+    <j.3:areFormedOn>side</j.3:areFormedOn>
+    <j.3:isSusceptibleTo>stalk_rot</j.3:isSusceptibleTo>
+    <j.3:willRequire>inspection_reports_processing</j.3:willRequire>
+    <j.3:canCause>lot_of_damage</j.3:canCause>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:soil">
+    <j.3:isHabitatFor>plants</j.3:isHabitatFor>
+    <j.3:be>pre</j.3:be>
+    <j.3:contains>organic_mat_resulting</j.3:contains>
+    <j.3:isHabitatFor>micro-organisms</j.3:isHabitatFor>
+    <j.3:stimulate>soil_microbial_activity</j.3:stimulate>
+    <j.3:are>located</j.3:are>
+    <j.3:inIsMounded>addition</j.3:inIsMounded>
+    <j.3:arePartOf>young</j.3:arePartOf>
+    <j.3:isHabitatFor>animals</j.3:isHabitatFor>
+    <j.3:be>necessary</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_first_real_leaf">
+    <j.3:afterAppears>two_weeks</j.3:afterAppears>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_figure">
+    <j.3:includes>sales_of_so-called_green_products</j.3:includes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Seedling_trees_cultivars">
+    <j.3:varyIn>size</j.3:varyIn>
+    <j.3:varyIn>vigour</j.3:varyIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_recipe">
+    <j.3:inHas>case</j.3:inHas>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Farm_yard_manure_and_slurry">
+    <j.3:shouldBeBroughtIn>quantities</j.3:shouldBeBroughtIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:An_offensive_odor">
+    <j.3:is>source_of_irrigation_water</j.3:is>
+    <j.3:is>present_•_Control_frequency</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_higher_percentage_shoots">
+    <j.3:take>root</j.3:take>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_root-tubers">
+    <j.3:onAreFormed>lateral_roots</j.3:onAreFormed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Larger_fruit">
+    <j.3:areProducedOn>vigorous_shoots</j.3:areProducedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sites">
+    <j.3:canRainInside>blossoms</j.3:canRainInside>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Yield_Lychee_yields">
+    <j.3:are>approach</j.3:are>
+    <j.3:are>erratic</j.3:are>
+    <j.3:are>unreliable</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:20_certification_programs_worldwide">
+    <j.3:areAccreditedBy>IFOAM</j.3:areAccreditedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:production_and_trade_guava">
+    <j.3:willReach>volumes_of_other_tropical_fruit</j.3:willReach>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Mn-deficiencies">
+    <j.3:require>corrections</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:All_crops">
+    <j.3:grownOn>conventional_fields</j.3:grownOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_other_components_compost">
+    <j.3:provide>micro-nutrients</j.3:provide>
+    <j.3:provide>nutrients</j.3:provide>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_1st_-RRB-_fumigated_deliveries">
+    <j.3:lose>organic_status</j.3:lose>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Slow_growing_plants_%2C_Dwarf_%2C">
+    <j.3:canBePlantedIn>density_of_plants/ha</j.3:canBePlantedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:partial_shade">
+    <j.3:isAvailable>time</j.3:isAvailable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Phosphorus_%E2%80%A2_Essential_element_structure">
+    <j.3:bring>enough_P</j.3:bring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Shade">
+    <j.3:isProvidedFor>young_plants_planting</j.3:isProvidedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Disease_Cabbage_plants">
+    <j.3:areSusceptibleTo>pests</j.3:areSusceptibleTo>
+    <j.3:areSusceptibleTo>diseases</j.3:areSusceptibleTo>
+    <j.3:areSusceptibleTo>physiological_disturbances</j.3:areSusceptibleTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:forestry">
+    <j.3:areSuitableFor>small_farmer</j.3:areSuitableFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:service">
+    <j.3:requireFrom>supplier</j.3:requireFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cycles">
+    <j.3:is>important</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_following_types_prod">
+    <j.3:areAvailableFor>direct_control</j.3:areAvailableFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_income_farmer">
+    <j.3:isDifferenceBetween>cost_of_production</j.3:isDifferenceBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:regular_grazing_grazing">
+    <j.3:shouldBeInterruptedBy>hay_pasture</j.3:shouldBeInterruptedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:practices">
+    <j.3:improve>soil_microflora</j.3:improve>
+    <j.3:is>possible</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Guavas">
+    <j.3:matureDuring>dry_period</j.3:matureDuring>
+    <j.3:develop>best_eating_quality</j.3:develop>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_majority_species">
+    <j.3:areFixing>minous_species</j.3:areFixing>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:3.13.4_Pest_and_melons">
+    <j.3:areSusceptibleTo>pests</j.3:areSusceptibleTo>
+    <j.3:areSusceptibleTo>diseases</j.3:areSusceptibleTo>
+    <j.3:areSusceptibleTo>physiological_disturbances</j.3:areSusceptibleTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_collection">
+    <j.3:makes>claim_complete</j.3:makes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Selection">
+    <j.3:require>different_site_conditions</j.3:require>
+    <j.3:originateFrom>require</j.3:originateFrom>
+    <j.3:originateFrom>other_ecosystems</j.3:originateFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_amount_and_quality">
+    <j.3:influences>content_of_organic_matter_in_soil</j.3:influences>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Calcium_lime">
+    <j.3:moves>worked_in_depth</j.3:moves>
+    <j.3:moves>downwards_into_soil</j.3:moves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:food_security">
+    <j.3:inIsAssured>many_tropical_countries</j.3:inIsAssured>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:industry">
+    <j.3:contemplates>other_green_categories</j.3:contemplates>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:suitable_breeds">
+    <j.3:are>avail</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_material">
+    <j.3:mustBeTreatedWith>unpermitted_substances_&lt;</j.3:mustBeTreatedWith>
+    <j.3:isInfestedWith>diseases</j.3:isInfestedWith>
+    <j.3:isInfestedWith>pests</j.3:isInfestedWith>
+    <j.3:isSpreadThroughout>entire_plantation</j.3:isSpreadThroughout>
+    <j.3:inCanBeLeft>warm_climates</j.3:inCanBeLeft>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:EU-Regulation_standards_based">
+    <j.3:exceeds>other_baseline_regulations</j.3:exceeds>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_and_Growth">
+    <j.3:isStimulatedBy>sufficient_supply</j.3:isStimulatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Crop_diversity">
+    <j.3:is>helpful</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:7_%C2%B0_C_%2C_concentration">
+    <j.3:shouldExceed>7_%</j.3:shouldExceed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plants_suitable">
+    <j.3:include>many_more</j.3:include>
+    <j.3:include>Canavalia_ensiformis</j.3:include>
+    <j.3:include>Arachi_pintoi</j.3:include>
+    <j.3:include>Calopogonium_mucunoides</j.3:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_system">
+    <j.3:is>open</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:b._Classifications_%3C_Class_Extra_Bananas_class">
+    <j.3:be>highest_quality</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sacks">
+    <j.3:areRemovedFrom>water</j.3:areRemovedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Association_co-operation">
+    <j.3:collects>data_of_British_seed_suppliers</j.3:collects>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Several_Southern_countries">
+    <j.3:experienced>Green_Revolution</j.3:experienced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pulp">
+    <j.3:areUsedFor>by-products_such_cattle_feed</j.3:areUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:extremes">
+    <j.3:limit>bee_flight</j.3:limit>
+    <j.3:affect>unsettled_weather</j.3:affect>
+    <j.3:affect>bloom_phenology</j.3:affect>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plant-material">
+    <j.3:isLeftOn>harvested</j.3:isLeftOn>
+    <j.3:isLeftOn>soil_surface</j.3:isLeftOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:all_preparations">
+    <j.3:mustBeCarriedUnder>clean_conditions</j.3:mustBeCarriedUnder>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plant_nutrition">
+    <j.3:shouldBeApproachedIn>allowed_with_restrictions</j.3:shouldBeApproachedIn>
+    <j.3:shouldBeApproachedIn>organic_agriculture</j.3:shouldBeApproachedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:more_water">
+    <j.3:inIsAvailable>dry_periods</j.3:inIsAvailable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:other_crops">
+    <j.3:inMayBeUsed>addition_to_leguminous_crops</j.3:inMayBeUsed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_overall_organic_market_growth">
+    <j.3:isEstimatedBy>20_%_due</j.3:isEstimatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Excess_water_season">
+    <j.3:mayBeUsedDuring>dry_periods</j.3:mayBeUsedDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:veterinary_treatment">
+    <j.3:shouldPlay>secondary_role</j.3:shouldPlay>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_detailed_regulations_e.g.">
+    <j.3:atAreDynamic>present_time</j.3:atAreDynamic>
+    <j.3:are>dynamic</j.3:are>
+    <j.3:atAreDynamic>present</j.3:atAreDynamic>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_variety">
+    <j.3:toIsAdapted>which</j.3:toIsAdapted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Rock_phosphate_%2C_sulfate_%2C_sulfate_%2C_and_number">
+    <j.3:mayBeUsedFor>organic_production</j.3:mayBeUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Black_plant_louse">
+    <j.3:colonizes>foliage_Applications_aphid</j.3:colonizes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:between_%2C_a_double_row_m">
+    <j.3:isPlantedWith>mix_of_Inga_ssp</j.3:isPlantedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:annual_application">
+    <j.3:isLimitedTo>4-8_kg/ha</j.3:isLimitedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_cut">
+    <j.3:isTrimmedTo>smooth_surface</j.3:isTrimmedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:80_%25_growth">
+    <j.3:occurs>3-4_weeks</j.3:occurs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cut_spinach">
+    <j.3:is>perishable</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Testing_Chemical_soil_testing">
+    <j.3:mayYield>valuable_information</j.3:mayYield>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_EU-Regulation">
+    <j.3:prohibits>ingredient/input_used</j.3:prohibits>
+    <j.3:defines>detailed_requirements</j.3:defines>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_application">
+    <j.3:shouldBeDoneIn>spread_on_filed</j.3:shouldBeDoneIn>
+    <j.3:shouldBeDoneIn>single_plants</j.3:shouldBeDoneIn>
+    <j.3:shouldBeDoneIn>rows</j.3:shouldBeDoneIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_vegetation_point_sprout">
+    <j.3:mustLieAbove>surface</j.3:mustLieAbove>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Most_management_practices">
+    <j.3:are>aim</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:farming_communities_influenced">
+    <j.3:meet>important_criteria</j.3:meet>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_variety_cultures">
+    <j.3:alongsideCanBePlanted>which</j.3:alongsideCanBePlanted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:1000_--_1500_mm_rainfall">
+    <j.3:forIsNecessary>good_harvests</j.3:forIsNecessary>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:balance">
+    <j.3:promotes>common_fungal_diseases</j.3:promotes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Freshness_and_diversity_products">
+    <j.3:areUtmostImportanceIn>competition_process</j.3:areUtmostImportanceIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Good_preparation_bed">
+    <j.3:is>important</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:accreditation">
+    <j.3:forIsImportant>international_operators_looking</j.3:forIsImportant>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_The_exporter_EU">
+    <j.3:forMustApply>Swiss_Importers</j.3:forMustApply>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_tree_%2C_solution">
+    <j.3:is>effective</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_seen_fair_trade_labels">
+    <j.3:inAreThose>Europe</j.3:inAreThose>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_mulch_layer">
+    <j.3:shouldBeThickIn>order</j.3:shouldBeThickIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Nutrient_losses">
+    <j.3:areReducedTo>minimum</j.3:areReducedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Hedges_shrubs">
+    <j.3:leaves>green_manures</j.3:leaves>
+    <j.3:leaves>&lt;_Grass_fallows</j.3:leaves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_pineapples">
+    <j.3:areAllowed>uninhibited_growth</j.3:areAllowed>
+    <j.3:arePlantedAs>bottom_crops</j.3:arePlantedAs>
+    <j.3:inCanBeProcessed>addition_to_use</j.3:inCanBeProcessed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:no_unallowed_inputs">
+    <j.3:haveBeenUsedFrom>onwards</j.3:haveBeenUsedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Preventive_measures_pests">
+    <j.3:have>priority_in_organic_melon_production</j.3:have>
+    <j.3:have>priority_in_organic_cabbage_production</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_products">
+    <j.3:areCompliantWith>organic_JAS</j.3:areCompliantWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_fertilization">
+    <j.3:isBasedOn>organic_material</j.3:isBasedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Tomatoes">
+    <j.3:doHave>high_requirements</j.3:doHave>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Each_producer_%2C_consultant_and_inspector">
+    <j.3:be>able</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:White_Rust_White">
+    <j.3:pustulesOn>leaves</j.3:pustulesOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:stem-end_rot_and_Affect">
+    <j.3:leaves>young_steams</j.3:leaves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cross-pollination_%2C_corn">
+    <j.3:shouldBeSeparatedFrom>different_types</j.3:shouldBeSeparatedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Three_types_corn">
+    <j.3:are>available</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_fertilizer">
+    <j.3:isAppliedAround>2_weeks</j.3:isAppliedAround>
+    <j.3:shouldBeAppliedAround>4</j.3:shouldBeAppliedAround>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Active_populations_enemies">
+    <j.3:canControl>pest_organisms</j.3:canControl>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_condition">
+    <j.3:hasBeenNotedIn>several_watermelon_fields</j.3:hasBeenNotedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_first_idea_overcome">
+    <j.3:isInstall>irrigation_facilities</j.3:isInstall>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_large_part_area">
+    <j.3:consistsOf>extensive_pastures_managed</j.3:consistsOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_colors">
+    <j.3:varyFrom>red_to_yellow</j.3:varyFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:An_ecological_plantation_variety_%2C_plots">
+    <j.3:willProvide>enough_enemies_combat</j.3:willProvide>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Optimum_temperatures">
+    <j.3:areDependantOn>variety</j.3:areDependantOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:not_5_%25_livestock_and_products">
+    <j.3:be>product</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_conversion_process">
+    <j.3:was>complete</j.3:was>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_cropping_phases">
+    <j.3:canTake>place</j.3:canTake>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_reference_standards_framework">
+    <j.3:appliesTo>Codex</j.3:appliesTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Monoprix_etc.">
+    <j.3:likeAreEngaged>Carrefour</j.3:likeAreEngaged>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Asia_Japan_market">
+    <j.3:isParticularInterestFor>global_organic_export_industry</j.3:isParticularInterestFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Dried_dates">
+    <j.3:canBeStoredBecause>high_sugar_content</j.3:canBeStoredBecause>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_serious_foliage_pest">
+    <j.3:is>attacks</j.3:is>
+    <j.3:is>Aceria_litchii</j.3:is>
+    <j.3:is>leaf-curl_mite</j.3:is>
+    <j.3:is>erinose</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Minimum-tillage_systems">
+    <j.3:canIncrease>weed_pressure</j.3:canIncrease>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_luxury_timbers">
+    <j.3:areProvidedBy>nitrogen_fixing</j.3:areProvidedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:approach">
+    <j.3:is>possible</j.3:is>
+    <j.3:appliesTo>diseases</j.3:appliesTo>
+    <j.3:appliesTo>pests</j.3:appliesTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Root_and_growth">
+    <j.3:areRestrictedIn>soils</j.3:areRestrictedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:officer">
+    <j.3:received>substantial_help</j.3:received>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_selection_beans">
+    <j.3:canBeCarriedAccording>end_purpose</j.3:canBeCarriedAccording>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:certain_crops">
+    <j.3:mayBePlantedOn>same_field</j.3:mayBePlantedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_outbreak_both">
+    <j.3:canBePreventedBy>strict_use</j.3:canBePreventedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Second_year_harvest">
+    <j.3:isLimitedTo>4-6_weeks_crop_vigor</j.3:isLimitedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Austrian_consumers">
+    <j.3:doDemonstrate>trust_in_organic_O_r_g</j.3:doDemonstrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_beneficial_organisms">
+    <j.3:asWillBeHarmed>draw</j.3:asWillBeHarmed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_optimum_storage_temperature">
+    <j.3:isAllowsFor>storage_period</j.3:isAllowsFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:other_hybrids">
+    <j.3:matureIn>October</j.3:matureIn>
+    <j.3:matureIn>September</j.3:matureIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Temperature_temperature">
+    <j.9:CWith>optimum_range</j.9:CWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_method">
+    <j.3:forMayBeExpensive>large_plots</j.3:forMayBeExpensive>
+    <j.3:involves>more_work</j.3:involves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:ash_burning_%3B_use">
+    <j.3:isRestrictedTo>certain_chemical_forms</j.3:isRestrictedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:experiments">
+    <j.3:showed>that</j.3:showed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:That">
+    <j.3:isCanImprove>use</j.3:isCanImprove>
+    <j.3:areFondOf>mulching</j.3:areFondOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_high_yielding_period">
+    <j.3:isBetweenAreCut>80</j.3:isBetweenAreCut>
+    <j.3:isBetweenAreCut>40</j.3:isBetweenAreCut>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:all_produced_produce">
+    <j.3:canBeSoldAs>organic</j.3:canBeSoldAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:first">
+    <j.3:improve>water_retention</j.3:improve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_original_composting_material">
+    <j.3:is>recognizable</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_results">
+    <j.3:were>acceptable</j.3:were>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_farm">
+    <j.3:hasFinished>conversion_period</j.3:hasFinished>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_mixture_materials">
+    <j.3:shouldContain>average_C/N-ratio</j.3:shouldContain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_establishment_areas_orchard_and_plots">
+    <j.3:is>essential</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_product">
+    <j.3:canBeCertifiedAs>organic</j.3:canBeCertifiedAs>
+    <j.3:hasBeenApprovedIn>accordance_with</j.3:hasBeenApprovedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_single_trunk_tree">
+    <j.3:isDevelopedBy>training</j.3:isDevelopedBy>
+    <j.3:isDevelopedBy>proper_pruning</j.3:isDevelopedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:All_the_foliage">
+    <j.3:isEdibleIn>side_dish</j.3:isEdibleIn>
+    <j.3:isEdibleIn>sauces</j.3:isEdibleIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Consumer_labels_products">
+    <j.3:mayReferTo>consumer_labels</j.3:mayReferTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_yearly_pruning">
+    <j.3:is>essential</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_sales_information_farmers">
+    <j.3:onShallBeCross-checked>spot_check_basis</j.3:onShallBeCross-checked>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_group">
+    <j.3:be>big</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Temperatures_C">
+    <j.3:canLeadTo>chlorotic_coloring</j.3:canLeadTo>
+    <j.3:canLeadTo>metabolic_disturbances</j.3:canLeadTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:manure">
+    <j.3:forIsSuitable>crops_such_carrots</j.3:forIsSuitable>
+    <j.3:remainFor>longer_periods</j.3:remainFor>
+    <j.3:isAppliedTo>field</j.3:isAppliedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:smell">
+    <j.3:inhibit>metabolism</j.3:inhibit>
+    <j.3:inhibit>pests</j.3:inhibit>
+    <j.3:canBePenetrated>&lt;_substances</j.3:canBePenetrated>
+    <j.3:hinder>ability_walk</j.3:hinder>
+    <j.3:keeps>pests</j.3:keeps>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:mixed_crop_system_or_system">
+    <j.3:accordingIsUsed>which</j.3:accordingIsUsed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_choice_rootstock">
+    <j.3:isMajorConsiderationFor>organic_citrus_growers</j.3:isMajorConsiderationFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:high_temperatures">
+    <j.3:accelerate>fruit_ripening</j.3:accelerate>
+    <j.3:volatilize>N_of_organic_matter</j.3:volatilize>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:all_private_labels_Europe">
+    <j.3:haveIncorporated>minimum_requirements</j.3:haveIncorporated>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:inspectors">
+    <j.3:mustHave>conflicts_of_interest</j.3:mustHave>
+    <j.3:be>neutral</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_damage_pest">
+    <j.3:mayReach>level_of_considerable_economic_loss</j.3:mayReach>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nitrogen_demand">
+    <j.3:is>important</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Applicability">
+    <j.3:trade>packed_goods</j.3:trade>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Direct_Sales_%25_Others_5_%25_Supermarket_chains_profile">
+    <j.3:are>SPAR_Group</j.3:are>
+    <j.3:are>MIGROS</j.3:are>
+    <j.3:are>COOP</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pests_Organic_growers">
+    <j.3:checkFor>Insects</j.3:checkFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_coco_juice">
+    <j.3:is>squeezed_of_meat</j.3:is>
+    <j.3:is>drunk</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Deficits_supply">
+    <j.3:canBeBalancedBy>use_of_wood</j.3:canBeBalancedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:air-layering_marcotting">
+    <j.3:inIsPopularMeans>China</j.3:inIsPopularMeans>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_Oriental_fruit_fly_-RRB-_albata">
+    <j.3:areUsedAs>repellents</j.3:areUsedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Suff_icient_distance_plants">
+    <j.3:allows>good_aeration</j.3:allows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_adequate_machinery">
+    <j.3:existsOn>farm</j.3:existsOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:food_and_space">
+    <j.3:are>short_supply</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Nutrients_and_Mangoes">
+    <j.3:require>few_nutrients</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mulch">
+    <j.3:canBeAppliedBetween>rows_around_single_plants</j.3:canBeAppliedBetween>
+    <j.3:canBeAppliedIn>established_crops</j.3:canBeAppliedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_first_harvest">
+    <j.3:doesCover>cost</j.3:doesCover>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_soil_pH_5.5">
+    <j.3:is>acceptable</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:plant_height_plants">
+    <j.3:is>70_cm</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_corns">
+    <j.3:areWashed>O_r_g</j.3:areWashed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:that_pollination_set">
+    <j.3:are>problem</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Temperature_crop_%2C_cabbage">
+    <j.3:growsAt>temperatures_ranging</j.3:growsAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_more_the_soil">
+    <j.3:willRequire>fertilization_with_compost</j.3:willRequire>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_origin_date">
+    <j.3:is>Middle_East</j.3:is>
+    <j.3:is>North_Africa</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:used_commercial_organic_fertilizers_corn">
+    <j.3:are>cottonseed_meal</j.3:are>
+    <j.3:are>bone_meal</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:high_air_Application_fungicides_death">
+    <j.3:promotes>dissemination</j.3:promotes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_other_5_%25">
+    <j.3:be>unavailable</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Parasitoids_pests">
+    <j.3:are>flies</j.3:are>
+    <j.3:are>wasps</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_vegetable_production">
+    <j.3:isDifferentiated>higher_labor_cost</j.3:isDifferentiated>
+    <j.3:isDifferentiated>introduction_of_new_management_strategies</j.3:isDifferentiated>
+    <j.3:isDifferentiated>possible_lower_yields</j.3:isDifferentiated>
+    <j.3:isDestinedFor>export</j.3:isDestinedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Earworm_adult_moths">
+    <j.3:shouldBeMonitoredBy>pheromone_traps_placed</j.3:shouldBeMonitoredBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sprinkler_irrigation">
+    <j.3:onCanBeUsed>level_land</j.3:onCanBeUsed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_process">
+    <j.3:causes>weight_loss</j.3:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:www.organicXseeds.com">
+    <j.3:simplif>ies</j.3:simplif>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Special_care">
+    <j.3:shouldBeTaken>nitrogen</j.3:shouldBeTaken>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_cutting_regulation">
+    <j.3:resultsIn>continual_supply</j.3:resultsIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_robust_Giant_Cavendish_%2C_varieties">
+    <j.3:areSetAt>600-1200_plants/ha</j.3:areSetAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Citrus_trees">
+    <j.3:require>low_quantities</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Irrigation_Sufficient_water_supply">
+    <j.3:isImportantFor>development_of_onions</j.3:isImportantFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:10_%25_farmers">
+    <j.3:areVisited>year</j.3:areVisited>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:30_%25_households">
+    <j.3:bought>organic_vegetables</j.3:bought>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_common_diseases_trees">
+    <j.3:are>bacterial_diseases</j.3:are>
+    <j.3:are>fungus</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:weed">
+    <j.3:isEffectiveAgainst>root_weeds</j.3:isEffectiveAgainst>
+    <j.3:consumes>large_amount</j.3:consumes>
+    <j.3:is>expensive</j.3:is>
+    <j.3:is>effective_method</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Constraints_Mulching_Slugs">
+    <j.3:mayFind>ideal_conditions_living</j.3:mayFind>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_rows_Bush_unsupported_No_mulch_%2F_plastic_--_m_--_Stick">
+    <j.3:supported>No</j.3:supported>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_production_types">
+    <j.3:isMatterOf>local_rivalry</j.3:isMatterOf>
+    <j.3:isMatterOf>great_family_pride</j.3:isMatterOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Different_strains_fungus">
+    <j.3:are>available</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Degraded_pastures_or_land_cover">
+    <j.3:areDiffIcultTo>G_n_t_s_o_f_O_r_g</j.3:areDiffIcultTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cocoa_example">
+    <j.3:isBeingGrownIn>understory_of_ageing</j.3:isBeingGrownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Adequate_management_manure">
+    <j.3:is>essential</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Early_blight_leaves">
+    <j.3:are>soil</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:all_harvest_and_residues_%2C_fibers_%2C">
+    <j.3:areReturnedTo>plantation</j.3:areReturnedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_period_respite_growth">
+    <j.3:is>necessary</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Tomatoes_growth">
+    <j.3:areFoundIn>early_varieties_used</j.3:areFoundIn>
+    <j.3:areFoundIn>bush_tomatoes</j.3:areFoundIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:diseases_and%2For_pests">
+    <j.3:occur>that</j.3:occur>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:cartons_and_labeling">
+    <j.3:mustComplyWith>regulations</j.3:mustComplyWith>
+    <j.3:mustComplyWith>organic_standards</j.3:mustComplyWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_forestry_systems_and_home-gardens_%2C_explosion_%2C_and_elimination">
+    <j.3:inIsAccomplished>agro</j.3:inIsAccomplished>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_first_cut">
+    <j.3:isMade>14</j.3:isMade>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Traditional_breeds_animals">
+    <j.3:mayBeGoodStartingPointFor>organic_animal_breeding</j.3:mayBeGoodStartingPointFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pyrethrins">
+    <j.3:shouldBeStoredIn>darkness</j.3:shouldBeStoredIn>
+    <j.3:breakIn>sunlight</j.3:breakIn>
+    <j.3:cause>immediate_paralysis</j.3:cause>
+    <j.3:areExtractedFrom>dried_pyrethrum_flower</j.3:areExtractedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_n_d_S_u_b_t_r_o_p_i_c_s_45_P_r_o_d_u_c_t_i_o_n_B">
+    <j.3:isCalculatedFrom>date_of_application_to_certification_body</j.3:isCalculatedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_traditional_farming_communities">
+    <j.3:possess>vast_knowledge</j.3:possess>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_toes">
+    <j.3:isShownBy>purple_color</j.3:isShownBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Compost_and_fertilizers">
+    <j.3:areAppliedIn>tree_strips</j.3:areAppliedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_agricultural_implementations">
+    <j.3:areCarriedWith>animals</j.3:areCarriedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:info%40ilpuntog.it_www.ilpuntog.it">
+    <j.3:hans>ZIPPERLE</j.3:hans>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:emerging_organic_markets">
+    <j.3:existIn>Latin_American</j.3:existIn>
+    <j.3:existIn>different_Asian</j.3:existIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_motivation_farmers">
+    <j.3:areManifoldSuch>sustainable_use</j.3:areManifoldSuch>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_percentage">
+    <j.3:accordingIsCalculated>EU_regulation</j.3:accordingIsCalculated>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_symptoms">
+    <j.3:are>sim</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Larvae">
+    <j.3:parasitize>fungi</j.3:parasitize>
+    <j.3:attack>larval_stage</j.3:attack>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pastures">
+    <j.3:areGrownIn>rotations</j.3:areGrownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fertilization_Nitrogen_N">
+    <j.3:limit>annual_N-applications</j.3:limit>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:an_diversified_orchard_degree">
+    <j.3:is>attractive</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Individual_fruits">
+    <j.3:areClippedFrom>cluster_leaving</j.3:areClippedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Most_cultivars">
+    <j.3:are>sensitive</j.3:are>
+    <j.3:contain>numerous_small_yellowish-cream_colored_seeds</j.3:contain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Ceratitis_capitata_%E2%80%A2_Flies">
+    <j.3:areAttractedTo>maturing_fruit</j.3:areAttractedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_higher">
+    <j.3:isEconomicalRiskOf>conversion</j.3:isEconomicalRiskOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Planting_Procedure_Pineapples">
+    <j.3:areExcellentChoiceTo>plant</j.3:areExcellentChoiceTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Living_mulches">
+    <j.3:improves>soil_structure</j.3:improves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:All_organic_standards">
+    <j.3:require>certain_time</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:different_products">
+    <j.3:forAreAvailable>large_infestation</j.3:forAreAvailable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fertilization">
+    <j.3:areListedAs>permitted_inputs</j.3:areListedAs>
+    <j.3:wereWasMadeDuring>flowering_of_plant</j.3:wereWasMadeDuring>
+    <j.3:isAdjusted>.7_7</j.3:isAdjusted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:http%3A%2F%2Fwww.european-accreditation.org%2F_The_Multilateral_Agreement_inspection">
+    <j.3:isAvailableOn>homepage_of_European_co-operation</j.3:isAvailableOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_shell">
+    <j.3:isCutOn>germinating_side</j.3:isCutOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_applied_quantity_compost">
+    <j.3:shouldPass>limit_of_phosphor_requirement</j.3:shouldPass>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:compacted_soil_layers">
+    <j.3:arePresentIn>root_zone</j.3:arePresentIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_important_differences_standard_compared">
+    <j.3:areDescribedIn>chapter_6.8</j.3:areDescribedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:high_quality_water">
+    <j.3:forIsCrucial>irrigation_systems</j.3:forIsCrucial>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:most_imports">
+    <j.3:areRealizedBy>trade_partners</j.3:areRealizedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:table">
+    <j.3:remainsFor>longer_period</j.3:remainsFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_crowns">
+    <j.3:shouldBeSpaced>0.25-0_.40_m</j.3:shouldBeSpaced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_more_humid_tility">
+    <j.3:dependsOn>organic_matter_content</j.3:dependsOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:animal_production">
+    <j.3:inWasApproved>July_2001</j.3:inWasApproved>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_inspection_rules_defined">
+    <j.3:outline>following_requirements</j.3:outline>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These_standards">
+    <j.3:areBasedOn>number_of_principles</j.3:areBasedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_savings_expenses_and_income">
+    <j.3:mustBeTakenInto>consideration</j.3:mustBeTakenInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:website">
+    <j.3:gives>information_about_network</j.3:gives>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Crops_convenient">
+    <j.3:are>cruciferae</j.3:are>
+    <j.3:are>potatoes</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:watermelons">
+    <j.3:doRipen>color</j.3:doRipen>
+    <j.3:doRipen>flavor</j.3:doRipen>
+    <j.3:doRipen>vine_in_seeded_watermelons</j.3:doRipen>
+    <j.3:shouldBeReplantedIn>same_place</j.3:shouldBeReplantedIn>
+    <j.3:need>soils</j.3:need>
+    <j.3:make>bulk_of_those</j.3:make>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:between_0.9-4_kg_%2C_Baby-pineapples">
+    <j.3:areLessThan>500_g</j.3:areLessThan>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:whole_families">
+    <j.3:areInvolvedIn>work</j.3:areInvolvedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fecundation">
+    <j.3:atIsPoor>temperature_less</j.3:atIsPoor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:new_prepa_applied_%2C_approval">
+    <j.3:is>necessary</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Parasitoids">
+    <j.3:areSmallerThan>host</j.3:areSmallerThan>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_animal_products">
+    <j.3:areFreeFrom>residues_of_antibiotics</j.3:areFreeFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:such_Leucaena_%2C_Glyricidia_%2C_aliodora">
+    <j.3:are>great_interest</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:All_the_preceding_phases">
+    <j.3:leadTo>establishment_of_tree_species</j.3:leadTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Black_Blight_Aboveground_portions">
+    <j.3:show>symptoms</j.3:show>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_advantage_crop">
+    <j.3:isCanAvailableTo>following_main_crop</j.3:isCanAvailableTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Split_operation">
+    <j.3:isPermittedUnder>Regulation</j.3:isPermittedUnder>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Flowering_herbs_%2C_grasses_or_Cyperaceaen">
+    <j.3:areRemovedWith>bush_knife</j.3:areRemovedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_sweet_corn_growers">
+    <j.3:use>cover_crops</j.3:use>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Types_Standards_is">
+    <j.3:make>orientation_of_organic_operators</j.3:make>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:soils">
+    <j.3:growIn>different_temperature_ranges</j.3:growIn>
+    <j.3:permits>percolation_of_water</j.3:permits>
+    <j.3:have>low_pH._Previous_fertilization</j.3:have>
+    <j.3:forShouldBeManaged>successful_head_lettuce_production</j.3:forShouldBeManaged>
+    <j.3:isImportantAs>high_supply_makes</j.3:isImportantAs>
+    <j.3:areCultivatedIn>wet_conditions</j.3:areCultivatedIn>
+    <j.3:are>dry</j.3:are>
+    <j.3:consistOf>minute_pores_filled</j.3:consistOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_heap">
+    <j.3:is>moist</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These_conditions">
+    <j.3:be>well-heeded</j.3:be>
+    <j.3:areFoundIn>tropical_coastal_regions</j.3:areFoundIn>
+    <j.3:makeFor>healthy_environment</j.3:makeFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Smaller_material">
+    <j.3:mustBeMixedWith>more_bulky_material</j.3:mustBeMixedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Temperature_The_coco_palm">
+    <j.3:growsAt>average_temperatures</j.3:growsAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Packaging_dates">
+    <j.3:reduces>enzymatic_browning</j.3:reduces>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Heating">
+    <j.3:reaches>desired_consistency</j.3:reaches>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_color_skin">
+    <j.3:is>deter</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:conversion">
+    <j.3:takes>two_years</j.3:takes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Biological_Control_methods_used">
+    <j.3:is>stood</j.3:is>
+    <j.3:is>complex</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_organic_markets_group">
+    <j.3:inIsPresented>chapter</j.3:inIsPresented>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:slight_allowances">
+    <j.3:areMadeIn>case_of_fruit</j.3:areMadeIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pests">
+    <j.3:mustBePreventedBy>physical_factors</j.3:mustBePreventedBy>
+    <j.3:attack>cauli</j.3:attack>
+    <j.3:doesCause>harmful_yield_reductions</j.3:doesCause>
+    <j.3:reach>critical_levels</j.3:reach>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_remaining_gray_corns">
+    <j.3:areLaidOn>flat_areas</j.3:areLaidOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_use_plants">
+    <j.3:isLimitedIn>countries</j.3:isLimitedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:content">
+    <j.3:doContain>synthetic_additives</j.3:doContain>
+    <j.3:is>difficult</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_resultant_trees">
+    <j.3:have>weak_root_systems</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:profit">
+    <j.3:isDifferenceBetween>returns</j.3:isDifferenceBetween>
+    <j.3:isDifferenceBetween>costs</j.3:isDifferenceBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_cut_part">
+    <j.3:isLainWith>cut_side_facing</j.3:isLainWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_usefulness_vari">
+    <j.3:inWillBeCompared>official_field_trials</j.3:inWillBeCompared>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:burning">
+    <j.3:has>many_disadvantages</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Care">
+    <j.3:areDirtyWith>soil</j.3:areDirtyWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sweet_orange_yields">
+    <j.3:varyFrom>50-100_tones</j.3:varyFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cultivation_measures">
+    <j.3:shouldBeCombinedWith>supported_by_latter</j.3:shouldBeCombinedWith>
+    <j.3:shouldBeCombinedWith>harvesting_operations</j.3:shouldBeCombinedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Activity">
+    <j.3:isHighestIn>warm</j.3:isHighestIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sexual_propagation">
+    <j.3:causes>genetic_splitting</j.3:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Propagation_Using">
+    <j.3:isAsTakes>raising_of_young_plants</j.3:isAsTakes>
+    <j.3:isAsTakes>germination</j.3:isAsTakes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:What_Animals">
+    <j.3:need>Organic_farmers</j.3:need>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fly_Worms">
+    <j.3:burrowInto>roots</j.3:burrowInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:parasitic_flies">
+    <j.3:are>specific</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Control_extracts">
+    <j.3:is>as_draw_harmed</j.3:is>
+    <j.3:is>poor</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Burning">
+    <j.3:saves>labor</j.3:saves>
+    <j.3:is>common</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_seedless_melon_varieties">
+    <j.3:doHave>fertile_pollen_necessary</j.3:doHave>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_choice_products">
+    <j.3:isLimited>today</j.3:isLimited>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_agriculture">
+    <j.3:isGreatAlternativeFor>vegetable_growers</j.3:isGreatAlternativeFor>
+    <j.3:isCommittedTo>enhancement_of_biodiversity</j.3:isCommittedTo>
+    <j.3:isCommittedTo>conservation</j.3:isCommittedTo>
+    <j.3:isHolisticWayOf>farming</j.3:isHolisticWayOf>
+    <j.3:follows>logic_of_living_organism</j.3:follows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Deep_soil">
+    <j.3:is>necessary</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_selection_breeds">
+    <j.3:is>crucial_importance</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_ture_many_avocado_trees">
+    <j.3:inAreProduced>conventional_agricul</j.3:inAreProduced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Preventive_measures">
+    <j.3:include>selection_of_tolerant_varieties</j.3:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Every_insect_species">
+    <j.3:requires>specific_NPV-species</j.3:requires>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Water_used">
+    <j.3:mustBeFreeFrom>faces</j.3:mustBeFreeFrom>
+    <j.3:mustBeFreeFrom>other_contaminants</j.3:mustBeFreeFrom>
+    <j.3:mustBeFreeFrom>feces</j.3:mustBeFreeFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_tions_seedlings">
+    <j.3:inAreGained>intensive_date_palm_planta</j.3:inAreGained>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pest_and_management">
+    <j.3:is>big_challenge</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_label_jar">
+    <j.3:mustDisplay>following</j.3:mustDisplay>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_organic_fertilizer">
+    <j.3:canBeIncorporatedInto>soil</j.3:canBeIncorporatedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pepper">
+    <j.3:haveBeenDescribedIn>appropriate_chapters</j.3:haveBeenDescribedIn>
+    <j.3:haveBeenEstablishedAt>described_in_appropriate_chapters</j.3:haveBeenEstablishedAt>
+    <j.3:haveBeenEstablishedAt>tropical_sites</j.3:haveBeenEstablishedAt>
+    <j.3:haveBeenEstablishedAt>humid</j.3:haveBeenEstablishedAt>
+    <j.3:wasUsedIn>Europe</j.3:wasUsedIn>
+    <j.3:wasTradeIn>Oriental_countries</j.3:wasTradeIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:certified_products">
+    <j.3:fromAreImported>which</j.3:fromAreImported>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_fruit_pulp">
+    <j.3:canBeFilledInto>tin_cans</j.3:canBeFilledInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_%60%60_UN%2FECE_standard_FFV_--_45_%27%27">
+    <j.3:defines>quality_requirements</j.3:defines>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cleaned_fruit_pass_graders">
+    <j.3:areSeparatedInto>size_lots</j.3:areSeparatedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Trichoderma_sp._%2C_used">
+    <j.3:forRots>example</j.3:forRots>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:row">
+    <j.3:inIsSimilar>simple_system</j.3:inIsSimilar>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Vegetable_Weevil_Tunnels">
+    <j.3:beingEatenInto>roots_Support</j.3:beingEatenInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_assessment">
+    <j.3:hasBeenConfirmedBy>supervisory_authority</j.3:hasBeenConfirmedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_following_materials">
+    <j.3:canBeUsedAs>product_packaging</j.3:canBeUsedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fertilization_line">
+    <j.3:improves>growth_of_vegetable_crop</j.3:improves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:thorough_cleaning">
+    <j.3:is>possible</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:1.9_Agroforestry_Agroforestry">
+    <j.3:isOneOf>best_uses</j.3:isOneOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:integrated_production">
+    <j.3:follows>same_approach</j.3:follows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:JAS">
+    <j.3:implies>certification_by_JAS_accredited_certification_agency</j.3:implies>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Application_water_period">
+    <j.3:canCause>shock_to_plants</j.3:canCause>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:regulators">
+    <j.3:areActiveIn>safeguarding_food_products</j.3:areActiveIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Many_bird_species">
+    <j.3:feedOn>insects</j.3:feedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Guava">
+    <j.3:isTolerantTo>soil_salinity</j.3:isTolerantTo>
+    <j.3:prefer>well-drained_soil</j.3:prefer>
+    <j.3:isImportantFruitFor>countries</j.3:isImportantFruitFor>
+    <j.3:isNativeTo>American_tropics</j.3:isNativeTo>
+    <j.3:developsFrom>short_trunk</j.3:developsFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Post-Harvest_Handling_Guava">
+    <j.3:isSuitedTo>processing</j.3:isSuitedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:further_principles_dynamics">
+    <j.3:beTakenInto>account</j.3:beTakenInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fertilization_A_general_nutrient_requirements_beans">
+    <j.3:isKgOf>nitrogen_per_ha</j.3:isKgOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_savoy_types">
+    <j.3:areSuitableIn>organic_farming</j.3:areSuitableIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Diverse_farms_range">
+    <j.3:willSufferFrom>yield</j.3:willSufferFrom>
+    <j.3:willSufferFrom>price_fluctuations</j.3:willSufferFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Bulb-forming_onions">
+    <j.3:include>sweet_onions</j.3:include>
+    <j.3:include>storage_onions</j.3:include>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_incoming_containers">
+    <j.3:areLabeledAccording>sealed</j.3:areLabeledAccording>
+    <j.3:areLabeledAccording>requirements</j.3:areLabeledAccording>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_domestic_marketing_concept">
+    <j.3:wasCarriedOver>last_few_years</j.3:wasCarriedOver>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_offering_fruit">
+    <j.3:is>impressive</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Weed_management">
+    <j.3:isPartOf>multipurpose_soil_cover_management</j.3:isPartOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_young_date_palms">
+    <j.3:arePlantedIn>hole_put</j.3:arePlantedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:habitats">
+    <j.3:functionAs>habitat_cross-links</j.3:functionAs>
+    <j.3:inWereFound>former_times</j.3:inWereFound>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Herbal_remedies_parasites">
+    <j.3:canHave>toxic_effect</j.3:canHave>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:all_inputs%2Fauxiliaries%2Fadditives_listed">
+    <j.3:mayBeUsedIn>organic_products</j.3:mayBeUsedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cabbage_Cabbage">
+    <j.3:is>belonging_to_mustard_family</j.3:is>
+    <j.3:is>grown_vegetable</j.3:is>
+    <j.3:is>oldest</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:irriga_-_tion">
+    <j.3:isImportantDuring>dry_periods_achieve</j.3:isImportantDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Harvesting_and_Post-harvest_Treatment">
+    <j.3:indicates>right_harvesting_time</j.3:indicates>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:production">
+    <j.3:areEquivalentTo>those_of_national/supranational_organic_food_regulations</j.3:areEquivalentTo>
+    <j.3:disposeOf>small_vegetable_plots</j.3:disposeOf>
+    <j.3:receives>important_post-harvest_treatments</j.3:receives>
+    <j.3:is>tropical_origin</j.3:is>
+    <j.3:isIncreasing>year-by_year</j.3:isIncreasing>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_used_varieties">
+    <j.3:are>white_radish</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_b_l_e_s_Direct_Seeding_Radish">
+    <j.3:isSownIn>rows</j.3:isSownIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:greater_heat_accumulation_night">
+    <j.3:increases>respiration_losses_leading</j.3:increases>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The">
+    <j.3:mustBeDefined>separate_units</j.3:mustBeDefined>
+    <j.3:isIdealFor>soil_with_poor_O_r_g</j.3:isIdealFor>
+    <j.3:is>optimal</j.3:is>
+    <j.3:longStems>turn_to_wood</j.3:longStems>
+    <j.3:lack>diversification</j.3:lack>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sufficient_time">
+    <j.3:mustBeGivenTo>pasture</j.3:mustBeGivenTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:waste">
+    <j.3:be>6.5</j.3:be>
+    <j.3:willHaveDecreasedTo>half_original_size</j.3:willHaveDecreasedTo>
+    <j.3:isTurnedInto>humus</j.3:isTurnedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:products_originating">
+    <j.3:mustBeDeclaredAs>such_O_r_g</j.3:mustBeDeclaredAs>
+    <j.3:mustBeDeclaredAs>such_2.11.4</j.3:mustBeDeclaredAs>
+    <j.3:mustBeDeclaredAs>such</j.3:mustBeDeclaredAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_production_systems">
+    <j.3:relyingOn>use_of_copper_preparations</j.3:relyingOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:etable_products">
+    <j.3:hasOffered>higher_prices</j.3:hasOffered>
+    <j.3:hasOffered>additional_income</j.3:hasOffered>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:health_problems">
+    <j.3:willAriseIn>field</j.3:willAriseIn>
+    <j.3:willAriseIn>crop</j.3:willAriseIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_European_market">
+    <j.3:is>major_organic_import_market</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:ment_systems_husbandry">
+    <j.3:are>quently_practiced_methods</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:poor_quality_material_seed_stages">
+    <j.3:reduces>success_of_whole_operation</j.3:reduces>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:franchise_systems_Claire">
+    <j.3:arePlaying>important_role</j.3:arePlaying>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Triploids">
+    <j.3:produce>seedless_fruits</j.3:produce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Phytophthora_parasitica_%E2%80%A2">
+    <j.3:causes>gummosis</j.3:causes>
+    <j.3:causes>root_rot</j.3:causes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_organic_farmer">
+    <j.3:uses>three_approaches</j.3:uses>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:lychee_seeds">
+    <j.3:remain>viable_4_5_days</j.3:remain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:other_tropical_fruit_trees_species">
+    <j.3:lack>production_level</j.3:lack>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_Internal_Regulation">
+    <j.3:shouldDefine>own_internal_regulation</j.3:shouldDefine>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_standard">
+    <j.3:appliesTo>prepared_whole_dates</j.3:appliesTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_EU">
+    <j.3:mustUndergo>certification</j.3:mustUndergo>
+    <j.3:mustUndergo>inspection</j.3:mustUndergo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_lychee_tree">
+    <j.3:isPrime>its</j.3:isPrime>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_certification_agency">
+    <j.3:willPrepare>offer</j.3:willPrepare>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:dards">
+    <j.3:serve>marketing_purposes</j.3:serve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Personnel">
+    <j.3:be>hands</j.3:be>
+    <j.3:be>have</j.3:be>
+    <j.3:be>able</j.3:be>
+    <j.3:be>healthy</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These_elements">
+    <j.3:areIllustratedIn>following_organization_chart</j.3:areIllustratedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_key_element_this">
+    <j.3:isReduce>customs_tariffs</j.3:isReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Top_ice">
+    <j.3:is>beneficial</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_blue-green_algae_%2C_azolla_%2C">
+    <j.3:produce>energy</j.3:produce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_root_system">
+    <j.3:is>extensive</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:agriculture">
+    <j.3:hasContributed>formed</j.3:hasContributed>
+    <j.3:hasContributed>sub</j.3:hasContributed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:No_manures_containing">
+    <j.3:canBeUsedAs>fertilizer_on_vegetation</j.3:canBeUsedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_soil_fertility_management">
+    <j.3:isBasedOn>rational_use_achieved</j.3:isBasedOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:ment">
+    <j.3:are>wet</j.3:are>
+    <j.3:are>dry</j.3:are>
+    <j.3:have>good_water_retention</j.3:have>
+    <j.3:have>high_nutrient_levels</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_United_States_and_Europe">
+    <j.3:areLeading>way</j.3:areLeading>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:rot">
+    <j.3:canOccurAt>tip_of_asparagus</j.3:canOccurAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Neem_seeds">
+    <j.3:contain>higher_amount</j.3:contain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Codex_standards_and_texts">
+    <j.3:play>important_role</j.3:play>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_internal_inspectors">
+    <j.3:mustBeFluentIn>local_language</j.3:mustBeFluentIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:diversity">
+    <j.3:helps>farmers</j.3:helps>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Importers">
+    <j.3:mustApplyFor>import_license</j.3:mustApplyFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Generally_suitable_shade_trees">
+    <j.3:are>&lt;_Leguminous_trees</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_first_year">
+    <j.3:willYield>ca._38_tons</j.3:willYield>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:onions">
+    <j.3:areDriedFor>week</j.3:areDriedFor>
+    <j.3:are>cautious</j.3:are>
+    <j.3:are>shallow_rooted</j.3:are>
+    <j.3:isRecommendableTo>plant_onions</j.3:isRecommendableTo>
+    <j.3:have>size_of_mm_diameter</j.3:have>
+    <j.3:areReferredTo>sweet_onions</j.3:areReferredTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Washout_nutrients">
+    <j.3:canBePreventedBy>storage</j.3:canBePreventedBy>
+    <j.3:canBePreventedBy>proper_sheltering</j.3:canBePreventedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_use_donax_cultivation">
+    <j.3:supports>speading</j.3:supports>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Direct_Measures_Weed-regulation">
+    <j.3:open>soil_Permits_dependent</j.3:open>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Inoculation">
+    <j.3:doesReduce>importance_offering</j.3:doesReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Different_Types_Organisms">
+    <j.3:are>important</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Uses_and_Pineapples">
+    <j.3:areEaten>processed</j.3:areEaten>
+    <j.3:areEaten>fresh_into_dried_fruits</j.3:areEaten>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_concentrated_juice">
+    <j.3:containsBetween>60_70_°_Brix</j.3:containsBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_use_irrigation">
+    <j.3:isSuperiorTo>sprinkler_irrigation</j.3:isSuperiorTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:new_trees">
+    <j.3:growIn>clearings</j.3:growIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Its_production_or_collection">
+    <j.3:involves>labor</j.3:involves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:N_2092%2F91">
+    <j.3:inIsRelated>Regulation</j.3:inIsRelated>
+    <j.3:inMayBeUsed>case_of_immediate_threat</j.3:inMayBeUsed>
+    <j.3:ofMayBeUsed>Regulation</j.3:ofMayBeUsed>
+    <j.3:ofShouldBeChosen>Regulation</j.3:ofShouldBeChosen>
+    <j.3:are>deemed</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Distances">
+    <j.3:shouldBeAdaptedIn>accordance_to_percentage</j.3:shouldBeAdaptedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Preventive_measures_Observation">
+    <j.3:adapted>crops</j.3:adapted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_finished_product">
+    <j.3:possess>flavor</j.3:possess>
+    <j.3:possess>characteristic_color</j.3:possess>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_endosperm">
+    <j.3:provides>them</j.3:provides>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Most_botanical_pesticides">
+    <j.3:are>stomach_poisons</j.3:are>
+    <j.3:are>respiratory</j.3:are>
+    <j.3:are>contact</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Tissue_culture_propagation_seedlings">
+    <j.3:isAchieve>aim</j.3:isAchieve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Lichens_and_algae">
+    <j.3:growOn>branches_of_lychee_trees</j.3:growOn>
+    <j.3:growOn>trunks</j.3:growOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:--_Sterile_insect_technology_STI">
+    <j.3:isPermittedIn>organic_agriculture</j.3:isPermittedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fertility">
+    <j.3:is>dangerous</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nutrients_and_water">
+    <j.3:areTransportedTo>remaining_shoots</j.3:areTransportedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:No_chemicals">
+    <j.3:haveBeenUsedBetween>3_years</j.3:haveBeenUsedBetween>
+    <j.3:haveBeenUsedBetween>6_months</j.3:haveBeenUsedBetween>
+    <j.3:haveBeenUsedFor>3_years</j.3:haveBeenUsedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Seeds_trees">
+    <j.3:shouldBeMixedWith>pineapples</j.3:shouldBeMixedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Their_larva">
+    <j.3:are>fuzzy</j.3:are>
+    <j.3:are>yellow</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:dried_fruit_and_nuts_%2C_teas_%2C_oils_%2C_cere_-_als_%2C">
+    <j.3:dried>leguminous_vegetables_HIDER_FOOD</j.3:dried>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:water">
+    <j.3:is>recommendable</j.3:is>
+    <j.3:is>scarce</j.3:is>
+    <j.3:collectsDuring>prepa</j.3:collectsDuring>
+    <j.3:collectsAt>preparation_sites</j.3:collectsAt>
+    <j.3:turnsTo>ice</j.3:turnsTo>
+    <j.3:fromIsDistributed>central_tank</j.3:fromIsDistributed>
+    <j.3:is>likely</j.3:is>
+    <j.3:collectsDuring>rainy_season</j.3:collectsDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cross_-_pollination_cultivars">
+    <j.3:willChange>colors_of_kernels</j.3:willChange>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sector">
+    <j.3:offer>fresh_produce</j.3:offer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:measurable_Bromide_not_measurable_Ethylene_oxide_tree">
+    <j.3:canReach>height_of_m</j.3:canReach>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Breeding_Goals">
+    <j.3:overHaveBeenReplaced>last_decades</j.3:overHaveBeenReplaced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_players_import">
+    <j.5:sOrganics>ALBERT</j.5:sOrganics>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-LRB-_chemical_pesticides_anyway">
+    <j.3:arePermittedIn>organic_farming</j.3:arePermittedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_fine_soil_texture">
+    <j.3:support>good_germination</j.3:support>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pineapples_harvested">
+    <j.3:becauseAreUnpopular>low_sugar-content</j.3:becauseAreUnpopular>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_following_texts">
+    <j.3:highlight>principal_differences</j.3:highlight>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:color">
+    <j.3:inIsWorth>connection_with_scale-scale</j.3:inIsWorth>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_the_country_origin">
+    <j.3:asIsListed>organic_in_European_Union</j.3:asIsListed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:which_varieties">
+    <j.3:are>demand</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:their_individual_expectations">
+    <j.3:are>What</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Deviations_paragraph">
+    <j.3:areAllowedIn>following_regions</j.3:areAllowedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_mangoes">
+    <j.3:mustBePackedIn>way</j.3:mustBePackedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_dynamic_species">
+    <j.3:drags>other_species</j.3:drags>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Biodiversity_farming">
+    <j.3:isAssessedAt>four_distinct_levels</j.3:isAssessedAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:treatment">
+    <j.3:is>necessary</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_German_specialty_retail_sector">
+    <j.3:has>strong_market_position</j.3:has>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_compost">
+    <j.3:canBeAppliedAs>base_fertilizer</j.3:canBeAppliedAs>
+    <j.3:covers>need_of_nutrients</j.3:covers>
+    <j.3:isSpreadIn>circle</j.3:isSpreadIn>
+    <j.3:shouldBeEnrichedWith>wood_ashes</j.3:shouldBeEnrichedWith>
+    <j.3:hasTurned>blackish_color</j.3:hasTurned>
+    <j.3:hasTurned>dark_brown</j.3:hasTurned>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:92_modifications">
+    <j.3:inHaveBeenRecorded>fact</j.3:inHaveBeenRecorded>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:For_rolling_land_and_slopes_%2C_plowing_and_harrowing">
+    <j.3:arePracticedIn>organic_agriculture</j.3:arePracticedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_grower">
+    <j.3:mayWalk>field</j.3:mayWalk>
+    <j.3:inShouldPlow>most_cases</j.3:inShouldPlow>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Whether_grazing_is_the_suitable_option">
+    <j.3:willDependOn>agro-climatic_conditions</j.3:willDependOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:These_Codex_Guidelines_food">
+    <j.3:willBeReviewedAt>least_based</j.3:willBeReviewedAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:R_e_q_u_i_r_e_m_e_n_t">
+    <j.3:s>n_d_C_o_n_d_t_o_n_s_R_l_t_n_g_t_o_O_r_g</j.3:s>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Transplants">
+    <j.3:shouldBeDippedIn>water</j.3:shouldBeDippedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:eggplants_harvested">
+    <j.3:canBeHeld>week</j.3:canBeHeld>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:2.4.5_Water_Management_and_avocado">
+    <j.3:canTolerate>water_stress</j.3:canTolerate>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:flat_soils">
+    <j.3:inCanSuffer>conventional_citrus_production</j.3:inCanSuffer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_costs_agro-chemicals">
+    <j.3:were>manages</j.3:were>
+    <j.3:were>high</j.3:were>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_N-deficient_leaves">
+    <j.3:toBecome>N_export</j.3:toBecome>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_chosen">
+    <j.3:are>greater</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Measures">
+    <j.3:growBetween>It</j.3:growBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Careful_watering-in">
+    <j.3:isNecessaryAt>time_transplanting</j.3:isNecessaryAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Several_weeds">
+    <j.3:areEdibleFor>suitable_for_human_consumption</j.3:areEdibleFor>
+    <j.3:areEdibleFor>farm_animals</j.3:areEdibleFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Propagation_Propagation">
+    <j.3:isCarriedIn>following_way</j.3:isCarriedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:fruit_Mature_green_fruit">
+    <j.3:heldAt>20_°_C</j.3:heldAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_logistic_system_retailers">
+    <j.3:canAchieve>that</j.3:canAchieve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:farming">
+    <j.3:integrates>observation_of_natural_phenomena</j.3:integrates>
+    <j.3:aimedAt>new_approach</j.3:aimedAt>
+    <j.3:isBasedOn>concept_of_anthroposophy</j.3:isBasedOn>
+    <j.3:isBasedOn>simple_understanding</j.3:isBasedOn>
+    <j.3:avoids>use_of_compounded_fertilizers</j.3:avoids>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:chemical_treatment">
+    <j.3:isPermittedIn>organic_farming</j.3:isPermittedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Chinese">
+    <j.3:dig>ditches</j.3:dig>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Some_labels_%27%27">
+    <j.3:haveBeenDevelopedBy>governments</j.3:haveBeenDevelopedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_spatial_arrangement_particles_and_pores">
+    <j.3:isSummarizedAs>soil_structure</j.3:isSummarizedAs>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sandy_loams">
+    <j.3:arePreferredFor>early_crops</j.3:arePreferredFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_fungus">
+    <j.3:inIsPresent>many_cases</j.3:inIsPresent>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:1.2.8_Composting_Compost">
+    <j.3:isImportantFertilizerIn>organic_agricul</j.3:isImportantFertilizerIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organically_grown_pepper">
+    <j.3:comesFrom>Sri_Lanka</j.3:comesFrom>
+    <j.3:comesFrom>Tanzania</j.3:comesFrom>
+    <j.3:comesFrom>Madagascar</j.3:comesFrom>
+    <j.3:comesFrom>India</j.3:comesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:harvest">
+    <j.3:are>small</j.3:are>
+    <j.3:are>packed</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Onions_storage">
+    <j.3:have>pungent_flavor</j.3:have>
+    <j.3:have>thicker_skins</j.3:have>
+    <j.3:have>darker_color</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:soil_particles">
+    <j.3:mayAccumulateIn>pores</j.3:mayAccumulateIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sprinkler_irrigation_lettuce">
+    <j.3:is>widespread</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:good_crop_rotation">
+    <j.3:isAvoiding>greater_damage_due</j.3:isAvoiding>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Both_methods">
+    <j.3:areAllowedFor>organic_marketing</j.3:areAllowedFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_second_crop">
+    <j.3:isBeingSownBefore>harvest_of_first_one</j.3:isBeingSownBefore>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Pathogens">
+    <j.3:areCausing>disease_in_pest_organisms</j.3:areCausing>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:ther">
+    <j.3:facilitate>marketing_of_organic_produce</j.3:facilitate>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_optimal_cutting_stage">
+    <j.3:isEstablishedBy>diameter_of_individual_fruits</j.3:isEstablishedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_incorporation_crop_planting">
+    <j.3:improves>nitrogen_supply</j.3:improves>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_roots_trees">
+    <j.3:mustBeDamagedDuring>planting</j.3:mustBeDamagedDuring>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:imported_products_apples">
+    <j.3:forAreAccepted>example</j.3:forAreAccepted>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_sandwich-system_and_tra_-_system">
+    <j.3:areAreAppliedIn>organic_citrus_growing</j.3:areAreAppliedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:50_%25_stores">
+    <j.3:areAffiliatedTo>zation_NWO</j.3:areAffiliatedTo>
+    <j.3:areAffiliatedTo>franchise_organi</j.3:areAffiliatedTo>
+    <j.3:areAffiliatedTo>marketing</j.3:areAffiliatedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Leguminous_cover_plants">
+    <j.3:fix>air-bourne_nitrogen</j.3:fix>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_tissue">
+    <j.3:is>sunken</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:shoot">
+    <j.3:be>necessary</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Every_3_years">
+    <j.3:apply>200_g</j.3:apply>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Individual_contributors">
+    <j.3:included>Udo_Censkovski</j.3:included>
+    <j.3:included>Birgit_Wilhelm</j.3:included>
+    <j.3:included>Florentine_Lechleitner</j.3:included>
+    <j.3:included>Salvador_Garibay</j.3:included>
+    <j.3:included>Lukas_Kilcher</j.3:included>
+    <j.3:included>Franziska_Staubli</j.3:included>
+    <j.3:included>Markus_Stern</j.3:included>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:SYSTEM_COMBINING_LEMONS_Young_lemon_plantations_old">
+    <j.3:canBeConvertedInto>agroforestry_systems</j.3:canBeConvertedInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:effect_is_the_incorporation_matter">
+    <j.3:isLowIn>high_in_potassium</j.3:isLowIn>
+    <j.3:isLowIn>nitrogen_content</j.3:isLowIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Later_sowing">
+    <j.3:mayBeCombinedWith>weeding_passage</j.3:mayBeCombinedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:All_three_horticultural_races">
+    <j.3:adaptedTo>tropical_conditions</j.3:adaptedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cottony_cushion_scales">
+    <j.3:need>humidity_free_areas</j.3:need>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_canned_fruits">
+    <j.3:areCooledTo>40_°_C</j.3:areCooledTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_vast_diversity_species">
+    <j.3:isImportantFor>stability_of_system</j.3:isImportantFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:status">
+    <j.3:isImplement>regular_disinfections</j.3:isImplement>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Manure_or_compost">
+    <j.3:appliedTo>layer</j.3:appliedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:growers_experiences">
+    <j.3:show>minor_differences</j.3:show>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:breed_suitable">
+    <j.3:be>highest_egg_producer</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Viruses_and_Virus_and_bacteria">
+    <j.3:areTransmittedThrough>Infected_plants</j.3:areTransmittedThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:green_berries">
+    <j.3:areRemovedFrom>rachis</j.3:areRemovedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Containers%2Fboxes%2Fbags">
+    <j.3:isCertifying>sending_operator</j.3:isCertifying>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Young_trees_producing">
+    <j.3:areIrrigatedThroughout>year</j.3:areIrrigatedThroughout>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_total_content_nutrient_sample">
+    <j.3:forIsRelevant>plant</j.3:forIsRelevant>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Prices">
+    <j.3:underlines>immaturity_of_Japanese_market</j.3:underlines>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:bolting">
+    <j.3:isIncreasedBy>exposure_of_young_plants_to_low_temperatures</j.3:isIncreasedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fresh_asparagus">
+    <j.3:is>deteriorates_at_temperatures</j.3:is>
+    <j.3:is>perishable</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Another_example">
+    <j.3:isSekem-groupIn>Egypt</j.3:isSekem-groupIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_yields_systems">
+    <j.3:canBeMoreIn>comparison_to_mango_plantations</j.3:canBeMoreIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_certificates">
+    <j.3:willBeSentTo>importer</j.3:willBeSentTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_accreditation_body">
+    <j.3:mustBeMemberOf>EA-MLA_European_co-operation</j.3:mustBeMemberOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:California_%2C_Rica_%2C_Morocco_%2C_breakdown">
+    <j.3:gives>following_picture</j.3:gives>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nutrition">
+    <j.3:is>balanced</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%3C_Crop_rotation">
+    <j.3:isMaintain>soil_organic_matter</j.3:isMaintain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_yield">
+    <j.3:rangesFrom>100</j.3:rangesFrom>
+    <j.3:variesWith>cultivars</j.3:variesWith>
+    <j.3:mayStartAt>10_tons</j.3:mayStartAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_size_onion">
+    <j.3:dependsOn>sawing/planting_distance</j.3:dependsOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:changes">
+    <j.3:be>necessary</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_vast_majority_potassium">
+    <j.3:isContainedIn>fruit_water</j.3:isContainedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_seed_and_seedlings">
+    <j.3:be>organic_origins</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:pressure">
+    <j.3:promotes>growth_of_crop</j.3:promotes>
+    <j.3:canSupport>ideal_growth</j.3:canSupport>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_b_l_e_s_2.1.7_Freeze_Protection_Freeze-damage">
+    <j.3:isConcernIn>subtropical_regions</j.3:isConcernIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Nutrients_and_Management">
+    <j.3:onWillProduce>traditional_pepper_cultivations</j.3:onWillProduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:less_water">
+    <j.3:appliedPer>irrigation</j.3:appliedPer>
+    <j.3:appliedPer>application</j.3:appliedPer>
+    <j.3:isAppliedPer>application</j.3:isAppliedPer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_dried_fruits">
+    <j.3:shouldBeStoredIn>dark_areas</j.3:shouldBeStoredIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Symbols_documents">
+    <j.3:areComposedOf>capital_letters</j.3:areComposedOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:grafting">
+    <j.3:isResistantTo>soil_borne</j.3:isResistantTo>
+    <j.3:combines>shoot_of_high_yielding_crop_with_rootstock</j.3:combines>
+    <j.3:isObtaining>resistant_plants</j.3:isObtaining>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_bottom_culture">
+    <j.3:willSuppress>growth_of_weeds</j.3:willSuppress>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_safety_supply">
+    <j.3:comeUnder>such_scrutiny</j.3:comeUnder>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Support_advisors">
+    <j.3:canBeGreatHelpIn>analysis</j.3:canBeGreatHelpIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:hary_vetch_or_fava_or_crottolaria">
+    <j.3:forCanBeUsed>example</j.3:forCanBeUsed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_leading_position">
+    <j.3:isHeldBy>Biocoop</j.3:isHeldBy>
+    <j.3:isHeldBy>United_States</j.3:isHeldBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_lion_consumers">
+    <j.3:areOrganizedIn>consumer_co-operatives</j.3:areOrganizedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:guava">
+    <j.3:has>two</j.3:has>
+    <j.3:growsIn>tropical_areas</j.3:growsIn>
+    <j.3:requires>little_attention</j.3:requires>
+    <j.3:is>maintain</j.3:is>
+    <j.3:isAvailableThroughout>year</j.3:isAvailableThroughout>
+    <j.3:isCultivatedAs>ornamental_plant</j.3:isCultivatedAs>
+    <j.3:is>important</j.3:is>
+    <j.3:isCultivatedAs>timber_products</j.3:isCultivatedAs>
+    <j.3:growsIn>most_soil_types</j.3:growsIn>
+    <j.3:isCultivatedAs>fence</j.3:isCultivatedAs>
+    <j.3:respondsTo>soils_with_good_drainage</j.3:respondsTo>
+    <j.3:are>frost-free</j.3:are>
+    <j.3:is>feasible</j.3:is>
+    <j.3:bears>fruit</j.3:bears>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:in_humid_tropical_climates_tones_%2C_climate_%2C_and_tones">
+    <j.3:isNeededPer>year_maintain</j.3:isNeededPer>
+    <j.3:isNeededPer>hectare</j.3:isNeededPer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Optimizing_pH_%3B_Zn_%3B_chlorosis">
+    <j.3:are>widespread</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pineapples_plant">
+    <j.3:prefer>semi-shadowed_conditions</j.3:prefer>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_ratio">
+    <j.3:withVaries>oranges</j.3:withVaries>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:runoff">
+    <j.3:canInfiltrateInto>soil</j.3:canInfiltrateInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cotton_gin_trash">
+    <j.3:be>defoliation</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_organic_farmer">
+    <j.3:shouldConserve>natural_enemies</j.3:shouldConserve>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:secondary_soil_cultivation">
+    <j.3:beforeIsDone>planting</j.3:beforeIsDone>
+    <j.3:beforeIsDone>sowing</j.3:beforeIsDone>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:gation_%2C_soil">
+    <j.3:is>important</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Production_Integrated_Production_IP">
+    <j.3:hasGained>importance</j.3:hasGained>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pepper_seeds">
+    <j.3:contain>%_essential_oil</j.3:contain>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:this_third_party">
+    <j.3:inOwns>case</j.3:inOwns>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:-_dards_%2C_conversion_or_step_conversion">
+    <j.3:inAreAllowed>private_stan</j.3:inAreAllowed>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:smaller_icebox_types">
+    <j.3:areGrownOn>significant_acreages</j.3:areGrownOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:visit">
+    <j.3:areManagedBy>farmer</j.3:areManagedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Damaging_organisms_borers">
+    <j.3:maySurviveIn>stalks_of_crops</j.3:maySurviveIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Most_guava_trees_%2C_propagated_%2C">
+    <j.3:produce>abundance_of_suckers</j.3:produce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Pepper_Pepper">
+    <j.3:originatesFrom>Malabar_coast</j.3:originatesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_forces_preparations">
+    <j.3:shallOrganize>elements_within_plants</j.3:shallOrganize>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Sandy_soils_or_soils">
+    <j.3:mayBeUsedIn>case_of_New_Zealand_spinach</j.3:mayBeUsedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:experimenting_%2C_point_the_usual_method_timing">
+    <j.3:isCut>open_few_representative_melons</j.3:isCut>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:kind">
+    <j.3:are>main_crops</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_mango_trees">
+    <j.3:enterInto>harvesting_phase</j.3:enterInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:accredited">
+    <j.3:are>33</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:e.g.">
+    <j.3:canAcknowledge>who</j.3:canAcknowledge>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cocoa_farmers_part">
+    <j.3:use>shade_density</j.3:use>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:accumulation">
+    <j.3:limits>production_of_fruit</j.3:limits>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_possible_recommendation_systems">
+    <j.3:be>following</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_competition">
+    <j.3:canBeMinimizedBy>suitable_management</j.3:canBeMinimizedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_variety_types">
+    <j.3:areAvailableIn>Florida</j.3:areAvailableIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_farmer">
+    <j.3:inHas>case</j.3:inHas>
+    <j.3:has>soil</j.3:has>
+    <j.3:chooses>irrigation_system</j.3:chooses>
+    <j.3:shouldThinkOf>ways_improve</j.3:shouldThinkOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_conventional_seed_and_material">
+    <j.3:be>modified_origin</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Site_Requirements_Pepper">
+    <j.3:originatesFrom>tropical_warm_humid_latitudes</j.3:originatesFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_lime_application">
+    <j.3:isEffectiveOver>several_years</j.3:isEffectiveOver>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:1.2.6_Soil_and_Nutrition_approach">
+    <j.3:isDifferentFrom>practices_of_conventional_agriculture</j.3:isDifferentFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mulching">
+    <j.3:enhances>root_shading_properties</j.3:enhances>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:quate">
+    <j.3:withMayBeRequired>sandy_loam_soils</j.3:withMayBeRequired>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Fertilization_control_practices">
+    <j.3:mustComplyWith>organic_standards</j.3:mustComplyWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_benefits_manures_and_crops">
+    <j.3:occurOver>long_term</j.3:occurOver>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_single_greatest_enemy_developing">
+    <j.3:is>wind</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:2.1.3_Soil_Management_The_building-up_and_maintenance">
+    <j.3:isCentralGoalOf>organic_agriculture</j.3:isCentralGoalOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:single_steps_achieve">
+    <j.3:areDefinedWith>schedule</j.3:areDefinedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Systems">
+    <j.3:renounce>use_of_agrochemicals</j.3:renounce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Immature_guavas">
+    <j.3:doRipen>trees</j.3:doRipen>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_specialty_retail_sector">
+    <j.3:hasShown>growth_in_turnover</j.3:hasShown>
+    <j.3:unlikeIsOrganized>other_European_countries</j.3:unlikeIsOrganized>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:change">
+    <j.3:covers>soil</j.3:covers>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_deficiency_potash">
+    <j.3:willResultIn>large_reduction</j.3:willResultIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:marginal_farmers">
+    <j.3:didBenefitFrom>new_technologies</j.3:didBenefitFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:practice">
+    <j.3:concentrates>harvest_periods</j.3:concentrates>
+    <j.3:is>important</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:new_preparations">
+    <j.3:inShouldBeApplied>case</j.3:inShouldBeApplied>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Fuerte_cultivar">
+    <j.3:is>susceptible</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_regulations_IP">
+    <j.3:are>vary_from_country</j.3:are>
+    <j.3:are>clear</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_monthly_check_and_trim">
+    <j.3:forIsNecessary>reason</j.3:forIsNecessary>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_health_condition_plant">
+    <j.3:dependsTo>large_extent</j.3:dependsTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Application">
+    <j.3:areImportantFor>Bio_Suisse_certification</j.3:areImportantFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Plant_seed_deep">
+    <j.3:spaced>2_m</j.3:spaced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:flowering">
+    <j.3:deposit>eggs_2</j.3:deposit>
+    <j.3:canReduce>attack</j.3:canReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:new_flushes">
+    <j.3:growAfter>windbreaks</j.3:growAfter>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_whole_British_offering_seeds">
+    <j.3:isAvailableOnlineOn>database_organicXseeds.com</j.3:isAvailableOnlineOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Many_explicit_requirements_Regulation">
+    <j.3:are>deemed</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_database">
+    <j.3:inShallBeUsed>near_future</j.3:inShallBeUsed>
+    <j.3:onServes>one_hand</j.3:onServes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_only_multiplier_profile">
+    <j.3:is>ALBERT_HEIJN</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_factors">
+    <j.3:varyFrom>country_to_country</j.3:varyFrom>
+    <j.3:varyFrom>farm_to_farm</j.3:varyFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_bushes">
+    <j.3:areMarkedWith>different_colored_bands</j.3:areMarkedWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_mulches_%2C_straw_%2C">
+    <j.3:dried>compost</j.3:dried>
+    <j.3:dried>grass</j.3:dried>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_corns">
+    <j.3:taste>aromatic</j.3:taste>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:sativus_-RRB-">
+    <j.3:belongTo>Apiaceae_family</j.3:belongTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:crop">
+    <j.3:is>mature</j.3:is>
+    <j.3:produce>fruit</j.3:produce>
+    <j.3:willTakeTo>3_years</j.3:willTakeTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Codex_Stan">
+    <j.3:defines>quality_requirements</j.3:defines>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:tomatoes">
+    <j.3:areStoredAt>low_tem</j.3:areStoredAt>
+    <j.3:require>relative_humidity_level</j.3:require>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:one_factors">
+    <j.3:isExistenceOf>cer_tification_procedures31</j.3:isExistenceOf>
+    <j.3:isExistenceOf>binding_production_standards</j.3:isExistenceOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_trees">
+    <j.3:are>available</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Citrus_seedlings">
+    <j.3:areSusceptibleTo>pests</j.3:areSusceptibleTo>
+    <j.3:areSusceptibleTo>soil-borne_diseases</j.3:areSusceptibleTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Animals_or_feces">
+    <j.3:mustComeInto>contact_with_processed_fruits</j.3:mustComeInto>
+    <j.3:mustComeInto>contact_with_product</j.3:mustComeInto>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Cover_Crops">
+    <j.3:have>Number_of_Important_Agroecological_Advantages_in_Citrus_Orchards</j.3:have>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Mention_symbol">
+    <j.3:indicates>reference_to_United_Nations_document</j.3:indicates>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Vacuum_Sealing_%2C_Pasteurizing">
+    <j.3:been>sealed</j.3:been>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Organic_Asparagus_Production_Systems_Suitable_Varieties_American_varieties_Washington">
+    <j.3:are>popular</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Use">
+    <j.3:mayBeRestrictedTo>certain_maximum_quantities</j.3:mayBeRestrictedTo>
+    <j.3:areObtainedFrom>agro-ecologic_system_involved</j.3:areObtainedFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Enforcement">
+    <j.3:isCarriedAt>level_of_German_federal_states</j.3:isCarriedAt>
+    <j.3:is>responsi</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Storage_onions">
+    <j.3:canBeGrownFrom>transplants</j.3:canBeGrownFrom>
+    <j.3:canBeGrownFrom>onion_sets</j.3:canBeGrownFrom>
+    <j.3:canBeGrownFrom>seed</j.3:canBeGrownFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:commodity_prices_cotton">
+    <j.3:remainAt>present_levels</j.3:remainAt>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:NAT_-_URASI_and_BOTTEGAENATURA">
+    <j.3:haveFounded>40_organic_supermarkets</j.3:haveFounded>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Nutrition_and_corn">
+    <j.3:is>critical_for_high_yields</j.3:is>
+    <j.3:is>heavy_feeder</j.3:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_US_National_Organic_Program_NOP">
+    <j.3:hasRegulated>organic_market</j.3:hasRegulated>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:usually_conventional_farm_units">
+    <j.3:canBeAcceptedIn>smallholder_organizations</j.3:canBeAcceptedIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_pack">
+    <j.3:be>tight</j.3:be>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:This_fungi">
+    <j.3:cause>one_of_important_mycosis_Preventive_measures</j.3:cause>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:organic_price_premiums_10_%25">
+    <j.3:atAreReported>export_level</j.3:atAreReported>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Januar">
+    <j.3:assembles>contact_addresses</j.3:assembles>
+    <j.3:assembles>comments</j.3:assembles>
+    <j.3:assembles>notes</j.3:assembles>
+    <j.3:assembles>figures</j.3:assembles>
+    <j.3:assembles>useful_facts</j.3:assembles>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_milk_producing">
+    <j.3:are>high</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Intensive_use_pesticides">
+    <j.3:contaminates>soil</j.3:contaminates>
+    <j.3:contaminates>air</j.3:contaminates>
+    <j.3:contaminates>water</j.3:contaminates>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_conversion_period">
+    <j.3:startsAfter>minimum_requirements</j.3:startsAfter>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_annual_plant">
+    <j.3:asIsMore>rule</j.3:asIsMore>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Two-thirds_quantity">
+    <j.3:mustBeScatteredOver>planting_area_mixed</j.3:mustBeScatteredOver>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Average_harvests_years">
+    <j.3:underYield>optimum_conditions</j.3:underYield>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Currently_%2C_so-called_%60%60_organic_supermarkets_%27%27_areas">
+    <j.3:areShootingLike>mushrooms_in_bigger_cities</j.3:areShootingLike>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:A_negative_impact_orientation">
+    <j.3:isReducedNumberOf>date_varieties_used</j.3:isReducedNumberOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:proper_soil_fertility">
+    <j.3:isCriticalFor>good_growth</j.3:isCriticalFor>
+    <j.3:isCriticalFor>high_yields</j.3:isCriticalFor>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Legumes">
+    <j.3:canBePlantedAs>green_fertilizers</j.3:canBePlantedAs>
+    <j.3:areHostedIn>nodules_growing</j.3:areHostedIn>
+    <j.3:do>this</j.3:do>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:species_demand">
+    <j.3:asAreRecommendable>crops</j.3:asAreRecommendable>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:a_general_P_r_i_n_c_i_p_l_e_s_o_f_I_n_s_p_e_c_t_i_o_n">
+    <j.3:isAllows>nutrition_providing</j.3:isAllows>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:old_seedlings">
+    <j.3:are>best</j.3:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Nearly_all_mainstream_retailers">
+    <j.3:haveIntroduced>range_of_organic_food_products</j.3:haveIntroduced>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:The_income_farmers">
+    <j.3:dependsOn>sale_of_harvest</j.3:dependsOn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Soil_Characteristics_Citrus">
+    <j.3:canBeGrownOver>wide_range</j.3:canBeGrownOver>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:nutrients_the_farmer">
+    <j.3:manages>Whatever</j.3:manages>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:High-density_plantings">
+    <j.3:reduce>ventilation_interception</j.3:reduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:%E2%80%A2_Rotation_cereals">
+    <j.3:mayReduce>pathogen_populations</j.3:mayReduce>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:the_plants">
+    <j.3:onWillProduce>traditional_pepper_cultivations</j.3:onWillProduce>
+    <j.3:canTakeIn>short_time</j.3:canTakeIn>
+    <j.3:areWetWith>rain</j.3:areWetWith>
+    <j.3:afterAreSet>removal_from_container</j.3:afterAreSet>
+    <j.3:dependingAreSet>cultivar</j.3:dependingAreSet>
+    <j.3:are>young</j.3:are>
+    <j.3:havePassed>different_development_stages</j.3:havePassed>
+    <j.3:duringAreTrained>first_few_years</j.3:duringAreTrained>
+    <j.3:areWetWith>dew</j.3:areWetWith>
+    <j.3:are>fresh</j.3:are>
+  </rdf:Description>
+  <rdf:Descrip
