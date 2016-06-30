@@ -31,9 +31,20 @@ public class FilesUtil {
         return path;
     }
 
-    public static String makeUploadedFilename(String uploadDirPath, String actualName) {
-        String hash = CryptoUtil.md5(actualName + "");
+    public static String getExtension(String path) {
+        if (path != null) {
+            String[] toks = path.split("\\.");
+            if (toks.length > 0) {
+                return toks[toks.length - 1];
+            }
+        }
         return "";
+    }
+
+    public static String makeUploadedFilename(String uploadDirPath, String actualName) {
+        String hash = CryptoUtil.md5(actualName + Math.random());
+        String name = String.format("%s_%d.%s", hash, System.currentTimeMillis(), getExtension(actualName));
+        return name;
     }
 
     public static void main(String[] args) {
