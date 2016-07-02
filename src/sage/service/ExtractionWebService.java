@@ -5,12 +5,17 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import sage.extraction.Framework;
 import sage.util.FilesUtil;
+import sage.util.SPOTriplet;
 import sage.util.Util;
 import sage.util.Values;
 
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
 import java.io.File;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import static spark.Spark.*;
@@ -19,6 +24,22 @@ import static spark.Spark.*;
  * Created by Dell on 30-06-2016.
  */
 public class ExtractionWebService {
+    private static JsonArray res = null;
+
+    static JsonArray makeJSON(HashMap<String, ArrayList<SPOTriplet>> ts) {
+        JsonArrayBuilder arrayBuilder = Json.createArrayBuilder();
+        ts.forEach((file, triples) -> {
+            JsonArrayBuilder tArray = Json.createArrayBuilder();
+            triples.forEach(t -> tArray.add(t.getAsJsonObject()));
+
+            arrayBuilder.add(
+                    Json.createObjectBuilder()
+                            .add("filename", file)
+                            .add("triplets", tArray.build()).build()
+            );
+        });
+        return arrayBuilder.build();
+    }
 
     public static void main(String[] args) {
 
@@ -61,19 +82,22 @@ public class ExtractionWebService {
                 }
             }
 
-            StringBuilder res = new StringBuilder();
-
             if (vocabPath == null) {
                 vocabPath = Values.getVocabPath().toString();
             }
             Framework exF = new Framework(vocabPath, docsPath);
             exF.setOnPostComplete((ts) -> {
-                res.append(ts.toString());
+                res = makeJSON(ts);
                 return null;
             });
             exF.run();
 
-            return res.toString();
+            response.type("application/json");
+
+            if (res == null) {
+                res = Json.createArrayBuilder().build();
+            }
+            return res;
         });
 
     }
