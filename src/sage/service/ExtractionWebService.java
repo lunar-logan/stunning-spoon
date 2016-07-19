@@ -42,6 +42,7 @@ public class ExtractionWebService {
     }
 
     public static void main(String[] args) {
+        Values.loadValues();
 
         // setup static files location
         staticFileLocation(ServiceConstants.getStaticFilesDir());
@@ -83,7 +84,7 @@ public class ExtractionWebService {
             }
 
             if (vocabPath == null) {
-                vocabPath = Values.getVocabPath().toString();
+                vocabPath = Values.getVocabPath().resolve("vocabulary.txt").toString();
             }
             Framework exF = new Framework(vocabPath, docsPath);
             exF.setOnPostComplete((ts) -> {

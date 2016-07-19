@@ -21,6 +21,16 @@
             padding: 0;
             margin: 0;
         }
+
+        .result {
+            margin-top: 30px;
+            padding: 10px;
+            border-radius: 4px;
+            background: #cccccc;
+            font-family: Monospaced, serif;
+            font-size: 12px;
+            color: #000;
+        }
     </style>
 
 
@@ -40,15 +50,51 @@
                     <label for="vocab_file">Choose vocabulary:</label>
                     <input type="file" class="form-control" id="vocab_file" name="vocab_file">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="button" class="btn btn-success" onclick="getTriples()">Generate Triples</button>
             </form>
         </div>
     </div>
-
+    <div class="row">
+        <code class="col-md-6 col-md-offset-3 result" id="result">
+        </code>
+    </div>
 </div>
 
 <script>
+    // Variable to store your files
+    var files;
 
+    // Add events
+    $('input[type=file]').on('change', prepareUpload);
+
+    // Grab the files and set them to our variable
+    function prepareUpload(event) {
+        files = event.target.files;
+    }
+
+    function getTriples() {
+
+        var formData = new FormData();
+        $.each(files, function (key, val) {
+            formData.append(key, val);
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: '/extract',
+            enctype: 'multipart/form-data',
+            data: formData,
+            cache: false,
+            dataType: 'json',
+            processData: false, // Don't process the files
+            contentType: false,
+            success: function (data) {
+                $('#result').html(JSON.stringify(data));
+            }
+        });
+
+        return false;
+    }
 </script>
 </body>
 </html>

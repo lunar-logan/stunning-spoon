@@ -1,3 +1,4 @@
 # Ignore these files and directories
 /lib
 /out
+/upload

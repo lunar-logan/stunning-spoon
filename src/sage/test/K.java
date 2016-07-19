@@ -1,6 +1,7 @@
 package sage.test;
 
-import java.net.URI;
+import sage.util.Values;
+
 import java.net.URISyntaxException;
 
 /**
@@ -8,8 +9,8 @@ import java.net.URISyntaxException;
  */
 public class K {
     public static void main(String[] args) throws URISyntaxException {
-        URI uri = new URI("p:u/%E2%80%A2");
-        System.out.println(uri);
-        System.out.println(uri.isAbsolute());
+        Values.loadValues();
+        System.out.println(Values.getVocabPath());
+
     }
 }
