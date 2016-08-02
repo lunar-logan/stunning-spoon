@@ -34,6 +34,8 @@ public class ExtractionFramework {
         this.dependencies = dependencies;
         this.vocab = vocabulary;
 
+        System.err.println(dependencies);
+
         // Lets get the last subject
         IndexedWord ls = (IndexedWord) MemCache.get("lastSubject");
         if (ls != null) {

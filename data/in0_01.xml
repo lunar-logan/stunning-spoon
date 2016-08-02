@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="p://u/"
+    xmlns:j.1="p://u/isTonnes%2F" > 
+  <rdf:Description rdf:about="s:COTH-1_fruits">
+    <j.0:are>acidic</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-1_fruits">
+    <j.0:areRoundWithout>crimson_red</j.0:areRoundWithout>
+    <j.0:areRoundWithout>grooves_in_colour</j.0:areRoundWithout>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-2_fruits">
+    <j.0:areFlatWith>4-5_furrows</j.0:areFlatWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:COTH-1">
+    <j.0:isHybridBetween>LE-812</j.0:isHybridBetween>
+    <j.0:isHybridBetween>IIHR-709</j.0:isHybridBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:COTH-2">
+    <j.0:recorded>yield_of_t/ha</j.0:recorded>
+    <j.0:has>pesticide_spray</j.0:has>
+    <j.0:has>resistance_to_leaf_curl_virus_disease</j.0:has>
+    <j.0:isHybridBetween>CLN-2123A</j.0:isHybridBetween>
+    <j.0:isHybridBetween>LCR-2</j.0:isHybridBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:PKM-1">
+    <j.0:isInducedMutantFrom>Annanji</j.0:isInducedMutantFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:PKM-1_yield">
+    <j.1:haIn>crop_duration</j.1:haIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-2">
+    <j.0:isIndeterminateVarietyWith>average_fruit_weight</j.0:isIndeterminateVarietyWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-1">
+    <j.0:is>semi_determinate_variety</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:Paiyur-1">
+    <j.0:isSuitableFor>rainfed_cultivation</j.0:isSuitableFor>
+    <j.0:is>evolved</j.0:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-3_fruits">
+    <j.0:are>borne_in_clusters</j.0:are>
+    <j.0:are>medium_sized</j.0:are>
+    <j.0:are>smooth_round</j.0:are>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-1_yield">
+    <j.1:haIn>crop_duration</j.1:haIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-2_yield">
+    <j.1:haIn>crop_duration</j.1:haIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-3">
+    <j.0:is>suitable_for_close_planting</j.0:is>
+    <j.0:is>determinate_variety</j.0:is>
+    <j.0:isInducedMutantFrom>CO-1</j.0:isInducedMutantFrom>
+    <j.0:is>resistant</j.0:is>
+    <j.0:is>yielding_to_leaf_curl_virus_disease</j.0:is>
+    <j.0:isHybridBetween>CLN-2123A</j.0:isHybridBetween>
+    <j.0:isHybridBetween>HN-2</j.0:isHybridBetween>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:COTH-2_fruits">
+    <j.0:areSmoothRoundTo>oblong</j.0:areSmoothRoundTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:PKM-1_fruits">
+    <j.0:areFlatRoundWith>suitable_for_long_distance_transport</j.0:areFlatRoundWith>
+    <j.0:areFlatRoundWith>prominent_green_shoulder</j.0:areFlatRoundWith>
+  </rdf:Description>
+  <rdf:Description rdf:about="s:CO-3_plants">
+    <j.0:are>suitable_for_high_density_planting</j.0:are>
+    <j.0:are>semi_determinate</j.0:are>
+  </rdf:Description>
+</rdf:RDF>

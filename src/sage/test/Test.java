@@ -10,15 +10,12 @@ import edu.stanford.nlp.trees.TypedDependency;
 import sage.Vocabulary;
 import sage.extraction.ExtractionFramework;
 import sage.spi.Triplet;
-import sage.util.RDFUtil;
 import sage.util.Util;
 import sage.util.Values;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.StringReader;
 import java.net.URISyntaxException;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -35,6 +32,7 @@ public class Test {
         DocumentPreprocessor preprocessor = new DocumentPreprocessor(new StringReader(description));
         for (List<HasWord> sentence : preprocessor) {
             List<TaggedWord> taggedWords = tagger.tagSentence(sentence);
+            System.out.println(taggedWords);
             GrammaticalStructure grammaticalStructure = dependencyParser.predict(taggedWords);
             Collection<TypedDependency> typedDependencies = grammaticalStructure.typedDependencies();
 
@@ -56,15 +54,15 @@ public class Test {
         MaxentTagger tagger = new MaxentTagger(Values.getTaggerModelPath().toString());
         DependencyParser dependencyParser = DependencyParser.loadFromModelFile(Values.getParserModelPath().toString());
 
-        String data = Util.read(Values.getTestDir().resolve("book_pdf.txt"));
+        String data = Util.read(Values.getTestDir().resolve("in0.txt"));
         genTriples(tagger, dependencyParser, "topic", data, instance);
 
 
 //        triplets.forEach(t -> System.out.println(t.getAsJsonObject()));
         System.out.println(triplets.size() + " triples have been generated");
-        Path path = Values.getTestOutDir().resolve("book_rdf.tsv");
-        FileOutputStream f = new FileOutputStream(path.toFile());
-        triplets.forEach(t -> {
+//        Path path = Values.getTestOutDir().resolve("in0_1.txt");
+//        FileOutputStream f = new FileOutputStream(path.toFile());
+        /*triplets.forEach(t -> {
             try {
                 f.write(t.getAsTSV().getBytes());
                 f.write("\n".getBytes());
@@ -73,8 +71,8 @@ public class Test {
             }
         });
         f.close();
-
-        RDFUtil.dumpAsRDF(triplets, "ef-book-res.xml");
+*/
+//        RDFUtil.dumpAsRDF(triplets, "in0_01.xml");
 
 //        TNAUShuruaat shuruaat = new TNAUShuruaat(tagger, dependencyParser, instance, new FileInputStream(Values.getTestDir().resolve("in0.txt").toFile()), "tomato");
 //        shuruaat.start();
